@@ -41,7 +41,7 @@
 
     <p>Vous souhaitez proc&eacute;der au test sans avoir de trace ? <a href="sansidentification.php">Cliquez-ici</a></p>
 
-    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="site.php">Retourner &agrave; l&#39;accueil</a></p>
+    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="index.php">Retourner &agrave; l&#39;accueil</a></p>
 
     <?php
             include('BasDePage.php')
