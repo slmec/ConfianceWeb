@@ -6,7 +6,7 @@
 </head>
 <body>
 <p>
-		<a href="site.php">
+		<a href="index.php">
 			<input type="button" value="MAIAT" />
 		</a> 
 		<a href="critere.php">

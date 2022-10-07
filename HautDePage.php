@@ -13,7 +13,7 @@
 			<!--<form action = "site.php">
 				<input type="submit" value="MAIAT"> 
 			</form>-->
-			<a href="site.php" class="buton" target="_self">MAIAT</a>
+			<a href="index.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
 			<form action = "critere.php">

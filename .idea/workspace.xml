@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="initial commit modif nulle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/HautDePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiseEnPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/MiseEnPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,8 @@
       <workItem from="1665067235059" duration="33000" />
       <workItem from="1665067452680" duration="413000" />
       <workItem from="1665069048226" duration="4077000" />
-      <workItem from="1665135145377" duration="294000" />
+      <workItem from="1665135145377" duration="694000" />
+      <workItem from="1665151687720" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -81,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665125390724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit modif nulle">
+      <created>1665135546325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665135546325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
