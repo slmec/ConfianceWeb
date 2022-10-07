@@ -9,7 +9,7 @@
 		include('HautDePage.php')
 	?>
 
-    <h1>MIAT</h1>
+    <h1>MAIAT</h1>
 
     <h3>Mesure de l&#39;Acceptabilit&eacute; Sociale de l&#39;Intelligence Artificielle au Travail</h3>
 
