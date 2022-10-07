@@ -15,11 +15,11 @@
             </form>-->
 			<a href="site.php" class="buton" target="_self">MAIAT</a>
 		</div>
-		<div class = "bouton">
+
 			<form action = "critere.php">
 				<button type="submit" value="Les critères de risques sociaux" class="button"> 
 			</form>
-		</div>
+
 		<div class = "bouton">
 			<form action = "guide.php">
 				<button type="submit" value="Le guide de MAIAT" class="button"> 

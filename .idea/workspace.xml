@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/HautDePage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665124764773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1665126160362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126160362</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1665126194213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126194213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1665126358603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126358603</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
