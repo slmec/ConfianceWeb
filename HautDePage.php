@@ -2,17 +2,17 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<link rel="stylesheet" href="hautdepage.css" />
+    <!-- <link rel="stylesheet" href="hautdepage.css" /> -->
 
-	<title></title>
+    <title></title>
 </head>
 <body>
 <header>
 <p>
-		<div class = "bouton">
-			<!--<form action = "site.php">
-				<input type="submit" value="MAIAT"> 
-			</form>-->
+        <div class = "bouton">
+            <!--<form action = "site.php">
+                <input type="submit" value="MAIAT">
+            </form>-->
 			<a href="site.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
