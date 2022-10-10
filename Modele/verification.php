@@ -37,7 +37,7 @@ if(isset($_POST['email_Utilisateur']) && isset($_POST['mdp_Utilisateur']))
            $_SESSION['role']=$row['Roles'];
            $_SESSION['organisme']=$row['Organisme'];
            $_SESSION['donnees']=$row['Données'];
-           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/connexion.php');
+           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
         }
         else
         {
