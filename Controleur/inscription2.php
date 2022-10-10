@@ -41,7 +41,7 @@
 
     <h3>Vous etes bien inscrit ! </h3>
 
-    <p> Maintenant vous pouvez vous  <a href="Controleur/identification.php">Connecter</a></p>
+    <p> Maintenant vous pouvez vous  <a href="identification.php">Connecter</a></p>
     
 
 

@@ -35,7 +35,7 @@
     
     <h3>S&#39;inscrire&nbsp;</h3>
 
-    <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="../inscription.php">Inscrivez-vous</a></p>
+    <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="inscription.php">Inscrivez-vous</a></p>
 
     <p>&nbsp;</p>
 

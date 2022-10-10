@@ -21,7 +21,7 @@
 
     <h4> Vos information personnelles : </h4>
 
-    <form action = "modification.php" method="post">
+    <form action = "../Modele/modification.php" method="post">
         <p> Nom : <?php echo $_SESSION['nom'] ?>    
             <input type="text" placeholder="Modifier mon nom" name="new_nom">
         </p>
@@ -49,7 +49,7 @@
     <form action = "profil.php">
 			<input type="submit" value="Retour sur le profil"> 
 		</form>
-    <form action = "Controleur/connexion.php">
+    <form action = "connexion.php">
 			<input type="submit" value="Retour sur l'accueil de connexion"> 
 		</form>
 

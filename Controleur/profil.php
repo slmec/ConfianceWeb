@@ -49,7 +49,7 @@
       
       </form>  
 
-    <form action = "Controleur/connexion.php">
+    <form action = "connexion.php">
 			<input type="submit" value="Retour sur l'accueil de connexion"> 
 		</form>
 
