@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="enlevement css">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="lien verif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deresponsabilite.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Deresponsabilite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desengagement_Relationnel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Desengagement_Relationnel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fragilisation_Reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/HautDePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiseEnPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/MiseEnPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perte_Autonomie.php" beforeDir="false" afterPath="$PROJECT_DIR$/Perte_Autonomie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sentiment_Depossession.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Sentiment_Depossession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifierprofil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665152797737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lien verif">
+      <created>1665392427196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665392427196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit modif nulle" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit modif nulle" />
+    <MESSAGE value="lien verif" />
+    <option name="LAST_COMMIT_MESSAGE" value="lien verif" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
