@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment=" &#10;travail sur affiche erreur apres modif">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif modif liens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/HautDePage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1665069048226" duration="4077000" />
       <workItem from="1665135145377" duration="694000" />
       <workItem from="1665151687720" duration="2305000" />
-      <workItem from="1665392178404" duration="4498000" />
+      <workItem from="1665392178404" duration="7028000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -182,21 +182,77 @@
       <option name="project" value="LOCAL" />
       <updated>1665402587633</updated>
     </task>
-    <task id="LOCAL-00017" summary="efface haut et bas de page &#10;travail sur affiche erreur apres modif">
-      <created>1665403187075</created>
+    <task id="LOCAL-00017" summary="modif modif liens">
+      <created>1665402891059</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1665403187075</updated>
+      <updated>1665402891059</updated>
     </task>
-    <task id="LOCAL-00018" summary=" &#10;travail sur affiche erreur apres modif">
-      <created>1665403263382</created>
+    <task id="LOCAL-00018" summary="modif modif liens">
+      <created>1665403393851</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1665403263382</updated>
+      <updated>1665403393851</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="modif modif liens">
+      <created>1665403454614</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403454614</updated>
+    </task>
+    <task id="LOCAL-00020" summary="modif modif liens">
+      <created>1665403537856</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403537856</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modif modif liens">
+      <created>1665403621569</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403621569</updated>
+    </task>
+    <task id="LOCAL-00022" summary="modif modif liens">
+      <created>1665403756051</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403756051</updated>
+    </task>
+    <task id="LOCAL-00023" summary="modif modif liens">
+      <created>1665404125696</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404125696</updated>
+    </task>
+    <task id="LOCAL-00024" summary="modif modif liens">
+      <created>1665404255336</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404255336</updated>
+    </task>
+    <task id="LOCAL-00025" summary="modif modif liens">
+      <created>1665404312179</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404312179</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modif modif liens">
+      <created>1665404347536</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404347536</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,9 +279,7 @@
     <MESSAGE value="modif hautdepage" />
     <MESSAGE value="modif projet" />
     <MESSAGE value="modif modif liens" />
-    <MESSAGE value="efface haut et bas de page &#10;travail sur affiche erreur apres modif" />
-    <MESSAGE value=" &#10;travail sur affiche erreur apres modif" />
-    <option name="LAST_COMMIT_MESSAGE" value=" &#10;travail sur affiche erreur apres modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif modif liens" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
