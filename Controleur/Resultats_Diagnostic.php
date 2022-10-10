@@ -40,7 +40,7 @@
             $o++;
         }
         }
-    
+
     //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
     $_SESSION['critere_Deresponsabilite'] = $a + $b;
     $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
@@ -58,6 +58,7 @@
     $requete = "INSERT INTO Criteres VALUES ('','".$critere1."','".$critere2."','".$critere3."','".$critere4."','".$critere5."','".$critere6."','".$Contexte_casusage."','".$Objectif_sia."','".$Fonctionnement_sia."','".$Utilisation_sia."','".$Maturite."')";
     $resultat = mysqli_query($link,$requete);
     $_SESSION['id_critere'] = mysqli_insert_id($link);
+
     /*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
     $id_critere = $_SESSION['id_critere'];
     $requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
@@ -66,7 +67,15 @@
     /*$requete2 = "INSERT INTO Exploiter VALUES ('','".$id_critere."')";
     $resultat2 = mysqli_query($link,$requete2);*/
     ?>
-   
+
+    <p> Diagnostique " <?php echo $_SESSION['Nom_Diagnostic']?> " de <?php echo $_SESSION['nom'] ?> <?php echo $_SESSION['prenom'] ?> : </p>
+    <p> La fragilisation de la reconnaissance : <?php echo $_SESSION['critere_fragilisation_reconnaissance']?> /4 </p>
+    <p> Le desengagement relationnel  : <?php echo $_SESSION['critere_Desengagement_Relationnel']?> /4 </p>
+    <p> La surveillance : <?php echo $_SESSION['critere_Surveillance']?> /4 </p>
+    <p> La perte d'autonomie : <?php echo $_SESSION['critere_Perte_Autonomie']?> /4 </p>
+    <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
+    <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
+
     <canvas id="myChart"></canvas>
     <script>
         function init () {
