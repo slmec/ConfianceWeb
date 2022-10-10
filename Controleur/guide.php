@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    include('../Vue/HautDePage.php')
+    include('https://dev2.icam.fr/toulouse/GEI/Confiance/Vue/HautDePage.php')
 	?>
 
     <h1>MAIAT : Le guide de l&#39;outil</h1>
@@ -15,7 +15,7 @@
     </video></p>
 
     <?php
-    include('../Vue/BasDePage.php')
+    include('https://dev2.icam.fr/toulouse/GEI/Confiance/Vue/BasDePage.php')
 	?>
 </body>
 </html>

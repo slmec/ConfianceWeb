@@ -13,7 +13,7 @@
             <!--<form action = "site.php">
                 <input type="submit" value="MAIAT">
             </form>-->
-			<a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/index.php" class="buton" target="_self">MAIAT</a>
+			<a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
 			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">
