@@ -28,7 +28,8 @@
 		</div>
 		<div class = "bouton">
 			<form action = "../Controleur/projet.php">
-				<button type="submit" value="Equipes et Partenaires" class="button"> 
+				<button type="submit" value="Equipes et Partenaires" class="button">
+                    Equipes et Partenaires
 			</form>	
 		</div>
 		<div class = "bouton">
