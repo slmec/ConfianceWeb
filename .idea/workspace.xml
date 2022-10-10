@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="tout">
-      <change beforePath="$PROJECT_DIR$/avecconnexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif lien" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +50,6 @@
     ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Vue" />
-      <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Controleur" />
-      <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Modele" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +64,8 @@
       <workItem from="1665067452680" duration="413000" />
       <workItem from="1665069048226" duration="4077000" />
       <workItem from="1665135145377" duration="694000" />
-      <workItem from="1665151687720" duration="1233000" />
+      <workItem from="1665151687720" duration="2305000" />
+      <workItem from="1665392178404" duration="1782000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -111,35 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665152797737</updated>
     </task>
-    <task id="LOCAL-00006" summary="lien verif">
-      <created>1665392427196</created>
+    <task id="LOCAL-00006" summary="initial commit modif nulle">
+      <created>1665152971942</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1665392427196</updated>
+      <updated>1665152971942</updated>
     </task>
-    <task id="LOCAL-00007" summary="lien verif">
-      <created>1665392621921</created>
+    <task id="LOCAL-00007" summary="modif lien">
+      <created>1665393908240</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1665392621921</updated>
+      <updated>1665393908240</updated>
     </task>
-    <task id="LOCAL-00008" summary="lien verif">
-      <created>1665392758934</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1665392758934</updated>
-    </task>
-    <task id="LOCAL-00009" summary="tout">
-      <created>1665393220632</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1665393220632</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,9 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit modif nulle" />
-    <MESSAGE value="lien verif" />
-    <MESSAGE value="tout" />
-    <option name="LAST_COMMIT_MESSAGE" value="tout" />
+    <MESSAGE value="modif lien" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif lien" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
