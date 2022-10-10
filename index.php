@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-    include('HautDePage.php')
+    include('Vue/HautDePage.php')
 	?>
 
     <h1>MAIAT tutut</h1>
