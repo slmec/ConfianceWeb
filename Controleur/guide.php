@@ -6,16 +6,16 @@
 </head>
 <body>
     <?php
-		include('HautDePage.php')
+    include('HautDePage.php')
 	?>
 
     <h1>MAIAT : Le guide de l&#39;outil</h1>
 
-    <video   src="Medias/video_guide.mp4" width=640  height=480 controls poster="vignette_video_guide.png" > 
+    <video src="../Medias/video_guide.mp4" width=640 height=480 controls poster="vignette_video_guide.png" >
     </video></p>
 
     <?php
-		include('BasDePage.php')
+    include('BasDePage.php')
 	?>
 </body>
 </html>

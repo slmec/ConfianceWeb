@@ -59,7 +59,7 @@
     <p>
         Le deuxième critère concerne le désengagement relationnel.
     </p>
-    <form action="Surveillance.php" method="post" name="Desengagement_Relationnel" target="_self">
+    <form action="../Surveillance.php" method="post" name="Desengagement_Relationnel" target="_self">
         <p>La technologie introduit-elle une communication entre des machines ? &nbsp;Oui
             <input name="Oui_question1" type="checkbox" value = "0"/>&nbsp; Non<input name="Non_question1" type="checkbox" value = "1"/>
         </p>

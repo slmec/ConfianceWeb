@@ -6,12 +6,12 @@
 </head>
 <body>
     <?php
-		include('HautDePage.php')
+    include('HautDePage.php')
 	?>
 
 	<h1>MAIAT : Les crit&egrave;res</h1>
 	<p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
-	<img src="Medias/critere.png" 
+	<img src="../Medias/critere.png"
         width="430"
         height="341">
     <p>
@@ -26,7 +26,7 @@
 		<input name="criteres" type="button" value="Détails des critères ci-dessous" />
 	</p>
 
-    <img src="Medias/reconnaissance.jpg" 
+    <img src="../Medias/reconnaissance.jpg"
         width="430"
         height="341">
 
@@ -41,7 +41,7 @@
 	<h4>Exemple :</h4>
 	<p>Une t&acirc;che de fixation de porte sur un avion repose sur un petit nombre de techniciens capables d&#39;assurer cette pose apr&egrave;s une dizaine d&#39;it&eacute;rations. Un SIA divise ce nombre par deux en calculant des points que le technicien doit ensuite suivre. Cette t&acirc;che n&#39;implique plus d&#39;expertise particuli&egrave;re, le SIA rend les techniciens substituables. Ceux-ci refusent de l&#39;utiliser.</p>
 	
-    <img src="Medias/desengagement.png" 
+    <img src="../Medias/desengagement.png"
         width="430"
         height="341">
 
@@ -50,7 +50,7 @@
 	<h4>Exemple :</h4>
 	<p>Le &quot;voice picking&quot; ou &quot;commande vocale&quot; qui guide les pr&eacute;parateurs de commande dans les entrep&ocirc;ts, a g&eacute;n&eacute;ralement une compr&eacute;hension r&eacute;duite &agrave; une cinquantaine de mots et son usage tend de surcro&icirc;t &agrave; limiter la r&eacute;ponse humaine &agrave; deux : &quot;r&eacute;p&eacute;tez&quot; et &quot;OK&quot;. En outre, sortir de ce lexique configur&eacute;, pour saluer un coll&egrave;gue par exemple, provoque un message d&#39;erreur de type &quot;chiffre contr&ocirc;le faux&quot;</p>
 	
-    <img src="Medias/controle.jpg" 
+    <img src="../Medias/controle.jpg"
         width="430"
         height="341">
 
@@ -59,7 +59,7 @@
 	<h4>Exemple :</h4>
 	<p>Une entreprise a exp&eacute;riment&eacute; l&#39;usage du robot social Pepper de la soci&eacute;t&eacute; SoftBank Robotics, qui d&eacute;ambulait notamment dans les salles de pause pour leur proposer de les divertir. Les salari&eacute;s s&#39;en m&eacute;fiaient en raison de la cam&eacute;ra sur son front qui lui sert de capteur d&#39;int&eacute;raction, mais qu&#39;ils imaginaient &ecirc;tre une cam&eacute;ra de surveillance. Les pilotes de l&#39;exp&eacute;rimentation ont alors coll&eacute; un post-it qui disait &quot;Je ne vous filme pas&quot; pour lever les inqui&eacute;tudes.</p>
 	
-    <img src="Medias/autonomie.png" 
+    <img src="../Medias/autonomie.png"
         width="430"
         height="341">
 
@@ -68,7 +68,7 @@
 	<h4>Exemple :</h4>
 	<p>Dans les entrep&ocirc;ts qui recourent au voice picking, les op&eacute;rateurs suivent un itin&eacute;raire fix&eacute; par le SIA. Auparavant, les op&eacute;rateurs exp&eacute;riment&eacute;s le d&eacute;finissaient de fa&agrave;on autonome pour &eacute;laborer une &quot;belle palette&quot;, c&#39;est-&agrave;-dire une palette &eacute;quilibr&eacute;e dont la construction facilite la mobilit&eacute;.&nbsp;</p>
 
-    <img src="Medias/depossession.png" 
+    <img src="../Medias/depossession.png"
         width="430"
         height="341">
 
@@ -82,7 +82,7 @@
 	<h4>Exemple :</h4>
 	<p>Un sous-traitant du constructeur automobile d&eacute;veloppe un SIA d&eacute;di&eacute; &agrave; la g&eacute;n&eacute;ralisation des connaissances empiriques mobilis&eacute;es en situation de dysfonctionnement du processus. Jusqu&#39;&agrave; pr&eacute;sent, ces interventions extra-ordinaires sollicitaient l&#39;exp&eacute;rience des travailleurs les plus qualifi&eacute;s. Le SIA re&ccedil;oit des notifications de dysfonctionnement des capteurs, alerte&nbsp;les travailleurs et guide&nbsp;la rem&eacute;diation via des montres connect&eacute;es et des &eacute;crans.</p>
     
-    <img src="Medias/deresponsabilisation.png" 
+    <img src="../Medias/deresponsabilisation.png"
         width="430"
         height="341">
 
@@ -100,7 +100,7 @@
 	<p>L&#39;int&eacute;gration d&#39;un cobot dans une activit&eacute; de contr&ocirc;le bact&eacute;riologique du lait est bloqu&eacute;e par l&#39;impossibilit&eacute; d&#39;imputer des responsabilit&eacute;s en cas de crise sanitaire. Aucun service n&#39;est pr&ecirc;t &agrave; endosser la responsabilit&eacute; d&#39;une erreur du cobot.</p>
 
 	<?php
-		include('BasDePage.php')
+    include('BasDePage.php')
 	?>
 
 </body>

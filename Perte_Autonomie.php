@@ -55,7 +55,7 @@
     <p>
         Le quatrième critère concerne la perte d'autonomie.
     </p>
-    <form action="Sentiment_Depossession.php" method="post" name="Perte_Autonomie" target="_self">
+    <form action="Controleur/Sentiment_Depossession.php" method="post" name="Perte_Autonomie" target="_self">
         <p>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? &nbsp;Oui
             <input name="Oui_question1" type="checkbox" value = "0"/>&nbsp; Non<input name="Non_question1" type="checkbox" value = "1"/>
         </p>

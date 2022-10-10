@@ -39,7 +39,7 @@
         <form action = "diagnostic_suivi.php">
 			<input type="submit" value="Consulter mes diagnostics"> 
 		</form>
-        <form action = "profil.php">
+        <form action = "../profil.php">
 			<input type="submit" value="Mon profil"> 
 		</form>
 

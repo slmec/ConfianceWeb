@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-		include('HautDePage.php')
+    include('HautDePage.php')
 	?>
 
     <h1>MAIAT : Espace de connexion&nbsp;</h1>
@@ -18,7 +18,7 @@
 
     <h3>Se connecter&nbsp;</h3>
 
-    <form action="verification.php" method="POST">
+    <form action="../Modele/verification.php" method="POST">
           <h1>Connexion</h1>
           
           <p>Email :&nbsp; <input type="text" placeholder="Entrer le nom d'utilisateur" name="email_Utilisateur" required> </p>
@@ -35,16 +35,16 @@
     
     <h3>S&#39;inscrire&nbsp;</h3>
 
-    <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="inscription.php">Inscrivez-vous</a></p>
+    <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="../inscription.php">Inscrivez-vous</a></p>
 
     <p>&nbsp;</p>
 
     <p>Vous souhaitez proc&eacute;der au test sans avoir de trace ? <a href="sansidentification.php">Cliquez-ici</a></p>
 
-    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="index.php">Retourner &agrave; l&#39;accueil</a></p>
+    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
 
     <?php
-            include('BasDePage.php')
+    include('BasDePage.php')
         ?>
 </body>
 </html>
