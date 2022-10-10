@@ -15,7 +15,7 @@
     </video></p>
 
     <?php
-    include('../BasDePage.php')
+    include('../Vue/BasDePage.php')
 	?>
 </body>
 </html>
