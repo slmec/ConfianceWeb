@@ -32,7 +32,7 @@
 </head>
 <body>
     <?php
-		include('HautDePage.php')
+    include('HautDePage.php')
 	?>
 
     <h1>Devenez membre de MAIAT</h1>
@@ -46,7 +46,7 @@
 
 
     <?php
-		include('BasDePage.php')
+    include('BasDePage.php')
     	?>
 </body>
 </html>

@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php
-		  include('HautDePage.php')
+    include('HautDePage.php')
 	  ?>
 
     <h1>Espace Membre</h1>
@@ -54,7 +54,7 @@
 		</form>
 
     <?php
-		include('BasDePage.php')
+    include('BasDePage.php')
 	?>
 </body>
 </html>

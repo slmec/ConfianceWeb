@@ -12,7 +12,7 @@
 </head>
 <body>
     <?php
-		  include('HautDePage.php')
+    include('HautDePage.php')
 	  ?>
         <?php 
           $Id_Utilisateur = $_SESSION['id_Utilisateur'];

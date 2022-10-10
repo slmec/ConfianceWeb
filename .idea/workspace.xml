@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="lien verif">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_garder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/BasDePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/HautDePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hautdepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/hautdepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/modifierprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Vue" />
       <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Controleur" />
       <recent name="C:\Users\salom\IdeaProjects\ConfianceWeb\Modele" />
     </key>
@@ -124,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665392621921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lien verif">
+      <created>1665392758934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665392758934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
