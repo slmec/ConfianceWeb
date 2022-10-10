@@ -17,7 +17,8 @@
 		</div>
 		<div class = "bouton">
 			<form action = "../Confiance/Controleur/critere.php">
-				<button type="submit" value="Les critères de risques sociaux" class="button"> 
+				<button type="submit" value="Les critères de risques sociaux" class="button">
+                    Les critères de risques sociaux
 			</form>
 		</div>
 		<div class = "bouton">
