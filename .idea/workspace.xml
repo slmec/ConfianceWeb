@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="reorganisation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/HautDePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/HautDePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif projet et hautdepage">
+      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1665069048226" duration="4077000" />
       <workItem from="1665135145377" duration="694000" />
       <workItem from="1665151687720" duration="2305000" />
-      <workItem from="1665392178404" duration="1782000" />
+      <workItem from="1665392178404" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -120,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665393908240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modif bas de page">
+      <created>1665393995686</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665393995686</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modif projet et hautdepage">
+      <created>1665394440083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665394440083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +153,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit modif nulle" />
     <MESSAGE value="modif lien" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif lien" />
+    <MESSAGE value="modif bas de page" />
+    <MESSAGE value="modif projet et hautdepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif projet et hautdepage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

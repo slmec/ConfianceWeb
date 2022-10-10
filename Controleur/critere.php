@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    include('HautDePage.php')
+    include('../Confiance/Vue/HautDePage.php')
 	?>
 
 	<h1>MAIAT : Les crit&egrave;res</h1>
@@ -100,7 +100,7 @@
 	<p>L&#39;int&eacute;gration d&#39;un cobot dans une activit&eacute; de contr&ocirc;le bact&eacute;riologique du lait est bloqu&eacute;e par l&#39;impossibilit&eacute; d&#39;imputer des responsabilit&eacute;s en cas de crise sanitaire. Aucun service n&#39;est pr&ecirc;t &agrave; endosser la responsabilit&eacute; d&#39;une erreur du cobot.</p>
 
 	<?php
-    include('BasDePage.php')
+    include('../Confiance/Vue/BasDePage.php')
 	?>
 
 </body>
