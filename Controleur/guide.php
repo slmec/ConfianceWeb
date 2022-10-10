@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    include('../Confiance/Vue/HautDePage.php')
+    include('../Vue/HautDePage.php')
 	?>
 
     <h1>MAIAT : Le guide de l&#39;outil</h1>
@@ -15,7 +15,7 @@
     </video></p>
 
     <?php
-    include('../Confiance/Vue/BasDePage.php')
+    include('../Vue/BasDePage.php')
 	?>
 </body>
 </html>
