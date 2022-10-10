@@ -8,9 +8,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 </head>
 <body>
-       <?php
-		include('HautDePage.php');
-	?>
+
     <?php
         $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
         mysqli_select_db($link, "Confiance" );
@@ -43,9 +41,6 @@
 			<input type="submit" value="Mon profil"> 
 		</form>
 
-    <?php
-		include('BasDePage.php');
-	?>
     <?php
         mysqli_close( $link );
     ?>

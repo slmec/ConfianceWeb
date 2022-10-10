@@ -11,9 +11,6 @@
 	<title></title>
 </head>
 <body>
-    <?php
-    include('HautDePage.php')
-	  ?>
         <?php 
           $Id_Utilisateur = $_SESSION['id_Utilisateur'];
       ?>
@@ -51,14 +48,11 @@
         }         
         if($_POST['new_organisme'] == "" && $_POST['new_nom'] == "" && $_POST['new_prenom'] == "" &&$_POST['new_role'] == "")
         {
-            header('Location: modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
         }
         
     ?>
 
-    <?php
-		include('BasDePage.php');
-	?>
     <?php
         mysqli_close( $link );
     ?>
