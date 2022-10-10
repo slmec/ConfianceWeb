@@ -12,9 +12,6 @@
 
 </head>
 <body>
-    <?php
-    include('HautDePage.php')
-	  ?>
 
     <h1>Espace Membre</h1>
     <p>&nbsp;</p>
@@ -53,8 +50,6 @@
 			<input type="submit" value="Retour sur l'accueil de connexion"> 
 		</form>
 
-    <?php
-    include('BasDePage.php')
-	?>
+
 </body>
 </html>

@@ -17,9 +17,7 @@
 
 </head>
 <body>
-    <?php
-    include('HautDePage.php')
-	  ?>
+
     <?php 
           $Id_Utilisateur = $_SESSION['id_Utilisateur'];
       ?>
@@ -53,8 +51,5 @@
 			<input type="submit" value="Retour sur l'accueil de connexion"> 
 		</form>
 
-    <?php
-    include('BasDePage.php')
-	?>
 </body>
 </html>
