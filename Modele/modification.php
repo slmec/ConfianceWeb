@@ -48,7 +48,7 @@
         }         
         if($_POST['new_organisme'] == "" && $_POST['new_nom'] == "" && $_POST['new_prenom'] == "" &&$_POST['new_role'] == "")
         {
-            header('Location: /Controleur/modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
         }
         
     ?>
