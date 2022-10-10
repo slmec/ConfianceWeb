@@ -13,7 +13,7 @@
             <!--<form action = "site.php">
                 <input type="submit" value="MAIAT">
             </form>-->
-			<a href="../index.php" class="buton" target="_self">MAIAT</a>
+			<a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/index.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
 			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">
@@ -22,18 +22,18 @@
 			</form>
 		</div>
 		<div class = "bouton">
-			<form action = "../Controleur/guide.php">
+			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">
 				<button type="submit" value="Le guide de MAIAT" class="button"> 
 			</form>	
 		</div>
 		<div class = "bouton">
-			<form action = "../Controleur/projet.php">
+			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">
 				<button type="submit" value="Equipes et Partenaires" class="button">
                     Equipes et Partenaires
 			</form>	
 		</div>
 		<div class = "bouton">
-			<form action = "../Controleur/identification.php">
+			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">
 				<button type="submit" value="C'est à vous" class="button"> 
 			</form>	
 		</div>
