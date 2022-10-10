@@ -16,7 +16,7 @@
 			<a href="../index.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
-			<form action = "../Controleur/critere.php">
+			<form action = "Controleur/critere.php">
 				<button type="submit" value="Les critères de risques sociaux" class="button"> 
 			</form>
 		</div>
