@@ -16,13 +16,13 @@
 			<a href="../index.php" class="buton" target="_self">MAIAT</a>
 		</div>
 		<div class = "bouton">
-			<form action = "../Confiance/Controleur/critere.php">
+			<form action = "../Controleur/critere.php">
 				<button type="submit" value="Les critères de risques sociaux" class="button">
                     Les critères de risques sociaux
 			</form>
 		</div>
 		<div class = "bouton">
-			<form action = "../Confiance/Controleur/guide.php">
+			<form action = "../Controleur/guide.php">
 				<button type="submit" value="Le guide de MAIAT" class="button"> 
 			</form>	
 		</div>
@@ -33,7 +33,7 @@
 			</form>	
 		</div>
 		<div class = "bouton">
-			<form action = "../Confiance/Controleur/identification.php">
+			<form action = "../Controleur/identification.php">
 				<button type="submit" value="C'est à vous" class="button"> 
 			</form>	
 		</div>
