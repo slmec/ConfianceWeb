@@ -16,11 +16,7 @@
     $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
     $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
-    if($Nom_Diagnostic !== "" ) {
-
-
-
-
+    if($_SESSION['Nom_Diagnostic'] !== "" ) {
         //On insère le nom du diagnostic dans la table diagnostic
         $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
         $resultat = mysqli_query($link, $requete);
@@ -33,7 +29,7 @@
     }
     else
     {
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=1'); // nom du diagnostique vide
+       header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=1'); // nom du diagnostique vide
     }
 
     ?>
@@ -68,12 +64,5 @@
         <p><input name="Valider" type="submit" value="Valider" /></p>
 </form>
 
-    <?php
-    if(isset($_GET['erreur'])){
-        $err = $_GET['erreur'];
-        if($err==1 || $err==2)
-            echo "<p style='color:red'>Veuillez completer tous les champs </p>";
-    }
-    ?>
 </body>
 </html>

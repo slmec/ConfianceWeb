@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif diagramme">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="ajout message d'erreur quetsions prequetestionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdiagramme.php" beforeDir="false" afterPath="$PROJECT_DIR$/Testdiagramme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +16,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +70,9 @@
       <workItem from="1665135145377" duration="694000" />
       <workItem from="1665151687720" duration="2305000" />
       <workItem from="1665392178404" duration="7682000" />
-      <workItem from="1665471789086" duration="18337000" />
+      <workItem from="1665471789086" duration="451000" />
+      <workItem from="1665489128846" duration="75000" />
+      <workItem from="1665489208967" duration="5346000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -269,28 +263,56 @@
       <option name="project" value="LOCAL" />
       <updated>1665405814779</updated>
     </task>
-    <task id="LOCAL-00028" summary="modif ajout jpgraph">
-      <created>1665472336573</created>
+    <task id="LOCAL-00028" summary="suivi ancien diag">
+      <created>1665480064631</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1665472336573</updated>
+      <updated>1665480064631</updated>
     </task>
-    <task id="LOCAL-00029" summary="modif ajout jpgraph">
-      <created>1665492756389</created>
+    <task id="LOCAL-00029" summary="suivi ancien diag">
+      <created>1665480138638</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1665492756389</updated>
+      <updated>1665480138638</updated>
     </task>
-    <task id="LOCAL-00030" summary="modif diagramme">
-      <created>1665493765148</created>
+    <task id="LOCAL-00030" summary="suivi ancien diag">
+      <created>1665480146682</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1665493765148</updated>
+      <updated>1665480146682</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="suivi ancien diag">
+      <created>1665491569919</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665491569919</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ajout message d'erreur nom diag">
+      <created>1665492204321</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665492204321</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ajout message d'erreur quetsions prequetestionnaires">
+      <created>1665492883857</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665492883857</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ajout message d'erreur quetsions prequetestionnaires">
+      <created>1665493368080</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493368080</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,9 +340,21 @@
     <MESSAGE value="modif projet" />
     <MESSAGE value="modif modif liens" />
     <MESSAGE value="modif HautDePage bouton" />
-    <MESSAGE value="modif ajout jpgraph" />
-    <MESSAGE value="modif diagramme" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif diagramme" />
+    <MESSAGE value="suivi ancien diag" />
+    <MESSAGE value="ajout message d'erreur nom diag" />
+    <MESSAGE value="ajout message d'erreur quetsions prequetestionnaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout message d'erreur quetsions prequetestionnaires" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
