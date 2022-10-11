@@ -77,6 +77,7 @@
     <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
     <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
 
+
     <canvas id="myChart"></canvas>
     <script>
         function init () {
