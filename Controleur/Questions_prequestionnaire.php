@@ -13,21 +13,26 @@
     mysqli_select_db($link, "Confiance" );
         if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-    $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'] ;
-    $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
-    
-    //On insère le nom du diagnostic dans la table diagnostic
-    $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
-    $resultat = mysqli_query($link,$requete);
-    
-    //On insère l'id diagnostic dans la table Exploiter
-    $requete2 = "SELECT Id_diagnostic FROM Diagnostics WHERE Nom = '$Nom_Diagnostic'";
-    $resultat2 = mysqli_query($link,$requete2);
-    $row = mysqli_fetch_assoc($resultat2);
-    $_SESSION['id_diagnostic']=$row['Id_diagnostic'];
+        $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
+        $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
-    /*$requete3 = "INSERT INTO Exploiter VALUES ('".$row['id_diagnostic']."','')";
-    $resultat3 = mysqli_query($link,$requete3);*/
+    if($Nom_Diagnostic !== "" ) {
+
+        //On insère le nom du diagnostic dans la table diagnostic
+        $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
+        $resultat = mysqli_query($link, $requete);
+
+        //On creer la variable session de l'id
+        $requete2 = "SELECT Id_diagnostic FROM Diagnostics WHERE Nom = '$Nom_Diagnostic'";
+        $resultat2 = mysqli_query($link, $requete2);
+        $row = mysqli_fetch_assoc($resultat2);
+        $_SESSION['id_diagnostic'] = $row['Id_diagnostic'];
+    }
+    else
+    {
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=1'); // nom du diagnostique vide
+    }
+
     ?>
     
     <p>

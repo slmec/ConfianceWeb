@@ -16,7 +16,15 @@
         <p>
             <input name="Creation_Diagnostic" type="submit" value="Débuter le diagnostic" />
         </p>
-</form>
+    </form>
+
+    <?php
+    if(isset($_GET['erreur'])){
+        $err = $_GET['erreur'];
+        if($err==1 || $err==2)
+            echo "<p style='color:red'>Veuillez rentrer un nom pour votre diagnostic </p>";
+    }
+    ?>
 
 </body>
 </html>
