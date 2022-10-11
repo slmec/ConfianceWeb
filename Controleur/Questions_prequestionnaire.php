@@ -12,6 +12,7 @@
     $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
     mysqli_select_db($link, "Confiance" );
         if ( ! $link ) die( "Impossible de se connecter à MySQL" );
+
     $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'] ;
     $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
     
@@ -20,10 +21,11 @@
     $resultat = mysqli_query($link,$requete);
     
     //On insère l'id diagnostic dans la table Exploiter
-    $requete2 = "SELECT id_diagnostic FROM Diagnostics WHERE Nom = '$Nom_Diagnostic'";
+    $requete2 = "SELECT Id_diagnostic FROM Diagnostics WHERE Nom = '$Nom_Diagnostic'";
     $resultat2 = mysqli_query($link,$requete2);
-    $_SESSION['id_diagnostic'] = mysqli_fetch_assoc($resultat2);
-    $row = $_SESSION['id_diagnostic'];
+    $row = mysqli_fetch_assoc($resultat2);
+    $_SESSION['id_diagnostic']=$row['Id_diagnostic'];
+
     /*$requete3 = "INSERT INTO Exploiter VALUES ('".$row['id_diagnostic']."','')";
     $resultat3 = mysqli_query($link,$requete3);*/
     ?>
