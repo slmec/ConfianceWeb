@@ -13,10 +13,13 @@
     mysqli_select_db($link, "Confiance" );
         if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-        $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
-        $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+    $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
+    $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
     if($Nom_Diagnostic !== "" ) {
+
+
+
 
         //On insère le nom du diagnostic dans la table diagnostic
         $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
@@ -39,6 +42,7 @@
         Pour débuter ce questionnaire, nous avons besoin d'informations préalables afin de comprendre votre système d'IA.
     </p>
     <form action="Fragilisation_Reconnaissance.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
+
         <p>Dans quel contexte est utilis&eacute; le syst&egrave;me d&#39;IA ?&nbsp;<input maxlength="500" name="Contexte_casusage" type="text" /></p>
 
         <p>Quel est l&#39;objectif du syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Objectif_sia" type="text" /></p>
@@ -63,6 +67,13 @@
 
         <p><input name="Valider" type="submit" value="Valider" /></p>
 </form>
-    </form>
+
+    <?php
+    if(isset($_GET['erreur'])){
+        $err = $_GET['erreur'];
+        if($err==1 || $err==2)
+            echo "<p style='color:red'>Veuillez completer tous les champs </p>";
+    }
+    ?>
 </body>
 </html>
