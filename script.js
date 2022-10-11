@@ -1,4 +1,4 @@
-const radarCanvas = document.getElementById("radarCanvas");
+var radarCanvas = document.getElementById("radarCanvas");
 
 /*const radarChart = new Chart(radarCanvas, {
     type: "bar",
@@ -16,8 +16,7 @@ const radarCanvas = document.getElementById("radarCanvas");
     },
 })
 */
-
-const radarChart = new Chart(radarCanvas,{
+var radarChart = new Chart(radarCanvas,{
     type: "radar",
     data: {
         labels: [
@@ -58,12 +57,12 @@ const radarChart = new Chart(radarCanvas,{
                 ticks: {
                     stepSize : 1,
                     font: {
-                        size:10
+                        size:10,
                     }
                 },
                 pointLabels: {
                     font: {
-                        size: 15
+                        size: 15,
                     }
                 }
             }

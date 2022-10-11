@@ -9,46 +9,24 @@ session_start();
         <title></title>
 </head>
 <body>
-<?php
-    $valeur = array(1,2,2,1,3,1);
-    echo json_encode($valeur);
-    $i = 0;
-    while ($i <= 5){
-        $valeurs = $valeur[$i];
-
-        echo $valeur[$i];
-        echo json_decode($valeurs, JSON_NUMERIC_CHECK);
-        $i++;
+<style type="text/css">
+    .chart-container{
+        width:800px;
+        margin-left: auto;
+        margin-right: auto;
     }
-
-?>
-
-<div class=chart-container">
+</style>
+    <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
     </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <!--<script src="script.js"></script>-->
-<script>
+    <script src="script.js"></script>
+
+<!-- <script>
     const radarCanvas = document.getElementById("radarCanvas");
 
-/*const radarChart = new Chart(radarCanvas, {
-type: "bar",
-data: {
-labels: ["Beijing","Tokyo", "Seoul", "Hong Kong"],
-datasets: [{
-data: [240,120,140,130],
-backgroundColor: [
-"crimson",
-"lightgreen",
-"lightblue",
-"violet"
-]
-}],
-},
-})
-*/
 
     const radarChart = new Chart(radarCanvas,{
         type: "radar",
@@ -110,7 +88,7 @@ backgroundColor: [
             }
         }
     })
-</script>
+</script> -->
 
 
 
