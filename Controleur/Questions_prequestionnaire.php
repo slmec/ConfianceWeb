@@ -13,12 +13,13 @@
     mysqli_select_db($link, "Confiance" );
         if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-
+    $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
+    $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
     if($Nom_Diagnostic !== "" ) {
 
-        $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
-        $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+
+
 
         //On insère le nom du diagnostic dans la table diagnostic
         $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
