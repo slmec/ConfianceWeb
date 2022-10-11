@@ -87,5 +87,81 @@
     <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
     <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
 
+    <div class="chart-container">
+        <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
+    </div>
+    <style type="text/css">
+        .chart-container{
+            width:800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script>
+        const radarCanvas = document.getElementById("radarCanvas");
+
+        const radarChart = new Chart(radarCanvas,{
+            type: "radar",
+            data: {
+                labels: [
+                    "Fragilisation de la reconnaissance",
+                    "Désengagement relationnel",
+                    "Surveillance",
+                    "Perte d'autonomie",
+                    "Sentiment de dépossession",
+                    "Déresponsabilisation"
+                ],
+                datasets: [{
+                    label: 'Diagnostic 1',
+                    data: [
+                        <?= $critere1?>,
+                        <?= $critere2?>,
+                        <?= $critere3?>,
+                        <?= $critere4?>,
+                        <?= $critere5?>,
+                        <?= $critere6?>
+                    ],
+                    fill: true,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    pointBackgroundColor: 'rgb(255, 99, 132)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(255, 99, 132)',
+                }, {
+                    label: 'Diagnostic 2',
+                    data: [3,2,2,4,2,3],
+                    fill: true,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgb(54, 162, 235)',
+                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(54, 162, 235)'
+                }],
+            },
+            options: {
+                scales: {
+                    r: {
+                        min: 0,
+                        max: 4,
+                        ticks: {
+                            stepSize : 1,
+                            font: {
+                                size:10,
+                            }
+                        },
+                        pointLabels: {
+                            font: {
+                                size: 15,
+                            }
+                        }
+                    }
+                }
+            }
+        })
+    </script>
+
 </body>
 </html>
