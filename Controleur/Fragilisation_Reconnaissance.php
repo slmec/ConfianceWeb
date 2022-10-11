@@ -8,21 +8,7 @@
 	<title></title>
 </head>
 <body>
-    <?php
-    $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
-    mysqli_select_db($link, "Confiance" );
-        if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-
-        $_SESSION['Contexte_casusage'] = $_POST['Contexte_casusage'];
-        $_SESSION['Objectif_sia'] = $_POST['Objectif_sia'];
-        $_SESSION['Fonctionnement_sia'] = $_POST['Fonctionnement_sia'];
-        $_SESSION['Utilisation_sia'] = $_POST['Utilisation_sia'];
-        $_SESSION['Maturite'] = $_POST['Maturite'];
-
-
-    ?>
-    
     <p>
         Le premier critère concerne la fragilisation de la reconnaissance.
     </p>
