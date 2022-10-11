@@ -1,28 +1,27 @@
 <?php // content="text/plain; charset=utf-8"
-require_once('/jpgraph/src/jpg-config.inc.php');
-require_once('jpgraph.php');
-require_once('pgraph_pie.php');
+require_once ('/jpgraph/jpgraph.php');
+require_once ('/jpgraph/src/jpgraph_pie.php');
+require_once ('/jpgraph/src/jpgraph_pie3d.php');
 
 // Some data
-$data = array(40,21,17,14,23);
+$data = array(40,60,21,33);
 
-// Create the Pie Graph. 
+// Create the Pie Graph.
 $graph = new PieGraph(350,250);
 
-$theme_class="DefaultTheme";
-//$graph->SetTheme(new $theme_class());
+$theme_class= new VividTheme;
+$graph->SetTheme($theme_class);
 
 // Set A title for the plot
-$graph->title->Set("A Simple Pie Plot");
-$graph->SetBox(true);
+$graph->title->Set("A Simple 3D Pie Plot");
 
 // Create
-$p1 = new PiePlot($data);
+$p1 = new PiePlot3D($data);
 $graph->Add($p1);
 
 $p1->ShowBorder();
 $p1->SetColor('black');
-$p1->SetSliceColors(array('#1E90FF','#2E8B57','#ADFF2F','#DC143C','#BA55D3'));
+$p1->ExplodeSlice(1);
 $graph->Stroke();
 
 ?>
