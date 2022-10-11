@@ -8,7 +8,7 @@
 	<title></title>
 </head>
 <body>
-    <form action="Questions_prequestionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
+    <form action="../Modele/verification_nom_diagnostique.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
         <p>Vous allez devoir r&eacute;pondre &agrave; 24 questions. Ces questions sont r&eacute;parties en 6 crit&egrave;res diff&eacute;rents.</p>
         <p>Entrez le nom de votre diagnostic :&nbsp;
             <input maxlength="250" name="Nom_Diagnostic" type="text" />
