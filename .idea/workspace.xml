@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="ajout message d'erreur quetsions prequetestionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1665392178404" duration="7682000" />
       <workItem from="1665471789086" duration="451000" />
       <workItem from="1665489128846" duration="75000" />
-      <workItem from="1665489208967" duration="4084000" />
+      <workItem from="1665489208967" duration="5346000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665492883857</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ajout message d'erreur quetsions prequetestionnaires">
+      <created>1665493368080</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493368080</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

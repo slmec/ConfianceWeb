@@ -13,17 +13,13 @@
     mysqli_select_db($link, "Confiance" );
         if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-    if($_POST['Contexte_casusage'] !== "" && $_POST['Objectif_sia'] !== "" && $_POST['Fonctionnement_sia'] !== "" && $_POST['Utilisation_sia'] !== "" && $_POST['Maturite'] !=="" ) {
+
         $_SESSION['Contexte_casusage'] = $_POST['Contexte_casusage'];
         $_SESSION['Objectif_sia'] = $_POST['Objectif_sia'];
         $_SESSION['Fonctionnement_sia'] = $_POST['Fonctionnement_sia'];
         $_SESSION['Utilisation_sia'] = $_POST['Utilisation_sia'];
         $_SESSION['Maturite'] = $_POST['Maturite'];
-    }
-    else
-    {
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php?erreur=1'); // champs vident
-    }
+
 
     ?>
     
