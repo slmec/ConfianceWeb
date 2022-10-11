@@ -40,6 +40,9 @@
         <form action = "profil.php">
 			<input type="submit" value="Mon profil"> 
 		</form>
+    <form action = "../Modele/deconnexion.php">
+        <input type="submit" value="Se deconnecter">
+    </form>
 
     <?php
         mysqli_close( $link );
