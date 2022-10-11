@@ -59,6 +59,7 @@
     $resultat = mysqli_query($link,$requete);
     $_SESSION['id_critere'] = mysqli_insert_id($link);
 
+
     /*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
     $id_critere = $_SESSION['id_critere'];
     $requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
