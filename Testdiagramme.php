@@ -64,12 +64,12 @@ backgroundColor: [
             datasets: [{
                 label: 'Diagnostic 1',
                 data: [
-                    <?php echo $valeur[0]?>,
-                    <?php echo $valeur[1]?>,
-                    <?php echo $valeur[2]?>,
-                    <?php echo $valeur[3]?>,
-                    <?php echo $valeur[4]?>,
-                    <?php echo $valeur[5]?>
+                    <?= $valeur[0]?>,
+                    <?= $valeur[1]?>,
+                    <?= $valeur[2]?>,
+                    <?= $valeur[3]?>,
+                    <?= $valeur[4]?>,
+                    <?= $valeur[5]?>
                 ],
                 fill: true,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',

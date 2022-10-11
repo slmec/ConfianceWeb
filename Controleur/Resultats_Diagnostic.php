@@ -59,6 +59,17 @@
     $resultat = mysqli_query($link,$requete);
     $_SESSION['id_critere'] = mysqli_insert_id($link);
 
+    // lien entre les id
+    $Id_Diagnostic = $_SESSION['id_diagnostic'];
+    $Id_Critere = $_SESSION['id_critere'];
+    $Id_Utilisateur = $_SESSION['id_Utilisateur'];
+
+    $requete2 = "INSERT INTO Repondre VALUES ('".$Id_Utilisateur."','".$Id_Critere."')";
+    $resultat2 = mysqli_query($link,$requete2);
+
+    $requete3 = "INSERT INTO Exploiter VALUES ('".$Id_Diagnostic."','".$Id_Critere."')";
+    $resultat3 = mysqli_query($link,$requete3);
+
     /*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
     $id_critere = $_SESSION['id_critere'];
     $requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
@@ -75,84 +86,6 @@
     <p> La perte d'autonomie : <?php echo $_SESSION['critere_Perte_Autonomie']?> /4 </p>
     <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
     <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
-
-    <canvas id="myChart"></canvas>
-    <script>
-        function init () {
-            let tableau = new Array();
-            // when a message is received from the page code
-            window.onmessage = (event) => {
-                if (event.data) {
-                var donnees = event.data;
-                tableau = JSON.parse("[" + donnees + "]");
-                graphique(tableau);
-                }
-        }
-        function graphique(){
-            
-        const data = {
-        labels:[
-            'Autonomie',
-            'Deresponsabilisation',
-            'Relations',
-            'Reconnaissance',
-            'Surveillance',
-            'Depossession'
-        ],
-        datasets: [{
-            label: 'Mon diagnostic',
-            data: tableau,
-            fill: true,
-            backgroundColor: 'rgba(255, 160, 2, 0.2)',
-            borderColor: 'rgb(255, 160, 2)',
-            pointBackgroundColor: 'rgb(255, 160, 2)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(255, 160, 2)'
-            }, {
-            label: 'Moyenne',
-            data: [2, 2, 2, 2, 2, 2],
-            fill: true,
-            backgroundColor: 'rgba(77, 165, 218, 0.2)',
-            borderColor: 'rgb(77, 165, 218)',
-            pointBackgroundColor: 'rgb(77, 165, 218)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(77, 165, 218)'
-            }]
-        };
-
-        const config = {
-            type: 'radar',
-            data: data,
-            options: {
-                elements: {
-                line: {
-                    borderWidth: 3
-                }
-                }
-            },
-        };
-        let options = {
-            scales: {
-                r: {
-                    angleLines: {
-                        display: false
-                    },
-                    suggestedMin: 0,
-                    suggestedMax: 100
-                }
-            }
-        };
-
-        const myChart = new Chart(
-            document.getElementById('myChart'),
-            config
-        );
-        }
-        }
-</script>
-
 
 </body>
 </html>
