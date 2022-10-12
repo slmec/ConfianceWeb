@@ -27,6 +27,18 @@
     $row = mysqli_fetch_assoc($resultat) ;
 
     echo $row['Id_critere'];
+    $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$Id_Utilisateur' " ) or die ( "<br>BUG".mysqli_error($link));
+    $row2 = mysqli_fetch_assoc($resultat2) ;
+    while ( $uneLigne = mysqli_fetch_assoc($resultat2) )
+    {
+
+        ?>
+        <tr>
+            <td><b><?php print($uneLigne['Nom']);?></b></td>
+            <td><b><?php print($uneLigne['Prenom']);?></b></td>
+        </tr>
+        <?php
+    }
     ?>
 
 
