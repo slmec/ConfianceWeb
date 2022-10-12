@@ -123,6 +123,14 @@ session_start();
 
 </form>
 
+<?php
+if(isset($_GET['erreur'])){
+    $err = $_GET['erreur'];
+    if($err==1 || $err==2)
+        echo "<p style='color:red'>Veuillez completer tous les champs </p>";
+}
+?>
+
 
 </body>
 </html>
