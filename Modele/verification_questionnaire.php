@@ -22,7 +22,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             $i++;
         }
     }
-    $o = 1;
+    /* $o = 1;
     $b = 0;
     while ($o <= 4) {
         if (isset($_POST['Non_C1Q' . $o])) {
@@ -36,7 +36,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
         $_SESSION['critere_fragilisation_reconnaissance'] = $a + $b;
 
-    }
+    } */
 // note C2
         $i = 1;
         $a = 0;
