@@ -22,7 +22,7 @@ if ($_POST['Contexte_casusage'] !== "" && $_POST['Objectif_sia'] !== "" && $_POS
     $_SESSION['Maturite'] = $_POST['Fonctionnement_sia'];
 
 
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Fragilisation_Reconnaissance.php');
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire.php');
     } else {
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php?erreur=1'); // nom du diagnostique vide
     }

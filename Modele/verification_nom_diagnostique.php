@@ -18,14 +18,14 @@ if(isset($_POST['Nom_Diagnostic'])) {
 
     if ($_SESSION['Nom_Diagnostic'] !== "") {
         //On insère le nom du diagnostic dans la table diagnostic
-        $requete = "INSERT INTO Diagnostics VALUES ('','$Nom_Diagnostic')";
+        $requete = "INSERT INTO Criteres VALUES ('','','','','','','','','','','','','".$Nom_Diagnostic."')";
         $resultat = mysqli_query($db, $requete);
 
         //On creer la variable session de l'id
-        $requete2 = "SELECT Id_diagnostic FROM Diagnostics WHERE Nom = '$Nom_Diagnostic'";
+        $requete2 = "SELECT Id_critere FROM Criteres WHERE Nom = '$Nom_Diagnostic'";
         $resultat2 = mysqli_query($db, $requete2);
         $row = mysqli_fetch_assoc($resultat2);
-        $_SESSION['id_diagnostic'] = $row['Id_diagnostic'];
+        $_SESSION['id_Critere'] = $row['Id_critere'];
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php');
     }
     else {

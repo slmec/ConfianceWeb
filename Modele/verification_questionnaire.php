@@ -179,5 +179,29 @@ while ($o <= 4) {
 
 $_SESSION['critere_Deresponsabilite'] = $a + $b;
 
+
+$critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
+$critere2 = $_SESSION['critere_Desengagement_Relationnel'];
+$critere3 = $_SESSION['critere_Surveillance'];
+$critere4 = $_SESSION['critere_Perte_Autonomie'];
+$critere5 = $_SESSION['critere_Sentiment_Depossession'];
+$critere6 = $_SESSION['critere_Deresponsabilite'];
+
+$Contexte_casusage = $_SESSION['Contexte_casusage'];
+$Objectif_sia = $_SESSION['Objectif_sia'];
+$Fonctionnement_sia = $_SESSION['Fonctionnement_sia'];
+$Utilisation_sia = $_SESSION['Utilisation_sia'];
+$Maturite = $_SESSION['Maturite'];
+
+$requete = "INSERT INTO Criteres VALUES ('','".$critere1."','".$critere2."','".$critere3."','".$critere4."','".$critere5."','".$critere6."','".$Contexte_casusage."','".$Objectif_sia."','".$Fonctionnement_sia."','".$Utilisation_sia."','".$Maturite."','')";
+$resultat = mysqli_query($link,$requete);
+
+$Id_Critere = $_SESSION['id_Critere'];
+$Id_Utilisateur = $_SESSION['id_Utilisateur'];
+
+$requete2 = "INSERT INTO Repondre VALUES ('".$Id_Utilisateur."','".$Id_Critere."')";
+$resultat2 = mysqli_query($link,$requete2);
+
+
 header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
 ?>
