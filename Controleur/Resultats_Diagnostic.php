@@ -112,6 +112,9 @@
             }
         })
     </script>
+<form action="connexion.php">
+    <button type="submit">Retour à l'accueil</button>
+</form>
 
 </body>
 </html>
