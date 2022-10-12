@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="reponse diag">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="mis du questionnaire en une page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,28 +332,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665566129174</updated>
     </task>
-    <task id="LOCAL-00037" summary="reponse diag">
-      <created>1665576929500</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1665576929500</updated>
-    </task>
-    <task id="LOCAL-00038" summary="reponse diag">
-      <created>1665577565241</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1665577565241</updated>
-    </task>
-    <task id="LOCAL-00039" summary="reponse diag">
-      <created>1665579625304</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1665579625304</updated>
-    </task>
-    <option name="localTasksCounter" value="40" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,8 +366,7 @@
     <MESSAGE value="modif diagramme v3" />
     <MESSAGE value="modif affichage diagramme" />
     <MESSAGE value="modif bouton" />
-    <MESSAGE value="reponse diag" />
-    <option name="LAST_COMMIT_MESSAGE" value="reponse diag" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif bouton" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
