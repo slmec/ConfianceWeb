@@ -15,7 +15,8 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=
 
     if(isset($_POST['adv']))
     {
-        echo '<p>Votre choix : </p>';
+         echo '<p>Votre choix : </p>';
+        // $choix est l'id du diagnostique
         foreach ($_POST['adv'] as $choix)
         {
             echo $choix.'<br/>';
