@@ -13,18 +13,20 @@ session_start();
 
     <h1>Le premier critère concerne la fragilisation de la reconnaissance.</h1>
     <p>Le système à base d'IA réduit-il la distinction entre les novices et les experts ?  &nbsp;
-
-        Oui <input type="radio" name="Oui_C1Q1" value="0" checked>
-        Non <input type="radio" name="Non_C1Q1" value="1">  <br>
+        Oui <input type="radio" name="C1Q1" value="0" checked>
+        Non <input type="radio" name="C1Q1" value="1">  <br>
     </p>
     <p>Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? Oui
-        <input name="Oui_C1Q2" type="checkbox" value = "0"/>&nbsp;Non <input name="Non_C1Q2" type="checkbox" value = "1"/>
+        Oui <input type="radio" name="C1Q2" value="0" checked>
+        Non <input type="radio" name="C1Q2" value="1">  <br>
     </p>
     <p>Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ?  Oui
-        <input name="Oui_C1Q3" type="checkbox" value = "0"/>&nbsp;Non <input name="Non_C1Q3" type="checkbox" value = "1"/>
+        Oui <input type="radio" name="C1Q3" value="0" checked>
+        Non <input type="radio" name="C1Q3" value="1">  <br>
     </p>
     <p>L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur? Oui
-        <input name="Oui_C1Q4" type="checkbox" value = "0"/>&nbsp;Non <input name="Non_C1Q4" type="checkbox" value = "1"/>
+        Oui <input type="radio" name="C1Q1" value="0" checked>
+        Non <input type="radio" name="C1Q1" value="1">  <br>
     </p>
 
     <h1>Le deuxième critère concerne le désengagement relationnel. </h1>

@@ -14,16 +14,16 @@ or die('could not connect to database');
     $i = 1;
     $a = 0;
     while ($i <= 4) {
-        if (isset($_POST['Oui_C1Q' . $i])) {
-            $Oui[$i] = intval($_POST['Oui_C1Q' . $i]);
+        if (isset($_POST['C1Q' . $i])) {
+            $Oui[$i] = intval($_POST['C1Q' . $i]);
             $a = $a + $Oui[$i];
             $i++;
         } else {
-            unset($_POST['Oui_C1Q' . $i]);
+            unset($_POST['C1Q' . $i]);
             $i++;
         }
     }
-    $o = 1;
+    /* $o = 1;
     $b = 0;
     while ($o <= 4) {
         if (isset($_POST['Non_C1Q' . $o])) {
@@ -33,8 +33,7 @@ or die('could not connect to database');
         } else {
             unset($_POST['Non_C1Q' . $o]);
             $o++;
-        }
-    }
+        } */
 
     $_SESSION['critere_fragilisation_reconnaissance'] = $a + $b;
 
@@ -43,25 +42,13 @@ or die('could not connect to database');
 $i = 1;
 $a = 0;
 while ($i <= 4) {
-    if (isset($_POST['Oui_C2Q' . $i])) {
-        $Oui[$i] = intval($_POST['Oui_C2Q' . $i]);
+    if (isset($_POST['C2Q' . $i])) {
+        $Oui[$i] = intval($_POST['C2Q' . $i]);
         $a = $a + $Oui[$i];
         $i++;
     } else {
-        unset($_POST['Oui_C2Q' . $i]);
+        unset($_POST['C2Q' . $i]);
         $i++;
-    }
-}
-$o = 1;
-$b = 0;
-while ($o <= 4) {
-    if (isset($_POST['Non_C2Q' . $o])) {
-        $Non[$o] = intval($_POST['Non_C2Q' . $o]);
-        $b = $b + $Non[$o];
-        $o++;
-    } else {
-        unset($_POST['Non_C2Q' . $o]);
-        $o++;
     }
 }
 
@@ -71,25 +58,13 @@ $_SESSION['critere_Desengagement_Relationnel'] = $a + $b;
 $i = 1;
 $a = 0;
 while ($i <= 4) {
-    if (isset($_POST['Oui_C3Q' . $i])) {
-        $Oui[$i] = intval($_POST['Oui_C3Q' . $i]);
+    if (isset($_POST['C3Q' . $i])) {
+        $Oui[$i] = intval($_POST['C3Q' . $i]);
         $a = $a + $Oui[$i];
         $i++;
     } else {
-        unset($_POST['Oui_C3Q' . $i]);
+        unset($_POST['C3Q' . $i]);
         $i++;
-    }
-}
-$o = 1;
-$b = 0;
-while ($o <= 4) {
-    if (isset($_POST['Non_C3Q' . $o])) {
-        $Non[$o] = intval($_POST['Non_C3Q' . $o]);
-        $b = $b + $Non[$o];
-        $o++;
-    } else {
-        unset($_POST['Non_C3Q' . $o]);
-        $o++;
     }
 }
 
@@ -99,25 +74,13 @@ $_SESSION['critere_Surveillance'] = $a + $b;
 $i = 1;
 $a = 0;
 while ($i <= 4) {
-    if (isset($_POST['Oui_C4Q' . $i])) {
-        $Oui[$i] = intval($_POST['Oui_C4Q' . $i]);
+    if (isset($_POST['C4Q' . $i])) {
+        $Oui[$i] = intval($_POST['C4Q' . $i]);
         $a = $a + $Oui[$i];
         $i++;
     } else {
-        unset($_POST['Oui_C4Q' . $i]);
+        unset($_POST['C4Q' . $i]);
         $i++;
-    }
-}
-$o = 1;
-$b = 0;
-while ($o <= 4) {
-    if (isset($_POST['Non_C4Q' . $o])) {
-        $Non[$o] = intval($_POST['Non_C4Q' . $o]);
-        $b = $b + $Non[$o];
-        $o++;
-    } else {
-        unset($_POST['Non_C4Q' . $o]);
-        $o++;
     }
 }
 
@@ -127,27 +90,14 @@ $_SESSION['critere_Perte_Autonomie'] = $a + $b;
 $i = 1;
 $a = 0;
 while ($i <= 4) {
-    if (isset($_POST['Oui_C5Q' . $i])) {
-        $Oui[$i] = intval($_POST['Oui_C5Q' . $i]);
+    if (isset($_POST['C5Q' . $i])) {
+        $Oui[$i] = intval($_POST['C5Q' . $i]);
         $a = $a + $Oui[$i];
         $i++;
     } else {
-        unset($_POST['Oui_C5Q' . $i]);
+        unset($_POST['C5Q' . $i]);
         $i++;
     }
-}
-$o = 1;
-$b = 0;
-while ($o <= 4) {
-    if (isset($_POST['Non_C5Q' . $o])) {
-        $Non[$o] = intval($_POST['Non_C5Q' . $o]);
-        $b = $b + $Non[$o];
-        $o++;
-    } else {
-        unset($_POST['Non_C5Q' . $o]);
-        $o++;
-    }
-}
 
 $_SESSION['critere_Sentiment_Depossession'] = $a + $b;
 
@@ -155,25 +105,13 @@ $_SESSION['critere_Sentiment_Depossession'] = $a + $b;
 $i = 1;
 $a = 0;
 while ($i <= 4) {
-    if (isset($_POST['Oui_C6Q' . $i])) {
-        $Oui[$i] = intval($_POST['Oui_C6Q' . $i]);
+    if (isset($_POST['C6Q' . $i])) {
+        $Oui[$i] = intval($_POST['C6Q' . $i]);
         $a = $a + $Oui[$i];
         $i++;
     } else {
-        unset($_POST['Oui_C6Q' . $i]);
+        unset($_POST['C6Q' . $i]);
         $i++;
-    }
-}
-$o = 1;
-$b = 0;
-while ($o <= 4) {
-    if (isset($_POST['Non_C6Q' . $o])) {
-        $Non[$o] = intval($_POST['Non_C6Q' . $o]);
-        $b = $b + $Non[$o];
-        $o++;
-    } else {
-        unset($_POST['Non_C6Q' . $o]);
-        $o++;
     }
 }
 
