@@ -8,6 +8,29 @@ session_start();
     <title></title>
 </head>
 <body onload="init();">
+
+<?php
+if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=2) {
+    echo ("le nombre est ".count($_POST['adv']));
+
+    if(isset($_POST['adv']))
+    {
+        echo '<p>Votre choix : </p>';
+        foreach ($_POST['adv'] as $choix)
+        {
+            echo $choix.'<br/>';
+        }
+    }
+
+}
+if (isset($_POST['ok']) && count($_POST['adv'] ) >2 ) {
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+}
+if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+}
+?>
+
 <?php
 
 //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
