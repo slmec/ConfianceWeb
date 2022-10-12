@@ -21,7 +21,7 @@
     <form action="comparaison_diagnostic.php" method="post" target="_self">
     <?php
         $id_utilisateur = $_SESSION['id_Utilisateur'];
-        $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($link));
+        $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
         $row2 = mysqli_fetch_assoc($resultat2) ;
     ?>
         <h4> <?= $row2['Prenom']; ?> voici vos diagnostics : </h4>
