@@ -12,8 +12,10 @@ session_start();
 <form action="../Modele/verification_questionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
 
     <h1>Le premier critère concerne la fragilisation de la reconnaissance.</h1>
-    <p>Le système à base d'IA réduit-il la distinction entre les novices et les experts ?  &nbsp;Oui
-        <input name="Oui_C1Q1" type="checkbox" value = "0"/>&nbsp; Non<input name="Non_C1Q1" type="checkbox" value = "1"/>
+    <p>Le système à base d'IA réduit-il la distinction entre les novices et les experts ?  &nbsp;
+
+        Oui <input type="radio" name="Oui_C1Q1" value="0" checked>
+        Non <input type="radio" name="Non_C1Q1" value="1">  <br>
     </p>
     <p>Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? Oui
         <input name="Oui_C1Q2" type="checkbox" value = "0"/>&nbsp;Non <input name="Non_C1Q2" type="checkbox" value = "1"/>
