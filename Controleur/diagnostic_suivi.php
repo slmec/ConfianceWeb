@@ -21,21 +21,41 @@
     <form action="comparaison_diagnostic.php" method="post" target="_self">
     <?php
         $id_utilisateur = $_SESSION['id_Utilisateur'];
-        $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
+        $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
         $row2 = mysqli_fetch_assoc($resultat2) ;
     ?>
         <h4> <?= $row2['Prenom']; ?> voici vos diagnostics : </h4>
     <?php
         while ($uneLigne=mysqli_fetch_assoc($resultat2)){
             ?>
-                <tr>
-                    <td><br><?=($uneLigne['Nom']);?><input type="checkbox" value=".$uneLigne." /></br></td>
-                </tr>
-                <?php
+            <tr>
+                <td><br><?=($uneLigne['Nom']);?><input type="checkbox" name="adv[]" value="$uneLigne['Id_critere']" /></td>
+            </tr>
+            <?php
             }
         ?>
-        <button type="submit">Afficher</button>
+        <br>
+        <button type="submit" name="ok">Afficher</button>
     </form>
+
+    <?php
+      /*  if (isset($_POST['ok'] && count($_POST['adv']<=2))) {
+            echo ("le nombre est ".count($_POST['adv']));
+
+            if(isset($_POST['adv']))
+            {
+                echo '<p>Votre choix : </p>';
+                foreach ($_POST['adv'] as $choix)
+                {
+                    echo $choix.'<br/>';
+                }
+            }
+            else
+            {
+                echo 'Veuillez faire un choix';
+            }
+        }*/
+?>
 
     <!--$rq = "INSERT INTO `Repondre` VALUES ('$Id_Utilisateur', '$Id_Critere')" ;
     //$result =mysqli_query( $db, $rq )or die (mysqli_error($link));
