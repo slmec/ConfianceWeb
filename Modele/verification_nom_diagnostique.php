@@ -14,18 +14,18 @@ or die('could not connect to database');
 // diagnostic_new.php
 if(isset($_POST['Nom_Diagnostic'])) {
     $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
-    $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+
 
     if ($_SESSION['Nom_Diagnostic'] !== "") {
         //On insère le nom du diagnostic dans la table diagnostic
-        $requete = "INSERT INTO Criteres VALUES ('','','','','','','','','','','','','".$Nom_Diagnostic."')";
-        $resultat = mysqli_query($db, $requete);
+        //$requete = "INSERT INTO Criteres VALUES ('','','','','','','','','','','','','".$Nom_Diagnostic."')";
+        //$resultat = mysqli_query($db, $requete);
 
         //On creer la variable session de l'id
-        $requete2 = "SELECT Id_critere FROM Criteres WHERE Nom = '$Nom_Diagnostic'";
-        $resultat2 = mysqli_query($db, $requete2);
-        $row = mysqli_fetch_assoc($resultat2);
-        $_SESSION['id_Critere'] = $row['Id_critere'];
+        //$requete2 = "SELECT Id_critere FROM Criteres WHERE Nom = '$Nom_Diagnostic'";
+        //$resultat2 = mysqli_query($db, $requete2);
+        //$row = mysqli_fetch_assoc($resultat2);
+        //$_SESSION['id_Critere'] = $row['Id_critere'];
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php');
     }
     else {

@@ -193,14 +193,21 @@ $Fonctionnement_sia = $_SESSION['Fonctionnement_sia'];
 $Utilisation_sia = $_SESSION['Utilisation_sia'];
 $Maturite = $_SESSION['Maturite'];
 
-$requete = "INSERT INTO Criteres VALUES ('','".$critere1."','".$critere2."','".$critere3."','".$critere4."','".$critere5."','".$critere6."','".$Contexte_casusage."','".$Objectif_sia."','".$Fonctionnement_sia."','".$Utilisation_sia."','".$Maturite."','')";
-$resultat = mysqli_query($link,$requete);
+$Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+
+$requete = "INSERT INTO Criteres VALUES ('','".$critere1."','".$critere2."','".$critere3."','".$critere4."','".$critere5."','".$critere6."','".$Contexte_casusage."','".$Objectif_sia."','".$Fonctionnement_sia."','".$Utilisation_sia."','".$Maturite."','".$Nom_Diagnostic."')";
+$resultat = mysqli_query($db,$requete);
+
+$requete2 = "SELECT Id_critere FROM Criteres WHERE Nom = '$Nom_Diagnostic'";
+$resultat2 = mysqli_query($db, $requete2);
+$row = mysqli_fetch_assoc($resultat2);
+$_SESSION['id_Critere'] = $row['Id_critere'];
 
 $Id_Critere = $_SESSION['id_Critere'];
 $Id_Utilisateur = $_SESSION['id_Utilisateur'];
 
-$requete2 = "INSERT INTO Repondre VALUES ('".$Id_Utilisateur."','".$Id_Critere."')";
-$resultat2 = mysqli_query($link,$requete2);
+$requete3 = "INSERT INTO Repondre VALUES ('".$Id_Utilisateur."','".$Id_Critere."')";
+$resultat3 = mysqli_query($db,$requete3);
 
 
 header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
