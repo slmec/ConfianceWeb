@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif affichage diagramme">
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif bouton" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1665392178404" duration="7682000" />
       <workItem from="1665471789086" duration="18684000" />
       <workItem from="1665501776996" duration="77000" />
-      <workItem from="1665556955166" duration="6153000" />
+      <workItem from="1665556955166" duration="6857000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -324,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665565827490</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="modif bouton">
+      <created>1665566129174</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665566129174</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +362,8 @@
     <MESSAGE value="modif diagramme v2" />
     <MESSAGE value="modif diagramme v3" />
     <MESSAGE value="modif affichage diagramme" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif affichage diagramme" />
+    <MESSAGE value="modif bouton" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif bouton" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
