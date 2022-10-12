@@ -29,7 +29,7 @@
     $resultat2 = mysqli_query($link,$requete2);*/
     ?>
 
-    <p> Diagnostique " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
+    <p> Diagnostic " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
     <p> La fragilisation de la reconnaissance : <?php echo $_SESSION['critere_fragilisation_reconnaissance']?> /4 </p>
     <p> Le desengagement relationnel  : <?php echo $_SESSION['critere_Desengagement_Relationnel']?> /4 </p>
     <p> La surveillance : <?php echo $_SESSION['critere_Surveillance']?> /4 </p>
