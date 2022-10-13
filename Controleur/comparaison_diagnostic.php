@@ -43,22 +43,12 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
     $diagnostics = $_POST['adv'];
     $critere1 = $diagnostics[0];
     $critere2 = $diagnostics[1];
-    $diagnostic1 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
-    $diagnostic2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere2'") or die ( "<br>BUG".mysqli_error($db));
+    $resultat1 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
+    $resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere2'") or die ( "<br>BUG".mysqli_error($db));
 
 //Récupération des critères du premier diagnostic
-    $i = 1;
-    while ($uneLigne = mysqli_fetch_assoc($diagnostic1)) {
-        $diagnostic_critere.$i = $diagnostic1[$i];
-        echo $diagnostic_critere.$i;
-        $i++;
-    }
-    /*$o = 1;
-    while ($uneLigne = mysqli_fetch_assoc($diagnostic2)) {
-        $diagnostic_critere.$i = $diagnostic1[$i];
-        $i++;
-    }
-*/
+    $diagnostic1 = mysqli_fetch_assoc($resultat1);
+    echo $diagnostic1[0];
 
 
 
@@ -118,12 +108,6 @@ $resultat2 = mysqli_query($link,$requete2);*/
             datasets: [{
                 label: 'Diagnostic 1',
                 data: [
-                    <?= $critere1?>,
-                    <?= $critere2?>,
-                    <?= $critere3?>,
-                    <?= $critere4?>,
-                    <?= $critere5?>,
-                    <?= $critere6?>
                 ],
                 fill: true,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
