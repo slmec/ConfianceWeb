@@ -47,8 +47,14 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
     $resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere2'") or die ( "<br>BUG".mysqli_error($db));
 
 //Récupération des critères du premier diagnostic
-    $diagnostic1 = mysqli_fetch_assoc($resultat1);
-    echo $diagnostic1[0];
+$i = 0;
+    while ($i<=5) {
+        $row = mysqli_fetch_assoc($resultat1);
+        $diagnostic_critere[$i] = $row[$i];
+        echo $diagnostic_critere[$i];
+        $i++;
+    }
+
 
 
 
