@@ -79,7 +79,7 @@
       <workItem from="1665471789086" duration="18684000" />
       <workItem from="1665501776996" duration="77000" />
       <workItem from="1665556955166" duration="19936000" />
-      <workItem from="1665645218147" duration="7211000" />
+      <workItem from="1665645218147" duration="7946000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665653705923</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="modif recuperation donnees diagnostic">
+      <created>1665654645405</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654645405</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

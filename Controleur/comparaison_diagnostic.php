@@ -14,7 +14,7 @@ or die('could not connect to database');
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title></title>
 </head>
-<body onload="init();">
+<body>
 
 <?php
 if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=2) {
@@ -45,47 +45,24 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
     $critere2 = $diagnostics[1];
     $resultat1 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
     $resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation FROM Criteres WHERE Id_critere = '$critere2'") or die ( "<br>BUG".mysqli_error($db));
+    $row = mysqli_fetch_array($resultat1);
+    $row2 = mysqli_fetch_array($resultat2);
 
-//Récupération des critères du premier diagnostic
-$i = 0;
-    while ($i<=5) {
-        $row = mysqli_fetch_assoc($resultat1);
-        $diagnostic_critere[$i] = $row[$i];
-        echo $diagnostic_critere[$i];
-        $i++;
-    }
+    //Récupération des critères des diagnostics
+    $diagnostic1_critere1 = $row[0];
+    $diagnostic1_critere2 = $row[1];
+    $diagnostic1_critere3 = $row[2];
+    $diagnostic1_critere4 = $row[3];
+    $diagnostic1_critere5 = $row[4];
+    $diagnostic1_critere6 = $row[5];
 
-
-
-
-
-//Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
-/*
-$critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
-$critere2 = $_SESSION['critere_Desengagement_Relationnel'];
-$critere3 = $_SESSION['critere_Surveillance'];
-$critere4 = $_SESSION['critere_Perte_Autonomie'];
-$critere5 = $_SESSION['critere_Sentiment_Depossession'];
-$critere6 = $_SESSION['critere_Deresponsabilite'];
-
-*/
-/*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
-$id_critere = $_SESSION['id_critere'];
-$requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
-$resultat = mysqli_query($link,$requete);*/
-
-/*$requete2 = "INSERT INTO Exploiter VALUES ('','".$id_critere."')";
-$resultat2 = mysqli_query($link,$requete2);*/
+    $diagnostic2_critere1 = $row2[0];
+    $diagnostic2_critere2 = $row2[1];
+    $diagnostic2_critere3 = $row2[2];
+    $diagnostic2_critere4 = $row2[3];
+    $diagnostic2_critere5 = $row2[4];
+    $diagnostic2_critere6 = $row2[5];
 ?>
-<!--
-<p> Diagnostic " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
-<p> La fragilisation de la reconnaissance : <?php echo $_SESSION['critere_fragilisation_reconnaissance']?> /4 </p>
-<p> Le desengagement relationnel  : <?php echo $_SESSION['critere_Desengagement_Relationnel']?> /4 </p>
-<p> La surveillance : <?php echo $_SESSION['critere_Surveillance']?> /4 </p>
-<p> La perte d'autonomie : <?php echo $_SESSION['critere_Perte_Autonomie']?> /4 </p>
-<p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
-<p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
-
 <div class="chart-container">
     <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
 </div>
@@ -114,6 +91,12 @@ $resultat2 = mysqli_query($link,$requete2);*/
             datasets: [{
                 label: 'Diagnostic 1',
                 data: [
+                    <?=$diagnostic1_critere1?>,
+                    <?=$diagnostic1_critere2?>,
+                    <?=$diagnostic1_critere3?>,
+                    <?=$diagnostic1_critere4?>,
+                    <?=$diagnostic1_critere5?>,
+                    <?=$diagnostic1_critere6?>
                 ],
                 fill: true,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -124,7 +107,14 @@ $resultat2 = mysqli_query($link,$requete2);*/
                 pointHoverBorderColor: 'rgb(255, 99, 132)',
             }, {
                 label: 'Diagnostic 2',
-                data: [3,2,2,4,2,3],
+                data: [
+                    <?=$diagnostic2_critere1?>,
+                    <?=$diagnostic2_critere2?>,
+                    <?=$diagnostic2_critere3?>,
+                    <?=$diagnostic2_critere4?>,
+                    <?=$diagnostic2_critere5?>,
+                    <?=$diagnostic2_critere6?>
+                ],
                 fill: true,
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgb(54, 162, 235)',
@@ -158,7 +148,6 @@ $resultat2 = mysqli_query($link,$requete2);*/
 <form action="connexion.php">
     <button type="submit">Retour à l'accueil</button>
 </form>
--->
-
+<!--onload="init();-->
 </body>
 </html>
