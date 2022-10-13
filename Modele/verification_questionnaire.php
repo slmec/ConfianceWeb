@@ -9,6 +9,12 @@ $db_host     = 'localhost';
 
 $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
+$Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+$Id_Critere = $_SESSION['id_Critere'];
+
+$requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','')";
+$resultat3 = mysqli_query($db, $requete3);
+
 // note C1
     $i = 1;
     $a = 0;
@@ -23,6 +29,17 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
         }
     }
     $_SESSION['critere_fragilisation_reconnaissance'] = $a;
+
+    //pour afficher les implications
+    $C1Q1 = $_POST['C1Q1'];
+    $C1Q2 = $_POST['C1Q2'];
+    $C1Q3 = $_POST['C1Q3'];
+    $C1Q4 = $_POST['C1Q4'];
+
+        $requete11 = "UPDATE Diagnostics SET C1Q1 = '$C1Q1',C1Q2 = '$C1Q2',C1Q3 = '$C1Q3',C1Q4 = '$C1Q4' WHERE Id_critere_bis = '$Id_Critere' ";
+        $result11 = mysqli_query($db, $requete11);//or //die (mysqli_error($link));
+
+
      /* $o = 1;
     $b = 0;
     while ($o <= 4) {
@@ -131,7 +148,6 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
         $Utilisation_sia = $_SESSION['Utilisation_sia'];
         $Maturite = $_SESSION['Maturite'];
 
-        $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
         $requete = "INSERT INTO Criteres VALUES ('','" . $critere1 . "','" . $critere2 . "','" . $critere3 . "','" . $critere4 . "','" . $critere5 . "','" . $critere6 . "','" . $Contexte_casusage . "','" . $Objectif_sia . "','" . $Fonctionnement_sia . "','" . $Utilisation_sia . "','" . $Maturite . "','" . $Nom_Diagnostic . "')";
         $resultat = mysqli_query($db, $requete);
@@ -141,11 +157,14 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
         $row = mysqli_fetch_assoc($resultat2);
         $_SESSION['id_Critere'] = $row['Id_critere'];
 
-        $Id_Critere = $_SESSION['id_Critere'];
+
         $Id_Utilisateur = $_SESSION['id_Utilisateur'];
 
-        $requete3 = "INSERT INTO Repondre VALUES ('" . $Id_Utilisateur . "','" . $Id_Critere . "')";
-        $resultat3 = mysqli_query($db, $requete3);
+
+
+
+        $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_Utilisateur . "','" . $Id_Critere . "')";
+        $resultat4 = mysqli_query($db, $requete4);
 
 
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
