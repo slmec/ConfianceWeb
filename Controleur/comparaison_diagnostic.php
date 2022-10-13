@@ -34,6 +34,9 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
 
 <?php
 
+
+    $diagnostic1 = $_POST[''];
+
 //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
 
 $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
