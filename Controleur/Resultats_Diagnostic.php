@@ -10,6 +10,7 @@
 <body onload="init();">
     <?php
 
+
     //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
 
     $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
@@ -79,16 +80,6 @@
                     pointBorderColor: '#fff',
                     pointHoverBackgroundColor: '#fff',
                     pointHoverBorderColor: 'rgb(255, 99, 132)',
-                }, {
-                    label: 'Diagnostic 2',
-                    data: [3,2,2,4,2,3],
-                    fill: true,
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgb(54, 162, 235)',
-                    pointBackgroundColor: 'rgb(54, 162, 235)',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: 'rgb(54, 162, 235)'
                 }],
             },
             options: {

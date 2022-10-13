@@ -21,22 +21,23 @@
 <form action="comparaison_diagnostic.php" method="post" target="_self">
     <?php
         $id_utilisateur = $_SESSION['id_Utilisateur'];
-        $resultat2 = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
-        $row2 = mysqli_fetch_assoc($resultat2) ;
+        $resultat = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
+        $resultat2 = mysqli_query($db, "SELECT a.Prenom FROM Utilisateurs a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
+        $row = mysqli_fetch_assoc($resultat2);
     ?>
-        <h4> <?= $row2['Prenom']; ?> voici vos diagnostics : </h4>
+        <h4> <?= $row['Prenom']; ?> voici vos diagnostics : </h4>
     <?php
-        while ($uneLigne=mysqli_fetch_assoc($resultat2)){
+        while ($uneLigne=mysqli_fetch_assoc($resultat)){
             ?>
-            <tr>
-                <td><br><?=($uneLigne['Nom']);?><input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_critere'];?>" /></td>
-            </tr>
+            <!--<tr>-->
+               <?=$uneLigne['Nom'];?><input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_critere'];?>" />
+
             <?php
             }
-        ?>
-        <br>
-        <button type="submit" name="ok">Afficher</button>
-    </form>
+    ?>
+    <br>
+    <button type="submit" name="ok">Afficher</button>
+</form>
 
 <?php
 if(isset($_GET['erreur'])){
