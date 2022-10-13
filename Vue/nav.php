@@ -2,14 +2,16 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <!-- <link rel="stylesheet" href="hautdepage.css" /> -->
+    <link rel="stylesheet" href="style.css" />
 
     <title></title>
 </head>
 <body>
 <header>
 <p>
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">
+
+
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">
             <button type="submit" value="MAIAT" class="button">
                 MAIAT
             </button>
