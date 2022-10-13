@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    include('../Vue/HautDePage.php')
+    include('../Vue/nav.php')
 	?>
 
     <h1>MAIAT : Le guide de l&#39;outil</h1>
@@ -15,7 +15,7 @@
     </video></p>
 
     <?php
-    include('../Vue/BasDePage.php')
+    include('../Vue/footer.php')
 	?>
 </body>
 </html>

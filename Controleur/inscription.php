@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-    include('HautDePage.php')
+    include('nav.php')
 	?>
 
     <h1>Devenez membre de MAIAT</h1>
@@ -42,7 +42,7 @@
     <p>&nbsp;</p>
 
     <?php
-    include('BasDePage.php')
+    include('footer.php')
 	  ?>
 
 </body>
