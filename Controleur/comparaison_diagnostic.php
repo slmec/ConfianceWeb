@@ -11,7 +11,7 @@ session_start();
 
 <?php
 if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=2) {
-    echo ("le nombre est ".count($_POST['adv']));
+    //echo ("le nombre est ".count($_POST['adv']));
 
     if(isset($_POST['adv']))
     {
@@ -22,7 +22,6 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=
             echo $choix.'<br/>';
         }
     }
-
 }
 if (isset($_POST['ok']) && count($_POST['adv'] ) >2 ) {
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');

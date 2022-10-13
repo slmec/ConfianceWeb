@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif diagnostic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1665471789086" duration="18684000" />
       <workItem from="1665501776996" duration="77000" />
       <workItem from="1665556955166" duration="19936000" />
-      <workItem from="1665645218147" duration="99000" />
+      <workItem from="1665645218147" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665069241798</created>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665584965759</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="modif diagnostic">
+      <created>1665645385910</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1665645385910</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

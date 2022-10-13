@@ -22,6 +22,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             $i++;
         }
     }
+    $_SESSION['critere_fragilisation_reconnaissance'] = $a;
      /* $o = 1;
     $b = 0;
     while ($o <= 4) {
