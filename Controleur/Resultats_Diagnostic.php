@@ -112,6 +112,40 @@
             }
         })
     </script>
+
+    <h1>Tableau </h1>
+    <table>
+        <tr>
+            <td> Question </td>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+            <td> 4 </td>
+        </tr>
+        <tr>
+            <td> Vos reponses </td>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+            <td> 4 </td>
+        </tr>
+        <tr>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+        </tr>
+        <tr>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+            <td> fleche </td>
+        </tr>
+    </table>
+
+
 <form action="connexion.php">
     <button type="submit">Retour à l'accueil</button>
 </form>
