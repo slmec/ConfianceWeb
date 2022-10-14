@@ -30,12 +30,12 @@
         while ($uneLigne=mysqli_fetch_assoc($resultat)){
             ?>
             <!--<tr>-->
-               <?=$uneLigne['Nom'];?><input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_critere'];?>" />
+               <br><?=$uneLigne['Nom'];?><input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_critere'];?>" />
 
             <?php
             }
     ?>
-    <br>
+    <br><br>
     <button type="submit" name="ok">Afficher</button>
 </form>
 
