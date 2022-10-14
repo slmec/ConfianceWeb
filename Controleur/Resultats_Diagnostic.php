@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <?php
 	session_start();
+    $db_username = 'eleve.tou';
+    $db_password = 'et*301';
+    $db_name     = 'Confiance';
+    $db_host     = 'localhost';
+
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
+
 ?>
 <html>
 <head>
@@ -104,6 +111,22 @@
         })
     </script>
 
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Implication C1.php">
+            <button type="submit" value="Les critères de risques sociaux" class="button">
+                Les critères de risques sociaux
+            </button>
+        </form>
+    </div>
+
+<?php
+$Id_Critere = $_SESSION['id_Critere'];
+
+    $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
+    $resultat = mysqli_query($db, $requete);
+    $row = mysqli_fetch_assoc($resultat);
+
+?>
     <h1>Tableau </h1>
     <table>
         <tr>
@@ -113,9 +136,24 @@
             <td> 3 </td>
             <td> 4 </td>
         </tr>
+        <?php
+        $i = 1;
+        while ($i <= 4) {
+            if ($row['C1Q' . $i] == 0) {
+                echo 'Oui';
+                $i++;
+            }
+            if ($row['C1Q' . $i] == 1) {
+                echo 'Non';
+                $i++;
+            }
+        }?>
         <tr>
             <td> Vos reponses </td>
-            <td> 1 </td>
+            <td>
+
+
+            </td>
             <td> 2 </td>
             <td> 3 </td>
             <td> 4 </td>
