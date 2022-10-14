@@ -15,7 +15,7 @@
     <section>
         <h2>MAIAT : Mesure de l'Acceptabilité Sociale de l&#39;Intelligence Artificielle au Travail</h2>
 
-        <video src="Medias/video_site.mp4" width=640 height=480 controls poster="Medias/vignette_video_site.jpg"></video>
+        <video src="Medias/video_site.mp4" width=640 height=480 controls poster="Medias/vignette_video_site.jpg" class="video"></video>
 
         <p>MAIAT est l&#39;outil pour int&eacute;grer l&#39;IA au travail en pleine confiance.</p>
 
