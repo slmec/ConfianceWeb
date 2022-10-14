@@ -64,6 +64,11 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
         $_SESSION['critere_Desengagement_Relationnel'] = $a;
 
+    $C2Q1 = $_POST['C2Q1'];
+    $C2Q2 = $_POST['C2Q2'];
+    $C2Q3 = $_POST['C2Q3'];
+    $C2Q4 = $_POST['C2Q4'];
+
 // note C3
         $i = 1;
         $a = 0;
@@ -153,7 +158,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
         $Id_Critere = $_SESSION['id_Critere'];
 
-        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','')";
+        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','','','','','')";
         $resultat3 = mysqli_query($db, $requete3);
 
         $Id_Utilisateur = $_SESSION['id_Utilisateur'];
@@ -162,7 +167,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
         $resultat4 = mysqli_query($db, $requete4);
 
         //lien C1
-        $requete11 = "UPDATE Diagnostics SET C1Q1 = '$C1Q1',C1Q2 = '$C1Q2',C1Q3 = '$C1Q3',C1Q4 = '$C1Q4' WHERE Id_critere_bis = '$Id_Critere' ";
+        $requete11 = "UPDATE Diagnostics SET C1Q1 = '$C1Q1',C1Q2 = '$C1Q2',C1Q3 = '$C1Q3',C1Q4 = '$C1Q4',C2Q1 = '$C2Q1',C2Q2 = '$C2Q2',C2Q3 = '$C2Q3',C2Q4 = '$C2Q4' WHERE Id_critere_bis = '$Id_Critere' ";
         $result11 = mysqli_query($db, $requete11);//or //die (mysqli_error($link));
 
 

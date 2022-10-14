@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="sauv">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="lien tableau note">
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_relations_humaines.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +86,6 @@
       <workItem from="1665501776996" duration="77000" />
       <workItem from="1665556955166" duration="19936000" />
       <workItem from="1665645218147" duration="12878000" />
-    </task>
-    <task id="LOCAL-00004" summary="initial commit modif nulle">
-      <created>1665152540398</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665152540398</updated>
     </task>
     <task id="LOCAL-00005" summary="initial commit modif nulle">
       <created>1665152797737</created>
@@ -427,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665730505780</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="lien tableau note">
+      <created>1665732606124</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665732606124</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +470,8 @@
     <MESSAGE value="modif diagnostic suivi" />
     <MESSAGE value="modif recuperation donnees diagnostic" />
     <MESSAGE value="sauv" />
-    <option name="LAST_COMMIT_MESSAGE" value="sauv" />
+    <MESSAGE value="lien tableau note" />
+    <option name="LAST_COMMIT_MESSAGE" value="lien tableau note" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

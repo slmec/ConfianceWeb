@@ -11,7 +11,7 @@ session_start();
 
 <form action="../Modele/verification_questionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
 
-    <h1>Le premier critère concerne la fragilisation de la reconnaissance.</h1>
+    <h1>La reconnaissance : </h1>
     <p>Le système à base d'IA réduit-il la distinction entre les novices et les experts ?
         Oui <input type="radio" name="C1Q1" value="0" checked>
         Non <input type="radio" name="C1Q1" value="1">  <br>
@@ -24,30 +24,30 @@ session_start();
         Oui <input type="radio" name="C1Q3" value="0" checked>
         Non <input type="radio" name="C1Q3" value="1">  <br>
     </p>
-    <p>L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur?
+    <p>L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ?
         Oui <input type="radio" name="C1Q4" value="0" checked>
         Non <input type="radio" name="C1Q4" value="1">  <br>
     </p>
 
-    <h1>Le deuxième critère concerne le désengagement relationnel. </h1>
+    <h1>Les relations humaines : </h1>
     <p>La technologie introduit-elle une communication entre des machines ?
         Oui <input type="radio" name="C2Q1" value="0" checked>
         Non <input type="radio" name="C2Q1" value="1">  <br>
     </p>
-    <p>La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes?
+    <p>La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ?
         Oui <input type="radio" name="C2Q2" value="0" checked>
         Non <input type="radio" name="C2Q2" value="1">  <br>
     </p>
-    <p>La technologie intervient-elle dans la communication entre plusieurs personnes?
+    <p>La technologie intervient-elle dans la communication entre plusieurs personnes ?
         Oui <input type="radio" name="C2Q3" value="0" checked>
         Non <input type="radio" name="C2Q3" value="1">  <br>
     </p>
-    <p>Le  système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ?
+    <p>Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ?
         Oui <input type="radio" name="C2Q4" value="0" checked>
         Non <input type="radio" name="C2Q4" value="1">  <br>
     </p>
 
-    <h1>Le troisième critère concerne la surveillance.</h1>
+    <h1>La surveillance : </h1>
     <p>Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ?
         Oui <input type="radio" name="C3Q1" value="0" checked>
         Non <input type="radio" name="C3Q1" value="1">  <br>
@@ -65,7 +65,7 @@ session_start();
         Non <input type="radio" name="C3Q4" value="0">  <br>
     </p>
 
-    <h1>Le quatrième critère concerne la perte d'autonomie.</h1>
+    <h1>L'autonomie : </h1>
     <p>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ?
         Oui <input type="radio" name="C4Q1" value="0" checked>
         Non <input type="radio" name="C4Q1" value="1">  <br>
@@ -83,7 +83,7 @@ session_start();
         Non <input type="radio" name="C4Q4" value="0">  <br>
     </p>
 
-    <h1>Le cinquième critère concerne le sentiment de dépossession.</h1>
+    <h1>Le savoir-faire : </h1>
     <p>Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine?
         Oui <input type="radio" name="C5Q1" value="0" checked>
         Non <input type="radio" name="C5Q1" value="1">  <br>
@@ -101,7 +101,7 @@ session_start();
         Non <input type="radio" name="C5Q4" value="1">  <br>
     </p>
 
-    <h1>Le sixième critère concerne la déresponsabilité.</h1>
+    <h1>La responsabilité : </h1>
     <p>L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?
         Oui <input type="radio" name="C6Q1" value="0" checked>
         Non <input type="radio" name="C6Q1" value="1">  <br>

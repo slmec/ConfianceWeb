@@ -13,6 +13,7 @@
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<title></title>
+
 </head>
 <body onload="init();">
     <?php
@@ -112,9 +113,17 @@
     </script>
 
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Implication C1.php">
-            <button type="submit" value="Les critères de risques sociaux" class="button">
-                Les critères de risques sociaux
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_reconnaissance.php">
+            <button type="submit" value="La reconnaissance" class="button">
+                La reconnaissance
+            </button>
+        </form>
+    </div>
+
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_relations_humaines.php">
+            <button type="submit" value="Les relations humaines" class="button">
+                Les relations humaines
             </button>
         </form>
     </div>
@@ -127,52 +136,6 @@ $Id_Critere = $_SESSION['id_Critere'];
     $row = mysqli_fetch_assoc($resultat);
 
 ?>
-    <h1>Tableau </h1>
-    <table>
-        <tr>
-            <td> Question </td>
-            <td> 1 </td>
-            <td> 2 </td>
-            <td> 3 </td>
-            <td> 4 </td>
-        </tr>
-        <?php
-        $i = 1;
-        while ($i <= 4) {
-            if ($row['C1Q' . $i] == 0) {
-                echo 'Oui';
-                $i++;
-            }
-            if ($row['C1Q' . $i] == 1) {
-                echo 'Non';
-                $i++;
-            }
-        }?>
-        <tr>
-            <td> Vos reponses </td>
-            <td>
-
-
-            </td>
-            <td> 2 </td>
-            <td> 3 </td>
-            <td> 4 </td>
-        </tr>
-        <tr>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-        </tr>
-        <tr>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-        </tr>
-    </table>
 
 
 <form action="connexion.php">
