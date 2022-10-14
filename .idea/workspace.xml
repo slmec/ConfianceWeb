@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="sauv">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif modif diagnostic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,8 @@
       <workItem from="1665471789086" duration="18684000" />
       <workItem from="1665501776996" duration="77000" />
       <workItem from="1665556955166" duration="19936000" />
-      <workItem from="1665645218147" duration="12878000" />
-    </task>
-    <task id="LOCAL-00004" summary="initial commit modif nulle">
-      <created>1665152540398</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665152540398</updated>
+      <workItem from="1665645218147" duration="12920000" />
+      <workItem from="1665733134113" duration="6256000" />
     </task>
     <task id="LOCAL-00005" summary="initial commit modif nulle">
       <created>1665152797737</created>
@@ -420,14 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665667284935</updated>
     </task>
-    <task id="LOCAL-00052" summary="sauv">
-      <created>1665730505780</created>
+    <task id="LOCAL-00052" summary="modif debut css">
+      <created>1665671793057</created>
       <option name="number" value="00052" />
       <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1665730505780</updated>
+      <updated>1665671793058</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="modif modif diagnostic">
+      <created>1665737009356</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665737009356</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,8 +467,9 @@
     <MESSAGE value="modif" />
     <MESSAGE value="modif diagnostic suivi" />
     <MESSAGE value="modif recuperation donnees diagnostic" />
-    <MESSAGE value="sauv" />
-    <option name="LAST_COMMIT_MESSAGE" value="sauv" />
+    <MESSAGE value="modif debut css" />
+    <MESSAGE value="modif modif diagnostic" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif modif diagnostic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
