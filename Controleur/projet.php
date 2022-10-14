@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    include('../Vue/HautDePage.php')
+    include('../Vue/nav.php')
 	?>
      
     <h1>MAIAT : L&#39;&eacute;quipe</h1>
@@ -42,7 +42,7 @@
     <p>&nbsp;</p>
 
     <?php
-    include('../Vue/BasDePage.php')
+    include('../Vue/footer.php')
 	?>
 </body>
 </html>

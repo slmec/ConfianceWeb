@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-    include('../Vue/HautDePage.php')
+    include('../Vue/nav.php')
 	?>
 
     <h1>MAIAT : Espace de connexion&nbsp;</h1>
@@ -44,7 +44,7 @@
     <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
 
     <?php
-    include('../Vue/BasDePage.php')
+    include('../Vue/footer.php')
         ?>
 </body>
 </html>
