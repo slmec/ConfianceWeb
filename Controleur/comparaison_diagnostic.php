@@ -65,7 +65,7 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
         $diagnostic2_nom = $row2[6];
     }
     else {
-        unset($critere2);
+        unset($diagnostics[1]);
     }
     if (isset($diagnostics[2])) {
         $resultat3 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[2]'") or die ( "<br>BUG".mysqli_error($db));
@@ -79,7 +79,7 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
         $diagnostic3_nom = $row2[6];
     }
     else {
-        unset($critere3);
+        unset($diagnostics[2]);
     }
 ?>
 
