@@ -36,7 +36,7 @@
 
     <p>&nbsp;</p>
 
-    <p>Vous souhaitez proc&eacute;der au test sans laisser de trace ? <a href="sansidentification.php">Cliquez-ici</a></p>
+    <p>Vous souhaitez proc&eacute;der au test sans laisser de trace ? <a href="testquestionnaire_sansid.php">Cliquez-ici</a></p>
 
     <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
 

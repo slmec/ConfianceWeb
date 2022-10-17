@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif affichage diagnostics">
-      <change afterPath="$PROJECT_DIR$/Controleur/tesquestionnaire_sansid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modele/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif sans identification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/tesquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +92,7 @@
       <workItem from="1665645218147" duration="12920000" />
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
-      <workItem from="1665993433440" duration="7784000" />
-    </task>
-    <task id="LOCAL-00010" summary="modif liens">
-      <created>1665394840642</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1665394840642</updated>
+      <workItem from="1665993433440" duration="8755000" />
     </task>
     <task id="LOCAL-00011" summary="modif hautdepage">
       <created>1665395162072</created>
@@ -436,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666008733198</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="modif sans identification">
+      <created>1666009836633</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1666009836633</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit modif nulle" />
     <MESSAGE value="modif lien" />
     <MESSAGE value="modif bas de page" />
@@ -479,7 +479,8 @@
     <MESSAGE value="modif modif diagnostic" />
     <MESSAGE value="modif affichage diagnostic" />
     <MESSAGE value="modif affichage diagnostics" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif affichage diagnostics" />
+    <MESSAGE value="modif sans identification" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif sans identification" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

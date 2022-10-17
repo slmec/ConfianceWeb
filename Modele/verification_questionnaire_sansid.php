@@ -141,5 +141,5 @@ $critere5 = $_SESSION['critere_Sentiment_Depossession'];
 $critere6 = $_SESSION['critere_Deresponsabilite'];
 $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
 
-header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
+header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic_sansid.php');
 ?>
