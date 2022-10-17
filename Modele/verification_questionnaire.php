@@ -175,7 +175,7 @@ $C6Q4 = $_POST['C6Q4'];
 
         $Id_Critere = $_SESSION['id_Critere'];
 
-        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','','','','','','','','','','','','','','','','','','','','','')";
+        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','','','','','','','','','','','','','','','','','','','','','','','','')";
         $resultat3 = mysqli_query($db, $requete3);
 
         $Id_Utilisateur = $_SESSION['id_Utilisateur'];

@@ -156,14 +156,6 @@
         </form>
     </div>
 
-<?php
-$Id_Critere = $_SESSION['id_Critere'];
-
-    $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
-    $resultat = mysqli_query($db, $requete);
-    $row = mysqli_fetch_assoc($resultat);
-    ?>
-
 <form action="connexion.php">
     <button type="submit">Retour au tableau de bord </button>
 </form>
