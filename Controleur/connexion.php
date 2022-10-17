@@ -29,8 +29,9 @@
         $row = mysqli_fetch_assoc($resultat) ;
       
         echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom'];
-        echo "<br>"."Que souhaitez-vous faire ?"."<br>";
-    ?>
+        ?>
+    <h1>Votre tableau de bord </h1>
+    <H2>Que souhaitez-vous faire ? </H2>
         <form action = "diagnostic_new.php">
 			<input type="submit" value="Cr&eacute;er un nouveau diagnostic"> 
 		</form>

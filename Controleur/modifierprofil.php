@@ -47,7 +47,7 @@
 			<input type="submit" value="Retour sur le profil"> 
 		</form>
     <form action = "connexion.php">
-			<input type="submit" value="Retour sur l'accueil de connexion"> 
+			<input type="submit" value="Retour au tableau de bord">
 		</form>
 
 

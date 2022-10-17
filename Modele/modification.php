@@ -23,28 +23,28 @@
           $new_nom = $_POST['new_nom'];
           $requete = "UPDATE Utilisateurs SET Nom = '$new_nom'  WHERE Id_utilisateur = '$Id_Utilisateur' ";
           $result =mysqli_query( $link, $requete );//or //die (mysqli_error($link));
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/profil.php');
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php');
         }
         if($_POST['new_prenom'] !== "")
         {
           $new_prenom = $_POST['new_prenom'];
           $requete = "UPDATE Utilisateurs SET Prenom = '$new_prenom'  WHERE Id_utilisateur = '$Id_Utilisateur' ";
           $result =mysqli_query( $link, $requete );//or //die (mysqli_error($link));
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/profil.php');
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php');
         }
         if($_POST['new_role'] !== "")
         {
             $new_role = $_POST['new_role'];
             $requete = "UPDATE Utilisateurs SET Roles = '$new_role'  WHERE Id_utilisateur = '$Id_Utilisateur' ";
             $result =mysqli_query( $link, $requete );//or //die (mysqli_error($link));
-              header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/profil.php');
+              header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php');
           }
         if($_POST['new_organisme'] !== "")
         {
             $new_organisme = $_POST['new_organisme'];
             $requete = "UPDATE Utilisateurs SET Organisme = '$new_organisme'  WHERE Id_utilisateur = '$Id_Utilisateur' ";
             $result =mysqli_query( $link, $requete );//or //die (mysqli_error($link));
-              header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/profil.php');
+              header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php');
         }         
         if($_POST['new_organisme'] == "" && $_POST['new_nom'] == "" && $_POST['new_prenom'] == "" &&$_POST['new_role'] == "")
         {

@@ -139,7 +139,7 @@ $Id_Critere = $_SESSION['id_Critere'];
 
 
 <form action="connexion.php">
-    <button type="submit">Retour à l'accueil</button>
+    <button type="submit">Retour au tableau de bord </button>
 </form>
 
 </body>

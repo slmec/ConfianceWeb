@@ -182,7 +182,7 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
     })
 </script>
 <form action="connexion.php">
-    <button type="submit">Retour à l'accueil</button>
+    <button type="submit">Retour au tableau de bord </button>
 </form>
 <!--onload="init();-->
 </body>
