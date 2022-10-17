@@ -64,12 +64,12 @@
             type: "radar",
             data: {
                 labels: [
-                    "Fragilisation de la reconnaissance",
-                    "Désengagement relationnel",
-                    "Surveillance",
-                    "Perte d'autonomie",
-                    "Sentiment de dépossession",
-                    "Déresponsabilisation"
+                    "La reconnaissance",
+                    "Les relations humaines",
+                    "La surveillance",
+                    "L'autonomie",
+                    "Le savoir-faire",
+                    "La responsabilité"
                 ],
                 datasets: [{
                     label: 'Diagnostic 1',
