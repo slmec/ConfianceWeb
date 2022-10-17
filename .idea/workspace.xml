@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="implications surveillance">
-      <change afterPath="$PROJECT_DIR$/Controleur/implications_perte_autonomie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controleur/implications_responsabilité.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controleur/implications_savoir_faire.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif affichage diagnostics">
+      <change afterPath="$PROJECT_DIR$/Controleur/tesquestionnaire_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_surveillance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_surveillance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Controleur" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,8 +89,16 @@
       <workItem from="1665501776996" duration="77000" />
       <workItem from="1665556955166" duration="19936000" />
       <workItem from="1665645218147" duration="12920000" />
-      <workItem from="1665733134113" duration="6728000" />
-      <workItem from="1665996970835" duration="6368000" />
+      <workItem from="1665733134113" duration="6787000" />
+      <workItem from="1665989313968" duration="11000" />
+      <workItem from="1665993433440" duration="7784000" />
+    </task>
+    <task id="LOCAL-00010" summary="modif liens">
+      <created>1665394840642</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665394840642</updated>
     </task>
     <task id="LOCAL-00011" summary="modif hautdepage">
       <created>1665395162072</created>
@@ -398,42 +408,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665759581604</updated>
     </task>
-    <task id="LOCAL-00055" summary="modif text index">
-      <created>1665990373401</created>
+    <task id="LOCAL-00055" summary="modif modif diagnostic">
+      <created>1665760054925</created>
       <option name="number" value="00055" />
       <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1665990373401</updated>
+      <updated>1665760054925</updated>
     </task>
-    <task id="LOCAL-00056" summary="modif text identification">
-      <created>1665990491787</created>
+    <task id="LOCAL-00056" summary="modif affichage diagnostic">
+      <created>1665999136700</created>
       <option name="number" value="00056" />
       <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1665990491787</updated>
+      <updated>1665999136701</updated>
     </task>
-    <task id="LOCAL-00057" summary="ouverture onglet index">
-      <created>1665990662098</created>
+    <task id="LOCAL-00057" summary="modif affichage diagnostics">
+      <created>1666007867943</created>
       <option name="number" value="00057" />
       <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1665990662098</updated>
+      <updated>1666007867943</updated>
     </task>
-    <task id="LOCAL-00058" summary="Bouton &quot;retour tableau de bord&quot;">
-      <created>1665991186165</created>
+    <task id="LOCAL-00058" summary="modif affichage diagnostics">
+      <created>1666008733198</created>
       <option name="number" value="00058" />
       <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1665991186165</updated>
+      <updated>1666008733198</updated>
     </task>
-    <task id="LOCAL-00059" summary="implications surveillance">
-      <created>1665999016297</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1665999016297</updated>
-    </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,6 +454,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="initial commit modif nulle" />
+    <MESSAGE value="modif lien" />
+    <MESSAGE value="modif bas de page" />
     <MESSAGE value="modif projet et hautdepage" />
     <MESSAGE value="modif liens" />
     <MESSAGE value="modif hautdepage" />
@@ -470,13 +477,9 @@
     <MESSAGE value="modif recuperation donnees diagnostic" />
     <MESSAGE value="modif debut css" />
     <MESSAGE value="modif modif diagnostic" />
-    <MESSAGE value="lien tableau note" />
-    <MESSAGE value="modif text index" />
-    <MESSAGE value="modif text identification" />
-    <MESSAGE value="ouverture onglet index" />
-    <MESSAGE value="Bouton &quot;retour tableau de bord&quot;" />
-    <MESSAGE value="implications surveillance" />
-    <option name="LAST_COMMIT_MESSAGE" value="implications surveillance" />
+    <MESSAGE value="modif affichage diagnostic" />
+    <MESSAGE value="modif affichage diagnostics" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif affichage diagnostics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
