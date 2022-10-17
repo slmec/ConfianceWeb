@@ -27,6 +27,7 @@
     $critere4 = $_SESSION['critere_Perte_Autonomie'];
     $critere5 = $_SESSION['critere_Sentiment_Depossession'];
     $critere6 = $_SESSION['critere_Deresponsabilite'];
+    $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']
 
 
     /*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
@@ -72,7 +73,7 @@
                     "La responsabilité"
                 ],
                 datasets: [{
-                    label: 'Diagnostic 1',
+                    label: '<?=$Nom_Diagnostic?>',
                     data: [
                         <?= $critere1?>,
                         <?= $critere2?>,
