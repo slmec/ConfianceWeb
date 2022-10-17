@@ -8,9 +8,6 @@
 	<title></title>
 </head>
 <body>
-    <?php
-    include('../Vue/nav.php')
-	?>
 
     <h1>MAIAT : Espace de connexion&nbsp;</h1>
 
