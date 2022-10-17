@@ -22,7 +22,6 @@ $Id_Critere = $_SESSION['id_Critere'];
 $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
-
 ?>
 <h1>La reconnaissance</h1>
 
@@ -95,7 +94,7 @@ $row = mysqli_fetch_assoc($resultat);
 </table>
 <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
 
-<form action="../Modele/ajout_analyse_C1.php" method="post" name="profil" target="_self">
+<form action="" method="post" name="profil" target="_self">
     <table>
         <tr>
             <td> Interpretation personnelle de l'évaluation </td>
@@ -111,6 +110,7 @@ $row = mysqli_fetch_assoc($resultat);
             <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
         </tr>
     </table>
+
 </form>
 
 

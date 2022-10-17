@@ -16,8 +16,8 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     $a = 0;
     while ($i <= 4) {
         if (isset($_POST['C1Q' . $i])) {
-            $Oui[$i] = intval($_POST['C1Q' . $i]);
-            $a = $a + $Oui[$i];
+            $rep[$i] = $_POST['C1Q' . $i];
+            $a = $a + $rep[$i];
             $i++;
         } else {
             unset($_POST['C1Q' . $i]);
@@ -51,7 +51,17 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 // note C2
         $i = 1;
         $a = 0;
-        while ($i <= 4) {
+while ($i <= 4) {
+    if (isset($_POST['C2Q' . $i])) {
+        $rep[$i] = $_POST['C2Q' . $i];
+        $a = $a + $rep[$i];
+        $i++;
+    } else {
+        unset($_POST['C2Q' . $i]);
+        $i++;
+    }
+}
+        /* while ($i <= 4) {
             if (isset($_POST['C2Q' . $i])) {
                 $Oui[$i] = intval($_POST['C2Q' . $i]);
                 $a = $a + $Oui[$i];
@@ -60,7 +70,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
                 unset($_POST['C2Q' . $i]);
                 $i++;
             }
-        }
+        } */
 
         $_SESSION['critere_Desengagement_Relationnel'] = $a;
 
@@ -72,16 +82,16 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 // note C3
         $i = 1;
         $a = 0;
-        while ($i <= 4) {
-            if (isset($_POST['C3Q' . $i])) {
-                $Oui[$i] = intval($_POST['C3Q' . $i]);
-                $a = $a + $Oui[$i];
-                $i++;
-            } else {
-                unset($_POST['C3Q' . $i]);
-                $i++;
-            }
-        }
+while ($i <= 4) {
+    if (isset($_POST['C3Q' . $i])) {
+        $rep[$i] = $_POST['C3Q' . $i];
+        $a = $a + $rep[$i];
+        $i++;
+    } else {
+        unset($_POST['C3Q' . $i]);
+        $i++;
+    }
+}
 
         $_SESSION['critere_Surveillance'] = $a;
 
@@ -93,16 +103,16 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 // note C4
         $i = 1;
         $a = 0;
-        while ($i <= 4) {
-            if (isset($_POST['C4Q' . $i])) {
-                $Oui[$i] = intval($_POST['C4Q' . $i]);
-                $a = $a + $Oui[$i];
-                $i++;
-            } else {
-                unset($_POST['C4Q' . $i]);
-                $i++;
-            }
-        }
+while ($i <= 4) {
+    if (isset($_POST['C4Q' . $i])) {
+        $rep[$i] = $_POST['C4Q' . $i];
+        $a = $a + $rep[$i];
+        $i++;
+    } else {
+        unset($_POST['C4Q' . $i]);
+        $i++;
+    }
+}
 
         $_SESSION['critere_Perte_Autonomie'] = $a;
 
@@ -113,16 +123,16 @@ $C4Q4 = $_POST['C4Q4'];
 // note C5
         $i = 1;
         $a = 0;
-        while ($i <= 4) {
-            if (isset($_POST['C5Q' . $i])) {
-                $Oui[$i] = intval($_POST['C5Q' . $i]);
-                $a = $a + $Oui[$i];
-                $i++;
-            } else {
-                unset($_POST['C5Q' . $i]);
-                $i++;
-            }
-        }
+while ($i <= 4) {
+    if (isset($_POST['C5Q' . $i])) {
+        $rep[$i] = $_POST['C5Q' . $i];
+        $a = $a + $rep[$i];
+        $i++;
+    } else {
+        unset($_POST['C5Q' . $i]);
+        $i++;
+    }
+}
         $_SESSION['critere_Sentiment_Depossession'] = $a;
 
 $C5Q1 = $_POST['C5Q1'];
@@ -133,16 +143,16 @@ $C5Q4 = $_POST['C5Q4'];
 // note C6
         $i = 1;
         $a = 0;
-        while ($i <= 4) {
-            if (isset($_POST['C6Q' . $i])) {
-                $Oui[$i] = intval($_POST['C6Q' . $i]);
-                $a = $a + $Oui[$i];
-                $i++;
-            } else {
-                unset($_POST['C6Q' . $i]);
-                $i++;
-            }
-        }
+while ($i <= 4) {
+    if (isset($_POST['C6Q' . $i])) {
+        $rep[$i] = $_POST['C6Q' . $i];
+        $a = $a + $rep[$i];
+        $i++;
+    } else {
+        unset($_POST['C6Q' . $i]);
+        $i++;
+    }
+}
 
         $_SESSION['critere_Deresponsabilite'] = $a;
 $C6Q1 = $_POST['C6Q1'];
@@ -175,18 +185,13 @@ $C6Q4 = $_POST['C6Q4'];
 
         $Id_Critere = $_SESSION['id_Critere'];
 
-        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','','','','','','','','','','','','','','','','','','','','','','','','','','','')";
+        $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','".$C1Q1."','".$C1Q2."','".$C1Q3."','".$C1Q4."','','','','".$C2Q1."','".$C2Q2."','".$C2Q3."','".$C2Q4."','".$C3Q1."','".$C3Q2."','".$C3Q3."','".$C3Q4."','".$C4Q1."','".$C4Q2."','".$C4Q3."','".$C4Q4."','".$C5Q1."','".$C5Q2."','".$C5Q3."','".$C5Q4."','".$C6Q1."','".$C6Q2."','".$C6Q3."','".$C6Q4."')";
         $resultat3 = mysqli_query($db, $requete3);
 
         $Id_Utilisateur = $_SESSION['id_Utilisateur'];
 
         $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_Utilisateur . "','" . $Id_Critere . "')";
         $resultat4 = mysqli_query($db, $requete4);
-
-        //lien C1
-        $requete11 = "UPDATE Diagnostics SET C1Q1 = '$C1Q1',C1Q2 = '$C1Q2',C1Q3 = '$C1Q3',C1Q4 = '$C1Q4',C2Q1 = '$C2Q1',C2Q2 = '$C2Q2',C2Q3 = '$C2Q3',C2Q4 = '$C2Q4',C3Q1 = '$C3Q1',C3Q2 = '$C3Q2',C3Q3 = '$C3Q3',C3Q4 = '$C3Q4',C4Q1 = '$C4Q1',C4Q2 = '$C4Q2',C4Q3 = '$C4Q3',C4Q4 = '$C4Q4',C5Q1 = '$C5Q1',C5Q2 = '$C5Q2',C5Q3 = '$C5Q3',C5Q4 = '$C5Q4',C6Q1 = '$C6Q1',C6Q2 = '$C6Q2',C6Q3 = '$C6Q3',C6Q4 = '$C6Q4' WHERE Id_critere_bis = '$Id_Critere' ";
-        $result11 = mysqli_query($db, $requete11);//or //die (mysqli_error($link));
-
 
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
 
