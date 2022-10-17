@@ -16,7 +16,6 @@
 
     <p>&nbsp;</p>
 
-    <h3>Se connecter&nbsp;</h3>
 
     <form action="../Modele/verification.php" method="POST">
           <h1>Connexion</h1>
@@ -33,13 +32,11 @@
           }
           ?>
     
-    <h3>S&#39;inscrire&nbsp;</h3>
-
     <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="inscription.php">Inscrivez-vous</a></p>
 
     <p>&nbsp;</p>
 
-    <p>Vous souhaitez proc&eacute;der au test sans avoir de trace ? <a href="sansidentification.php">Cliquez-ici</a></p>
+    <p>Vous souhaitez proc&eacute;der au test sans laisser de trace ? <a href="sansidentification.php">Cliquez-ici</a></p>
 
     <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
 
