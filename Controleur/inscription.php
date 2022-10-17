@@ -10,10 +10,6 @@
 
 </head>
 <body>
-    <?php
-    include('nav.php')
-	?>
-
     <h1>Devenez membre de MAIAT</h1>
 
     <p>&nbsp;</p>
@@ -40,10 +36,5 @@
     </form>
 
     <p>&nbsp;</p>
-
-    <?php
-    include('footer.php')
-	  ?>
-
 </body>
 </html>
