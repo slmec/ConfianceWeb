@@ -17,11 +17,14 @@ or die('could not connect to database');
         $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
         $email_Utilisateur = $_SESSION['email_Utilisateur'];
         $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
-        $resultat = mysqli_query($db, "SELECT Id_utilisateur FROM Utilisateurs WHERE Email = '$email_Utilisateur' AND MotDePasse = '$mdp_Utilisateur'");
+
+        $resultat = mysqli_query($db, "SELECT Id_utilisateur FROM Utilisateurs WHERE Email = '".$email_Utilisateur."' AND MotDePasse = '".$mdp_Utilisateur."'");
         $row = (mysqli_fetch_assoc($resultat));
         $Id_Utilisateur = $row['Id_utilisateur'];
-        $resultat2 = mysqli_query($db, "SELECT a.Nom FROM Criteres a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '$Id_Utilisateur' AND b.Id_critere = a.Id_critere");
-        if ($_SESSION['Nom_Diagnostic'] !== "") {
+        echo $Id_Utilisateur;
+        $resultat2 = mysqli_query($db, "SELECT a.Nom FROM Criteres a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '".$Id_Utilisateur."' AND b.Id_critere = a.Id_critere");
+
+        if ($Nom_Diagnostic !== "") {
             //On insère le nom du diagnostic dans la table diagnostic
             //$requete = "INSERT INTO Criteres VALUES ('','','','','','','','','','','','','".$Nom_Diagnostic."')";
             //$resultat = mysqli_query($db, $requete);
@@ -32,7 +35,7 @@ or die('could not connect to database');
             //$row = mysqli_fetch_assoc($resultat2);
             //$_SESSION['id_Critere'] = $row['Id_critere'];
             while ($test = mysqli_fetch_assoc($resultat2)){
-                if ($test['Nom'] = $Nom_Diagnostic){
+                if ($test['Nom'] == $Nom_Diagnostic){
                     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=2');
                 }
                 else{
