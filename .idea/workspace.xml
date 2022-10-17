@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif affichage diagnostics">
-      <change afterPath="$PROJECT_DIR$/Controleur/tesquestionnaire_sansid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modele/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="implications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_perte_autonomie.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_perte_autonomie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_surveillance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_surveillance.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

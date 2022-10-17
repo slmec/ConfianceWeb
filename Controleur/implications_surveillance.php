@@ -38,7 +38,7 @@ $row = mysqli_fetch_assoc($resultat);
         <td><?php if ($row['C3Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
         <td><?php if ($row['C3Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
         <td><?php if ($row['C3Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
-        <td><?php if ($row['C3Q4'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+        <td><?php if ($row['C3Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
     </tr>
     <tr>
         <td> fleche </td>
