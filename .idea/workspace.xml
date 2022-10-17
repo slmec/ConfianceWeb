@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif organisation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif inscription">
       <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,14 +88,7 @@
       <workItem from="1665645218147" duration="12920000" />
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
-      <workItem from="1665993433440" duration="12344000" />
-    </task>
-    <task id="LOCAL-00017" summary="modif modif liens">
-      <created>1665402891059</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1665402891059</updated>
+      <workItem from="1665993433440" duration="12642000" />
     </task>
     <task id="LOCAL-00018" summary="modif modif liens">
       <created>1665403393851</created>
@@ -434,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666016792516</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="modif inscription">
+      <created>1666016859778</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016859778</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif projet et hautdepage" />
     <MESSAGE value="modif liens" />
     <MESSAGE value="modif hautdepage" />
     <MESSAGE value="modif projet" />
@@ -477,7 +475,8 @@
     <MESSAGE value="modif des noms du critere" />
     <MESSAGE value="modif identification" />
     <MESSAGE value="modif organisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif organisation" />
+    <MESSAGE value="modif inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif inscription" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
