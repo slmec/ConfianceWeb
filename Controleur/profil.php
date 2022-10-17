@@ -42,7 +42,7 @@
       <p> Nom : <?php echo $_SESSION['nom'] ?>    </p>
       <p> Prénom : <?php echo $_SESSION['prenom'] ?>  </p>
       <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['role'] ?>  </p>
-      <p> Organisme : <?php echo $_SESSION['organisme'] ?>  </p>
+      <p> Organisation : <?php echo $_SESSION['organisme'] ?>  </p>
       <input type="submit" value="Modifier mes informations"> 
       
       </form>  

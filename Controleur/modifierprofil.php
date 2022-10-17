@@ -29,7 +29,7 @@
             <input type="text" placeholder="Modifier mon rôle" name="new_role">
         </p>
         <p> Organisme : <?php echo $_SESSION['organisme'] ?>
-            <input type="text" placeholder="Modifier mon organise" name="new_organisme">
+            <input type="text" placeholder="Modifier mon organisation" name="new_organisme">
         </p>
         <input class="learn-more-btn" type="submit" id='submit' value='Valider la modification' >
     </form>

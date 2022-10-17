@@ -10,10 +10,6 @@
 
 </head>
 <body>
-    <?php
-    include('nav.php')
-	?>
-
     <h1>Devenez membre de MAIAT</h1>
 
     <p>&nbsp;</p>
@@ -32,7 +28,7 @@
 
       <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
 
-      <p>Mon organisme :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
+      <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
 
       <p><input type="checkbox" name="donnees_utilisateur" value="1" />&nbsp;J&#39;accepte le traitement et l&#39;utilisation de mes donn&eacute;es</p>
     
@@ -40,10 +36,5 @@
     </form>
 
     <p>&nbsp;</p>
-
-    <?php
-    include('footer.php')
-	  ?>
-
 </body>
 </html>
