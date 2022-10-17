@@ -38,13 +38,13 @@
     $resultat2 = mysqli_query($link,$requete2);*/
     ?>
 
-    <p> Diagnostic " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
+    <!-- <p> Diagnostic " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
     <p> La fragilisation de la reconnaissance : <?php echo $_SESSION['critere_fragilisation_reconnaissance']?> /4 </p>
     <p> Le desengagement relationnel  : <?php echo $_SESSION['critere_Desengagement_Relationnel']?> /4 </p>
     <p> La surveillance : <?php echo $_SESSION['critere_Surveillance']?> /4 </p>
     <p> La perte d'autonomie : <?php echo $_SESSION['critere_Perte_Autonomie']?> /4 </p>
     <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
-    <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p>
+    <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p> -->
 
     <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
@@ -130,6 +130,27 @@
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_surveillance.php">
             <button type="submit" value="La surveillance" class="button">
                 La surveillance
+            </button>
+        </form>
+    </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_perte_autonomie.php">
+            <button type="submit" value="La perte d'autonomie" class="button">
+               La perte d'autonomie
+            </button>
+        </form>
+    </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_savoir_faire.php">
+            <button type="submit" value="Le savoir faire " class="button">
+                Le savoir faire
+            </button>
+        </form>
+    </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_responsabilité.php">
+            <button type="submit" value="La responsabilité" class="button">
+                La responsabilité
             </button>
         </form>
     </div>
