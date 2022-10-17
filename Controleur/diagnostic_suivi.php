@@ -43,7 +43,7 @@
 if(isset($_GET['erreur'])){
     $err = $_GET['erreur'];
     if($err==1 || $err==2)
-        echo "<p style='color:red'>Veuillez selectionner entre 1 et 2 diagnostics; </p>";
+        echo "<p style='color:red'>Veuillez selectionner entre 1 et 3 diagnostics; </p>";
 }
 ?>
     <!--$rq = "INSERT INTO `Repondre` VALUES ('$Id_Utilisateur', '$Id_Critere')" ;
