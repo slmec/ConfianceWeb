@@ -44,7 +44,7 @@
 			</form>	
 		</div>
 		<div class = "bouton">
-			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">
+			<form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target=_BLANK>
 				<button type="submit" value="C'est à vous" class="button">
                     C'est à vous
                 </button>
