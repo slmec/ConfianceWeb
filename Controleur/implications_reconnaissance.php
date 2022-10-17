@@ -25,6 +25,8 @@ $row = mysqli_fetch_assoc($resultat);
 
 ?>
 <h1>La reconnaissance</h1>
+
+<h3>Les reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -91,6 +93,26 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
+
+<form action="../Modele/ajout_analyse_C1.php" method="post" name="profil" target="_self">
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <input name="C1_interpretation" type="text" /> </td>
+        <td> <input name="C1_plan_action" type="text" /></td>
+        <td> <input name="C1_suivi" type="text" /></td>
+    </tr>
+    <tr>
+        <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+    </tr>
+</table>
+</form>
+
 
 <form action="Resultats_Diagnostic.php" >
     <button type="submit">Retour au resultat </button>
