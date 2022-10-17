@@ -21,8 +21,12 @@
     <?php
     if(isset($_GET['erreur'])){
         $err = $_GET['erreur'];
-        if($err==1 || $err==2)
+        if($err==1){
             echo "<p style='color:red'>Veuillez rentrer un nom pour votre diagnostic </p>";
+        }
+        elseif($err==2){
+            echo "<p style='color:red'>Nom du diagnostic déjà existant, veuillez entrer un autre nom</p>";
+        }
     }
     ?>
 
