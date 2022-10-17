@@ -133,6 +133,27 @@
             </button>
         </form>
     </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_perte_autonomie.php">
+            <button type="submit" value="La perte d'autonomie" class="button">
+               La perte d'autonomie
+            </button>
+        </form>
+    </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_savoir_faire.php">
+            <button type="submit" value="Le savoir faire " class="button">
+                Le savoir faire
+            </button>
+        </form>
+    </div>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_responsabilité.php">
+            <button type="submit" value="La responsabilité" class="button">
+                La responsabilité
+            </button>
+        </form>
+    </div>
 
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
