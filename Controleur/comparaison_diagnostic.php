@@ -18,26 +18,26 @@ or die('could not connect to database');
 <body>
 
 <?php
-if (isset($_POST['ok']) && count($_POST['adv'] ) >= 1 && count($_POST['adv'] )<=3) {
-    //echo ("le nombre est ".count($_POST['adv']));
+    if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3){
+        //echo ("le nombre est ".count($_POST['adv']));
 
-    if(isset($_POST['adv']))
-    {
-         echo '<p>Votre choix : </p>';
-        // $choix est l'id du diagnostique
-        foreach ($_POST['adv'] as $choix)
-        {
-           // echo $choix.'<br/>';
+        if(isset($_POST['adv'])){
+            echo '<p>Votre choix : </p>';
+            // $choix est l'id du diagnostique
+            foreach ($_POST['adv'] as $choix){
+               // echo $choix.'<br/>';
+            }
         }
     }
-}
-if (isset($_POST['ok']) && count($_POST['adv'] ) >3 ) {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
-}
-if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
-}
+    if (isset($_POST['ok']) && count($_POST['adv'] ) >3 ) {
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+    }
+    if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+    }
 ?>
+
+
 
 <?php
     $diagnostics = $_POST['adv'];
@@ -63,7 +63,7 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
         $diagnostic2_critere5 = $row2[4];
         $diagnostic2_critere6 = $row2[5];
         $diagnostic2_nom = $row2[6];
-    }
+        }
     else {
         unset($diagnostics[1]);
     }
@@ -76,12 +76,14 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
         $diagnostic3_critere4 = $row3[3];
         $diagnostic3_critere5 = $row3[4];
         $diagnostic3_critere6 = $row3[5];
-        $diagnostic3_nom = $row2[6];
+        $diagnostic3_nom = $row3[6];
     }
     else {
         unset($diagnostics[2]);
     }
 ?>
+
+
 
 <div class="chart-container">
     <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
@@ -101,15 +103,15 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
         type: "radar",
         data: {
             labels: [
-                "Fragilisation de la reconnaissance",
-                "Désengagement relationnel",
-                "Surveillance",
-                "Perte d'autonomie",
-                "Sentiment de dépossession",
-                "Déresponsabilisation"
+                "La reconnaissance",
+                "Les relations humaines",
+                "La surveillance",
+                "L'autonomie",
+                "Le savoir-faire",
+                "La responsabilité"
             ],
             datasets: [{
-                label: <?=$diagnostic1_nom?>,
+                label: '<?=$diagnostic1_nom?>',
                 data: [
                     <?=$diagnostic1_critere1?>,
                     <?=$diagnostic1_critere2?>,
@@ -125,25 +127,25 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
                 pointHoverBorderColor: 'rgb(255, 99, 132)',
-            }, {
-                label: <?=$diagnostic2_nom?>,
+            },{
+                label: '<?=$diagnostic2_nom?>',
                 data: [
-                    <?=$diagnostic2_critere1?>,
-                    <?=$diagnostic2_critere2?>,
-                    <?=$diagnostic2_critere3?>,
-                    <?=$diagnostic2_critere4?>,
-                    <?=$diagnostic2_critere5?>,
-                    <?=$diagnostic2_critere6?>
-                ],
+                <?=$diagnostic2_critere1?>,
+                <?=$diagnostic2_critere2?>,
+                <?=$diagnostic2_critere3?>,
+                <?=$diagnostic2_critere4?>,
+                <?=$diagnostic2_critere5?>,
+                <?=$diagnostic2_critere6?>
+            ],
                 fill: true,
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
                 borderColor: 'rgb(54, 162, 235)',
                 pointBackgroundColor: 'rgb(54, 162, 235)',
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(54, 162, 235)'
+                pointHoverBorderColor: 'rgb(54, 162, 235)',
             },{
-                label: <?=$diagnostic3_nom?>,
+                label: '<?=$diagnostic3_nom?>',
                 data: [
                     <?=$diagnostic3_critere1?>,
                     <?=$diagnostic3_critere2?>,
@@ -153,12 +155,13 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
                     <?=$diagnostic3_critere6?>
                 ],
                 fill: true,
-                backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                borderColor: 'rgb(54, 162, 235)',
-                pointBackgroundColor: 'rgb(54, 162, 235)',
+                backgroundColor: 'rgba(255, 140, 0, 0.2)',
+                borderColor: 'rgb(255,140,0)',
+                pointBackgroundColor: 'rgb(255,140,0)',
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(54, 162, 235)'],
+                pointHoverBorderColor: 'rgb(255,140,0)',
+            }],
         },
         options: {
             scales: {
