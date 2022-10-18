@@ -15,7 +15,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <title></title>
 
 </head>
-<body onload="init();">
+<body >
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
 
@@ -24,6 +24,7 @@ $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
 
 ?>
+
 <h1>La responsabilité</h1>
 <table>
     <tr>
