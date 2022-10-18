@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="implication san id">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif cryptage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +91,7 @@
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
-      <workItem from="1666075403690" duration="8866000" />
+      <workItem from="1666075403690" duration="10590000" />
     </task>
     <task id="LOCAL-00027" summary="modif HautDePage bouton">
       <created>1665405814779</created>
@@ -427,12 +429,12 @@
       <option name="project" value="LOCAL" />
       <updated>1666084638024</updated>
     </task>
-    <task id="LOCAL-00075" summary="implication san id">
-      <created>1666097395315</created>
+    <task id="LOCAL-00075" summary="modif cryptage">
+      <created>1666097338665</created>
       <option name="number" value="00075" />
       <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1666097395315</updated>
+      <updated>1666097338666</updated>
     </task>
     <option name="localTasksCounter" value="76" />
     <servers />
@@ -476,8 +478,8 @@
     <MESSAGE value="modif verification nom diagnostic" />
     <MESSAGE value="modif mdp crypte" />
     <MESSAGE value="modif probleme connexion" />
-    <MESSAGE value="implication san id" />
-    <option name="LAST_COMMIT_MESSAGE" value="implication san id" />
+    <MESSAGE value="modif cryptage" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif cryptage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

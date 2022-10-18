@@ -11,36 +11,36 @@
 </head>
 <body>
     <h1>Devenez membre de MAIAT</h1>
-
-    <p>&nbsp;</p>
-
-
     <h3>Formulaire d&#39;inscription :</h3>
 
     <form action="inscription2.php" method="post" name="profil" target="_self">
-      <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
+        <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
 
-      <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
+        <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
 
-      <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
-      
-      <p>Mot de passe :&nbsp;<input name="mdp_utilisateur" type="password" /></p>
+        <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
 
-      <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
+        <p>Mot de passe :&nbsp;<input name="mdp_utilisateur" type="password" /></p>
 
-      <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
+        <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
 
-      <p><input type="checkbox" name="donnees_utilisateur" value="1" />&nbsp;J&#39;accepte le traitement et l&#39;utilisation de mes donn&eacute;es</p>
-    
-      <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
+        <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
+
+        <p><input type="checkbox" name="donnees_utilisateur" value="1" />&nbsp;J&#39;accepte le traitement et l&#39;utilisation de mes donn&eacute;es</p>
+
+        <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
     </form>
 
     <?php
-    if(isset($_GET['erreur'])){
-        $err = $_GET['erreur'];
-        if($err==1 )
-            echo "<p style='color:red'>Vous n'avez pas rempli tous les champs</p>";
-    }
+        if(isset($_GET['erreur'])){
+            $err = $_GET['erreur'];
+            if($err==1 ){
+                echo "<p style='color:red'>Vous n'avez pas rempli tous les champs</p>";
+            }
+            elseif($err==2){
+                echo "<p style='color:red'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
+            }
+        }
     ?>
 </body>
 </html>
