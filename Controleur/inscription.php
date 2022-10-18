@@ -35,6 +35,12 @@
       <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
     </form>
 
-    <p>&nbsp;</p>
+    <?php
+    if(isset($_GET['erreur'])){
+        $err = $_GET['erreur'];
+        if($err==1 )
+            echo "<p style='color:red'>Vous n'avez pas rempli tous les champs</p>";
+    }
+    ?>
 </body>
 </html>

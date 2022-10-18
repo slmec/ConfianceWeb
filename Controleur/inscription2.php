@@ -12,6 +12,7 @@
    mysqli_select_db($link, "Confiance" );
     if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
+
     $nom_utilisateur = $_POST['nom_utilisateur'];
     $prenom_utilisateur = $_POST['prenom_utilisateur'];
     $email_utilisateur = $_POST['email_utilisateur'];
@@ -21,18 +22,17 @@
     $organisme_utilisateur = $_POST['organisme_utilisateur'];
     $donnees_utilisateur = $_POST['donnees_utilisateur'];
 
-    $requete = "INSERT INTO Utilisateurs VALUES ('','$nom_utilisateur','$prenom_utilisateur','$email_utilisateur','$mdp_utilisateur','$role_utilisateur','$organisme_utilisateur','$donnees_utilisateur')";
-    $result =mysqli_query( $link, $requete )or die (mysqli_error($link)); //exécution de la requête
 
      //fermer la connexion à la BDD 
-    
-
-    
-   ?>
+  ?>
 
 </head>
 <body>
-
+<?php
+    if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_Utilisateur !== "" && $mdp_Utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== "" && $donnees_utilisateur !== "" ) {
+        $requete = "INSERT INTO Utilisateurs VALUES ('','$nom_utilisateur','$prenom_utilisateur','$email_utilisateur','$mdp_utilisateur','$role_utilisateur','$organisme_utilisateur','$donnees_utilisateur')";
+        $result = mysqli_query($link, $requete) or die (mysqli_error($link)); //exécution de la requête
+        ?>
     <h1>Devenez membre de MAIAT</h1>
 
     <p>&nbsp;</p>
@@ -40,7 +40,12 @@
     <h3>Vous etes bien inscrit ! </h3>
 
     <p> Maintenant vous pouvez vous  <a href="identification.php">Connecter</a></p>
-    
+
+    <?php }
+            else
+    {
+       header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php?erreur=1'); // utilisateur ou mot de passe vide
+    }?>
 
 
 </body>
