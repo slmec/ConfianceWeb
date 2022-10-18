@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif erreur diagnostic nom">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="lien analyse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

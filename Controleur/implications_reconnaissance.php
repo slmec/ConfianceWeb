@@ -94,7 +94,7 @@ $row = mysqli_fetch_assoc($resultat);
 </table>
 <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
 
-<form action="" method="post" name="profil" target="_self">
+<form action="../Modele/ajout_analyse_C1.php" method="post" >
     <table>
         <tr>
             <td> Interpretation personnelle de l'évaluation </td>
