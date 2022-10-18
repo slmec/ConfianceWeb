@@ -29,7 +29,7 @@
 </head>
 <body>
 <?php
-    if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_Utilisateur !== "" && $mdp_Utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== "" && $donnees_utilisateur !== "" ) {
+    if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_utilisateur !== "" && $mdp_utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== "" && $donnees_utilisateur !== "" ) {
         $requete = "INSERT INTO Utilisateurs VALUES ('','$nom_utilisateur','$prenom_utilisateur','$email_utilisateur','$mdp_utilisateur','$role_utilisateur','$organisme_utilisateur','$donnees_utilisateur')";
         $result = mysqli_query($link, $requete) or die (mysqli_error($link)); //exécution de la requête
         ?>
