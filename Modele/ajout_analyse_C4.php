@@ -32,7 +32,7 @@ if($C4_interpretation !== "" && $C4_plan_action !== ""&&$C4_suivi !== "") {
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
 }
 else {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_perte_autonomie.php?erreur=1');
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C4.php?erreur=1');
 }
 
 ?>

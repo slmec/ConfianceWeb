@@ -32,7 +32,7 @@ if($C6_interpretation !== "" && $C6_plan_action !== ""&&$C6_suivi !== "") {
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
 }
 else {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_responsabilité.php?erreur=1');
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C6.php?erreur=1');
 }
 
 ?>
