@@ -89,14 +89,8 @@
       <workItem from="1665645218147" duration="12920000" />
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
-      <workItem from="1665993433440" duration="16113000" />
-    </task>
-    <task id="LOCAL-00021" summary="modif modif liens">
-      <created>1665403621569</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1665403621569</updated>
+      <workItem from="1665993433440" duration="16244000" />
+      <workItem from="1666075403690" duration="2755000" />
     </task>
     <task id="LOCAL-00022" summary="modif modif liens">
       <created>1665403756051</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666019300165</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="modif erreur diagnostic nom">
+      <created>1666020655510</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1666020655510</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
