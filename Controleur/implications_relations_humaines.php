@@ -93,7 +93,33 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
 
+<form action="../Modele/ajout_analyse_C2.php" method="post" >
+    <table>
+        <tr>
+            <td> Interpretation personnelle de l'évaluation </td>
+            <td> Plan d'action </td>
+            <td> Suivi à N+ ...</td>
+        </tr>
+        <tr>
+            <td> <input name="C2_interpretation" type="text" /> </td>
+            <td> <input name="C2_plan_action" type="text" /></td>
+            <td> <input name="C2_suivi" type="text" /></td>
+        </tr>
+        <tr>
+            <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+        </tr>
+    </table>
+
+</form>
+<?php
+if(isset($_GET['erreur'])){
+    $err = $_GET['erreur'];
+    if($err==1 )
+        echo "<p style='color:red'> Veuillez remplir tous les champs de l'analyse </p>";
+}
+?>
 <form action="Resultats_Diagnostic.php" >
     <button type="submit">Retour au resultat </button>
 </form>

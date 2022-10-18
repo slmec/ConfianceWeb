@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif verification nom diagnostic">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="analyse">
+      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testdiagramme.php" beforeDir="false" afterPath="$PROJECT_DIR$/Testdiagramme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_perte_autonomie.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_perte_autonomie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_relations_humaines.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_relations_humaines.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_responsabilité.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_responsabilité.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_savoir_faire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_savoir_faire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_surveillance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_surveillance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +102,7 @@
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
-      <workItem from="1666075403690" duration="4925000" />
+      <workItem from="1666075403690" duration="2755000" />
     </task>
     <task id="LOCAL-00023" summary="modif modif liens">
       <created>1665404125696</created>
@@ -429,12 +440,12 @@
       <option name="project" value="LOCAL" />
       <updated>1666020655510</updated>
     </task>
-    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
-      <created>1666078268145</created>
+    <task id="LOCAL-00071" summary="analyse">
+      <created>1666078308936</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1666078268145</updated>
+      <updated>1666078308936</updated>
     </task>
     <option name="localTasksCounter" value="72" />
     <servers />
@@ -478,8 +489,8 @@
     <MESSAGE value="modif inscription" />
     <MESSAGE value="modif resultat diagnostic" />
     <MESSAGE value="modif erreur diagnostic nom" />
-    <MESSAGE value="modif verification nom diagnostic" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif verification nom diagnostic" />
+    <MESSAGE value="analyse" />
+    <option name="LAST_COMMIT_MESSAGE" value="analyse" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

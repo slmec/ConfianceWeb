@@ -20,20 +20,23 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 mysqli_select_db($db, "Confiance" );
 if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
-$C1_interpretation = $_POST['C1_interpretation'];
-$C1_plan_action = $_POST['C1_plan_action'];
-$C1_suivi = $_POST['C1_suivi'];
 $Id_Critere = $_SESSION['id_Critere'];
 
-if($C1_interpretation !== "" && $C1_plan_action !== ""&&$C1_suivi !== "") {
-    $requete = "UPDATE Diagnostics SET C1_suivi ='$C1_suivi',C1_plan_action ='$C1_plan_action',C1_interpretation ='$C1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-    $result = mysqli_query($db, $requete);
+$C3_interpretation = $_POST['C3_interpretation'];
+$C3_plan_action = $_POST['C3_plan_action'];
+$C3_suivi = $_POST['C3_suivi'];
+
+if($C3_interpretation !== "" && $C3_plan_action !== ""&&$C3_suivi !== "") {
+    $requete2 = "UPDATE Diagnostics SET C3_suivi ='$C3_suivi',C3_plan_action ='$C3_plan_action',C3_interpretation ='$C3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result2 = mysqli_query($db, $requete2);
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
 }
 else {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_reconnaissance.php?erreur=1');
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_surveillance.php?erreur=1');
 }
 
 ?>
 </body>
 </html>
+
+
