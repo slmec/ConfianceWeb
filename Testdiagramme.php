@@ -12,8 +12,9 @@ session_start();
 <?php
 $mdp = "coucou";
 $mdp_hash = password_hash($mdp, PASSWORD_DEFAULT);
+$mdp2 = "coucou1";
 echo $mdp_hash;
-if (password_verify($mdp, $mdp_hash))
+if (password_verify($mdp2, $mdp_hash))
 {
     echo "Mot de passe correct";
 }

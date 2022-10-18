@@ -16,8 +16,7 @@
     $prenom_utilisateur = $_POST['prenom_utilisateur'];
     $email_utilisateur = $_POST['email_utilisateur'];
     $mdp_utilisateur = $_POST['mdp_utilisateur'];
-   /* $mdp_utilisateur_hash = password_hash($mdp_utilisateur, PASSWORD_DEFAULT);
-    echo */
+
     $role_utilisateur = $_POST['role_utilisateur'];
     $organisme_utilisateur = $_POST['organisme_utilisateur'];
     $donnees_utilisateur = $_POST['donnees_utilisateur'];
@@ -33,9 +32,6 @@
 
 </head>
 <body>
-    <?php
-    include('nav.php')
-	?>
 
     <h1>Devenez membre de MAIAT</h1>
 
@@ -47,8 +43,5 @@
     
 
 
-    <?php
-    include('footer.php')
-    	?>
 </body>
 </html>
