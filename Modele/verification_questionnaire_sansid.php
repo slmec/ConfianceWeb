@@ -24,10 +24,10 @@ while ($i <= 4) {
 $_SESSION['critere_fragilisation_reconnaissance'] = $a;
 
 //pour afficher les implications
-$C1Q1 = $_POST['C1Q1'];
-$C1Q2 = $_POST['C1Q2'];
-$C1Q3 = $_POST['C1Q3'];
-$C1Q4 = $_POST['C1Q4'];
+$_SESSION['C1Q1'] = $_POST['C1Q1'];
+$_SESSION['C1Q2'] = $_POST['C1Q2'];
+$_SESSION['C1Q3']= $_POST['C1Q3'];
+$_SESSION['C1Q4'] = $_POST['C1Q4'];
 
 
 /* $o = 1;
@@ -103,6 +103,11 @@ while ($i <= 4) {
 
 $_SESSION['critere_Perte_Autonomie'] = $a;
 
+$C4Q1 = $_POST['C4Q1'];
+$C4Q2 = $_POST['C4Q2'];
+$C4Q3 = $_POST['C4Q3'];
+$C4Q4 = $_POST['C4Q4'];
+
 // note C5
 $i = 1;
 $a = 0;
@@ -118,6 +123,11 @@ while ($i <= 4) {
 }
 $_SESSION['critere_Sentiment_Depossession'] = $a;
 
+$C5Q1 = $_POST['C5Q1'];
+$C5Q2 = $_POST['C5Q2'];
+$C5Q3 = $_POST['C5Q3'];
+$C5Q4 = $_POST['C5Q4'];
+
 // note C6
 $i = 1;
 $a = 0;
@@ -132,6 +142,11 @@ while ($i <= 4) {
     }
 }
 $_SESSION['critere_Deresponsabilite'] = $a;
+
+$C6Q1 = $_POST['C6Q1'];
+$C6Q2 = $_POST['C6Q2'];
+$C6Q3 = $_POST['C6Q3'];
+$C6Q4 = $_POST['C6Q4'];
 
 $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
 $critere2 = $_SESSION['critere_Desengagement_Relationnel'];
