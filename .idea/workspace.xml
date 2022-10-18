@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="lien analyse">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif verification nom diagnostic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_reconnaissance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdiagramme.php" beforeDir="false" afterPath="$PROJECT_DIR$/Testdiagramme.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +91,7 @@
       <workItem from="1665733134113" duration="6787000" />
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
-      <workItem from="1666075403690" duration="2755000" />
-    </task>
-    <task id="LOCAL-00022" summary="modif modif liens">
-      <created>1665403756051</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1665403756051</updated>
+      <workItem from="1666075403690" duration="4925000" />
     </task>
     <task id="LOCAL-00023" summary="modif modif liens">
       <created>1665404125696</created>
@@ -436,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666020655510</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
+      <created>1666078268145</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1666078268145</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif projet" />
     <MESSAGE value="modif modif liens" />
     <MESSAGE value="modif HautDePage bouton" />
     <MESSAGE value="modif ajout jpgraph" />
@@ -479,7 +478,8 @@
     <MESSAGE value="modif inscription" />
     <MESSAGE value="modif resultat diagnostic" />
     <MESSAGE value="modif erreur diagnostic nom" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif erreur diagnostic nom" />
+    <MESSAGE value="modif verification nom diagnostic" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif verification nom diagnostic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
