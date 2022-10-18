@@ -92,6 +92,7 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+
 <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
 
 <form action="../Modele/ajout_analyse_C1.php" method="post" >
@@ -112,7 +113,13 @@ $row = mysqli_fetch_assoc($resultat);
     </table>
 
 </form>
-
+<?php
+if(isset($_GET['erreur'])){
+    $err = $_GET['erreur'];
+    if($err==1 )
+        echo "<p style='color:red'> Veuillez remplir tous les champs de l'analyse </p>";
+}
+?>
 
 <form action="Resultats_Diagnostic.php" >
     <button type="submit">Retour au resultat </button>
