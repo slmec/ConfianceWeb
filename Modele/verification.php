@@ -41,12 +41,12 @@ if(isset($_POST['email_Utilisateur']) && isset($_POST['mdp_Utilisateur']))
         }
         else
         {
-           header('Location: identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
+           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
         }
     }
     else
     {
-       header('Location: identification.php?erreur=2'); // utilisateur ou mot de passe vide
+       header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=2'); // utilisateur ou mot de passe vide
     }
 }
 else
