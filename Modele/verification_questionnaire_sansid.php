@@ -29,22 +29,6 @@ $_SESSION['C1Q2'] = $_POST['C1Q2'];
 $_SESSION['C1Q3']= $_POST['C1Q3'];
 $_SESSION['C1Q4'] = $_POST['C1Q4'];
 
-
-/* $o = 1;
-$b = 0;
-while ($o <= 4) {
-   if (isset($_POST['Non_C1Q' . $o])) {
-       $Non[$o] = intval($_POST['Non_C1Q' . $o]);
-       $b = $b + $Non[$o];
-       $o++;
-   } else {
-       unset($_POST['Non_C1Q' . $o]);
-       $o++;
-   }
-
-   $_SESSION['critere_fragilisation_reconnaissance'] = $a + $b;
-
-} */
 // note C2
 $i = 1;
 $a = 0;
@@ -61,10 +45,10 @@ while ($i <= 4) {
 
 $_SESSION['critere_Desengagement_Relationnel'] = $a;
 
-$C2Q1 = $_POST['C2Q1'];
-$C2Q2 = $_POST['C2Q2'];
-$C2Q3 = $_POST['C2Q3'];
-$C2Q4 = $_POST['C2Q4'];
+$_SESSION['C2Q1'] = $_POST['C2Q1'];
+$_SESSION['C2Q2'] = $_POST['C2Q2'];
+$_SESSION['C2Q3']= $_POST['C2Q3'];
+$_SESSION['C2Q4'] = $_POST['C2Q4'];
 
 // note C3
 $i = 1;
@@ -82,10 +66,10 @@ while ($i <= 4) {
 
 $_SESSION['critere_Surveillance'] = $a;
 
-$C3Q1 = $_POST['C3Q1'];
-$C3Q2 = $_POST['C3Q2'];
-$C3Q3 = $_POST['C3Q3'];
-$C3Q4 = $_POST['C3Q4'];
+$_SESSION['C3Q1'] = $_POST['C3Q1'];
+$_SESSION['C3Q2'] = $_POST['C3Q2'];
+$_SESSION['C3Q3']= $_POST['C3Q3'];
+$_SESSION['C3Q4'] = $_POST['C3Q4'];
 
 // note C4
 $i = 1;
@@ -103,10 +87,11 @@ while ($i <= 4) {
 
 $_SESSION['critere_Perte_Autonomie'] = $a;
 
-$C4Q1 = $_POST['C4Q1'];
-$C4Q2 = $_POST['C4Q2'];
-$C4Q3 = $_POST['C4Q3'];
-$C4Q4 = $_POST['C4Q4'];
+$_SESSION['C4Q1'] = $_POST['C4Q1'];
+$_SESSION['C4Q2'] = $_POST['C4Q2'];
+$_SESSION['C4Q3']= $_POST['C4Q3'];
+$_SESSION['C4Q4'] = $_POST['C4Q4'];
+
 
 // note C5
 $i = 1;
@@ -123,10 +108,12 @@ while ($i <= 4) {
 }
 $_SESSION['critere_Sentiment_Depossession'] = $a;
 
-$C5Q1 = $_POST['C5Q1'];
-$C5Q2 = $_POST['C5Q2'];
-$C5Q3 = $_POST['C5Q3'];
-$C5Q4 = $_POST['C5Q4'];
+$_SESSION['C5Q1'] = $_POST['C5Q1'];
+$_SESSION['C5Q2'] = $_POST['C5Q2'];
+$_SESSION['C5Q3']= $_POST['C5Q3'];
+$_SESSION['C5Q4'] = $_POST['C5Q4'];
+
+
 
 // note C6
 $i = 1;
@@ -143,10 +130,10 @@ while ($i <= 4) {
 }
 $_SESSION['critere_Deresponsabilite'] = $a;
 
-$C6Q1 = $_POST['C6Q1'];
-$C6Q2 = $_POST['C6Q2'];
-$C6Q3 = $_POST['C6Q3'];
-$C6Q4 = $_POST['C6Q4'];
+$_SESSION['C6Q1'] = $_POST['C6Q1'];
+$_SESSION['C6Q2'] = $_POST['C6Q2'];
+$_SESSION['C6Q3']= $_POST['C6Q3'];
+$_SESSION['C6Q4'] = $_POST['C6Q4'];
 
 $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
 $critere2 = $_SESSION['critere_Desengagement_Relationnel'];

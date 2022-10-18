@@ -104,42 +104,42 @@ $resultat2 = mysqli_query($link,$requete2);*/
     })
 </script>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_reconnaissance.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C1_sansid.php">
         <button type="submit" value="La reconnaissance" class="button">
             La reconnaissance
         </button>
     </form>
 </div>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_relations_humaines.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C2_sansid.php">
         <button type="submit" value="Les relations humaines" class="button">
             Les relations humaines
         </button>
     </form>
 </div>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_surveillance.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C3_sansid.php">
         <button type="submit" value="La surveillance" class="button">
             La surveillance
         </button>
     </form>
 </div>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_perte_autonomie.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C4_sansid.php">
         <button type="submit" value="La perte d'autonomie" class="button">
             La perte d'autonomie
         </button>
     </form>
 </div>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_savoir_faire.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C5_sansid.php">
         <button type="submit" value="Le savoir faire " class="button">
             Le savoir faire
         </button>
     </form>
 </div>
 <div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_responsabilité.php">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C6_sansid.php">
         <button type="submit" value="La responsabilité" class="button">
             La responsabilité
         </button>

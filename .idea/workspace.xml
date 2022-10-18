@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="implication san id">
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="verif inscription">
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +98,6 @@
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="8866000" />
-    </task>
-    <task id="LOCAL-00027" summary="modif HautDePage bouton">
-      <created>1665405814779</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1665405814779</updated>
     </task>
     <task id="LOCAL-00028" summary="modif ajout jpgraph">
       <created>1665472336573</created>
@@ -434,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666097395315</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="verif inscription">
+      <created>1666097589351</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1666097589351</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif diagramme" />
     <MESSAGE value="modif diagramme v2" />
     <MESSAGE value="modif diagramme v3" />
     <MESSAGE value="modif affichage diagramme" />
@@ -477,7 +484,8 @@
     <MESSAGE value="modif mdp crypte" />
     <MESSAGE value="modif probleme connexion" />
     <MESSAGE value="implication san id" />
-    <option name="LAST_COMMIT_MESSAGE" value="implication san id" />
+    <MESSAGE value="verif inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="verif inscription" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
