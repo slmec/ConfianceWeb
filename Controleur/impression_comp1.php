@@ -16,29 +16,25 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
 </head>
 <body onload="window.print()">
-<?php
 
+<?php
+$Id_Critere = $_SESSION['id_Critere'];
+$requete = "SELECT * FROM Criteres WHERE Id_critere = '$Id_Critere'";
+$resultat = mysqli_query($db, $requete);
+$row = mysqli_fetch_assoc($resultat);
 
 //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
 
-$critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
-$critere2 = $_SESSION['critere_Desengagement_Relationnel'];
-$critere3 = $_SESSION['critere_Surveillance'];
-$critere4 = $_SESSION['critere_Perte_Autonomie'];
-$critere5 = $_SESSION['critere_Sentiment_Depossession'];
-$critere6 = $_SESSION['critere_Deresponsabilite'];
-$Nom_Diagnostic = $_SESSION['Nom_Diagnostic']
+$critere1 = $row['Fragilisation_Reconnaissance'];
+$critere2 = $row['Desengagement_Relationnel'];
+$critere3 = $row['Surveillance'];
+$critere4 = $row['Perte_Autonomie'];
+$critere5 = $row['Sentiment_Depossession'];
+$critere6 = $row['Deresponsabilisation'];
+$Nom_Diagnostic = $row['Nom'];
 
-
-/*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
-$id_critere = $_SESSION['id_critere'];
-$requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
-$resultat = mysqli_query($link,$requete);*/
-
-/*$requete2 = "INSERT INTO Exploiter VALUES ('','".$id_critere."')";
-$resultat2 = mysqli_query($link,$requete2);*/
 ?>
-
+<h1> Recapitulatif Diagnostic <?php echo $row['Nom'] ?> </h1>
 <div class="chart-container">
     <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
 </div>
@@ -108,14 +104,13 @@ $resultat2 = mysqli_query($link,$requete2);*/
 </form>
 
 <?php
-$Id_Critere = $_SESSION['id_Critere'];
+$requete2 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
+$resultat2 = mysqli_query($db, $requete2);
+$row = mysqli_fetch_assoc($resultat2);
 
-$requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
-$resultat = mysqli_query($db, $requete);
-$row = mysqli_fetch_assoc($resultat);
+
 ?>
 
-<h1> Recapitulatif Diagnostic <?php echo $row['Nom'] ?> </h1>
 
 <h1>La reconnaissance</h1>
 
@@ -547,3 +542,4 @@ $row = mysqli_fetch_assoc($resultat);
 
 </body>
 </html>
+

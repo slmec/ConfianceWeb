@@ -51,8 +51,15 @@ or die('could not connect to database');
         $diagnostic1_critere5 = $row[4];
         $diagnostic1_critere6 = $row[5];
         $diagnostic1_nom = $row[6];
+
+
         if (isset($diagnostics[0]) && empty($diagnostics[1]) && empty($diagnostics[2])){
-    ?>
+            $_SESSION['id_Critere'] = $critere1;
+
+            $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$critere1'";
+            $resultat = mysqli_query($db, $requete);
+            $row = mysqli_fetch_assoc($resultat); ?>
+
     <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
     </div>
@@ -117,9 +124,27 @@ or die('could not connect to database');
             }
         })
     </script>
+
+            <div class = "bouton">
+                <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/recap_diagnostic.php" target=_BLANK>
+                    <button type="submit" value="recap 1 " class="button">
+                        Recapitulatif Diagnostic <?php echo $diagnostic1_nom ?>
+                    </button>
+                </form>
+            </div>
+
+            <div class = "bouton">
+                <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_comp1.php" target=_BLANK >
+                    <button type="submit" value="impression" class="button">
+                        <?php $_SESSION['id_Critere'] = $diagnostics[0] ;?>
+                        Impression <?php echo $diagnostic1_nom ?>
+                    </button>
+                </form>
+            </div>
     <?php
         }
         elseif (isset($diagnostics[0],$diagnostics[1]) && empty($diagnostics[2])) {
+            $critere2 = $diagnostics[1];
             $resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
             $row = mysqli_fetch_array($resultat2);
             $diagnostic2_critere1 = $row[0];
@@ -129,8 +154,9 @@ or die('could not connect to database');
             $diagnostic2_critere5 = $row[4];
             $diagnostic2_critere6 = $row[5];
             $diagnostic2_nom = $row[6];
-    ?>
-    <div class="chart-container">
+            ?>
+
+                <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
     </div>
     <style type="text/css">
@@ -211,8 +237,92 @@ or die('could not connect to database');
             }
         })
     </script>
-    <?php
+
+                <div class="chart-container">
+                <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
+            </div>
+            <style type="text/css">
+                .chart-container{
+                    width:800px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            </style>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+            <script>
+                const radarCanvas = document.getElementById("radarCanvas");
+                const radarChart = new Chart(radarCanvas,{
+                    type: "radar",
+                    data: {
+                        labels: [
+                            "La reconnaissance",
+                            "Les relations humaines",
+                            "La surveillance",
+                            "L'autonomie",
+                            "Le savoir-faire",
+                            "La responsabilité"
+                        ],
+                        datasets: [{
+                            label: '<?=$diagnostic1_nom?>',
+                            data: [
+                                <?=$diagnostic1_critere1?>,
+                                <?=$diagnostic1_critere2?>,
+                                <?=$diagnostic1_critere3?>,
+                                <?=$diagnostic1_critere4?>,
+                                <?=$diagnostic1_critere5?>,
+                                <?=$diagnostic1_critere6?>
+                            ],
+                            fill: true,
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            borderColor: 'rgb(255, 99, 132)',
+                            pointBackgroundColor: 'rgb(255, 99, 132)',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: 'rgb(255, 99, 132)',
+                        },{
+                            label: '<?=$diagnostic2_nom?>',
+                            data: [
+                                <?=$diagnostic2_critere1?>,
+                                <?=$diagnostic2_critere2?>,
+                                <?=$diagnostic2_critere3?>,
+                                <?=$diagnostic2_critere4?>,
+                                <?=$diagnostic2_critere5?>,
+                                <?=$diagnostic2_critere6?>
+                            ],
+                            fill: true,
+                            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                            borderColor: 'rgb(54, 162, 235)',
+                            pointBackgroundColor: 'rgb(54, 162, 235)',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: 'rgb(54, 162, 235)',
+                        }],
+                    },
+                    options: {
+                        scales: {
+                            r: {
+                                min: 0,
+                                max: 4,
+                                ticks: {
+                                    stepSize : 1,
+                                    font: {
+                                        size:10,
+                                    }
+                                },
+                                pointLabels: {
+                                    font: {
+                                        size: 15,
+                                    }
+                                }
+                            }
+                        }
+                    }
+                })
+            </script>
+
+        <?php
         }
+
         elseif (isset($diagnostics[0],$diagnostics[1],$diagnostics[2])){
             $resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
             $row = mysqli_fetch_array($resultat2);
@@ -335,6 +445,7 @@ or die('could not connect to database');
     <?php
         }
     ?>
+
     <form action="connexion.php">
         <button type="submit">Retour au tableau de bord </button>
     </form>

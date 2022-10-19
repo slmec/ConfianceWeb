@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression sans id">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression">
+      <change afterPath="$PROJECT_DIR$/Controleur/impression_comp1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/impression.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/impression.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +93,6 @@
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="14868000" />
-    </task>
-    <task id="LOCAL-00031" summary="modif diagramme v2">
-      <created>1665500278443</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1665500278443</updated>
     </task>
     <task id="LOCAL-00032" summary="modif diagramme v2">
       <created>1665500366664</created>
@@ -436,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666183627399</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="impression">
+      <created>1666184231857</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1666184231857</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif diagramme v2" />
     <MESSAGE value="modif diagramme v3" />
     <MESSAGE value="modif affichage diagramme" />
     <MESSAGE value="modif bouton" />
@@ -479,7 +479,8 @@
     <MESSAGE value="modif cryptage" />
     <MESSAGE value="modif inscription" />
     <MESSAGE value="impression sans id" />
-    <option name="LAST_COMMIT_MESSAGE" value="impression sans id" />
+    <MESSAGE value="impression" />
+    <option name="LAST_COMMIT_MESSAGE" value="impression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
