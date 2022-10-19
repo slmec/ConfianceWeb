@@ -39,14 +39,6 @@
     $resultat2 = mysqli_query($link,$requete2);*/
     ?>
 
-    <!-- <p> Diagnostic " <?php echo $_SESSION['Nom_Diagnostic']?> " : </p>
-    <p> La fragilisation de la reconnaissance : <?php echo $_SESSION['critere_fragilisation_reconnaissance']?> /4 </p>
-    <p> Le desengagement relationnel  : <?php echo $_SESSION['critere_Desengagement_Relationnel']?> /4 </p>
-    <p> La surveillance : <?php echo $_SESSION['critere_Surveillance']?> /4 </p>
-    <p> La perte d'autonomie : <?php echo $_SESSION['critere_Perte_Autonomie']?> /4 </p>
-    <p> Le sentiment de depossesion : <?php echo $_SESSION['critere_Sentiment_Depossession']?> /4 </p>
-    <p> La deresponsabilisation : <?php echo $_SESSION['critere_Deresponsabilite']?> /4 </p> -->
-
     <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
     </div>
@@ -156,8 +148,17 @@
         </form>
     </div>
 
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression.php">
+            <button type="submit" value="impression" class="button">
+                Impression
+            </button>
+        </form>
+    </div>
+
 <form action="connexion.php">
     <button type="submit">Retour au tableau de bord </button>
+
 </form>
 
 </body>

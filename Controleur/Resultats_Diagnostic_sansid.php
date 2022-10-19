@@ -145,6 +145,13 @@ $resultat2 = mysqli_query($link,$requete2);*/
         </button>
     </form>
 </div>
+<div class = "bouton">
+    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_sansid.php">
+        <button type="submit" value="Impression" class="button">
+            Imprimer son diagnostic
+        </button>
+    </form>
+</div>
 
 <form action="identification.php">
     <button type="submit">Retour au tableau de bord </button>
