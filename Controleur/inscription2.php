@@ -12,9 +12,6 @@
    mysqli_select_db($db, "Confiance" );
     if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 ?>
-
-
-
 </head>
 <body>
     <?php
