@@ -37,8 +37,6 @@ or die('could not connect to database');
         }
     ?>
 
-
-
     <?php
         $diagnostics = $_POST['adv'];
         $critere1 = $diagnostics[0];
@@ -54,11 +52,7 @@ or die('could not connect to database');
 
 
         if (isset($diagnostics[0]) && empty($diagnostics[1]) && empty($diagnostics[2])){
-            $_SESSION['id_Critere'] = $critere1;
-
-            $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$critere1'";
-            $resultat = mysqli_query($db, $requete);
-            $row = mysqli_fetch_assoc($resultat); ?>
+ ?>
 
     <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
@@ -125,22 +119,7 @@ or die('could not connect to database');
         })
     </script>
 
-            <div class = "bouton">
-                <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/recap_diagnostic.php" target=_BLANK>
-                    <button type="submit" value="recap 1 " class="button">
-                        Recapitulatif Diagnostic <?php echo $diagnostic1_nom ?>
-                    </button>
-                </form>
-            </div>
 
-            <div class = "bouton">
-                <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_comp1.php" target=_BLANK >
-                    <button type="submit" value="impression" class="button">
-                        <?php $_SESSION['id_Critere'] = $diagnostics[0] ;?>
-                        Impression <?php echo $diagnostic1_nom ?>
-                    </button>
-                </form>
-            </div>
     <?php
         }
         elseif (isset($diagnostics[0],$diagnostics[1]) && empty($diagnostics[2])) {
@@ -444,7 +423,86 @@ or die('could not connect to database');
     </script>
     <?php
         }
+
+        if (isset($diagnostics[0])){
+            $_SESSION['id_Critere'] = $diagnostics[0];
+
+            $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[0]'";
+            $resultat = mysqli_query($db, $requete);
+            $row = mysqli_fetch_assoc($resultat);
+
+
+        ?>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/recap_diagnostic.php" target=_BLANK>
+            <button type="submit" value="recap 1 " class="button">
+                Recapitulatif Diagnostic <?php echo $diagnostic1_nom ?>
+            </button>
+        </form>
+    </div>
+
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_comp1.php" target=_BLANK >
+            <button type="submit" value="impression" class="button">
+                <?php $_SESSION['id_Critere'] = $diagnostics[0] ;?>
+                Impression <?php echo $diagnostic1_nom ?>
+            </button>
+        </form>
+    </div>
+    <?php }
+        if (isset($diagnostics[1])){
+    $_SESSION['id_Critere'] = $diagnostics[1];
+
+    $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[1]'";
+    $resultat = mysqli_query($db, $requete);
+    $row = mysqli_fetch_assoc($resultat);
+
+
     ?>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/recap_diagnostic.php" target=_BLANK>
+            <button type="submit" value="recap 1 " class="button">
+                Recapitulatif Diagnostic <?php echo $diagnostic2_nom ?>
+            </button>
+        </form>
+    </div>
+
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_comp1.php" target=_BLANK >
+            <button type="submit" value="impression" class="button">
+                <?php $_SESSION['id_Critere'] = $diagnostics[1] ;?>
+                Impression <?php echo $diagnostic2_nom ?>
+            </button>
+        </form>
+    </div>
+    <?php }
+        if (isset($diagnostics[2])){
+    $_SESSION['id_Critere'] = $diagnostics[2];
+
+    $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[2]'";
+    $resultat = mysqli_query($db, $requete);
+    $row = mysqli_fetch_assoc($resultat);
+
+
+    ?>
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/recap_diagnostic.php" target=_BLANK>
+            <button type="submit" value="recap 1 " class="button">
+                Recapitulatif Diagnostic <?php echo $diagnostic3_nom ?>
+            </button>
+        </form>
+    </div>
+
+    <div class = "bouton">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_comp1.php" target=_BLANK >
+            <button type="submit" value="impression" class="button">
+                <?php $_SESSION['id_Critere'] = $diagnostics[2] ;?>
+                Impression <?php echo $diagnostic3_nom ?>
+            </button>
+        </form>
+    </div>
+    <?php } ?>
+
 
     <form action="connexion.php">
         <button type="submit">Retour au tableau de bord </button>

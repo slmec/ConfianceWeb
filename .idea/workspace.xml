@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression">
-      <change afterPath="$PROJECT_DIR$/Controleur/impression_comp1.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression comp 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/impression.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/impression.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +91,6 @@
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="14868000" />
-    </task>
-    <task id="LOCAL-00032" summary="modif diagramme v2">
-      <created>1665500366664</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1665500366664</updated>
     </task>
     <task id="LOCAL-00033" summary="modif diagramme v3">
       <created>1665501850041</created>
@@ -437,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666184231857</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="impression comp 1">
+      <created>1666185191494</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185191494</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +453,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif diagramme v3" />
     <MESSAGE value="modif affichage diagramme" />
     <MESSAGE value="modif bouton" />
     <MESSAGE value="modif visualiser les diagrammes" />
@@ -480,7 +477,8 @@
     <MESSAGE value="modif inscription" />
     <MESSAGE value="impression sans id" />
     <MESSAGE value="impression" />
-    <option name="LAST_COMMIT_MESSAGE" value="impression" />
+    <MESSAGE value="impression comp 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="impression comp 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,7 +495,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
-          <line>325</line>
+          <line>304</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
