@@ -2,13 +2,24 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title></title>
+	<title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/style.css" />
 </head>
 <body>
-    <?php
-    include('../Vue/nav.php')
-	?>
-     
+    <nav class="navbar">
+        <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
+                <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">C'est à vous</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header></header>
+
     <h1>MAIAT : L&#39;&eacute;quipe</h1>
 
     <h3>C&#39;est dans le cadre du programme &quot;Confiance.ai&quot; que l&#39;outil MAIAT a &eacute;t&eacute; cr&eacute;&eacute;.</h3>
@@ -41,8 +52,5 @@
 
     <p>&nbsp;</p>
 
-    <?php
-    include('../Vue/footer.php')
-	?>
 </body>
 </html>

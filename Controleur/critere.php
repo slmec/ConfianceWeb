@@ -2,13 +2,23 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title></title>
+	<title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/style.css" />
 </head>
 <body>
-    <?php
-    include('../Vue/nav.php')
-	?>
-
+    <nav class="navbar">
+        <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
+                <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">C'est à vous</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header></header>
 	<h1>MAIAT : Les crit&egrave;res</h1>
 	<p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
 	<img src="../Medias/critere.png"
@@ -98,11 +108,6 @@
 	</ul>
 	<h4>Exemple :</h4>
 	<p>L&#39;int&eacute;gration d&#39;un cobot dans une activit&eacute; de contr&ocirc;le bact&eacute;riologique du lait est bloqu&eacute;e par l&#39;impossibilit&eacute; d&#39;imputer des responsabilit&eacute;s en cas de crise sanitaire. Aucun service n&#39;est pr&ecirc;t &agrave; endosser la responsabilit&eacute; d&#39;une erreur du cobot.</p>
-
-	<?php
-    include('../Vue/footer.php')
-	?>
-
 </body>
 </html>
 
