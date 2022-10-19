@@ -19,6 +19,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
 
+
 $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
@@ -122,7 +123,7 @@ if(isset($_GET['erreur'])){
 ?>
 
 <form action="Resultats_Diagnostic.php" >
-    <button type="submit">Retour au resultat </button>
+    <button type="submit" )" >Retour au resultat  </button>
 </form>
 
 </body>
