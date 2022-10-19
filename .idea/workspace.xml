@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css index">
+      <change afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Medias" />
       <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Controleur" />
     </key>
   </component>
@@ -92,21 +96,7 @@
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="15273000" />
-      <workItem from="1666165626525" duration="7320000" />
-    </task>
-    <task id="LOCAL-00033" summary="modif diagramme v3">
-      <created>1665501850041</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1665501850041</updated>
-    </task>
-    <task id="LOCAL-00034" summary="modif affichage diagramme">
-      <created>1665562068930</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1665562068930</updated>
+      <workItem from="1666165626525" duration="9941000" />
     </task>
     <task id="LOCAL-00035" summary="modif affichage diagramme">
       <created>1665565827490</created>
@@ -437,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666185444076</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="modif css index">
+      <created>1666189948313</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189948313</updated>
+    </task>
+    <task id="LOCAL-00083" summary="modif css index">
+      <created>1666189965029</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189965029</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
