@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="https://www.confiance.ai/" class="logo"></a>
+        <a href="https://www.confiance.ai/" class="logo"><img src="Medias/logoconfiance.jpg"></a>
         <div class="nav-links">
             <ul>
                 <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
