@@ -106,46 +106,48 @@
     </script>
 
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C1.php">
-            <button type="submit" value="La reconnaissance" class="button">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="1" class="button"name = "btn">
+
                 La reconnaissance
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C2.php">
-            <button type="submit" value="Les relations humaines" class="button">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="2" class="button">
                 Les relations humaines
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C3.php">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
             <button type="submit" value="La surveillance" class="button">
                 La surveillance
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C4.php">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
             <button type="submit" value="La perte d'autonomie" class="button">
                La perte d'autonomie
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C5.php">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
             <button type="submit" value="Le savoir faire " class="button">
                 Le savoir faire
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C6.php">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
             <button type="submit" value="La responsabilité" class="button">
                 La responsabilité
             </button>
         </form>
+
     </div>
 
     <div class = "bouton">
