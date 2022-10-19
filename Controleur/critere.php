@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="https://www.confiance.ai/" class="logo"><img src="Medias/logoconfiance.jpg" width="150" height="106"></a>
+        <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
         <div class="nav-links">
             <ul>
                 <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
@@ -18,7 +18,7 @@
             </ul>
         </div>
     </nav>
-
+    <header></header>
 	<h1>MAIAT : Les crit&egrave;res</h1>
 	<p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
 	<img src="../Medias/critere.png"
