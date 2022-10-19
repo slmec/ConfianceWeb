@@ -30,9 +30,7 @@ if($C1_interpretation !== "" && $C1_plan_action !== ""&&$C1_suivi !== "") {
     $result = mysqli_query($db, $requete);
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
 }
-else {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C1.php?erreur=1');
-}
+
 
 ?>
 </body>
