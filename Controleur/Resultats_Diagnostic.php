@@ -149,7 +149,7 @@
     </div>
 
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression.php">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression.php" target=_BLANK>
             <button type="submit" value="impression" class="button">
                 Impression
             </button>

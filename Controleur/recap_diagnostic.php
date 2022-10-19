@@ -15,111 +15,19 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <title></title>
 
 </head>
-<body onload="window.print()">
-<?php
-
-
-//Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
-
-$critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
-$critere2 = $_SESSION['critere_Desengagement_Relationnel'];
-$critere3 = $_SESSION['critere_Surveillance'];
-$critere4 = $_SESSION['critere_Perte_Autonomie'];
-$critere5 = $_SESSION['critere_Sentiment_Depossession'];
-$critere6 = $_SESSION['critere_Deresponsabilite'];
-$Nom_Diagnostic = $_SESSION['Nom_Diagnostic']
-
-
-/*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
-$id_critere = $_SESSION['id_critere'];
-$requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
-$resultat = mysqli_query($link,$requete);*/
-
-/*$requete2 = "INSERT INTO Exploiter VALUES ('','".$id_critere."')";
-$resultat2 = mysqli_query($link,$requete2);*/
-?>
-
-<div class="chart-container">
-    <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
-</div>
-<style type="text/css">
-    .chart-container{
-        width:800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-<script>
-    const radarCanvas = document.getElementById("radarCanvas");
-
-    const radarChart = new Chart(radarCanvas,{
-        type: "radar",
-        data: {
-            labels: [
-                "La reconnaissance",
-                "Les relations humaines",
-                "La surveillance",
-                "L'autonomie",
-                "Le savoir-faire",
-                "La responsabilité"
-            ],
-            datasets: [{
-                label: '<?=$Nom_Diagnostic?>',
-                data: [
-                    <?= $critere1?>,
-                    <?= $critere2?>,
-                    <?= $critere3?>,
-                    <?= $critere4?>,
-                    <?= $critere5?>,
-                    <?= $critere6?>
-                ],
-                fill: true,
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgb(255, 99, 132)',
-                pointBackgroundColor: 'rgb(255, 99, 132)',
-                pointBorderColor: '#fff',
-                pointHoverBackgroundColor: '#fff',
-                pointHoverBorderColor: 'rgb(255, 99, 132)',
-            }],
-        },
-        options: {
-            scales: {
-                r: {
-                    min: 0,
-                    max: 4,
-                    ticks: {
-                        stepSize : 1,
-                        font: {
-                            size:10,
-                        }
-                    },
-                    pointLabels: {
-                        font: {
-                            size: 15,
-                        }
-                    }
-                }
-            }
-        }
-    })
-</script>
-
-</form>
-
+<body onload="init();">
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
+
 
 $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
 ?>
-
 <h1> Recapitulatif Diagnostic <?php echo $row['Nom'] ?> </h1>
 
-<h1>La reconnaissance</h1>
-
-<h3>Les reponses au questionnaires concernant le critere : </h3>
+<h2>La reconnaissance</h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -186,8 +94,23 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C1_interpretation'] ?> </td>
+        <td> <?php echo $row['C1_plan_action'] ?> </td>
+        <td> <?php echo $row['C1_suivi'] ?> </td>
+    </tr>
 
-<h1>Les relations humaines </h1>
+</table>
+
+<h2>Les relations humaines </h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -255,8 +178,23 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C2_interpretation'] ?> </td>
+        <td> <?php echo $row['C2_plan_action'] ?> </td>
+        <td> <?php echo $row['C2_suivi'] ?> </td>
+    </tr>
 
-<h1>La surveillance</h1>
+</table>
+
+<h2>La surveillance</h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -327,8 +265,23 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C3_interpretation'] ?> </td>
+        <td> <?php echo $row['C3_plan_action'] ?> </td>
+        <td> <?php echo $row['C3_suivi'] ?> </td>
+    </tr>
 
-<h1>La perte d'autonomie </h1>
+</table>
+
+<h2>La perte d'autonomie </h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -399,8 +352,23 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C4_interpretation'] ?> </td>
+        <td> <?php echo $row['C4_plan_action'] ?> </td>
+        <td> <?php echo $row['C4_suivi'] ?> </td>
+    </tr>
 
-<h1>Le savoir faire </h1>
+</table>
+
+<h2>Le savoir faire </h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -471,8 +439,23 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C5_interpretation'] ?> </td>
+        <td> <?php echo $row['C5_plan_action'] ?> </td>
+        <td> <?php echo $row['C5_suivi'] ?> </td>
+    </tr>
 
-<h1>La responsabilité</h1>
+</table>
+
+<h2>La responsabilité</h2>
+<h3>Vos reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -544,6 +527,25 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C6_interpretation'] ?> </td>
+        <td> <?php echo $row['C6_plan_action'] ?> </td>
+        <td> <?php echo $row['C6_suivi'] ?> </td>
+    </tr>
+
+</table>
+
+
+<form action="Resultats_Diagnostic.php" >
+    <button type="submit" onClick="window.close()">Retour au resultat  </button>
+</form>
 
 </body>
 </html>
