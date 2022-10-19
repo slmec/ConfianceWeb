@@ -28,8 +28,8 @@
 
     </section>
     <footer>
-        <?php
-        include('Vue/footer.php')
+        <?php /*
+        include('Vue/footer.php')*/
         ?>
     </footer>
 </body>
