@@ -23,11 +23,11 @@
                 </div>
             </header>
         </div>
+        <div class="guide">
+            <h2>MAIAT : Le guide de l&#39;outil</h2>
+
+            <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video>
+        </div>
     </section>
-
-    <h1>MAIAT : Le guide de l&#39;outil</h1>
-
-    <video src="../Medias/video_guide.mp4" width=640 height=480 controls poster="vignette_video_guide.png" >
-    </video></p>
 </body>
 </html>

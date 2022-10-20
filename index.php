@@ -33,10 +33,8 @@
                     de l&rsquo;IA au travail en vue de faciliter l&rsquo;instauration d&rsquo;une confiance situ&eacute;e.</p>
             </div>
         </div>
+        <footer>
+        </footer>
     </section>
-
-
-    <footer>
-    </footer>
 </body>
 </html>

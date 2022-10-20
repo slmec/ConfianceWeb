@@ -7,16 +7,17 @@
     font-family: "Calibri", sans-serif ;
 }
 body{
-
-}
-section {
     background: linear-gradient(150deg, #8E94E7 10%, #ccceed 90%);
     height: 100vh;
+}
+section {
+
 }
 section .container{
     max-width: 1400px;
     margin: 0 auto;
     padding-top: 50px;
+    height: 100%;
 }
 section .container header{
     display: flex;
@@ -41,24 +42,24 @@ section .container nav a{
 }
 section .container nav a.active{
     border: 2px solid white;
-    padding-top : 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
     border-radius: 30px;
     background-color: #a9a9e6;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
 }
 section .container nav a:hover{
     border: 2px solid white;
-    padding-top : 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
     border-radius: 30px;
     background-color: #a9a9e6;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
 }
 .maiat{
-    width: 800px;
+    width: 1000px;
     align-items: center;
     margin: auto;
 }
@@ -76,6 +77,21 @@ section .container nav a:hover{
     text-align: center;
     color: white;
     font-size: large;
+}
+.guide{
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+}
+.guide h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: white;
+}
+.guide video{
+    display: block;
+    margin:0px auto 40px auto;
 }
 
 
