@@ -16,7 +16,73 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
 </head>
 <body onload="window.print()">
+<div class="chart-container">
+    <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
+</div>
+<style type="text/css">
+    .chart-container{
+        width:800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+<script>
+    const radarCanvas = document.getElementById("radarCanvas");
 
+    const radarChart = new Chart(radarCanvas,{
+        type: "radar",
+        data: {
+            labels: [
+                "La reconnaissance",
+                "Les relations humaines",
+                "La surveillance",
+                "L'autonomie",
+                "Le savoir-faire",
+                "La responsabilité"
+            ],
+            datasets: [{
+                label: '<?=$Nom_Diagnostic?>',
+                data: [
+                    <?= $critere1?>,
+                    <?= $critere2?>,
+                    <?= $critere3?>,
+                    <?= $critere4?>,
+                    <?= $critere5?>,
+                    <?= $critere6?>
+                ],
+                fill: true,
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgb(255, 99, 132)',
+                pointBackgroundColor: 'rgb(255, 99, 132)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgb(255, 99, 132)',
+            }],
+        },
+        options: {
+            scales: {
+                r: {
+                    min: 0,
+                    max: 4,
+                    ticks: {
+                        stepSize : 1,
+                        font: {
+                            size:10,
+                        }
+                    },
+                    pointLabels: {
+                        font: {
+                            size: 15,
+                        }
+                    }
+                }
+            }
+        }
+    })
+</script>
+
+</form>
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
 $requete = "SELECT * FROM Criteres WHERE Id_critere = '$Id_Critere'";
@@ -107,14 +173,10 @@ $Nom_Diagnostic = $row['Nom'];
 $requete2 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat2 = mysqli_query($db, $requete2);
 $row = mysqli_fetch_assoc($resultat2);
-
-
 ?>
 
 
-<h1>La reconnaissance</h1>
-
-<h3>Les reponses au questionnaires concernant le critere : </h3>
+<h2>La reconnaissance</h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -181,8 +243,22 @@ $row = mysqli_fetch_assoc($resultat2);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C1_interpretation'] ?> </td>
+        <td> <?php echo $row['C1_plan_action'] ?> </td>
+        <td> <?php echo $row['C1_suivi'] ?> </td>
+    </tr>
 
-<h1>Les relations humaines </h1>
+</table>
+
+<h2>Les relations humaines </h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -250,8 +326,22 @@ $row = mysqli_fetch_assoc($resultat2);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C2_interpretation'] ?> </td>
+        <td> <?php echo $row['C2_plan_action'] ?> </td>
+        <td> <?php echo $row['C2_suivi'] ?> </td>
+    </tr>
 
-<h1>La surveillance</h1>
+</table>
+
+<h2>La surveillance</h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -261,79 +351,6 @@ $row = mysqli_fetch_assoc($resultat2);
         <td> La finalité de l’utilisation des données est-elle transparente ? </td>
     </tr>
     <tr>
-        <td> Vos réponses </td>
-        <td><?php if ($row['C3Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
-        <td><?php if ($row['C3Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
-        <td><?php if ($row['C3Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
-        <td><?php if ($row['C3Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
-    </tr>
-    <tr>
-        <td> fleche </td>
-        <td> fleche </td>
-        <td> fleche </td>
-        <td> fleche </td>
-        <td> fleche </td>
-    </tr>
-    <tr>
-        <td> Implications </td>
-        <td>
-            <?php
-            $texte = "Que ces appareils soient utilisés pour la surveillance ou non, ils portent un imaginaire fortement ancré qui sera plus ou moins activé suivant la technologie." ;
-            if ($row['C3Q1'] == 0) {
-                echo "<p style='color:red'> $texte </p>" ;
-            }
-            else {
-                echo "<p> $texte </p>" ;
-            }
-            ?>
-        </td>
-        <td>
-            <?php
-            $texte = "La personnification des données recueillies augmente significativement la méfiance." ;
-            if ($row['C3Q2'] == 0) {
-                echo "<p style='color:red'> $texte </p>" ;
-            }
-            else {
-                echo "<p> $texte </p>";
-            }
-            ?>
-        </td>
-        <td>
-            <?php
-            $texte = "La collecte de données d'activité du travailleur peut être exploitée  pour augmenter sa productivité et intensifier le travail." ;
-            if ($row['C3Q3'] == 0) {
-                echo "<p style='color:red'> $texte </p>" ;
-            }
-            else {
-                echo "<p> $texte </p>";
-            }
-            ?>
-        </td>
-        <td>
-            <?php
-            $texte = "Les machines et plus spécifiquement celles à base d’IA renvoient à un imaginaire important. L'absence de transparence de la finalité des données augmente la méfiance. " ;
-            if ($row['C3Q4'] == 0) {
-                echo "<p style='color:red'> $texte </p>" ;
-            }
-            else {
-                echo "<p> $texte </p>";
-            }
-            ?>
-        </td>
-    </tr>
-</table>
-
-<h1>La perte d'autonomie </h1>
-<table>
-    <tr>
-        <td> Questions </td>
-        <td> Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
-        <td> Le système à base d'IA émet-il des notifications à l’adresse du travailleur ? </td>
-        <td> Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ? </td>
-        <td> Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ? </td>
-    </tr>
-    <tr>
-        <td> Vos réponses </td>
         <td><?php if ($row['C4Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
         <td><?php if ($row['C4Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
         <td><?php if ($row['C4Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
@@ -393,6 +410,20 @@ $row = mysqli_fetch_assoc($resultat2);
             ?>
         </td>
     </tr>
+</table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C3_interpretation'] ?> </td>
+        <td> <?php echo $row['C3_plan_action'] ?> </td>
+        <td> <?php echo $row['C3_suivi'] ?> </td>
+    </tr>
+
 </table>
 
 <h1>Le savoir faire </h1>
@@ -466,6 +497,20 @@ $row = mysqli_fetch_assoc($resultat2);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C4_interpretation'] ?> </td>
+        <td> <?php echo $row['C4_plan_action'] ?> </td>
+        <td> <?php echo $row['C4_suivi'] ?> </td>
+    </tr>
+
+</table>
 
 <h1>La responsabilité</h1>
 <table>
@@ -538,6 +583,20 @@ $row = mysqli_fetch_assoc($resultat2);
             ?>
         </td>
     </tr>
+</table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C5_interpretation'] ?> </td>
+        <td> <?php echo $row['C5_plan_action'] ?> </td>
+        <td> <?php echo $row['C5_suivi'] ?> </td>
+    </tr>
+
 </table>
 
 </body>

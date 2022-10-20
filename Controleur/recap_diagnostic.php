@@ -15,7 +15,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <title></title>
 
 </head>
-<body onload="init();">
+<body onload="window.print()">
 <?php
 $Id_Critere = $_SESSION['id_Critere'];
 
@@ -23,6 +23,8 @@ $Id_Critere = $_SESSION['id_Critere'];
 $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
+
+
 ?>
 <h1> Recapitulatif Diagnostic <?php echo $row['Nom'] ?> </h1>
 
