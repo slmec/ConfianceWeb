@@ -6,19 +6,24 @@
     <link rel="stylesheet" href="../Vue/style.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
-        <div class="nav-links">
-            <ul>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
-                <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a></li>
-            </ul>
+    <section>
+        <div class="container">
+            <header>
+                <div class="left">
+                    <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                </div>
+                <div class="right">
+                    <nav class="navbar">
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a>
+                        <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a>
+                    </nav>
+                </div>
+            </header>
         </div>
-    </nav>
-    <header></header>
+    </section>
 	<h1>MAIAT : Les crit&egrave;res</h1>
 	<p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
 	<img src="../Medias/critere.png"

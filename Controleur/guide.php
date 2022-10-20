@@ -6,19 +6,24 @@
     <link rel="stylesheet" href="../Vue/style.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
-        <div class="nav-links">
-            <ul>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
-                <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a></li>
-            </ul>
+    <section>
+        <div class="container">
+            <header>
+                <div class="left">
+                    <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                </div>
+                <div class="right">
+                    <nav class="navbar">
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a>
+                        <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a>
+                        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a>
+                    </nav>
+                </div>
+            </header>
         </div>
-    </nav>
-    <header></header>
+    </section>
 
     <h1>MAIAT : Le guide de l&#39;outil</h1>
 
