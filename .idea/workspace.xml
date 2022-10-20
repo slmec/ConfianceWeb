@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css projet + critere">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css projet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
@@ -65,8 +65,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
       <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Medias" />
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
       <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Controleur" />
     </key>
   </component>
@@ -97,14 +97,7 @@
       <workItem from="1666165626525" duration="10219000" />
       <workItem from="1666249794943" duration="1780000" />
       <workItem from="1666251830897" duration="156000" />
-      <workItem from="1666252035725" duration="9972000" />
-    </task>
-    <task id="LOCAL-00042" summary="modif diagnostic">
-      <created>1665584965759</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1665584965759</updated>
+      <workItem from="1666252035725" duration="15424000" />
     </task>
     <task id="LOCAL-00043" summary="modif diagnostic">
       <created>1665645385910</created>
@@ -442,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666268941975</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="modif css projet">
+      <created>1666270987302</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1666270987302</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif" />
     <MESSAGE value="modif diagnostic suivi" />
     <MESSAGE value="modif recuperation donnees diagnostic" />
     <MESSAGE value="modif debut css" />
@@ -485,7 +484,8 @@
     <MESSAGE value="modif css site" />
     <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css projet + critere" />
+    <MESSAGE value="modif css projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif css projet" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

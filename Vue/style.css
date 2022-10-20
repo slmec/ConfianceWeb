@@ -126,11 +126,73 @@ section .container nav a:hover{
     padding-bottom: 30px;
     color: white;
 }
-.projet img{
+.projet .top img{
     display: block;
     margin:0px auto 0px auto;
 }
+.projet .bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.projet .bottom .bottom-top{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: end;
+}
+.projet .bottom .bottom-bottom{
 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: start;
+    margin: auto;
+}
+.projet .bottom .bottom-bottom img {
+    width: 33%;
+    margin: 0px auto 0px auto;
+}
+.projet .bottom .bottom-bottom p{
+    width: 33%;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+}
+/*.projet .bottom .bottom-left{
+    width: 33%;
+}
+.projet .bottom .bottom-left img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-left p{
+    margin:0px 0px 0px 0px;
+}
+.projet .bottom .bottom-center{
+    width: 33%;
+}
+.projet .bottom .bottom-center img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-center p{
+    margin:0px 0px 0px 0px;
+}
+.projet .bottom .bottom-right{
+    width: 33%;
+}
+.projet .bottom .bottom-right img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-right p{
+    margin:0px 0px 0px 0px;
+}
+*/
 
 /*
 header {
