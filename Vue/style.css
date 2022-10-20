@@ -11,7 +11,6 @@ body{
     height: 100vh;
 }
 section {
-
 }
 section .container{
     max-width: 1400px;
@@ -58,8 +57,10 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
+
+/* Changement index.php */
 .maiat{
-    width: 1000px;
+    width: 80%;
     align-items: center;
     margin: auto;
 }
@@ -78,8 +79,10 @@ section .container nav a:hover{
     color: white;
     font-size: large;
 }
+
+/* Changement guide.php */
 .guide{
-    width: 1000px;
+    width: 80%;
     align-items: center;
     margin: auto;
 }
@@ -93,8 +96,10 @@ section .container nav a:hover{
     display: block;
     margin:0px auto 40px auto;
 }
+
+/* Changement critere.php */
 .critere{
-    width: 1000px;
+    width: 80%;
     align-items: center;
     margin: auto;
 }
@@ -108,20 +113,22 @@ section .container nav a:hover{
     display: block;
     margin:0px auto 40px auto;
 }
+
+/* Changement projet.php */
 .projet{
-    width: 1000px;
+    width: 90%;
     align-items: center;
     margin: auto;
 }
-.projet h1,h2,h4,p{
+.projet h1,h2,h3,h4,p{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     color: white;
 }
 .projet img{
     display: block;
-    margin:0px auto 40px auto;
+    margin:0px auto 0px auto;
 }
 
 
