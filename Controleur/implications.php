@@ -17,9 +17,9 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 </head>
 <body onload="init();">
 <?php
-$c= $_POST['btn'];
+$c=$_POST['btn1'];
 $Id_Critere = $_SESSION['id_Critere'];
-
+$a=0;
 
 $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
 $resultat = mysqli_query($db, $requete);
@@ -99,7 +99,7 @@ $row = mysqli_fetch_assoc($resultat);
     </tr>
 </table>
 <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-<form action="../Modele/ajout_analyse_C1.php" method="post" >
+<form action="../Modele/ajout_analyse.php" method="post" >
     <table>
         <tr>
             <td></td>
@@ -196,7 +196,7 @@ $row = mysqli_fetch_assoc($resultat);
     </tr>
 </table>
 <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-<form action="../Modele/ajout_analyse_C1.php" method="post" >
+<form action="../Modele/ajout_analyse.php" method="post" >
     <table>
         <tr>
             <td></td>
@@ -296,7 +296,7 @@ $row = mysqli_fetch_assoc($resultat);
         </tr>
     </table>
     <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-    <form action="../Modele/ajout_analyse_C2.php" method="post" >
+    <form action="../Modele/ajout_analyse.php" method="post" >
         <table>
             <tr>
                 <td></td>
@@ -312,12 +312,12 @@ $row = mysqli_fetch_assoc($resultat);
             </tr>
             <tr>
                 <td></td>
-                <td> <input name="C3_interpretation" type="text" /> </td>
-                <td> <input name="C3_plan_action" type="text" /></td>
-                <td> <input name="C3_suivi" type="text" /></td>
+                <td> <input name="interpretation" type="text" /> </td>
+                <td> <input name="plan_action" type="text" /></td>
+                <td> <input name="suivi" type="text" /></td>
             </tr>
             <tr>
-                <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+                <td> <button name="btn" type="submit" value="3" > Valider l'interpretation <?php $c=0;?></button></td>
             </tr>
         </table>
 
@@ -396,7 +396,7 @@ $row = mysqli_fetch_assoc($resultat);
         </tr>
     </table>
     <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-    <form action="../Modele/ajout_analyse_C2.php" method="post" >
+    <form action="../Modele/ajout_analyse.php" method="post" >
         <table>
             <tr>
                 <td></td>
@@ -412,12 +412,12 @@ $row = mysqli_fetch_assoc($resultat);
             </tr>
             <tr>
                 <td></td>
-                <td> <input name="C4_interpretation" type="text" /> </td>
-                <td> <input name="C4_plan_action" type="text" /></td>
-                <td> <input name="C4_suivi" type="text" /></td>
+                <td> <input name="interpretation" type="text" /> </td>
+                <td> <input name="plan_action" type="text" /></td>
+                <td> <input name="suivi" type="text" /></td>
             </tr>
             <tr>
-                <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+                <td> <button name="btn" type="submit" value="4" > Valider l'interpretation <?php $c=0;?></button></td>
             </tr>
         </table>
 
@@ -496,7 +496,7 @@ $row = mysqli_fetch_assoc($resultat);
         </tr>
     </table>
     <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-    <form action="../Modele/ajout_analyse_C2.php" method="post" >
+    <form action="../Modele/ajout_analyse.php" method="post" >
         <table>
             <tr>
                 <td></td>
@@ -512,12 +512,12 @@ $row = mysqli_fetch_assoc($resultat);
             </tr>
             <tr>
                 <td></td>
-                <td> <input name="C5_interpretation" type="text" /> </td>
-                <td> <input name="C5_plan_action" type="text" /></td>
-                <td> <input name="C5_suivi" type="text" /></td>
+                <td> <input name="interpretation" type="text" /> </td>
+                <td> <input name="plan_action" type="text" /></td>
+                <td> <input name="suivi" type="text" /></td>
             </tr>
             <tr>
-                <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+                <td> <button name="btn" type="submit" value="5" > Valider l'interpretation <?php $c=0;?></button></td>
             </tr>
         </table>
 
@@ -597,7 +597,7 @@ $row = mysqli_fetch_assoc($resultat);
         </tr>
     </table>
     <h3>Ce tableau est a votre disposition pour structurer votre analyse des résultats :  </h3>
-    <form action="../Modele/ajout_analyse_C2.php" method="post" >
+    <form action="../Modele/ajout_analyse.php" method="post" >
         <table>
             <tr>
                 <td></td>
@@ -613,12 +613,12 @@ $row = mysqli_fetch_assoc($resultat);
             </tr>
             <tr>
                 <td></td>
-                <td> <input name="C6_interpretation" type="text" /> </td>
-                <td> <input name="C6_plan_action" type="text" /></td>
-                <td> <input name="C6_suivi" type="text" /></td>
+                <td> <input name="interpretation" type="text" /> </td>
+                <td> <input name="plan_action" type="text" /></td>
+                <td> <input name="suivi" type="text" /></td>
             </tr>
             <tr>
-                <td> <input name="valider l'analyse" type="submit" value="Valider l'analyse" /></td>
+                <td> <button name="btn" type="submit" value="6" > Valider l'interpretation <?php $c=0;?></button></td>
             </tr>
         </table>
 

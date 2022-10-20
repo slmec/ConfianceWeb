@@ -107,7 +107,7 @@
 
     <div class = "bouton">
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="1" class="button"name = "btn">
+            <button type="submit" value="1" class="button"name = "btn1">
 
                 La reconnaissance
             </button>
@@ -115,35 +115,35 @@
     </div>
     <div class = "bouton">
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="2" class="button" name = "btn">
+            <button type="submit" value="2" class="button" name = "btn1">
                 Les relations humaines
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
-            <button type="submit" value="La surveillance" class="button" name = "btn">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="3" class="button" name = "btn1">
                 La surveillance
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
-            <button type="submit" value="La perte d'autonomie" class="button" name = "btn">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="4" class="button" name = "btn1">
                La perte d'autonomie
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
-            <button type="submit" value="Le savoir faire " class="button" name = "btn">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="5" class="button" name = "btn1">
                 Le savoir faire
             </button>
         </form>
     </div>
     <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php">
-            <button type="submit" value="La responsabilité" class="button" name = "btn">
+        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
+            <button type="submit" value="6" class="button" name = "btn1">
                 La responsabilité
             </button>
         </form>
