@@ -23,7 +23,7 @@
                 </div>
             </header>
             <div class="maiat">
-                <h2>MAIAT : Mesure de l'Acceptabilité Sociale de l&#39;Intelligence Artificielle au Travail</h2>
+                <h1>MAIAT : Mesure de l'Acceptabilité Sociale de l&#39;Intelligence Artificielle au Travail</h1>
 
                 <video src="Medias/video_site.mp4" width=640px height=480px controls poster="Medias/vignette_video_site.jpg" class="video" alt="vidéo de présentation"></video>
 

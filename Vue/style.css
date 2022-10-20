@@ -63,7 +63,7 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-.maiat h2{
+.maiat h1{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 0px;
@@ -83,13 +83,43 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-.guide h2{
+.guide h1{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 0px;
     color: white;
 }
 .guide video{
+    display: block;
+    margin:0px auto 40px auto;
+}
+.critere{
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+}
+.critere h1,h2,h4,p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: white;
+}
+.critere img{
+    display: block;
+    margin:0px auto 40px auto;
+}
+.projet{
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+}
+.projet h1,h2,h4,p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: white;
+}
+.projet img{
     display: block;
     margin:0px auto 40px auto;
 }
