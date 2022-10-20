@@ -7,6 +7,10 @@
 body{
     font-family: "Times New Roman", sans-serif ;
 }
+section {
+    background: linear-gradient(136.16deg, #8E94E7 12.91%, #a9a9e6 87.68%);
+}
+/*
 header {
     height:15vh;
     width: 100%;

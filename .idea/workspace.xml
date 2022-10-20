@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css bandeau et boutons">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif lien vers c'est a vous">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,14 +95,7 @@
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="15273000" />
       <workItem from="1666165626525" duration="10219000" />
-      <workItem from="1666249794943" duration="115000" />
-    </task>
-    <task id="LOCAL-00037" summary="modif bouton">
-      <created>1665567048292</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1665567048292</updated>
+      <workItem from="1666249794943" duration="1291000" />
     </task>
     <task id="LOCAL-00038" summary="modif visualiser les diagrammes">
       <created>1665580307799</created>
@@ -442,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666192792924</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="modif lien vers c'est a vous">
+      <created>1666249976419</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1666249976419</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif affichage diagramme" />
     <MESSAGE value="modif bouton" />
     <MESSAGE value="modif visualiser les diagrammes" />
     <MESSAGE value="modif diagnostic" />
@@ -485,7 +482,8 @@
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css bandeau et boutons" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css bandeau et boutons" />
+    <MESSAGE value="modif lien vers c'est a vous" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif lien vers c'est a vous" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
