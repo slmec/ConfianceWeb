@@ -117,9 +117,8 @@ $row = mysqli_fetch_assoc($resultat);
 
 <h1> Recapitulatif Diagnostic <?php echo $row['Nom'] ?> </h1>
 
-<h1>La reconnaissance</h1>
+<h2>La reconnaissance</h2>
 
-<h3>Les reponses au questionnaires concernant le critere : </h3>
 <table>
     <tr>
         <td> Questions </td>
@@ -186,8 +185,21 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C1_interpretation'] ?> </td>
+        <td> <?php echo $row['C1_plan_action'] ?> </td>
+        <td> <?php echo $row['C1_suivi'] ?> </td>
+    </tr>
 
-<h1>Les relations humaines </h1>
+</table>
+<h2>Les relations humaines </h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -255,8 +267,21 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C2_interpretation'] ?> </td>
+        <td> <?php echo $row['C2_plan_action'] ?> </td>
+        <td> <?php echo $row['C2_suivi'] ?> </td>
+    </tr>
 
-<h1>La surveillance</h1>
+</table>
+<h2>La surveillance</h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -327,8 +352,21 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C3_interpretation'] ?> </td>
+        <td> <?php echo $row['C3_plan_action'] ?> </td>
+        <td> <?php echo $row['C3_suivi'] ?> </td>
+    </tr>
 
-<h1>La perte d'autonomie </h1>
+</table>
+<h2>La perte d'autonomie </h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -399,8 +437,21 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C4_interpretation'] ?> </td>
+        <td> <?php echo $row['C4_plan_action'] ?> </td>
+        <td> <?php echo $row['C4_suivi'] ?> </td>
+    </tr>
 
-<h1>Le savoir faire </h1>
+</table>
+<h2>Le savoir faire </h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -471,8 +522,21 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C5_interpretation'] ?> </td>
+        <td> <?php echo $row['C5_plan_action'] ?> </td>
+        <td> <?php echo $row['C5_suivi'] ?> </td>
+    </tr>
 
-<h1>La responsabilité</h1>
+</table>
+<h2>La responsabilité</h2>
 <table>
     <tr>
         <td> Questions </td>
@@ -544,6 +608,19 @@ $row = mysqli_fetch_assoc($resultat);
         </td>
     </tr>
 </table>
+<h3>Votre analyse :  </h3>
+<table>
+    <tr>
+        <td> Interpretation personnelle de l'évaluation </td>
+        <td> Plan d'action </td>
+        <td> Suivi à N+ ...</td>
+    </tr>
+    <tr>
+        <td> <?php echo $row['C6_interpretation'] ?> </td>
+        <td> <?php echo $row['C6_plan_action'] ?> </td>
+        <td> <?php echo $row['C6_suivi'] ?> </td>
+    </tr>
 
+</table>
 </body>
 </html>
