@@ -20,18 +20,45 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 mysqli_select_db($db, "Confiance" );
 if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
-$C1_interpretation = $_POST['C1_interpretation'];
-$C1_plan_action = $_POST['C1_plan_action'];
-$C1_suivi = $_POST['C1_suivi'];
+$a= $_POST['btn'];
+
+$interpretation = $_POST['interpretation'];
+$plan_action = $_POST['plan_action'];
+$suivi = $_POST['suivi'];
 $Id_Critere = $_SESSION['id_Critere'];
 
-if($C1_interpretation !== "" && $C1_plan_action !== ""&&$C1_suivi !== "") {
-    $requete = "UPDATE Diagnostics SET C1_suivi ='$C1_suivi',C1_plan_action ='$C1_plan_action',C1_interpretation ='$C1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-    $result = mysqli_query($db, $requete);
+if ($a==1){
+    if ($suivi != ""){
+        $requete1 = "UPDATE Diagnostics SET C1_suivi ='$suivi'WHERE Id_critere_bis = '$Id_Critere' ";
+        $result1 = mysqli_query($db, $requete1);
+    }
+    if ($plan_action != ""){
+        $requete2 = "UPDATE Diagnostics SET C1_plan_action ='$plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+        $result2 = mysqli_query($db, $requete2);
+    }
+    if ($interpretation != ""){
+        $requete3 = "UPDATE Diagnostics SET C1_interpretation ='$interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+        $result3 = mysqli_query($db, $requete3);
+    }
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
+    $a=0;
 }
 
-
+if ($a==2){
+    if ($suivi != ""){
+        $requete1 = "UPDATE Diagnostics SET C2_suivi ='$suivi'WHERE Id_critere_bis = '$Id_Critere' ";
+        $result1 = mysqli_query($db, $requete1);
+    }
+    if ($plan_action != ""){
+        $requete2 = "UPDATE Diagnostics SET C2_plan_action ='$plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+        $result2 = mysqli_query($db, $requete2);
+    }
+    if ($interpretation != ""){
+        $requete3 = "UPDATE Diagnostics SET C2_interpretation ='$interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+        $result3 = mysqli_query($db, $requete3);
+    }
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php?');
+}
 ?>
 </body>
 </html>
