@@ -120,7 +120,11 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-.projet h1,h2,h3,h4,p{
+.projet .top{
+    width: 70%;
+    margin: auto;
+}
+.projet .top h1,h3,p{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -134,33 +138,32 @@ section .container nav a:hover{
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 .projet .bottom .bottom-top{
     text-align: center;
-    display: flex;
-    flex-direction: row;
+    display: block;
     width: 100%;
-    box-sizing: border-box;
     align-items: end;
+    padding: 30px;
 }
 .projet .bottom .bottom-bottom{
-
     display: flex;
     flex-direction: row;
+    flex-basis: 200px;
     width: 100%;
     box-sizing: border-box;
     align-items: start;
     margin: auto;
 }
-.projet .bottom .bottom-bottom img {
-    width: 33%;
-    margin: 0px auto 0px auto;
+.projet .bottom .bottom-top img {
+    justify-content: space-between;
+    margin:0px auto 0px auto;
 }
 .projet .bottom .bottom-bottom p{
     width: 33%;
     margin: 0px auto 0px auto;
     padding: 20px;
+    text-align: center;
 }
 /*.projet .bottom .bottom-left{
     width: 33%;
