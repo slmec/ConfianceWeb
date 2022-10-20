@@ -6,19 +6,24 @@
 	<title>MAIAT</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="https://www.confiance.ai/" class="logo"><img src="Medias/logoconfiance.jpg" width="150" height="106"></a>
-        <div class="nav-links">
-            <ul>
-                <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">C'est à vous</a></li>
-            </ul>
+    <section>
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <a href="https://www.confiance.ai/" class="logo"><img src="Medias/logoconfiance.jpg" width="150" height="106"></a>
+                    <div class="nav-links">
+                        <ul>
+                            <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php">MAIAT</a></li>
+                            <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
+                            <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
+                            <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
+                            <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
         </div>
-    </nav>
-    <header></header>
+    </section>
     <section>
         <h2>MAIAT : Mesure de l'Acceptabilité Sociale de l&#39;Intelligence Artificielle au Travail</h2>
 

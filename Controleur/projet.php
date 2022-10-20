@@ -14,7 +14,7 @@
                 <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/critere.php">Les critères de risques sociaux</a></li>
                 <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/guide.php">Le guide de MAIAT</a></li>
                 <li class="active"><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/projet.php">Equipes et partenaires</a></li>
-                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">C'est à vous</a></li>
+                <li><a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php" target="_blank">C'est à vous</a></li>
             </ul>
         </div>
     </nav>

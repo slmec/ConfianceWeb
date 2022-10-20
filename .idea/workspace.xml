@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec696bb9-c2b9-4de1-b20a-1a6a0dc96cb6" name="Changes" comment="reduction fichiers">
-      <change afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif lien vers c'est a vous">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Deresponsabilite.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Desengagement_Relationnel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Fragilisation_Reconnaissance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Perte_Autonomie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Sentiment_Depossession.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Surveillance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse_C6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +73,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec696bb9-c2b9-4de1-b20a-1a6a0dc96cb6" name="Changes" comment="reduction fichiers" />
+      <changelist id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="" />
       <created>1665065109727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -113,22 +94,8 @@
       <workItem from="1665989313968" duration="11000" />
       <workItem from="1665993433440" duration="16244000" />
       <workItem from="1666075403690" duration="15273000" />
-      <workItem from="1666165626525" duration="10166000" />
-      <workItem from="1666249808800" duration="2315000" />
-    </task>
-    <task id="LOCAL-00036" summary="modif bouton">
-      <created>1665566129174</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1665566129174</updated>
-    </task>
-    <task id="LOCAL-00037" summary="modif bouton">
-      <created>1665567048292</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1665567048292</updated>
+      <workItem from="1666165626525" duration="10219000" />
+      <workItem from="1666249794943" duration="1291000" />
     </task>
     <task id="LOCAL-00038" summary="modif visualiser les diagrammes">
       <created>1665580307799</created>
@@ -459,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666192542588</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="modif css bandeau et boutons">
+      <created>1666192792924</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192792924</updated>
+    </task>
+    <task id="LOCAL-00086" summary="modif lien vers c'est a vous">
+      <created>1666249976419</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1666249976419</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,8 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif diagramme v3" />
-    <MESSAGE value="modif affichage diagramme" />
     <MESSAGE value="modif bouton" />
     <MESSAGE value="modif visualiser les diagrammes" />
     <MESSAGE value="modif diagnostic" />
@@ -502,7 +481,9 @@
     <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css critere" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css critere" />
+    <MESSAGE value="modif css bandeau et boutons" />
+    <MESSAGE value="modif lien vers c'est a vous" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif lien vers c'est a vous" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
