@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression comparaison">
-      <change afterPath="$PROJECT_DIR$/Vue/salome.css" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css critere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/recap_diagnostic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +33,16 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2FlSJ5xTN3Nyx8Sk3MgXv4CYSSt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
@@ -66,8 +68,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
       <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Medias" />
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
       <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Controleur" />
     </key>
   </component>
@@ -98,42 +100,8 @@
       <workItem from="1666165626525" duration="10219000" />
       <workItem from="1666249794943" duration="1780000" />
       <workItem from="1666251830897" duration="156000" />
-      <workItem from="1666252035725" duration="9972000" />
-    </task>
-    <task id="LOCAL-00042" summary="modif diagnostic">
-      <created>1665584965759</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1665584965759</updated>
-    </task>
-    <task id="LOCAL-00043" summary="modif diagnostic">
-      <created>1665645385910</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1665645385910</updated>
-    </task>
-    <task id="LOCAL-00044" summary="modif">
-      <created>1665645748798</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1665645748798</updated>
-    </task>
-    <task id="LOCAL-00045" summary="modif diagnostic suivi">
-      <created>1665650589172</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1665650589172</updated>
-    </task>
-    <task id="LOCAL-00046" summary="modif recuperation donnees diagnostic">
-      <created>1665653347918</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1665653347918</updated>
+      <workItem from="1666252035725" duration="17309000" />
+      <workItem from="1666334613286" duration="10009000" />
     </task>
     <task id="LOCAL-00047" summary="modif recuperation donnees diagnostic">
       <created>1665653705923</created>
@@ -443,7 +411,42 @@
       <option name="project" value="LOCAL" />
       <updated>1666268941975</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="modif css projet">
+      <created>1666270987302</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1666270987302</updated>
+    </task>
+    <task id="LOCAL-00092" summary="modif css projet v2">
+      <created>1666278087362</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1666278087362</updated>
+    </task>
+    <task id="LOCAL-00093" summary="modif css projet v3">
+      <created>1666279945570</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1666279945570</updated>
+    </task>
+    <task id="LOCAL-00094" summary="modif css equipes et partenaires">
+      <created>1666338186049</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1666338186049</updated>
+    </task>
+    <task id="LOCAL-00095" summary="modif css critere">
+      <created>1666355441816</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355441816</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,10 +464,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modif" />
-    <MESSAGE value="modif diagnostic suivi" />
-    <MESSAGE value="modif recuperation donnees diagnostic" />
-    <MESSAGE value="modif debut css" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="modif modif diagnostic" />
     <MESSAGE value="modif affichage diagnostic" />
     <MESSAGE value="modif affichage diagnostics" />
@@ -480,29 +480,17 @@
     <MESSAGE value="modif cryptage" />
     <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
-    <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
     <MESSAGE value="modif css site" />
     <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css projet + critere" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
-          <line>349</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
-          <line>271</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="modif css projet" />
+    <MESSAGE value="modif css projet v2" />
+    <MESSAGE value="modif css projet v3" />
+    <MESSAGE value="modif css equipes et partenaires" />
+    <MESSAGE value="modif css critere" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif css critere" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,7 +7,7 @@
     font-family: "Calibri", sans-serif ;
 }
 body{
-    background: linear-gradient(150deg, #8E94E7 10%, #ccceed 90%);
+    background: linear-gradient(145deg, #5b9bf8 10%, #b6d1f8 90%);
     height: 100vh;
 }
 section {
@@ -42,7 +42,7 @@ section .container nav a{
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #a9a9e6;
+    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -51,7 +51,7 @@ section .container nav a.active{
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #a9a9e6;
+    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -60,7 +60,7 @@ section .container nav a:hover{
 
 /* Changement index.php */
 .maiat{
-    width: 80%;
+    width: 90%;
     align-items: center;
     margin: auto;
 }
@@ -82,7 +82,7 @@ section .container nav a:hover{
 
 /* Changement guide.php */
 .guide{
-    width: 80%;
+    width: 90%;
     align-items: center;
     margin: auto;
 }
@@ -100,19 +100,137 @@ section .container nav a:hover{
 /* Changement critere.php */
 .critere{
     width: 80%;
-    align-items: center;
     margin: auto;
 }
-.critere h1,h2,h4,p{
+.critere h1,p,a{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 0px;
     color: white;
+    padding:0px;
+}
+.critere h2,h4{
+    text-decoration: underline white;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.critere p{
+    font-size: 15px;
+    padding: 0px;
+    text-align: justify;
+}
+.critere li{
+    text-align: justify;
+    color: white;
+    padding: 0px;
 }
 .critere img{
     display: block;
-    margin:0px auto 40px auto;
+    margin:0px auto 0px auto;
 }
+.critere .critere_top{
+    align-items: center;
+}
+.critere .critere_bottom a{
+    padding: 30px;
+}
+/*critere reconnaissance*/
+.critere .reconnaissance{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .reconnaissance_left, .reconnaissance_right{
+    width: 50%;
+}
+.critere .reconnaissance_right{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere desengagement*/
+.critere .desengagement{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .desengagement_left, .desengagement_right{
+    width: 50%;
+}
+.critere .desengagement_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere controle*/
+.critere .controle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .controle_left, .controle_right{
+    width: 50%;
+}
+.critere .controle_right{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere autonomie*/
+.critere .autonomie{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .autonomie_left, .autonomie_right{
+    width: 50%;
+}
+.critere .autonomie_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+
+/*critere savoir-faire*/
+.critere .depossession{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .depossession_left, .depossession_right{
+    width: 50%;
+}
+.critere .depossession_right{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere deresponsabilisation*/
+.critere .deresponsabilisation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .deresponsabilisation_left, .deresponsabilisation_right{
+    width: 50%;
+}
+.critere .deresponsabilisation_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
 
 /* Changement projet.php */
 .projet{
@@ -120,17 +238,83 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-.projet h1,h2,h3,h4,p{
+.projet .top{
+    width: 70%;
+    margin: auto;
+}
+.projet .top h1,h3,p{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
 }
-.projet img{
+.projet .top img{
     display: block;
     margin:0px auto 0px auto;
 }
-
+.projet .bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.projet .bottom .bottom-top{
+    text-align: center;
+    display: block;
+    width: 100%;
+    align-items: end;
+    padding: 30px;
+}
+.projet .bottom .bottom-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: start;
+    margin: auto;
+}
+.projet .bottom .bottom-top img {
+    margin: auto 100px auto 100px;
+    text-align: center;
+    align-items: center;
+}
+.projet .bottom .bottom-bottom p{
+    width: 33%;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+/*.projet .bottom .bottom-left{
+    width: 33%;
+}
+.projet .bottom .bottom-left img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-left p{
+    margin:0px 0px 0px 0px;
+}
+.projet .bottom .bottom-center{
+    width: 33%;
+}
+.projet .bottom .bottom-center img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-center p{
+    margin:0px 0px 0px 0px;
+}
+.projet .bottom .bottom-right{
+    width: 33%;
+}
+.projet .bottom .bottom-right img{
+    display: block;
+    margin:0px auto 0px auto;
+}
+.projet .bottom .bottom-right p{
+    margin:0px 0px 0px 0px;
+}
+*/
 
 /*
 header {
