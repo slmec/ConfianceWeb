@@ -7,7 +7,7 @@
     font-family: "Calibri", sans-serif ;
 }
 body{
-    background: linear-gradient(150deg, #8E94E7 10%, #ccceed 90%);
+    background: linear-gradient(145deg, #5b9bf8 10%, #b6d1f8 90%);
     height: 100vh;
 }
 section {
@@ -42,7 +42,7 @@ section .container nav a{
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #a9a9e6;
+    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -51,7 +51,7 @@ section .container nav a.active{
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #a9a9e6;
+    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -156,8 +156,9 @@ section .container nav a:hover{
     margin: auto;
 }
 .projet .bottom .bottom-top img {
-    justify-content: space-between;
-    margin:0px auto 0px auto;
+    margin: auto 100px auto 100px;
+    text-align: center;
+    align-items: center;
 }
 .projet .bottom .bottom-bottom p{
     width: 33%;
