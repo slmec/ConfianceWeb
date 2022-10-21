@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css projet + critere">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression comparaison">
+      <change afterPath="$PROJECT_DIR$/Vue/salome.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/recap_diagnostic.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -486,6 +487,22 @@
     <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
     <option name="LAST_COMMIT_MESSAGE" value="modif css projet + critere" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
+          <line>349</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
+          <line>271</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
