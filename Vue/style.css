@@ -110,10 +110,14 @@ section .container nav a:hover{
 .critere h2,h4{
     text-decoration: underline white;
     padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
 }
 .critere p{
     font-size: 15px;
     padding: 0px;
+    text-align: justify;
 }
 .critere li{
     text-align: justify;
@@ -130,6 +134,7 @@ section .container nav a:hover{
 .critere .critere_bottom a{
     padding: 30px;
 }
+/*critere reconnaissance*/
 .critere .reconnaissance{
     display: flex;
     flex-direction: row;
@@ -144,6 +149,88 @@ section .container nav a:hover{
     border: solid white 2px;
     padding: 5px;
 }
+
+/*critere desengagement*/
+.critere .desengagement{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .desengagement_left, .desengagement_right{
+    width: 50%;
+}
+.critere .desengagement_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere controle*/
+.critere .controle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .controle_left, .controle_right{
+    width: 50%;
+}
+.critere .controle_right{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere autonomie*/
+.critere .autonomie{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .autonomie_left, .autonomie_right{
+    width: 50%;
+}
+.critere .autonomie_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+
+/*critere savoir-faire*/
+.critere .depossession{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .depossession_left, .depossession_right{
+    width: 50%;
+}
+.critere .depossession_right{
+    border: solid white 2px;
+    padding: 5px;
+}
+
+/*critere deresponsabilisation*/
+.critere .deresponsabilisation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 418px;
+    align-items: center;
+}
+.critere .deresponsabilisation_left, .deresponsabilisation_right{
+    width: 50%;
+}
+.critere .deresponsabilisation_left{
+    border: solid white 2px;
+    padding: 5px;
+}
+
 
 /* Changement projet.php */
 .projet{
