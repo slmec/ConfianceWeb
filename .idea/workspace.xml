@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css projet v3">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif css equipes et partenaires">
+      <change afterPath="$PROJECT_DIR$/backgroundsiteconfiance.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +102,7 @@
       <workItem from="1666249794943" duration="1780000" />
       <workItem from="1666251830897" duration="156000" />
       <workItem from="1666252035725" duration="17309000" />
-      <workItem from="1666334613286" duration="2773000" />
-    </task>
-    <task id="LOCAL-00045" summary="modif diagnostic suivi">
-      <created>1665650589172</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1665650589172</updated>
+      <workItem from="1666334613286" duration="8395000" />
     </task>
     <task id="LOCAL-00046" summary="modif recuperation donnees diagnostic">
       <created>1665653347918</created>
@@ -446,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666279945570</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="modif css equipes et partenaires">
+      <created>1666338186049</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1666338186049</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif debut css" />
     <MESSAGE value="modif modif diagnostic" />
     <MESSAGE value="modif affichage diagnostic" />
     <MESSAGE value="modif affichage diagnostics" />
@@ -490,7 +490,8 @@
     <MESSAGE value="modif css projet" />
     <MESSAGE value="modif css projet v2" />
     <MESSAGE value="modif css projet v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif css projet v3" />
+    <MESSAGE value="modif css equipes et partenaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif css equipes et partenaires" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
