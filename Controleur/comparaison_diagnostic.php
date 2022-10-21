@@ -2369,7 +2369,13 @@ or die('could not connect to database');
     <table>
                 <tr>
                     <th> Questions </th>
-                    <td>
+                    <td>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
+                    <td>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</td>
+                    <td>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</td>
+                    <td>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</td>
+                </tr>
+                <tr>
+                    <th> Diagnostic <?php echo $diagnostic1_nom ?></th>
                 </tr>
                 <tr>
                     <th> Vos reponses </th>
@@ -2425,15 +2431,129 @@ or die('could not connect to database');
                         ?>
                     </td>
                 </tr>
+        <th> Diagnostic <?php echo $diagnostic2_nom ?></th>
+        </tr>
+        <tr>
+            <th> Vos reponses </th>
+            <td><?php if ($row1['C4Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row1['C4Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row1['C4Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row1['C4Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
+        </tr>
+        <tr>
+            <th> Implications </th>
+            <td>
+                <?php
+                $texte = "La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas." ;
+                if ($row1['C4Q1'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>" ;
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement." ;
+                if ($row1['C4Q2'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper." ;
+                if ($row1['C4Q3'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité. " ;
+                if ($row1['C4Q4'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+        </tr>
+        <th> Diagnostic <?php echo $diagnostic3_nom ?></th>
+        </tr>
+        <tr>
+            <th> Vos reponses </th>
+            <td><?php if ($row2['C4Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row2['C4Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row2['C4Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($row2['C4Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
+        </tr>
+        <tr>
+            <th> Implications </th>
+            <td>
+                <?php
+                $texte = "La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas." ;
+                if ($row2['C4Q1'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>" ;
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement." ;
+                if ($row2['C4Q2'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper." ;
+                if ($row2['C4Q3'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                $texte = "L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité. " ;
+                if ($row2['C4Q4'] == 0) {
+                    echo "<p style='color:red'> $texte </p>" ;
+                }
+                else {
+                    echo "<p> $texte </p>";
+                }
+                ?>
+            </td>
+        </tr>
             </table>
     <h3>Votre analyse :  </h3>
     <table>
                 <tr>
+                    <th></th>
                     <th> Interpretation personnelle de l'évaluation </th>
                     <th> Plan d'action </th>
                     <th> Suivi à N+ ...</th>
                 </tr>
                 <tr>
+                    <th> Diagnostic <?php echo $diagnostic1_nom ?></th>
                     <td> <?php echo $row['C4_interpretation'] ?> </td>
                     <td> <?php echo $row['C4_plan_action'] ?> </td>
                     <td> <?php echo $row['C4_suivi'] ?> </td>
