@@ -18,7 +18,7 @@
 
 </head>
 <body>
-<form action="comparaison_diagnostic.php" method="post" target="_self">
+<form action="comparaison_diagnostic2.php" method="post" target="_self">
     <?php
         $id_utilisateur = $_SESSION['id_Utilisateur'];
         $resultat = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
