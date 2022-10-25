@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Calibri", sans-serif ;
+}
+
+table{
+    border: grey solid 3px ;
+    border-collapse: collapse;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 10%;
+}
+
+th{
+    border: grey solid 3px ;
+    border-collapse: collapse;
+    width: 10%;
+    background-color: #bcd1ea;
+}
+td{
+    border: grey dotted ;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+analyse{}

@@ -324,7 +324,7 @@ $row = mysqli_fetch_assoc($resultat);
     </form>
 <?php } ?>
 <?php if ($c==4){ ?>
-    <h2>La perte d'autonomie </h2>
+    <h2>L'autonomie'</h2>
     <table>
         <tr>
             <td> Questions </td>
