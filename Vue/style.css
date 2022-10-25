@@ -7,7 +7,7 @@
     font-family: "Calibri", sans-serif ;
 }
 body{
-    background: linear-gradient(145deg, #5b9bf8 10%, #b6d1f8 90%);
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
     height: 100vh;
 }
 section {
@@ -99,8 +99,9 @@ section .container nav a:hover{
 
 /* Changement critere.php */
 .critere{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    align-items: center;
 }
 .critere h1,p,a{
     text-align: center;
@@ -131,8 +132,16 @@ section .container nav a:hover{
 .critere .critere_top{
     align-items: center;
 }
+.critere .critere_top img{
+    margin:10px auto 0px auto;
+}
+.critere .critere_bottom{
+    align-items: center;
+    text-align: center;
+}
 .critere .critere_bottom a{
     padding: 30px;
+    margin: auto;
 }
 /*critere reconnaissance*/
 .critere .reconnaissance{
@@ -140,7 +149,8 @@ section .container nav a:hover{
     flex-direction: row;
     width: 100%;
     height: 418px;
-    align-items: center;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .reconnaissance_left, .reconnaissance_right{
     width: 50%;
@@ -156,7 +166,8 @@ section .container nav a:hover{
     flex-direction: row;
     width: 100%;
     height: 418px;
-    align-items: center;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .desengagement_left, .desengagement_right{
     width: 50%;
@@ -172,7 +183,8 @@ section .container nav a:hover{
     flex-direction: row;
     width: 100%;
     height: 418px;
-    align-items: center;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .controle_left, .controle_right{
     width: 50%;
@@ -187,8 +199,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 418px;
-    align-items: center;
+    height: 550px;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .autonomie_left, .autonomie_right{
     width: 50%;
@@ -204,8 +217,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 418px;
-    align-items: center;
+    height: 550px;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .depossession_left, .depossession_right{
     width: 50%;
@@ -220,8 +234,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 418px;
-    align-items: center;
+    height: 600px;
+    align-items: start;
+    margin-top: 20px;
 }
 .critere .deresponsabilisation_left, .deresponsabilisation_right{
     width: 50%;
@@ -262,7 +277,6 @@ section .container nav a:hover{
     display: block;
     width: 100%;
     align-items: end;
-    padding: 30px;
 }
 .projet .bottom .bottom-bottom{
     display: flex;
@@ -274,10 +288,12 @@ section .container nav a:hover{
     margin: auto;
 }
 .projet .bottom .bottom-top img {
-    margin: auto 100px auto 100px;
     text-align: center;
     align-items: center;
+    margin: auto 130px auto 130px;
 }
+
+
 .projet .bottom .bottom-bottom p{
     width: 33%;
     margin: 0px auto 0px auto;
