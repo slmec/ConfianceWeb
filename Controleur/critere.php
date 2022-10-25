@@ -27,24 +27,11 @@
                     <h1>MAIAT : Les crit&egrave;res</h1>
                     <p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de
                         l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
-                    <img src="../Medias/critere.png" width="430" height="341">
                 </div>
-                <div class="critere_bottom">
-                    <p>
-                        <a href="#" class="lien_critere"/>La reconnaissance</a>
-                        <a href="#" class="lien_critere"/>L'autonomie</a>
-                        <a href="#" class="lien_critere"/>Le savoir-faire</a>
-                        <a href="#" class="lien_critere"/>La responsabilité</a>
-                        <a href="#" class="lien_critere"/>Le contrôle</a>
-                        <a href="#" class="lien_critere"/>Les relations humaines</a>
-                    </p>
-                    <p>
-                        <a href="#" class="lien_critere"/>Détails des critères ci-dessous</a>
-                    </p>
-                </div>
+
                 <div class="reconnaissance">
                     <div class="reconnaissance_left">
-                        <img src="../Medias/reconnaissance.jpg" width="527" height="418">
+                        <img src="../Medias/reconnaissance.jpg" width="600" height="476">
                     </div>
                     <div class="reconnaissance_right">
                         <h2>La reconnaissance</h2>
@@ -81,12 +68,12 @@
                             configur&eacute;, pour saluer un coll&egrave;gue par exemple, provoque un message d&#39;erreur de type &quot;chiffre contr&ocirc;le faux&quot;</p>
                     </div>
                     <div class="desengagement_right">
-                        <img src="../Medias/desengagement.png" width="527" height="418">
+                        <img src="../Medias/desengagement.png" width="600" height="476">
                     </div>
                 </div>
                 <div class="controle">
                     <div class="controle_left">
-                        <img src="../Medias/controle.jpg" width="527" height="418">
+                        <img src="../Medias/controle.jpg" width="600" height="476">
                     </div>
                     <div class="controle_right">
                         <h2>La surveillance</h2>
@@ -127,12 +114,12 @@
                             palette&quot;, c&#39;est-&agrave;-dire une palette &eacute;quilibr&eacute;e dont la construction facilite la mobilit&eacute;.&nbsp;</p>
                     </div>
                     <div class="autonomie_right">
-                        <img src="../Medias/autonomie.png" width="527" height="418">
+                        <img src="../Medias/autonomie.png" width="600" height="476">
                     </div>
                 </div>
                 <div class="depossession">
                     <div class="depossession_left">
-                        <img src="../Medias/depossession.png" width="527" height="418">
+                        <img src="../Medias/depossession.png" width="600" height="476">
                     </div>
                     <div class="depossession_right">
                         <h2>Le savoir-faire</h2>
@@ -194,7 +181,7 @@
                             responsabilit&eacute;s en cas de crise sanitaire. Aucun service n&#39;est pr&ecirc;t &agrave; endosser la responsabilit&eacute; d&#39;une erreur du cobot.</p>
                     </div>
                     <div class="deresponsabilisation_right">
-                        <img src="../Medias/deresponsabilisation.png" width="527" height="418">
+                        <img src="../Medias/deresponsabilisation.png" width="600" height="476">
                     </div>
                 </div>
             </div>

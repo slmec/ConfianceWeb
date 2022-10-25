@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="ajout autonomie">
-      <change afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif projet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,53 +17,439 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GZgv6DCE4ACPwxsCDsQ0ATCjZJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2FlSJ5xTN3Nyx8Sk3MgXv4CYSSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/salom/IdeaProjects/ConfianceWeb&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Medias" />
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Vue" />
+      <recent name="C:\Users\charl\SiteWEB\ConfianceWeb\Controleur" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="ajout autonomie">
-      <created>1666358125887</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666358125887</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ajout autonomie">
-      <created>1666358205347</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666358205347</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="ajout autonomie" />
-      <created>1666601757183</created>
+      <changelist id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="" />
+      <created>1665065109727</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666601757183</updated>
-      <workItem from="1666601759342" duration="5622000" />
+      <updated>1665065109727</updated>
+      <workItem from="1665065111184" duration="1845000" />
+      <workItem from="1665066976783" duration="253000" />
+      <workItem from="1665067235059" duration="33000" />
+      <workItem from="1665067452680" duration="413000" />
+      <workItem from="1665069048226" duration="4077000" />
+      <workItem from="1665135145377" duration="694000" />
+      <workItem from="1665151687720" duration="2305000" />
+      <workItem from="1665392178404" duration="7682000" />
+      <workItem from="1665471789086" duration="18684000" />
+      <workItem from="1665501776996" duration="77000" />
+      <workItem from="1665556955166" duration="19936000" />
+      <workItem from="1665645218147" duration="12920000" />
+      <workItem from="1665733134113" duration="6787000" />
+      <workItem from="1665989313968" duration="11000" />
+      <workItem from="1665993433440" duration="16244000" />
+      <workItem from="1666075403690" duration="15273000" />
+      <workItem from="1666165626525" duration="10219000" />
+      <workItem from="1666249794943" duration="1780000" />
+      <workItem from="1666251830897" duration="156000" />
+      <workItem from="1666252035725" duration="17309000" />
+      <workItem from="1666334613286" duration="15003000" />
+      <workItem from="1666594083206" duration="3028000" />
+      <workItem from="1666680072857" duration="595000" />
+      <workItem from="1666681145174" duration="4850000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00049" summary="modif recuperation donnees diagnostic">
+      <created>1665662887081</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1665662887081</updated>
+    </task>
+    <task id="LOCAL-00050" summary="modif recuperation donnees diagnostic">
+      <created>1665666513193</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1665666513194</updated>
+    </task>
+    <task id="LOCAL-00051" summary="modif recuperation donnees diagnostic">
+      <created>1665667284935</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1665667284935</updated>
+    </task>
+    <task id="LOCAL-00052" summary="modif debut css">
+      <created>1665671793057</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1665671793058</updated>
+    </task>
+    <task id="LOCAL-00053" summary="modif modif diagnostic">
+      <created>1665737009356</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665737009356</updated>
+    </task>
+    <task id="LOCAL-00054" summary="modif modif diagnostic">
+      <created>1665759581604</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1665759581604</updated>
+    </task>
+    <task id="LOCAL-00055" summary="modif modif diagnostic">
+      <created>1665760054925</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665760054925</updated>
+    </task>
+    <task id="LOCAL-00056" summary="modif affichage diagnostic">
+      <created>1665999136700</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665999136701</updated>
+    </task>
+    <task id="LOCAL-00057" summary="modif affichage diagnostics">
+      <created>1666007867943</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1666007867943</updated>
+    </task>
+    <task id="LOCAL-00058" summary="modif affichage diagnostics">
+      <created>1666008733198</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008733198</updated>
+    </task>
+    <task id="LOCAL-00059" summary="modif sans identification">
+      <created>1666009836633</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1666009836633</updated>
+    </task>
+    <task id="LOCAL-00060" summary="modif sans identification">
+      <created>1666010794153</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1666010794153</updated>
+    </task>
+    <task id="LOCAL-00061" summary="modif des noms du critere">
+      <created>1666011538512</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1666011538513</updated>
+    </task>
+    <task id="LOCAL-00062" summary="modif identification">
+      <created>1666011603369</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1666011603369</updated>
+    </task>
+    <task id="LOCAL-00063" summary="modif identification">
+      <created>1666012573906</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012573906</updated>
+    </task>
+    <task id="LOCAL-00064" summary="modif organisation">
+      <created>1666016625286</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016625286</updated>
+    </task>
+    <task id="LOCAL-00065" summary="modif organisation">
+      <created>1666016792516</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016792516</updated>
+    </task>
+    <task id="LOCAL-00066" summary="modif inscription">
+      <created>1666016859778</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016859778</updated>
+    </task>
+    <task id="LOCAL-00067" summary="modif inscription">
+      <created>1666017153590</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1666017153590</updated>
+    </task>
+    <task id="LOCAL-00068" summary="modif resultat diagnostic">
+      <created>1666017475329</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1666017475329</updated>
+    </task>
+    <task id="LOCAL-00069" summary="modif erreur diagnostic nom">
+      <created>1666019300165</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1666019300165</updated>
+    </task>
+    <task id="LOCAL-00070" summary="modif erreur diagnostic nom">
+      <created>1666020655510</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1666020655510</updated>
+    </task>
+    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
+      <created>1666078268145</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1666078268145</updated>
+    </task>
+    <task id="LOCAL-00072" summary="modif mdp crypte">
+      <created>1666082795622</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1666082795622</updated>
+    </task>
+    <task id="LOCAL-00073" summary="modif mdp crypte">
+      <created>1666084146389</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1666084146389</updated>
+    </task>
+    <task id="LOCAL-00074" summary="modif probleme connexion">
+      <created>1666084638024</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1666084638024</updated>
+    </task>
+    <task id="LOCAL-00075" summary="modif cryptage">
+      <created>1666097338665</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1666097338666</updated>
+    </task>
+    <task id="LOCAL-00076" summary="modif inscription">
+      <created>1666099074455</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1666099074455</updated>
+    </task>
+    <task id="LOCAL-00077" summary="modif inscription">
+      <created>1666101654400</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1666101654400</updated>
+    </task>
+    <task id="LOCAL-00078" summary="modif inscription">
+      <created>1666105137860</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1666105137860</updated>
+    </task>
+    <task id="LOCAL-00079" summary="modif inscription">
+      <created>1666170153677</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1666170153677</updated>
+    </task>
+    <task id="LOCAL-00080" summary="modif css index">
+      <created>1666185341906</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185341907</updated>
+    </task>
+    <task id="LOCAL-00081" summary="modif css index">
+      <created>1666185444076</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185444076</updated>
+    </task>
+    <task id="LOCAL-00082" summary="modif css index">
+      <created>1666189948313</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189948313</updated>
+    </task>
+    <task id="LOCAL-00083" summary="modif css index">
+      <created>1666189965029</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189965029</updated>
+    </task>
+    <task id="LOCAL-00084" summary="modif css critere">
+      <created>1666192542588</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192542588</updated>
+    </task>
+    <task id="LOCAL-00085" summary="modif css bandeau et boutons">
+      <created>1666192792924</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1666192792924</updated>
+    </task>
+    <task id="LOCAL-00086" summary="modif lien vers c'est a vous">
+      <created>1666249976419</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1666249976419</updated>
+    </task>
+    <task id="LOCAL-00087" summary="modif css site">
+      <created>1666251244358</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1666251244358</updated>
+    </task>
+    <task id="LOCAL-00088" summary="modif css site">
+      <created>1666259222353</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1666259222353</updated>
+    </task>
+    <task id="LOCAL-00089" summary="modif css maiat + guide">
+      <created>1666267582133</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1666267582133</updated>
+    </task>
+    <task id="LOCAL-00090" summary="modif css projet + critere">
+      <created>1666268941975</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1666268941975</updated>
+    </task>
+    <task id="LOCAL-00091" summary="modif css projet">
+      <created>1666270987302</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1666270987302</updated>
+    </task>
+    <task id="LOCAL-00092" summary="modif css projet v2">
+      <created>1666278087362</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1666278087362</updated>
+    </task>
+    <task id="LOCAL-00093" summary="modif css projet v3">
+      <created>1666279945570</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1666279945570</updated>
+    </task>
+    <task id="LOCAL-00094" summary="modif css equipes et partenaires">
+      <created>1666338186049</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1666338186049</updated>
+    </task>
+    <task id="LOCAL-00095" summary="modif css critere">
+      <created>1666355441816</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355441816</updated>
+    </task>
+    <task id="LOCAL-00096" summary="modif css critere v2">
+      <created>1666357045835</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1666357045835</updated>
+    </task>
+    <task id="LOCAL-00097" summary="modif projet">
+      <created>1666682068570</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1666682068571</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,33 +467,36 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout autonomie" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout autonomie" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="modif affichage diagnostics" />
+    <MESSAGE value="modif sans identification" />
+    <MESSAGE value="modif des noms du critere" />
+    <MESSAGE value="modif identification" />
+    <MESSAGE value="modif organisation" />
+    <MESSAGE value="modif resultat diagnostic" />
+    <MESSAGE value="modif erreur diagnostic nom" />
+    <MESSAGE value="modif verification nom diagnostic" />
+    <MESSAGE value="modif mdp crypte" />
+    <MESSAGE value="modif probleme connexion" />
+    <MESSAGE value="modif cryptage" />
+    <MESSAGE value="modif inscription" />
+    <MESSAGE value="modif css index" />
+    <MESSAGE value="modif css bandeau et boutons" />
+    <MESSAGE value="modif lien vers c'est a vous" />
+    <MESSAGE value="modif css site" />
+    <MESSAGE value="modif css maiat + guide" />
+    <MESSAGE value="modif css projet + critere" />
+    <MESSAGE value="modif css projet" />
+    <MESSAGE value="modif css projet v2" />
+    <MESSAGE value="modif css projet v3" />
+    <MESSAGE value="modif css equipes et partenaires" />
+    <MESSAGE value="modif css critere" />
+    <MESSAGE value="modif css critere v2" />
+    <MESSAGE value="modif projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif projet" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
-          <line>2173</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic.php</url>
-          <line>1208</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/implications.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>877</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
