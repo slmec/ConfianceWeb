@@ -12,7 +12,7 @@ or die('could not connect to database');
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link rel="stylesheet" href="../Vue/salome.css" />
+    <link rel="stylesheet" href="../Vue/diagramme.css" />
     <title>MAIAT</title>
 
 </head>
@@ -23,7 +23,7 @@ if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3)
     //echo ("le nombre est ".count($_POST['adv']));
 
     if(isset($_POST['adv'])){
-        echo '<p>Votre choix : </p>';
+       //echo '<p>Votre choix : </p>';
         // $choix est l'id du diagnostique
         foreach ($_POST['adv'] as $choix){
             // echo $choix.'<br/>';
@@ -129,7 +129,7 @@ $row = mysqli_fetch_assoc($resultat);
 ?>
     <h2>La reconnaissance</h2>
     <table>
-        <tr>
+                <tr>
             <th> Questions </th>
             <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
             <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
@@ -150,6 +150,7 @@ $row = mysqli_fetch_assoc($resultat);
             <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
         </tr>
+
     </table>
     <h3>Votre analyse :  </h3>
     <table>

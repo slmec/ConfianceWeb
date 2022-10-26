@@ -5,15 +5,29 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title></title>
-
-
+    <title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/salome.css" />
 </head>
 <body>
+<section>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+            </nav>
+        </header>
+    </div>
+
     <h1>Devenez membre de MAIAT</h1>
-    <h3>Formulaire d&#39;inscription :</h3>
+    <br>
+
 
     <form action="inscription2.php" method="post" name="profil" target="_self">
+        <h3>Formulaire d&#39;inscription :</h3>
         <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
 
         <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
@@ -42,5 +56,6 @@
             }
         }
     ?>
+</section>
 </body>
 </html>

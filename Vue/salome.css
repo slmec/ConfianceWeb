@@ -1,32 +1,121 @@
 *{
-    margin:0;
+    margin:auto;
     padding:0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
-
-table{
-    border: grey solid 3px ;
-    border-collapse: collapse;
-    text-align: center;
-    width: 95%;
-    margin: auto;
-    padding: 5px;
-    padding-bottom: 10%;
+body{
+    background: linear-gradient(145deg, #476ebf 10%, #b6d1f8 90%);
+    height: 100vh;
 }
 
-th{
-    border: grey solid 3px ;
-    border-collapse: collapse;
-    width: 10%;
-    background-color: #bcd1ea;
+/* Tableau */
+table{
+    width: 100%;
+    margin: auto;
 }
 td{
-    border: grey dotted ;
-    border-collapse: collapse;
-    width: 20%;
+    text-align: left;
+    padding-bottom: 0,5%;
+}
+th{
+    text-align: left;
+    padding-bottom: 0,5%;
 }
 
-analyse{}
+section {
+}
+section .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 100%;
+    text-align: center;
+}
+section .container header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section .container nav a{
+    margin-left:40px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+section .container nav a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #9ec6ff;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+section .container nav a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #9ec6ff;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+form {
+    width:80%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #b6d1f8;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin : auto ;
+}
+#container h3{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #476ebf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #476ebf;
+    border: 1px solid #476ebf;
+}
+
+
