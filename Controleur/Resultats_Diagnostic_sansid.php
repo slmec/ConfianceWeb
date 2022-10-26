@@ -153,7 +153,7 @@ $resultat2 = mysqli_query($link,$requete2);*/
     </form>
 </div>
 
-<form action="identification.php">
+<form action="acceuil.php">
     <button type="submit">Retour au tableau de bord </button>
 </form>
 

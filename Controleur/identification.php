@@ -5,40 +5,43 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title></title>
+	<title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/salome.css" />
 </head>
 <body>
+<section>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+            </nav>
+        </header>
+    </div>
+        <h1>Espace de connexion</h1>
+        <br>
 
-    <h1>MAIAT : Espace de connexion&nbsp;</h1>
+        <form action="../Modele/verification.php" method="POST">
 
-    <p>&nbsp;</p>
+              <p>Email :&nbsp; <input type="text" placeholder="Entrer le mail de connexion" name="email_Utilisateur" required> </p>
+              <p>Mot de passe :&nbsp;<input type="password" placeholder="Entrer le mot de passe" name="mdp_Utilisateur" required> </p>
+              <input class="learn-more-btn" type="submit" id='submit' value='Connexion' >
 
+              <?php
+              if(isset($_GET['erreur'])){
+                  $err = $_GET['erreur'];
+                  if($err==1 || $err==2)
+                      echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
+              }
+              ?>
+        </form>
+    <br>
+            <footer>
+                <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+            </footer>
 
-    <form action="../Modele/verification.php" method="POST">
-          <h1>Connexion</h1>
-          
-          <p>Email :&nbsp; <input type="text" placeholder="Entrer le nom d'utilisateur" name="email_Utilisateur" required> </p>
-          <p>Mot de passe :&nbsp;<input type="password" placeholder="Entrer le mot de passe" name="mdp_Utilisateur" required> </p>
-          <input class="learn-more-btn" type="submit" id='submit' value='Connexion' >
-        
-          <?php
-          if(isset($_GET['erreur'])){
-              $err = $_GET['erreur'];
-              if($err==1 || $err==2)
-                  echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
-          }
-          ?>
-    
-    <p>Vous n&#39;&ecirc;tes pas encore inscrit ? <a href="inscription.php">Inscrivez-vous</a></p>
-
-    <p>&nbsp;</p>
-
-    <p>Vous souhaitez proc&eacute;der au test sans laisser de trace ? <a href="testquestionnaire_sansid.php">Cliquez-ici</a></p>
-
-    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
-
-    <?php
-    include('../Vue/footer.php')
-        ?>
-</body>
+</section>
 </html>
