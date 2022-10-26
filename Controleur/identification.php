@@ -21,27 +21,40 @@
             </nav>
         </header>
     </div>
-        <h1>Espace de connexion</h1>
-        <br>
-
+    <div class ="block_page">
+        <div class ="block_titre">
+            <h1>Espace de connexion</h1>
+            <br>
+        </div>
+        <div class ="block_form">
         <form action="../Modele/verification.php" method="POST">
 
               <p>Email :&nbsp; <input type="text" placeholder="Entrer le mail de connexion" name="email_Utilisateur" required> </p>
               <p>Mot de passe :&nbsp;<input type="password" placeholder="Entrer le mot de passe" name="mdp_Utilisateur" required> </p>
               <input class="learn-more-btn" type="submit" id='submit' value='Connexion' >
 
-              <?php
-              if(isset($_GET['erreur'])){
-                  $err = $_GET['erreur'];
-                  if($err==1 || $err==2)
-                      echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
-              }
-              ?>
         </form>
-    <br>
+        </div>
+
+        <br>
+        <div class="erreur">
+            <?php
+            if(isset($_GET['erreur'])){
+                $err = $_GET['erreur'];
+                if($err==1 || $err==2)
+                    echo "<p style='color:#ffffff'>Utilisateur ou mot de passe incorrect</p>";
+            }
+            ?>
+        </div>
+    </div>
+
+
             <footer>
+                <br>
                 <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+                <br>
             </footer>
 
 </section>
+</body>
 </html>
