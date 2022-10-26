@@ -28,6 +28,9 @@
                 <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video>
             </div>
         </div>
+        <footer>
+            <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+        </footer>
     </section>
 </body>
 </html>

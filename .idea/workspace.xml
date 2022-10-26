@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif projet">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif critere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +106,8 @@
       <workItem from="1666334613286" duration="15003000" />
       <workItem from="1666594083206" duration="3028000" />
       <workItem from="1666680072857" duration="595000" />
-      <workItem from="1666681145174" duration="4850000" />
-    </task>
-    <task id="LOCAL-00049" summary="modif recuperation donnees diagnostic">
-      <created>1665662887081</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1665662887081</updated>
+      <workItem from="1666681145174" duration="4965000" />
+      <workItem from="1666769643458" duration="3447000" />
     </task>
     <task id="LOCAL-00050" summary="modif recuperation donnees diagnostic">
       <created>1665666513193</created>
@@ -449,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666682068571</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="modif critere">
+      <created>1666707614359</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1666707614359</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif affichage diagnostics" />
     <MESSAGE value="modif sans identification" />
     <MESSAGE value="modif des noms du critere" />
     <MESSAGE value="modif identification" />
@@ -493,7 +495,8 @@
     <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css critere v2" />
     <MESSAGE value="modif projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif projet" />
+    <MESSAGE value="modif critere" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif critere" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
