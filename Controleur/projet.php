@@ -33,16 +33,16 @@
                 </div>
                 <div class="bottom">
                     <div class="bottom-top">
-                        <a href="https://www.spix-industry.com/"><img src="../Medias/logospix.png"  width="150" height="64"></a>
-                        <a href="https://www.icam.fr/"><img src="../Medias/logo_icam.png" width="150" height="80" ></a>
-                        <a href="https://www.renault.fr/"><img src="../Medias/logo_renault.png" width="150" height="84"></a>
+                        <a href="https://www.spix-industry.com/" class="bottom-top-left"><img src="../Medias/logospix.png"  width="150" height="64"></a>
+                        <a href="https://www.icam.fr/" class="bottom-top-center"><img src="../Medias/logo_icam.png" width="150" height="80" ></a>
+                        <a href="https://www.renault.fr/" class="bottom-top-right"><img src="../Medias/logo_renault.png" width="150" height="84"></a>
                     </div>
                     <div class="bottom-bottom">
-                        <p>Spix industry est une start up fran&ccedil;aise qui a &eacute;t&eacute; cr&eacute;&eacute;e pour d&eacute;velopper l&rsquo;utilisation de la voix dans l&rsquo;industrie. Dans notre programme,
+                        <p class="bottom-bottom-left">Spix industry est une start up fran&ccedil;aise qui a &eacute;t&eacute; cr&eacute;&eacute;e pour d&eacute;velopper l&rsquo;utilisation de la voix dans l&rsquo;industrie. Dans notre programme,
                             SPIX tente de proposer &agrave; Renault un Assistant Vocal Intelligent &agrave; base d&#39;IA sur ses lignes de production.</p>
-                        <p>C&#39;est dans le cadre d&#39;un m&eacute;moire scientifique de recherche que l&#39;&eacute;quipe Confiance s&#39;est pench&eacute;s sur la question de l&#39;acceptabilit&eacute; de l&#39;IA
+                        <p class="bottom-bottom-center">C&#39;est dans le cadre d&#39;un m&eacute;moire scientifique de recherche que l&#39;&eacute;quipe Confiance s&#39;est pench&eacute;s sur la question de l&#39;acceptabilit&eacute; de l&#39;IA
                             dans le monde du travail. Son r&ocirc;le est clairement de d&eacute;finir l&#39;acceptibilit&eacute; sociale d&#39;un tel ajout dans le professionnel.</p>
-                        <p>Renault, leader mondial de la conception et la production automobile, participe &agrave; ce programme afin d&#39;introduire un assistant vocal intelligent
+                        <p class="bottom-bottom-right">Renault, leader mondial de la conception et la production automobile, participe &agrave; ce programme afin d&#39;introduire un assistant vocal intelligent
                             sur ses lignes de productions.</p>
                     </div>
                     <!--<div class="bottom-left">
