@@ -9,8 +9,7 @@ $db_host     = 'localhost';
 
 $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 
-
-
+if(isset($_POST['C1Q1']) && isset($_POST['C1Q2'])  && isset($_POST['C1Q3']) && isset($_POST['C1Q4']) && isset($_POST['C2Q1']) && isset($_POST['C2Q2'])  && isset($_POST['C2Q3']) && isset($_POST['C2Q4']) && isset($_POST['C3Q1']) && isset($_POST['C3Q2'])  && isset($_POST['C3Q3']) && isset($_POST['C3Q4']) && isset($_POST['C4Q1']) && isset($_POST['C4Q2'])  && isset($_POST['C4Q3']) && isset($_POST['C4Q4']) && isset($_POST['C5Q1']) && isset($_POST['C5Q2'])  && isset($_POST['C5Q3']) && isset($_POST['C5Q4']) && isset($_POST['C6Q1']) && isset($_POST['C6Q2'])  && isset($_POST['C6Q3']) && isset($_POST['C6Q4'])) {
 // note C1
     $i = 1;
     $a = 0;
@@ -193,6 +192,9 @@ $C6Q4 = $_POST['C6Q4'];
         $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_Utilisateur . "','" . $Id_Critere . "')";
         $resultat4 = mysqli_query($db, $requete4);
 
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
-
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
+}
+else{
+    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire.php?erreur=1');
+}
 ?>

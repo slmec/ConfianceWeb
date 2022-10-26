@@ -7,8 +7,9 @@
     font-family: "Calibri", sans-serif ;
 }
 body{
-    background: linear-gradient(145deg, #476ebf 10%, #b6d1f8 90%);
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
     height: 100vh;
+    background-attachment: fixed;
 }
 
 /* Tableau */
@@ -20,11 +21,11 @@ td{
     text-align: left;
     padding-bottom: 0,5%;
 }
-th{
-    text-align: left;
-    padding-bottom: 0,5%;
-}
+.question{
+     width:80% ;
+ }
 
+/* bouton haut de page */
 section {
 }
 section .container{
@@ -74,27 +75,33 @@ section .container nav a:hover{
     padding-left: 28px;
 }
 
-#container h1{
-    width: 38%;
-    margin: 0 auto;
-    padding-bottom: 20px;
+/*aligner text au dessus form */
+section .block_page{
+    align-items: start;
+    margin: auto;
+    width:80%;
+}
+section .block_titre{
+}
+section .block_form{
 }
 
-form {
-    width:80%;
+/* form*/
+section .block_page .block_form form {
+
     padding: 30px;
     border: 1px solid #f1f1f1;
     background: #b6d1f8;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     margin : auto ;
 }
-#container h3{
+ section .block_page .block_form #container h3{
     width: 38%;
     margin: 0 auto;
     padding-bottom: 20px;
 }
 
-input[type=text], input[type=password] {
+section .block_page .block_form  input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -103,7 +110,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+section .block_page .block_form input[type=submit] {
     background-color: #476ebf;
     color: white;
     padding: 14px 20px;
@@ -112,10 +119,38 @@ input[type=submit] {
     cursor: pointer;
     width: 100%;
 }
-input[type=submit]:hover {
+section .block_page .block_form input[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
+section .block_page .block_form table {
+    width: 100%;
+    margin: auto;
+}
+section .block_page .block_form td{
+    text-align: left;
+    padding-bottom: 0,5%;
+}
+}
 
+/*footer*/
+.bas de page{
+    text-align: center;
+}
+
+section .container .block_tableau{
+    width: 100%;
+}
+.blanc {
+    color: white;
+    text-align: center;
+}
+.erreur {
+    width: 80%
+    height: 30%;
+    border-radius: 60px / 40px;
+    background: rgba(238, 77, 96, 0.54);
+    text-align: center;
+}
 

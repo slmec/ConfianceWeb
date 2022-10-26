@@ -21,41 +21,52 @@
             </nav>
         </header>
     </div>
+    <div class="block_page">
+        <div class="block_titre">
+            <h1>Devenez membre de MAIAT</h1>
+            <br>
+        </div>
+        <div class="block_form">
+            <form action="inscription2.php" method="post" name="profil" target="_self">
+                <h3>Formulaire d&#39;inscription :</h3>
+                <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
 
-    <h1>Devenez membre de MAIAT</h1>
-    <br>
+                <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
 
+                <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
 
-    <form action="inscription2.php" method="post" name="profil" target="_self">
-        <h3>Formulaire d&#39;inscription :</h3>
-        <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
+                <p>Mot de passe :&nbsp;<input name="mdp_utilisateur" type="password" /></p>
 
-        <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
+                <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
 
-        <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
+                <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
 
-        <p>Mot de passe :&nbsp;<input name="mdp_utilisateur" type="password" /></p>
+                <p><input type="checkbox" name="donnees_utilisateur" value="1" />&nbsp;J&#39;accepte le traitement et l&#39;utilisation de mes donn&eacute;es</p>
 
-        <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
-
-        <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
-
-        <p><input type="checkbox" name="donnees_utilisateur" value="1" />&nbsp;J&#39;accepte le traitement et l&#39;utilisation de mes donn&eacute;es</p>
-
-        <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
-    </form>
-
-    <?php
-        if(isset($_GET['erreur'])){
-            $err = $_GET['erreur'];
-            if($err==1 ){
-                echo "<p style='color:red'>Vous n'avez pas rempli tous les champs</p>";
+                <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
+            </form>
+        </div>
+        <br>
+        <div class="erreur">
+            <?php
+            if(isset($_GET['erreur'])){
+                $err = $_GET['erreur'];
+                if($err==1 ){
+                    echo "<p style='color:#ffffff'>Vous n'avez pas rempli tous les champs</p>";
+                }
+                elseif($err==2){
+                    echo "<p style='color:#ffffff'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
+                }
             }
-            elseif($err==2){
-                echo "<p style='color:red'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
-            }
-        }
-    ?>
+            ?>
+    </div>
+
+    </div>
+    <footer>
+        <br>
+        <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+        <br>
+    </footer>
 </section>
 </body>
 </html>

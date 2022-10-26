@@ -5,30 +5,63 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title></title>
+    <title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/salome.css" />
 </head>
 <body>
-    <form action="../Modele/verification_nom_diagnostique.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
-        <p>Vous allez devoir r&eacute;pondre &agrave; 24 questions. Ces questions sont r&eacute;parties en 6 crit&egrave;res diff&eacute;rents.</p>
-        <p>Entrez le nom de votre diagnostic :&nbsp;
-            <input maxlength="250" name="Nom_Diagnostic" type="text" />
-        </p>
-        <p>
-            <input name="Creation_Diagnostic" type="submit" value="Débuter le diagnostic" />
-        </p>
-    </form>
+<section>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+            </nav>
+        </header>
+        <div class="block_tableau">
+            <br><hr><br>
+            <h1 class="blanc">Nouveau Diagnostic</h1>
+            <br><hr><br>
+        </div>
+    </div>
+    <div class ="block_page">
+        <div class ="block_titre">
+            <p>Vous allez devoir r&eacute;pondre &agrave; 24 questions. Ces questions sont r&eacute;parties en 6 crit&egrave;res diff&eacute;rents.</p>
+            <br>
+        </div>
+        <div class ="block_form">
+        <form action="../Modele/verification_nom_diagnostique.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
 
-    <?php
-    if(isset($_GET['erreur'])){
-        $err = $_GET['erreur'];
-        if($err==1){
-            echo "<p style='color:red'>Veuillez rentrer un nom pour votre diagnostic </p>";
+            <p>Entrez le nom de votre diagnostic :&nbsp;
+                <input maxlength="250" name="Nom_Diagnostic" type="text" />
+            </p>
+            <p>
+                <input name="Creation_Diagnostic" type="submit" value="Débuter le diagnostic" />
+            </p>
+        </form>
+        </div>
+        <br>
+    <div class="erreur">
+        <?php
+        if(isset($_GET['erreur'])){
+            $err = $_GET['erreur'];
+            if($err==1){
+                echo "<p style='color:#ffffff'>Veuillez rentrer un nom pour votre diagnostic </p>";
+            }
+            elseif($err==2){
+                echo "<p style='color:#ffffff'>Nom du diagnostic déjà existant, veuillez entrer un autre nom</p>";
+            }
         }
-        elseif($err==2){
-            echo "<p style='color:red'>Nom du diagnostic déjà existant, veuillez entrer un autre nom</p>";
-        }
-    }
-    ?>
-
+        ?>
+    </div>
+    </div>
+</section>
+<footer>
+    <br>
+    <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+    <br>
+</footer>
 </body>
 </html>

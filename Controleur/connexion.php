@@ -6,8 +6,36 @@
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/salome.css" />
 </head>
 <body>
+<section>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+            </nav>
+        </header>
+        <div class="block_tableau">
+            <br><hr><br>
+            <h1 class="blanc">Tableau de bord</h1>
+            <br><hr><br>
+        </div>
+        <nav class="navbar">
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php"> Nouveau Diagnostic </a>
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php">Consulter mes diagnostics</a>
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php">Mon profil </a>
+            <a href="../Modele/deconnexion.php">Deconnexion</a>
+        </nav>
+        <div class="block_tableau">
+            <br><hr><br>
+        </div>
+    </div>
 
     <?php
         $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
@@ -27,11 +55,9 @@
         $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$email_Utilisateur' AND MotDePasse = '$mdp_Utilisateur' ";
         $resultat = mysqli_query($link,$requete);
         $row = mysqli_fetch_assoc($resultat) ;
-      
-        echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom'];
-        ?>
-    <h1>Votre tableau de bord </h1>
-    <H2>Que souhaitez-vous faire ? </H2>
+    ?>
+        <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
+    <!-- <H2>Que souhaitez-vous faire ? </H2>
         <form action = "diagnostic_new.php">
 			<input type="submit" value="Cr&eacute;er un nouveau diagnostic"> 
 		</form>
@@ -43,7 +69,7 @@
 		</form>
     <form action = "../Modele/deconnexion.php">
         <input type="submit" value="Se deconnecter">
-    </form>
+    </form> -->
 
     <?php
         mysqli_close( $link );
