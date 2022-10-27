@@ -229,6 +229,7 @@
             </div>
 
             <div class="block_titre">
+                <br>
                 <hr>
                 <hr>
                 <h2>Les relations humaines</h2>
@@ -309,22 +310,21 @@
                     </tr>
                     <tr>
                         <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row['C1_suivi'] ?> </td>
+                        <td> <?php echo $row['C2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C2_suivi'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="interpretation" type="text" /> </td>
-                        <td> <input name="plan_action" type="text" /></td>
-                        <td> <input name="suivi" type="text" /></td>
+                        <td> <input name="C2_interpretation" type="text" /> </td>
+                        <td> <input name="C2_plan_action" type="text" /></td>
+                        <td> <input name="C2_suivi" type="text" /></td>
                     </tr>
                 </table>
-
-                <td> <button name="btn" type="submit" value="2" > Valider l'interpretation <?php $c=0;?></button></td>
             </div>
 
             <div class="block_titre">
+                <br>
                 <hr>
                 <hr>
                 <h2>La surveillance</h2>
@@ -339,21 +339,14 @@
                         <td> La finalité de l’utilisation des données est-elle transparente ? </td>
                     </tr>
                     <tr>
-                        <td> Vos réponses </td>
+                        <td class="titre"> Vos réponses </td>
                         <td><?php if ($row['C3Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td> fleche </td>
-                        <td> fleche </td>
-                        <td> fleche </td>
-                        <td> fleche </td>
-                        <td> fleche </td>
-                    </tr>
-                    <tr>
-                        <td> Implications </td>
+                        <td class="titre"> Implications </td>
                         <td>
                             <?php
                             $texte = "Que ces appareils soient utilisés pour la surveillance ou non, ils portent un imaginaire fortement ancré qui sera plus ou moins activé suivant la technologie." ;
@@ -415,58 +408,325 @@
                     </tr>
                     <tr>
                         <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row['C1_suivi'] ?> </td>
+                        <td> <?php echo $row['C3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C3_suivi'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="interpretation" type="text" /> </td>
-                        <td> <input name="plan_action" type="text" /></td>
-                        <td> <input name="suivi" type="text" /></td>
+                        <td> <input name="C3_interpretation" type="text" /> </td>
+                        <td> <input name="C3_plan_action" type="text" /></td>
+                        <td> <input name="C3_suivi" type="text" /></td>
                     </tr>
                 </table>
-
-                <td> <button name="btn" type="submit" value="2" > Valider l'interpretation <?php $c=0;?></button></td>
             </div>
-        </form>
 
+            <div class="block_titre">
+                <br>
+                <hr>
+                <hr>
+                <h2>L'autonomie</h2>
+            </div>
+            <div class="block_table">
+                <table>
+                    <tr>
+                        <td class="titre"> Questions </td>
+                        <td> Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
+                        <td> Le système à base d'IA émet-il des notifications à l’adresse du travailleur ? </td>
+                        <td> Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ? </td>
+                        <td> Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ? </td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Vos réponses </td>
+                        <td><?php if ($row['C4Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C4Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C4Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C4Q4'] == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Implications </td>
+                        <td>
+                            <?php
+                            $texte = "La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas." ;
+                            if ($row['C4Q1'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>" ;
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement." ;
+                            if ($row['C4Q2'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper." ;
+                            if ($row['C4Q3'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité. " ;
+                            if ($row['C4Q4'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                </table>
+                <table class="analyse">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> Interpretation personnelle de l'évaluation </td>
+                        <td > Plan d'action </td>
+                        <td> Suivi à N+ ...</td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Votre Analyse : </td>
+                        <td> <?php echo $row['C4_interpretation'] ?> </td>
+                        <td> <?php echo $row['C4_plan_action'] ?> </td>
+                        <td> <?php echo $row['C4_suivi'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C4_interpretation" type="text" /> </td>
+                        <td> <input name="C4_plan_action" type="text" /></td>
+                        <td> <input name="C4_suivi" type="text" /></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="block_titre">
+                <br>
+                <hr>
+                <hr>
+                <h2>Le savoir faire</h2>
+            </div>
+            <div class="block_table">
+                <table>
+                    <tr>
+                        <td class="titre"> Questions </td>
+                        <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>
+                        <td> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </td>
+                        <td> Le système à base d'IA rend-il des savoir-faire obsolètes ? </td>
+                        <td> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Vos réponses </td>
+                        <td><?php if ($row['C5Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C5Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C5Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C5Q4'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Implications </td>
+                        <td>
+                            <?php
+                            $texte = "Quand l’activité du travailleur n’est plus de produire mais d'agir sur des logiciels et/ou machinnes , alors celui-ci peut ressentir une plus value réduite ou une perte d’intérêt. " ;
+                            if ($row['C5Q1'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>" ;
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "Il est possible que la technologie réalise les tâches à haute valeur ajoutée, laissant au travailleur des tâches nécessitant moins de savoir-faire. " ;
+                            if ($row['C5Q2'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "Cette obsolescence impacte l’estime que le travailleur a de lui même mais aussi sa place dans l’organisation." ;
+                            if ($row['C5Q3'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "La technologie peut s’emparer des tâches à faible valeur ajoutée, permettant au travailleur de réaliser des tâches complexes dans lesquelles il exprime son savoir-faire ou un nouveau savoir-faire, comme l’utilisation de la technologie." ;
+                            if ($row['C5Q4'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                </table>
+                <table class="analyse">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> Interpretation personnelle de l'évaluation </td>
+                        <td > Plan d'action </td>
+                        <td> Suivi à N+ ...</td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Votre Analyse : </td>
+                        <td> <?php echo $row['C5_interpretation'] ?> </td>
+                        <td> <?php echo $row['C5_plan_action'] ?> </td>
+                        <td> <?php echo $row['C5_suivi'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C5_interpretation" type="text" /> </td>
+                        <td> <input name="C5_plan_action" type="text" /></td>
+                        <td> <input name="C5_suivi" type="text" /></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="block_titre">
+                <br>
+                <hr>
+                <hr>
+                <h2>La responsabilité</h2>
+            </div>
+            <div class="block_table">
+                <table>
+                    <tr>
+                        <td class="titre"> Questions </td>
+                        <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>
+                        <td> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </td>
+                        <td> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur?  </td>
+                        <td> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
+                            Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ? </td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Vos réponses </td>
+                        <td><?php if ($row['C6Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C6Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C6Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                        <td><?php if ($row['C6Q4'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre"> Implications </td>
+                        <td>
+                            <?php
+                            $texte = "L'introduction d'une technologie qui automatise des tâches produit une nouvelle division du travail. Toute division du travail réduit le sentiment de responsabilité de chacun vis-à-vis de l'ensemble." ;
+                            if ($row['C6Q1'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>" ;
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "Les algorithmes d'apprentissage sont supposés pouvoir s'adapter à un environnement aléatoire. Cela complexifie l'imputation des responsabilités quand la décision résulte d'un apprentissage et non d'une règle que la technologie se contente d'appliquer." ;
+                            if ($row['C6Q2'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "Le sentiment de responsabilité est proportionnel à l'espace de liberté. Lorsqu'une technologie interfère dans le jugement du travailleur, cela peut inhiber son libre-arbitre et réduire son engagement moral vis-à-vis des conséquences de son action." ;
+                            if ($row['C6Q3'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            $texte = "La supériorité présupposée de la technologie peut conduire le travailleur à s'effacer devant l' 'autorité machinique' au détriment de sa propre perception des situations. La performance de la technologie a pour corollaire un désengagement humain." ;
+                            if ($row['C6Q4'] == 0) {
+                                echo "<p style='color:red'> $texte </p>" ;
+                            }
+                            else {
+                                echo "<p> $texte </p>";
+                            }
+                            ?>
+                        </td>
+                    </tr>
+                </table>
+                <table class="analyse">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> Interpretation personnelle de l'évaluation </td>
+                        <td > Plan d'action </td>
+                        <td> Suivi à N+ ...</td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Votre Analyse : </td>
+                        <td> <?php echo $row['C6_interpretation'] ?> </td>
+                        <td> <?php echo $row['C6_plan_action'] ?> </td>
+                        <td> <?php echo $row['C6_suivi'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C6_interpretation" type="text" /> </td>
+                        <td> <input name="C6_plan_action" type="text" /></td>
+                        <td> <input name="C6_suivi" type="text" /></td>
+                    </tr>
+                </table>
+            </div>
+
+            <br>
+            <hr>
+            <hr>
+            <br>
+            <button name="btn" type="submit" value="6" > Valider l'interpretation <?php $c=0;?></button>
+            <br>
+            <br>
+        </form>
     </div>
 
-</section>
-
-
-
-    <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="3" class="button" name = "btn1">
-                La surveillance
-            </button>
-        </form>
-    </div>
-    <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="4" class="button" name = "btn1">
-               La perte d'autonomie
-            </button>
-        </form>
-    </div>
-    <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="5" class="button" name = "btn1">
-                Le savoir faire
-            </button>
-        </form>
-    </div>
-    <div class = "bouton">
-        <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
-            <button type="submit" value="6" class="button" name = "btn1">
-                La responsabilité
-            </button>
-        </form>
-
-    </div>
-
+<div class="bas">
     <div class = "bouton">
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression.php" target=_BLANK>
             <button type="submit" value="impression" class="button">
@@ -475,10 +735,13 @@
         </form>
     </div>
 
-<form action="connexion.php">
-    <button type="submit">Retour au tableau de bord </button>
+    <form action="connexion.php">
+        <button type="submit">Retour au tableau de bord </button>
 
-</form>
+    </form>
+</div>
+</section>
+
 
 </body>
 </html>

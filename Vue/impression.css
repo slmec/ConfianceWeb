@@ -33,7 +33,7 @@ section .block_page .block_table{
     margin: auto;
 
 }
- button[type=submit] {
+button[type=submit] {
     background-color: #476ebf;
     color: white;
     padding: 14px 20px;
@@ -50,4 +50,20 @@ button[type=submit]:hover {
 
 .bas{
     width:95%;
+}
+section .block_entete{
+    padding-top: 0;
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
+    text-align: center;
+    align-items: center;
+}
+
+section .container .block_tableau{
+    width: 100%;
+    text-align: center;
+}
+
+.blanc {
+    color: black;
+    text-align: center;
 }

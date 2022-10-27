@@ -53,10 +53,10 @@ if ($C2_plan_action != ""){
     $requete22 = "UPDATE Diagnostics SET C2_plan_action ='$C2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
     $result22 = mysqli_query($db, $requete22);
 }
-if ($C2_interpretation != ""){
-$requete32 = "UPDATE Diagnostics SET C2_interpretation ='$C2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-$result32 = mysqli_query($db, $requete32);
-
+if ($C2_interpretation != "") {
+    $requete32 = "UPDATE Diagnostics SET C2_interpretation ='$C2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result32 = mysqli_query($db, $requete32);
+}
 $C3_interpretation = $_POST['C3_interpretation'];
 $C3_plan_action = $_POST['C3_plan_action'];
 $C3_suivi = $_POST['C3_suivi'];
@@ -70,10 +70,10 @@ if ($C3_plan_action != ""){
     $requete23 = "UPDATE Diagnostics SET C3_plan_action ='$C3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
     $result23 = mysqli_query($db, $requete23);
 }
-if ($C3_interpretation != ""){
-$requete33 = "UPDATE Diagnostics SET C3_interpretation ='$C3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-$result33 = mysqli_query($db, $requete33);
-
+if ($C3_interpretation != "") {
+    $requete33 = "UPDATE Diagnostics SET C3_interpretation ='$C3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result33 = mysqli_query($db, $requete33);
+}
 $C4_interpretation = $_POST['C4_interpretation'];
 $C4_plan_action = $_POST['C4_plan_action'];
 $C4_suivi = $_POST['C4_suivi'];
@@ -87,10 +87,10 @@ if ($C4_plan_action != ""){
     $requete24 = "UPDATE Diagnostics SET C4_plan_action ='$C4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
     $result24 = mysqli_query($db, $requete24);
 }
-if ($C4_interpretation != ""){
-$requete34 = "UPDATE Diagnostics SET C4_interpretation ='$C4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-$result34 = mysqli_query($db, $requete34);
-
+if ($C4_interpretation != "") {
+    $requete34 = "UPDATE Diagnostics SET C4_interpretation ='$C4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result34 = mysqli_query($db, $requete34);
+}
 $C5_interpretation = $_POST['C5_interpretation'];
 $C5_plan_action = $_POST['C5_plan_action'];
 $C5_suivi = $_POST['C5_suivi'];
@@ -100,14 +100,14 @@ if ($C5_suivi != ""){
     $requete15 = "UPDATE Diagnostics SET C5_suivi ='$C5_suivi'WHERE Id_critere_bis = '$Id_Critere' ";
     $result15 = mysqli_query($db, $requete15);
 }
-if ($C5_plan_action != ""){
+if ($C5_plan_action != "") {
     $requete25 = "UPDATE Diagnostics SET C5_plan_action ='$C5_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
     $result25 = mysqli_query($db, $requete25);
-
-if ($C5_interpretation != ""){
-$requete35 = "UPDATE Diagnostics SET C5_interpretation ='$C5_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-$result35 = mysqli_query($db, $requete35);
-
+}
+if ($C5_interpretation != "") {
+    $requete35 = "UPDATE Diagnostics SET C5_interpretation ='$C5_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result35 = mysqli_query($db, $requete35);
+}
 $C6_interpretation = $_POST['C6_interpretation'];
 $C6_plan_action = $_POST['C6_plan_action'];
 $C6_suivi = $_POST['C6_suivi'];
@@ -121,10 +121,10 @@ if ($C6_plan_action != ""){
     $requete26 = "UPDATE Diagnostics SET C6_plan_action ='$C6_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
     $result26 = mysqli_query($db, $requete26);
 }
-if ($C6_interpretation != ""){
-$requete36 = "UPDATE Diagnostics SET C6_interpretation ='$C6_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
-$result36 = mysqli_query($db, $requete36);
-
+if ($C6_interpretation != "") {
+    $requete36 = "UPDATE Diagnostics SET C6_interpretation ='$C6_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+    $result36 = mysqli_query($db, $requete36);
+}
 header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
 ?>
 </body>
