@@ -16,11 +16,20 @@ session_start();
             <nav class="navbar">
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
-                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
                 <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
-                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
             </nav>
         </header>
+        <div class="block_tableau">
+            <br><hr><br>
+        </div>
+        <nav class="navbar">
+            <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php"> Nouveau Diagnostic </a>
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php">Consulter mes diagnostics</a>
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php">Mon profil </a>
+            <a href="../Modele/deconnexion.php">Deconnexion</a>
+        </nav>
         <div class="block_tableau">
             <br><hr><br>
             <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
@@ -90,7 +99,7 @@ session_start();
                     <tr>
                         <td class="question"> La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ?</td>
                         <td>Oui <input type="radio" name="C3Q2" value="0" ></td>
-                        <td>Non <input type="radio" name="C3Q23" value="1"></td>
+                        <td>Non <input type="radio" name="C3Q2" value="1"></td>
                     </tr>
                     <tr>
                         <td class="question"> Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ?</td>

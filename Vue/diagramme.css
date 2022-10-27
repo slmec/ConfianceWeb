@@ -1,35 +1,75 @@
 *{
-    margin:0;
+    margin : auto;
+    text-decoration: none;
     padding:0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
+section {
 
-/* Tableau */
-table{
-    border: grey solid 3px ;
-    border-collapse: collapse;
-    text-align: center;
-    width: 95%;
+}
+section .container{
     margin: auto;
-    padding: 5px;
-    padding-bottom: 10%;
-    border-radius : 20px
+    max-width: 1400px;
+    padding-top: 50px;
+    height: 100%;
+    text-align: center;
 }
-
-th{
-    border: grey solid 3px ;
-    border-collapse: collapse;
-    width: 10%;
-    background-color: #bcd1ea;
-
+section .container header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-td{
-    border: grey dotted ;
-    border-collapse: collapse;
-    width: 20%;
+section .container nav{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-
-analyse{}
+section .container nav a{
+    margin-left:40px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+section .container nav a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #9ec6ff;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+section .container nav a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: #9ec6ff;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+section .block_haut{
+    padding-top: 0;
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
+}
+section .block_bas{
+    margin: 0 ;
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
+}
+section .container .block_tableau{
+    width: 100%;
+}
+.blanc {
+    color: white;
+    text-align: center;
+}

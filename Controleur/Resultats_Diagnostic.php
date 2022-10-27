@@ -12,15 +12,46 @@
 <html>
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title></title>
+    <title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/diagramme.css" />
+
 
 </head>
 <body onload="init();">
+<?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
+<section>
+<div class="block_haut">
+<div class="container">
+    <header>
+        <nav class="navbar">
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+            <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+            <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+            <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+        </nav>
+    </header>
+    <div class="block_tableau">
+        <br><hr><br>
+    </div>
+    <nav class="navbar">
+        <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php"> Nouveau Diagnostic </a>
+        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php">Consulter mes diagnostics</a>
+        <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php">Mon profil </a>
+        <a href="../Modele/deconnexion.php">Deconnexion</a>
+    </nav>
+    <div class="block_tableau">
+        <br><hr><br>
+        <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
+        <br><hr><br>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<div class="block_bas">
     <?php
-
-
-    //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
-
+        //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
     $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
     $critere2 = $_SESSION['critere_Desengagement_Relationnel'];
     $critere3 = $_SESSION['critere_Surveillance'];
@@ -28,23 +59,14 @@
     $critere5 = $_SESSION['critere_Sentiment_Depossession'];
     $critere6 = $_SESSION['critere_Deresponsabilite'];
     $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']
-
-
-    /*$critere_Desengagement_Relationnel = $_SESSION['critere_Desengagement_Relationnel'];
-    $id_critere = $_SESSION['id_critere'];
-    $requete = "INSERT INTO Criteres WHERE id_critere = '$id_critere' VALUES ('','','".$critere_Desengagement_Relationnel."','','','','')";
-    $resultat = mysqli_query($link,$requete);*/
-
-    /*$requete2 = "INSERT INTO Exploiter VALUES ('','".$id_critere."')";
-    $resultat2 = mysqli_query($link,$requete2);*/
     ?>
-
     <div class="chart-container">
-        <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
+        <canvas id="radarCanvas" aria-label="chart" role="img" ></canvas>
     </div>
     <style type="text/css">
         .chart-container{
             width:800px;
+            height: 800px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -104,7 +126,21 @@
             }
         })
     </script>
+</div>
+    <?php
+    $Id_Critere = $_SESSION['id_Critere'];
+    $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
+    $resultat = mysqli_query($db, $requete);
+    $row = mysqli_fetch_assoc($resultat);
+    ?>
+    <div class="block_page">
+        <div class="block_titre">
+            <h2>La reconnaissance</h2>
+        </div>
+        <div class="block_table"></div>
 
+
+    </div>
     <div class = "bouton">
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications.php" method="post">
             <button type="submit" value="1" class="button"name = "btn1">

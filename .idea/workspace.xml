@@ -7,13 +7,11 @@
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/acceuil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/diagramme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/salome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/salome.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,13 +110,6 @@
       <workItem from="1666594083206" duration="3028000" />
       <workItem from="1666680072857" duration="595000" />
       <workItem from="1666681145174" duration="4850000" />
-    </task>
-    <task id="LOCAL-00049" summary="modif recuperation donnees diagnostic">
-      <created>1665662887081</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1665662887081</updated>
     </task>
     <task id="LOCAL-00050" summary="modif recuperation donnees diagnostic">
       <created>1665666513193</created>
@@ -456,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666682068571</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="css">
+      <created>1666797474134</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1666797474134</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif affichage diagnostics" />
     <MESSAGE value="modif sans identification" />
     <MESSAGE value="modif des noms du critere" />
     <MESSAGE value="modif identification" />
@@ -500,7 +497,8 @@
     <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css critere v2" />
     <MESSAGE value="modif projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif projet" />
+    <MESSAGE value="css" />
+    <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,6 +507,11 @@
           <url>file://$PROJECT_DIR$/Controleur/connexion.php</url>
           <line>39</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
