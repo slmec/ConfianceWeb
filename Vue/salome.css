@@ -74,6 +74,17 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
+section .haut{
+    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
+    width: 100%;
+}
+section .page{
+    background: white;
+}
+section .block_graph{
+    background: white;
+    height: 800px;
+}
 
 /*aligner text au dessus form */
 section .block_page{
@@ -85,6 +96,9 @@ section .block_titre{
 }
 section .block_form{
 }
+section .block_table{
+}
+
 
 /* form*/
 section .block_page .block_form form {
@@ -153,4 +167,5 @@ section .container .block_tableau{
     background: rgba(238, 77, 96, 0.54);
     text-align: center;
 }
+
 

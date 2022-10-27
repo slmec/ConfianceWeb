@@ -14,7 +14,7 @@ session_start();
         <header>
             <nav class="navbar">
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
-                <a class="active"  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/accueil.php">Acceuil</a>
+                <a class="active"  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/accueil.php">Accueil</a>
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
                 <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
