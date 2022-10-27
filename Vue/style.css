@@ -324,6 +324,60 @@ section .container nav a:hover{
     padding: 20px;
     text-align: center;
 }
+
+/*
+@media screen and (max-width: 1400px) {
+    section .container {
+        text-align: center;
+    }
+
+    .critere .reconnaissance{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 872px;
+        max-height: 982px;
+        width: 100%;
+        margin: 15px auto 0px auto;
+    }
+    .critere .reconnaissance .reconnaissance_left{
+        text-align: center;
+        margin: 0px auto;
+        align-items: center;
+
+    }
+    .critere .reconnaissance .reconnaissance_right{
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .critere .desengagement{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 872px;
+    }
+    .critere .controle{
+        flex-direction: column;
+        align-items: center;
+        min-height: 918px;
+    }
+    .critere .autonomie{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 1050px;
+    }
+    .critere .depossession{
+        flex-direction: column;
+        align-items: center;
+        min-height: 1092px;
+        max-height: 1312px;
+    }
+    .critere .deresponsabilisation{
+        flex-direction: column-reverse;
+        align-items: center;
+        min-height: 1334px;
+    }
+}*/
 /*.projet .bottom .bottom-left{
     width: 33%;
 }
