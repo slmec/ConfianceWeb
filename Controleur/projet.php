@@ -10,7 +10,7 @@
         <div class="container">
             <header>
                 <div class="left">
-                    <a href="https://www.confiance.ai/" class="logo"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                    <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
                 </div>
                 <div class="middle">
                     <nav class="navbar">
@@ -22,23 +22,23 @@
                     </nav>
                 </div>
                 <div class="right">
-                    <a href="https://www.icam.fr/" class="logo"><img src="../Medias/logo_icam_blanc.png" width="243" height="150"></a>
+                    <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150"></a>
                 </div>
             </header>
             <div class="projet">
                 <div class="top">
                     <h1>MAIAT : L&#39;&eacute;quipe</h1>
                     <h3>C&#39;est dans le cadre du programme &quot;Confiance.ai&quot; que l&#39;outil MAIAT a &eacute;t&eacute; cr&eacute;&eacute;.</h3>
-                    <a href="https://www.confiance.ai/"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                    <a href="https://www.confiance.ai/" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
                     <p>Pilier technologique du Grand D&eacute;fi &laquo; S&eacute;curiser, certifier et fiabiliser les syst&egrave;mes fond&eacute;s sur l&rsquo;intelligence artificielle &raquo; lanc&eacute; par l&rsquo;Etat,
                         Confiance.ai est le plus gros programme de recherche technologique du plan #AIforHumanity qui doit faire de la France un des pays leader de
                         l&rsquo;intelligence artificielle (IA).</p>
                 </div>
                 <div class="bottom">
                     <div class="bottom-top">
-                        <a href="https://www.spix-industry.com/" class="bottom-top-left"><img src="../Medias/logospix.png"  width="150" height="64"></a>
-                        <a href="https://www.icam.fr/" class="bottom-top-center"><img src="../Medias/logo_icam.png" width="150" height="80" ></a>
-                        <a href="https://www.renault.fr/" class="bottom-top-right"><img src="../Medias/logo_renault.png" width="150" height="84"></a>
+                        <a href="https://www.spix-industry.com/" class="bottom-top-left" target="_blank"><img src="../Medias/logospix.png"  width="150" height="64"></a>
+                        <a href="https://www.icam.fr/" class="bottom-top-center" target="_blank"><img src="../Medias/logo_icam.png" width="150" height="80" ></a>
+                        <a href="https://www.renault.fr/" class="bottom-top-right" target="_blank"><img src="../Medias/logo_renault.png" width="150" height="84"></a>
                     </div>
                     <div class="bottom-bottom">
                         <p class="bottom-bottom-left">Spix industry est une start up fran&ccedil;aise qui a &eacute;t&eacute; cr&eacute;&eacute;e pour d&eacute;velopper l&rsquo;utilisation de la voix dans l&rsquo;industrie. Dans notre programme,
