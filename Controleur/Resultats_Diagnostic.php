@@ -244,7 +244,7 @@
                         <td> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </td>
                     </tr>
                     <tr>
-                        <td class="titre"> > Vos réponses </td>
+                        <td class="titre"> Vos réponses </td>
                         <td><?php if ($row['C2Q1'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q2'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q3'] == 0) {echo 'Oui';} else {echo 'Non';} ?></td>

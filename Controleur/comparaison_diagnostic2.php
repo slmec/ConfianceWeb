@@ -12,12 +12,41 @@ or die('could not connect to database');
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link rel="stylesheet" href="../Vue/style_resultats_analyse.css" />
     <link rel="stylesheet" href="../Vue/style_fond_resultats_diagramme.css" />
     <title>MAIAT</title>
 
 </head>
 <body>
-
+<section>
+    <div class="block_entete">
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                    <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                </nav>
+            </header>
+            <div class="block_tableau">
+                <br><hr><br>
+            </div>
+            <nav class="navbar">
+                <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php"> Nouveau Diagnostic </a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php">Consulter mes diagnostics</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php">Mon profil </a>
+                <a href="../Modele/deconnexion.php">Deconnexion</a>
+            </nav>
+            <div class="block_tableau">
+                <br><hr><br>
+                <h1 class="blanc">Comparaison </h1>
+                <br><hr><br>
+            </div>
+        </div>
+    </div>
+</section>
 <?php
 if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3){
     //echo ("le nombre est ".count($_POST['adv']));
@@ -37,7 +66,6 @@ if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
 }
 ?>
-
 <?php
 
 $diagnostics = $_POST['adv'];
@@ -548,41 +576,75 @@ $row = mysqli_fetch_assoc($resultat);
 $requete1 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[1]'";
 $resultat1 = mysqli_query($db, $requete1);
 $row1 = mysqli_fetch_assoc($resultat1); ?>
-
-    <h2>La reconnaissance</h2>
-    <table>
+<section>
+    <div class="block_page">
+        <div class="block_titre">
+            <hr>
+            <hr>
+            <h2>La reconnaissance</h2>
+        </div>
+        <div class="block_table">
+            <table>
         <tr>
-            <th> Questions </th>
+            <td class="titre"> Questions </td>
             <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
             <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
             <td> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </td>
             <td> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </td>
         </tr>
         <tr>
-            <th> Implications </th>
+            <td class="titre"> Implications </th>
             <td>Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</td>
             <td>Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </td>
             <td>Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</td>
             <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
         </tr>
         <tr>
-            <th>Vos réponses </th>
+            <td class="titre">Vos réponses </th>
         </tr>
         <tr>
-            <th>Diagnostic <?php echo $diagnostic1_nom ?></th>
+            <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
             <td><?php if ($row['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
         </tr>
         <tr>
-            <th>Diagnostic <?php echo $diagnostic2_nom ?></th>
+            <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
             <td><?php if ($row1['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row1['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row1['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
             <td><?php if ($row1['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
         </tr>
     </table>
+            <table class="analyse">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos analyses</td>
+                    <td> Interpretation personnelle de l'évaluation </td>
+                    <td> Plan d'action </td>
+                    <td> Suivi à N+ ...</td>
+                </tr>
+                <tr>
+                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td> <?php echo $row['C1_interpretation'] ?> </td>
+                    <td> <?php echo $row['C1_plan_action'] ?> </td>
+                    <td> <?php echo $row['C1_suivi'] ?> </td>
+                </tr>
+                <tr>
+                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td> <?php echo $row1['C1_interpretation'] ?> </td>
+                    <td> <?php echo $row1['C1_plan_action'] ?> </td>
+                    <td> <?php echo $row1['C1_suivi'] ?> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
     <h3>Votre analyse :  </h3>
     <table>
         <tr>
