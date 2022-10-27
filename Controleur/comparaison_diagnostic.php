@@ -12,7 +12,7 @@ or die('could not connect to database');
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link rel="stylesheet" href="../Vue/salome.css" />
+    <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
     <title>MAIAT</title>
 
 </head>

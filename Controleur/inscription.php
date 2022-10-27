@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>MAIAT</title>
-    <link rel="stylesheet" href="../Vue/salome.css" />
+    <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 </head>
 <body>
 <section>

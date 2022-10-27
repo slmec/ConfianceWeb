@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif fin blog">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="css">
+      <change afterPath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/acceuil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/salome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -498,6 +509,17 @@
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <option name="LAST_COMMIT_MESSAGE" value="modif fin blog" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Modele/ajout_analyse.php</url>
+          <line>128</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

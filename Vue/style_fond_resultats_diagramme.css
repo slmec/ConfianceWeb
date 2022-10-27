@@ -8,7 +8,6 @@
     font-family: "Calibri", sans-serif ;
 }
 section {
-
 }
 section .container{
     margin: auto;
@@ -58,18 +57,19 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
-section .block_haut{
+section .block_entete{
     padding-top: 0;
     background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
 }
-section .block_bas{
-    margin: 0 ;
-    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
-}
+
 section .container .block_tableau{
     width: 100%;
 }
+
 .blanc {
     color: white;
     text-align: center;
+}
+canvas{
+    width: 100%;
 }

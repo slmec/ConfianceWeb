@@ -19,7 +19,7 @@ table{
 }
 td{
     text-align: left;
-    padding-bottom: 0,5%;
+    padding-bottom: 1%;
 }
 .question{
      width:80% ;
@@ -74,17 +74,7 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
-section .haut{
-    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
-    width: 100%;
-}
-section .page{
-    background: white;
-}
-section .block_graph{
-    background: white;
-    height: 800px;
-}
+
 
 /*aligner text au dessus form */
 section .block_page{
@@ -144,9 +134,9 @@ section .block_page .block_form table {
 }
 section .block_page .block_form td{
     text-align: left;
-    padding-bottom: 0,5%;
+    padding-bottom: 1%;
 }
-}
+
 
 /*footer*/
 .bas de page{
@@ -161,7 +151,7 @@ section .container .block_tableau{
     text-align: center;
 }
 .erreur {
-    width: 80%
+    width: 80% ;
     height: 30%;
     border-radius: 60px / 40px;
     background: rgba(238, 77, 96, 0.54);
