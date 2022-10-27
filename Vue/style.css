@@ -9,6 +9,7 @@
 body{
     background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
     height: 100vh;
+    background-attachment: fixed;
 }
 section {
 }
@@ -100,8 +101,8 @@ section .container nav a:hover{
 /* Changement critere.php */
 .critere{
     width: 100%;
-    margin: auto;
     align-items: center;
+    margin: auto;
 }
 .critere h1,a{
     text-align: center;
@@ -111,19 +112,24 @@ section .container nav a:hover{
 .critere h2,h4{
     text-decoration: underline white;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     color: white;
 }
 .critere p{
-    font-size: 15px;
+    font-size: 18px;
     padding: 0px;
     text-align: justify;
 }
 .critere li{
-    text-align: justify;
-    color: white;
-    padding: 0px;
+     text-align: justify;
+     color: white;
+     padding: 0px;
+     font-size: 18px;
+ }
+.critere ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .critere img{
     display: block;
@@ -168,7 +174,7 @@ section .container nav a:hover{
     width: 100%;
     height: 476px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .reconnaissance_left, .reconnaissance_right{
     width: 50%;
@@ -185,7 +191,7 @@ section .container nav a:hover{
     width: 100%;
     height: 476px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .desengagement_left, .desengagement_right{
     width: 50%;
@@ -202,7 +208,7 @@ section .container nav a:hover{
     width: 100%;
     height: 476px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .controle_left, .controle_right{
     width: 50%;
@@ -217,9 +223,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 550px;
+    height: 530px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .autonomie_left, .autonomie_right{
     width: 50%;
@@ -235,9 +241,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 550px;
+    height: 594px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .depossession_left, .depossession_right{
     width: 50%;
@@ -252,9 +258,9 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 814px;
     align-items: start;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .critere .deresponsabilisation_left, .deresponsabilisation_right{
     width: 50%;
