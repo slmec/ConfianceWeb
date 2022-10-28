@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif modif blog">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,21 +106,7 @@
       <workItem from="1666680072857" duration="595000" />
       <workItem from="1666681145174" duration="4965000" />
       <workItem from="1666769643458" duration="3541000" />
-      <workItem from="1666853209256" duration="12767000" />
-    </task>
-    <task id="LOCAL-00053" summary="modif modif diagnostic">
-      <created>1665737009356</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1665737009356</updated>
-    </task>
-    <task id="LOCAL-00054" summary="modif modif diagnostic">
-      <created>1665759581604</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1665759581604</updated>
+      <workItem from="1666853209256" duration="10686000" />
     </task>
     <task id="LOCAL-00055" summary="modif modif diagnostic">
       <created>1665760054925</created>
@@ -444,14 +430,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666860874956</updated>
     </task>
-    <task id="LOCAL-00101" summary="modif modif blog">
-      <created>1666875334662</created>
+    <task id="LOCAL-00101" summary="css">
+      <created>1666882139609</created>
       <option name="number" value="00101" />
       <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1666875334662</updated>
+      <updated>1666882139609</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="css">
+      <created>1666884395075</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884395075</updated>
+    </task>
+    <task id="LOCAL-00103" summary="impression">
+      <created>1666958872500</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1666958872500</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif organisation" />
     <MESSAGE value="modif resultat diagnostic" />
     <MESSAGE value="modif erreur diagnostic nom" />
     <MESSAGE value="modif verification nom diagnostic" />
@@ -494,8 +493,40 @@
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
-    <MESSAGE value="modif modif blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif modif blog" />
+    <MESSAGE value="css" />
+    <MESSAGE value="impression" />
+    <option name="LAST_COMMIT_MESSAGE" value="impression" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
+          <line>252</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
+          <line>317</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
+          <line>1083</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
+          <line>84</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/diagnostic_suivi.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
