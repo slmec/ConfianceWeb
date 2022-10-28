@@ -74,14 +74,16 @@
                 <button type="submit" name="ok">Afficher</button>
             </form>
         </div>
-
-<?php
-if(isset($_GET['erreur'])){
-    $err = $_GET['erreur'];
-    if($err==1 || $err==2)
-        echo "<p style='color:red'>Veuillez selectionner entre 1 et 3 diagnostics; </p>";
-}
-?>
+        <br>
+        <div class="erreur">
+            <?php
+            if(isset($_GET['erreur'])){
+                $err = $_GET['erreur'];
+                if($err==1 || $err==2)
+                    echo "<p style='color:#ffffff'>Veuillez selectionner entre 1 et 3 diagnostics </p>";
+            }
+            ?>
+        </div>
     <!--$rq = "INSERT INTO `Repondre` VALUES ('$Id_Utilisateur', '$Id_Critere')" ;
     //$result =mysqli_query( $db, $rq )or die (mysqli_error($link));
 

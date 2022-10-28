@@ -5,7 +5,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title></title>
+    <title>MAIAT</title>
+    <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
   <?php 
    $db =  mysqli_connect("localhost", "eleve.tou", "et*301");
    
@@ -14,6 +15,19 @@
 ?>
 </head>
 <body>
+<section>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
+                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+            </nav>
+        </header>
+
+</section>
     <?php
         $nom_utilisateur = $_POST['nom_utilisateur'];
         $prenom_utilisateur = $_POST['prenom_utilisateur'];
@@ -41,15 +55,20 @@
                 }
             }
     ?>
-    <h1>Devenez membre de MAIAT</h1>
-    <p>&nbsp;</p>
-    <h3>Vous etes bien inscrit ! </h3>
-    <p> Maintenant vous pouvez vous  <a href="identification.php">Connecter</a></p>
-    <?php
+            <?php
         }
         else{
-           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php?erreur=1'); // utilisateur ou mot de passe vide
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php?erreur=1'); // utilisateur ou mot de passe vide
         }
     ?>
+<section>
+        <div class="block_tableau">
+            <br><hr><br>
+            <h1 class="blanc">Vous etes bien inscrit !</h1>
+            <h3 class="blanc"> Maintenant vous pouvez vous connecter</h3>
+            <br><hr><br>
+        </div>
+    </div>
+</section>
 </body>
 </html>
