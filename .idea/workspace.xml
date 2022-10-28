@@ -8,9 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/impression.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/impression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/impression_comp1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/impression_comp1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +110,6 @@
       <workItem from="1666681145174" duration="4965000" />
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="10686000" />
-    </task>
-    <task id="LOCAL-00053" summary="modif modif diagnostic">
-      <created>1665737009356</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1665737009356</updated>
     </task>
     <task id="LOCAL-00054" summary="modif modif diagnostic">
       <created>1665759581604</created>
@@ -454,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666882139609</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="css">
+      <created>1666884395075</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1666884395075</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,23 +505,28 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>247</line>
+          <line>252</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>312</line>
+          <line>317</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>954</line>
+          <line>1083</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/diagnostic_suivi.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

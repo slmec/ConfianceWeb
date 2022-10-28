@@ -133,6 +133,11 @@
     $row = mysqli_fetch_assoc($resultat);
     ?>
 <section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="block_page">
         <form action="../Modele/ajout_analyse.php" method="post" >
             <div class="block_titre">
@@ -727,18 +732,23 @@
     </div>
 
 <div class="bas">
-    <div class = "bouton">
+    <!--  <div class = "bouton">
         <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression.php" target=_BLANK>
-            <button type="submit" value="impression" class="button">
-                Impression
+            <button type="submit" value="Impression" class="button">
+                Imprimer la page
             </button>
         </form>
-    </div>
+    </div> -->
+   <div class = "bouton">
+      <form action = "">
+          <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
+      </form>
+  </div>
 
-    <form action="connexion.php">
-        <button type="submit">Retour au tableau de bord </button>
+  <form action="connexion.php">
+      <button type="submit">Retour au tableau de bord </button>
 
-    </form>
+  </form>
 </div>
 </section>
 

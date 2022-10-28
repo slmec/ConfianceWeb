@@ -18,7 +18,7 @@ section .block_page .block_table{
     margin: auto;
 }
 
-.block_page .block_table td{
+td{
     text-align: center;
     padding-bottom: 1%;
 }
@@ -26,6 +26,7 @@ section .block_page .block_table{
     text-align: left;
     width:10% ;
 }
+
 .analyse{
     border: solid thin  ;
     border-collapse: collapse;

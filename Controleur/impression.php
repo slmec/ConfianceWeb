@@ -17,8 +17,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <link rel="stylesheet" href="../Vue/style_resultats_analyse.css" />
 
 </head>
-<body onload="window.print()">
-<body onload="init();">
+<body onload="window.print()" >
 <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
 <section>
     <div class="block_entete">
@@ -653,7 +652,6 @@ $row = mysqli_fetch_assoc($resultat);
     </div>
 
 </section>
-
 
 </body>
 </html>
