@@ -740,9 +740,7 @@
         </form>
     </div> -->
    <div class = "bouton">
-      <form action = "">
           <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
-      </form>
   </div>
 
   <form action="connexion.php">

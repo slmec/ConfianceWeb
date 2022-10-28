@@ -1709,9 +1709,7 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
         <br>
         <br>
         <div class = "bouton">
-           <form action = "">
-               <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
-           </form>
+            <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
        </div>
 
         <form action="connexion.php">
