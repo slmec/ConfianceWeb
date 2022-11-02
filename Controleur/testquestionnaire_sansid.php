@@ -187,11 +187,11 @@ if(isset($_GET['erreur'])){
         echo "<p style='color:red'>Veuillez completer tous les champs </p>";
 }
 ?>
-        <div class ="bas de page ">
-        <br>
-        <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
-        <br>
-    </footer>
+        <div class="bas">
+            <br>
+            <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+            <br>
+        </div>
     </div>
 </section>
 
