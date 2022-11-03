@@ -30,10 +30,12 @@ session_start();
 
     <p>Vous souhaitez proc&eacute;der au test sans laisser de trace ? <a href="testquestionnaire_sansid.php">Cliquez-ici</a></p>
 
-    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
 
-    <footer>
-        <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
-    </footer>
+    <p>Vous ne souhaitez plus r&eacute;aliser le diagnostic ? <a href="../index.php">Retourner &agrave; l&#39;accueil</a></p>
+    <div class="bas">
+        <br>
+        <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
+        <br>
+    </div>
 </section>
 </html>

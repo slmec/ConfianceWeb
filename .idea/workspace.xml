@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="impression">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="text gras">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,34 +117,7 @@
       <workItem from="1666681145174" duration="4965000" />
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="10686000" />
-    </task>
-    <task id="LOCAL-00055" summary="modif modif diagnostic">
-      <created>1665760054925</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1665760054925</updated>
-    </task>
-    <task id="LOCAL-00056" summary="modif affichage diagnostic">
-      <created>1665999136700</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1665999136701</updated>
-    </task>
-    <task id="LOCAL-00057" summary="modif affichage diagnostics">
-      <created>1666007867943</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1666007867943</updated>
-    </task>
-    <task id="LOCAL-00058" summary="modif affichage diagnostics">
-      <created>1666008733198</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1666008733198</updated>
+      <workItem from="1667374522255" duration="4988000" />
     </task>
     <task id="LOCAL-00059" summary="modif sans identification">
       <created>1666009836633</created>
@@ -451,7 +434,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666958872500</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="css">
+      <created>1666960321252</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1666960321252</updated>
+    </task>
+    <task id="LOCAL-00105" summary=" css et bas de page">
+      <created>1666969055166</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1666969055166</updated>
+    </task>
+    <task id="LOCAL-00106" summary="bas de page">
+      <created>1667379095248</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1667379095248</updated>
+    </task>
+    <task id="LOCAL-00107" summary="text gras">
+      <created>1667383529384</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1667383529384</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,9 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif resultat diagnostic" />
-    <MESSAGE value="modif erreur diagnostic nom" />
-    <MESSAGE value="modif verification nom diagnostic" />
     <MESSAGE value="modif mdp crypte" />
     <MESSAGE value="modif probleme connexion" />
     <MESSAGE value="modif cryptage" />
@@ -493,36 +501,39 @@
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
-    <MESSAGE value="css" />
     <MESSAGE value="impression" />
-    <option name="LAST_COMMIT_MESSAGE" value="impression" />
+    <MESSAGE value="css" />
+    <MESSAGE value=" css et bas de page" />
+    <MESSAGE value="bas de page" />
+    <MESSAGE value="text gras" />
+    <option name="LAST_COMMIT_MESSAGE" value="text gras" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>252</line>
+          <line>251</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>317</line>
+          <line>316</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>1083</line>
+          <line>1082</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>84</line>
+          <line>83</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Controleur/diagnostic_suivi.php</url>
-          <line>51</line>
+          <line>50</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

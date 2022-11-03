@@ -24,7 +24,6 @@ or die('could not connect to database');
             <header>
                 <nav class="navbar">
                     <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
-                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/acceuil.php">Accueil</a>
                     <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
                     <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
                     <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
@@ -168,10 +167,10 @@ $row = mysqli_fetch_assoc($resultat);
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
-                        <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
-                        <td> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </td>
-                        <td> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </td>
+                        <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b> </td>
+                        <td> <b>  Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b> </td>
+                        <td> <b> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </b> </td>
+                        <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -222,10 +221,10 @@ $row = mysqli_fetch_assoc($resultat);
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> La technologie introduit-elle une communication entre des machines ? </td>
-                        <td> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </td>
-                        <td> La technologie intervient-elle dans la communication entre plusieurs personnes ? </td>
-                        <td> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </td>
+                        <td> <b> La technologie introduit-elle une communication entre des machines ? </b> </td>
+                        <td> <b> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </b> </td>
+                        <td> <b> La technologie intervient-elle dans la communication entre plusieurs personnes ? </b> </td>
+                        <td> <b> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -276,10 +275,10 @@ $row = mysqli_fetch_assoc($resultat);
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ? </td>
-                        <td> La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </td>
-                        <td> Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </td>
-                        <td> La finalité de l’utilisation des données est-elle transparente ? </td>
+                        <td> <b>Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ?</b> </td>
+                        <td> <b>La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </b></td>
+                        <td> <b>Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </b></td>
+                        <td> <b>La finalité de l’utilisation des données est-elle transparente ?</b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -324,16 +323,16 @@ $row = mysqli_fetch_assoc($resultat);
                 <br>
                 <hr>
                 <hr>
-                <h2>L'autonomie'</h2>
+                <h2>L'autonomie</h2>
             </div>
             <div class="block_table" >
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
-                        <td>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</td>
-                        <td>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</td>
-                        <td>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</td>
+                        <td> <b>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </b></td>
+                        <td> <b>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</b></td>
+                        <td> <b>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</b></td>
+                        <td> <b>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</b></td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -384,10 +383,10 @@ $row = mysqli_fetch_assoc($resultat);
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>
-                        <td> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </td>
-                        <td> Le système à base d'IA rend-il des savoir-faire obsolètes ? </td>
-                        <td> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </td>
+                        <td> <b> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </b></td>
+                        <td> <b> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </b></td>
+                        <td> <b> Le système à base d'IA rend-il des savoir-faire obsolètes ?</b> </td>
+                        <td> <b> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </b></td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -438,11 +437,11 @@ $row = mysqli_fetch_assoc($resultat);
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>
-                        <td> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </td>
-                        <td> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur?  </td>
-                        <td> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
-                            Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ? </td>
+                        <td> <b> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </b></td>
+                        <td> <b> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </b></td>
+                        <td> <b> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur? </b> </td>
+                        <td> <b>Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
+                                Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ?</b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -683,10 +682,10 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <table>
         <tr>
             <td class="titre"> Questions </td>
-            <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
-            <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
-            <td> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </td>
-            <td> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </td>
+            <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b></td>
+            <td> <b> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b></td>
+            <td> <b> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </b></td>
+            <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ?</b> </td>
         </tr>
         <tr>
             <td class="titre"> Implications </th>
@@ -750,10 +749,10 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <table>
                 <tr>
                     <td class="titre"> Questions </td>
-                    <td> La technologie introduit-elle une communication entre des machines ? </td>
-                    <td> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </td>
-                    <td> La technologie intervient-elle dans la communication entre plusieurs personnes ? </td>
-                    <td> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </td>
+                    <td> <b> La technologie introduit-elle une communication entre des machines ? </b> </td>
+                    <td> <b> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </b> </td>
+                    <td> <b> La technologie intervient-elle dans la communication entre plusieurs personnes ? </b> </td>
+                    <td> <b> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </b> </td>
                 </tr>
                 <tr>
                     <td class="titre"> Implications </th>
@@ -817,11 +816,11 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <table>
                 <tr>
                     <td class="titre"> Questions </td>
-                    <td> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ? </td>
-                    <td> La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </td>
-                    <td> Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </td>
-                    <td> La finalité de l’utilisation des données est-elle transparente ? </td>
-                </tr>
+                    <td> <b>Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ?</b> </td>
+                    <td> <b>La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </b></td>
+                    <td> <b>Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </b></td>
+                    <td> <b>La finalité de l’utilisation des données est-elle transparente ?</b> </td>
+                 </tr>
                 <tr>
                     <td class="titre"> Implications </th>
                     <td>La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas.</td>
@@ -878,16 +877,16 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <br>
             <hr>
             <hr>
-            <h2>L'autonomie'</h2>
+            <h2>L'autonomie</h2>
         </div>
         <div class="block_table" >
             <table>
                 <tr>
                     <td class="titre"> Questions </td>
-                    <td>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
-                    <td>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</td>
-                    <td>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</td>
-                    <td>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</td>
+                    <td> <b>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </b></td>
+                    <td> <b>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</b></td>
+                    <td> <b>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</b></td>
+                    <td> <b>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</b></td>
                 </tr>
                 <tr>
                     <td class="titre"> Implications </th>
@@ -951,10 +950,10 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <table>
                 <tr>
                     <td class="titre"> Questions </td>
-                    <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>
-                    <td> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </td>
-                    <td> Le système à base d'IA rend-il des savoir-faire obsolètes ? </td>
-                    <td> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </td>
+                    <td> <b> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </b></td>
+                    <td> <b> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </b></td>
+                    <td> <b> Le système à base d'IA rend-il des savoir-faire obsolètes ?</b> </td>
+                    <td> <b> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </b></td>
                 </tr>
                 <tr>
                     <td class="titre"> Implications </th>
@@ -1018,11 +1017,11 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
             <table>
                 <tr>
                     <td class="titre"> Questions </td>
-                    <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>
-                    <td> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </td>
-                    <td> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur?  </td>
-                    <td> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
-                        Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ? </td>
+                    <td> <b> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </b></td>
+                    <td> <b> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </b></td>
+                    <td> <b> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur? </b> </td>
+                    <td> <b>Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
+                            Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ?</b> </td>
                 </tr>
                 <tr>
                     <td class="titre"> Implications </th>
@@ -1225,10 +1224,10 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
-                        <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
-                        <td> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </td>
-                        <td> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </td>
+                        <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b> </td>
+                        <td> <b>  Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b> </td>
+                        <td> <b> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </b> </td>
+                        <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1305,10 +1304,10 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> La technologie introduit-elle une communication entre des machines ? </td>
-                        <td> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </td>
-                        <td> La technologie intervient-elle dans la communication entre plusieurs personnes ? </td>
-                        <td> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </td>
+                        <td> <b> La technologie introduit-elle une communication entre des machines ? </b> </td>
+                        <td> <b> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </b> </td>
+                        <td> <b> La technologie intervient-elle dans la communication entre plusieurs personnes ? </b> </td>
+                        <td> <b> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1385,10 +1384,10 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ? </td>
-                        <td> La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </td>
-                        <td> Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </td>
-                        <td> La finalité de l’utilisation des données est-elle transparente ? </td>
+                        <td> <b>Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ?</b> </td>
+                        <td> <b>La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </b></td>
+                        <td> <b>Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </b></td>
+                        <td> <b>La finalité de l’utilisation des données est-elle transparente ?</b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1459,16 +1458,16 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <br>
                 <hr>
                 <hr>
-                <h2>L'autonomie'</h2>
+                <h2>L'autonomie</h2>
             </div>
             <div class="block_table" >
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
-                        <td>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</td>
-                        <td>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</td>
-                        <td>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</td>
+                        <td> <b>Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </b></td>
+                        <td> <b>Le système à base d'IA émet-il des notifications à l’adresse du travailleur ?</b></td>
+                        <td> <b>Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ?</b></td>
+                        <td> <b>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</b></td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1545,10 +1544,10 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>
-                        <td> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </td>
-                        <td> Le système à base d'IA rend-il des savoir-faire obsolètes ? </td>
-                        <td> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </td>
+                        <td> <b> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </b></td>
+                        <td> <b> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </b></td>
+                        <td> <b> Le système à base d'IA rend-il des savoir-faire obsolètes ?</b> </td>
+                        <td> <b> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </b></td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1625,11 +1624,11 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                 <table>
                     <tr>
                         <td class="titre"> Questions </td>
-                        <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>
-                        <td> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </td>
-                        <td> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur?  </td>
-                        <td> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
-                            Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ? </td>
+                        <td> <b> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </b></td>
+                        <td> <b> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </b></td>
+                        <td> <b> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur? </b> </td>
+                        <td> <b>Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
+                                Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ?</b> </td>
                     </tr>
                     <tr>
                         <td class="titre"> Implications </th>
@@ -1709,9 +1708,7 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
         <br>
         <br>
         <div class = "bouton">
-           <form action = "">
-               <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
-           </form>
+            <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
        </div>
 
         <form action="connexion.php">
