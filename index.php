@@ -36,7 +36,7 @@
                     de l&rsquo;IA au travail en vue de faciliter l&rsquo;instauration d&rsquo;une confiance situ&eacute;e.</p>
             </div>
 
-            <img src="../Medias/Prix.jpg" width="600" height="476">
+            <img src="../Medias/Prix.png" width="600" height="476">
         </div>
         <footer>
             <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
