@@ -75,10 +75,18 @@ section .container nav a:hover{
     display: block;
     margin:0px auto 40px auto;
 }
+.maiat img{
+    display: block;
+    margin:0px auto 40px auto;
+}
 .maiat p{
     text-align: center;
     color: white;
     font-size: large;
+}
+.maiat i{
+    text-align: center;
+    color: white;
 }
 
 /* Changement guide.php */

@@ -28,7 +28,8 @@
             <div class="guide">
                 <h1>MAIAT : Le guide de l&#39;outil</h1>
 
-                <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video>
+                <!-- <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video> -->
+                <img src="../Medias/guide.png" width=800px height=565px >
             </div>
         </div>
         <footer>

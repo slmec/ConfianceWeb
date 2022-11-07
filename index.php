@@ -34,9 +34,11 @@
                     cr&eacute;ations d&rsquo;emplois, elles d&eacute;gagent des questions de transformation du travail et de leur acceptabilit&eacute;. Elles pointent en ce sens
                     sur la n&eacute;cessit&eacute; d&rsquo;&eacute;tablir une confiance technique et sociale envers l&rsquo;IA. Cet outil propose un diagnostic social des applications
                     de l&rsquo;IA au travail en vue de faciliter l&rsquo;instauration d&rsquo;une confiance situ&eacute;e.</p>
+
+                <img src="Medias/Prix.png" width=800px height=565px >
+                <p>Prix reçu le 1er Juillet 2022 à Saint-Étienne, France, lors de la Conférence Nationale sur les Applications Pratiques de l’Intelligence Artificielle</p>
             </div>
 
-            <img src="../Medias/Prix.png" width="600" height="476">
         </div>
         <footer>
             <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
