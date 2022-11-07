@@ -30,7 +30,7 @@
                 <br>
 
                 <!-- <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video> -->
-                <img src="../Medias/guide2.png" width=900px height=506px >
+                <img src="../Medias/guide.png" width=900px height=506px >
             </div>
         </div>
         <footer>
