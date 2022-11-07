@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="photo prix">
-      <change afterPath="$PROJECT_DIR$/Medias/Prix.png" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="photo prix et guide">
+      <change afterPath="$PROJECT_DIR$/Medias/guide.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +109,7 @@
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="10686000" />
       <workItem from="1667374522255" duration="6379000" />
-      <workItem from="1667826286017" duration="4749000" />
-    </task>
-    <task id="LOCAL-00062" summary="modif identification">
-      <created>1666011603369</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1666011603369</updated>
+      <workItem from="1667826286017" duration="5072000" />
     </task>
     <task id="LOCAL-00063" summary="modif identification">
       <created>1666012573906</created>
@@ -455,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667826786203</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="photo prix et guide">
+      <created>1667838912609</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1667838912609</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif cryptage" />
     <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css bandeau et boutons" />
@@ -499,7 +497,8 @@
     <MESSAGE value="text gras" />
     <MESSAGE value="supr Accueil" />
     <MESSAGE value="photo prix" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo prix" />
+    <MESSAGE value="photo prix et guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo prix et guide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
