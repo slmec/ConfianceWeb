@@ -95,14 +95,14 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-     width: 90%;
-     margin: auto;
-     align-items: center;
 
 .guide h1{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 0px;
+    color: white;
+}
+.guide i{
     color: white;
 }
 .guide video{

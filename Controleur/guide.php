@@ -34,7 +34,9 @@
 
                 <h3>Comment utiliser MAIAT ? &nbsp;</h3>
                     <p> 1 - La version <strong>avec un compte</strong> vous offre de nombreuses possibilit&eacute;s. Vous pouvez r&eacute;aliser un nouveau diagnostic, ajouter une interpr&eacute;tation personnelle, revoir et comparer les r&eacute;sultats mais aussi acc&eacute;der &agrave; votre profil utilisateur et modifier vos informations.&nbsp;</p>
-                <img src="../Medias/espaceconnexion.png" width=1000px height=188px>
+
+                    <img src="../Medias/espaceconnexion.png" width=1000px height=240px >
+                    <i>Vision du tableau de bord de l'espace Connexion</i>
                     <p> 2 - La version <strong>sans connexion</strong> permet de r&eacute;aliser le diagnostic sans stocker aucune donn&eacute;e. Vous aurez acc&egrave;s &agrave; votre r&eacute;sultat de diagnostic sur l&rsquo;instant mais vous ne pourrez pas le revoir une fois le diagnostic ferm&eacute;.&nbsp;</p>
 
                 <h3>Comment completer un diagnostic ? &nbsp;</h3>
