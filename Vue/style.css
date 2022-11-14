@@ -75,10 +75,18 @@ section .container nav a:hover{
     display: block;
     margin:0px auto 40px auto;
 }
+.maiat img{
+    display: block;
+    margin:0px auto 40px auto;
+}
 .maiat p{
     text-align: center;
     color: white;
     font-size: large;
+}
+.maiat i{
+    text-align: center;
+    color: white;
 }
 
 /* Changement guide.php */
@@ -87,17 +95,24 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
+
 .guide h1{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 0px;
     color: white;
 }
+.guide i{
+    color: white;
+}
 .guide video{
     display: block;
     margin:0px auto 40px auto;
 }
-
+.guide img{
+    display: block;
+    margin:0px auto 40px auto;
+}
 /* Changement critere.php */
 .critere{
     width: 100%;

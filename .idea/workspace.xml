@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="text gras">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="photo guide">
+      <change afterPath="$PROJECT_DIR$/Medias/espaceconnexion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,56 +108,8 @@
       <workItem from="1666681145174" duration="4965000" />
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="10686000" />
-      <workItem from="1667374522255" duration="4988000" />
-    </task>
-    <task id="LOCAL-00059" summary="modif sans identification">
-      <created>1666009836633</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1666009836633</updated>
-    </task>
-    <task id="LOCAL-00060" summary="modif sans identification">
-      <created>1666010794153</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1666010794153</updated>
-    </task>
-    <task id="LOCAL-00061" summary="modif des noms du critere">
-      <created>1666011538512</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1666011538513</updated>
-    </task>
-    <task id="LOCAL-00062" summary="modif identification">
-      <created>1666011603369</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1666011603369</updated>
-    </task>
-    <task id="LOCAL-00063" summary="modif identification">
-      <created>1666012573906</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1666012573906</updated>
-    </task>
-    <task id="LOCAL-00064" summary="modif organisation">
-      <created>1666016625286</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1666016625286</updated>
-    </task>
-    <task id="LOCAL-00065" summary="modif organisation">
-      <created>1666016792516</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1666016792516</updated>
+      <workItem from="1667374522255" duration="6379000" />
+      <workItem from="1667826286017" duration="12267000" />
     </task>
     <task id="LOCAL-00066" summary="modif inscription">
       <created>1666016859778</created>
@@ -462,7 +405,56 @@
       <option name="project" value="LOCAL" />
       <updated>1667383529384</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="supr Accueil">
+      <created>1667383755211</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1667383755211</updated>
+    </task>
+    <task id="LOCAL-00109" summary="photo prix">
+      <created>1667826578265</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1667826578266</updated>
+    </task>
+    <task id="LOCAL-00110" summary="photo prix">
+      <created>1667826786203</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1667826786203</updated>
+    </task>
+    <task id="LOCAL-00111" summary="photo prix et guide">
+      <created>1667838912609</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1667838912609</updated>
+    </task>
+    <task id="LOCAL-00112" summary="photo guide">
+      <created>1667839226204</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1667839226204</updated>
+    </task>
+    <task id="LOCAL-00113" summary="photo guide">
+      <created>1667840043670</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1667840043670</updated>
+    </task>
+    <task id="LOCAL-00114" summary="photo guide">
+      <created>1668094561907</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1668094561908</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,10 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif mdp crypte" />
-    <MESSAGE value="modif probleme connexion" />
-    <MESSAGE value="modif cryptage" />
-    <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
@@ -506,7 +494,11 @@
     <MESSAGE value=" css et bas de page" />
     <MESSAGE value="bas de page" />
     <MESSAGE value="text gras" />
-    <option name="LAST_COMMIT_MESSAGE" value="text gras" />
+    <MESSAGE value="supr Accueil" />
+    <MESSAGE value="photo prix" />
+    <MESSAGE value="photo prix et guide" />
+    <MESSAGE value="photo guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo guide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
