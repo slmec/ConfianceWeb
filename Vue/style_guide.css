@@ -70,3 +70,7 @@ section .container h3{
 section .container figure{
     text-align: center;
 }
+section .bas {
+    text-align: center;
+    color : white;
+}
