@@ -18,6 +18,7 @@ section .container{
     margin: 0 auto;
     padding-top: 50px;
     height: 100%;
+    text-align: center;
 }
 section .container header{
     display: flex;
