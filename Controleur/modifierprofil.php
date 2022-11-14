@@ -28,9 +28,9 @@
             <br><hr><br>
         </div>
         <nav class="navbar">
-            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php"> Nouveau Diagnostic </a>
-            <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php">Consulter mes diagnostics</a>
-            <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/profil.php">Mon profil </a>
+            <a href="diagnostic_new.php"> Nouveau Diagnostic </a>
+            <a href="diagnostic_suivi.php">Consulter mes diagnostics</a>
+            <a class="active" href="profil.php">Mon profil </a>
             <a href="../Modele/deconnexion.php">Deconnexion</a>
         </nav>
         <div class="block_tableau">
