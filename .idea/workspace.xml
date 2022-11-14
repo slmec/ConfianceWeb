@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif liens">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +106,7 @@
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="12821000" />
       <workItem from="1667481293842" duration="5188000" />
-      <workItem from="1668413719201" duration="6488000" />
-    </task>
-    <task id="LOCAL-00058" summary="modif affichage diagnostics">
-      <created>1666008733198</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1666008733198</updated>
+      <workItem from="1668413719201" duration="6556000" />
     </task>
     <task id="LOCAL-00059" summary="modif sans identification">
       <created>1666009836633</created>
@@ -451,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668436134710</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="modif liens">
+      <created>1668438735596</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1668438735596</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
