@@ -119,7 +119,7 @@ section .block_page .block_form  input[type=text], input[type=password], input[t
     box-sizing: border-box;
 }
 
-section .block_page .block_form input[type=submit] {
+section .block_page .block_form input[type=submit]{
     background-color: #476ebf;
     color: white;
     padding: 14px 20px;
@@ -159,6 +159,9 @@ section .block_page .block_form table {
 section .block_page .block_form td{
     text-align: left;
     padding-bottom: 1%;
+}
+section .block_page .block_form .aligne{
+    text-align: center;
 }
 
 
