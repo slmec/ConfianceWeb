@@ -30,7 +30,7 @@
                     <br>
                     <figure role="figure" aria-label="Resumé guide.">
                     <!-- <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video> -->
-                        <img src="../Medias/guide.png" width=900px height=506px >
+                        <img src="../Medias/guide.jpg" width=900px height=506px >
                         <figcaption>
                             Resumé guide
                         </figcaption>
@@ -83,7 +83,7 @@
                     <figure role="figure" aria-label="Exemple de comparaison">
                         <img src="../Medias/radarcomparaison.png" width=800px height=717px >
                         <figcaption>
-                            Exemple de comparaison
+                            Exemple de diagramme radar avec plusieurs diagnostics
                         </figcaption>
                     </figure>
                     <br>
