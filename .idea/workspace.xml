@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif liens">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif index + critere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +109,7 @@
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="12821000" />
       <workItem from="1667481293842" duration="5188000" />
-      <workItem from="1668413719201" duration="6928000" />
-    </task>
-    <task id="LOCAL-00060" summary="modif sans identification">
-      <created>1666010794153</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1666010794153</updated>
+      <workItem from="1668413719201" duration="7406000" />
     </task>
     <task id="LOCAL-00061" summary="modif des noms du critere">
       <created>1666011538512</created>
@@ -453,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668438806499</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="modif index + critere">
+      <created>1668439265879</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1668439265879</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif verification nom diagnostic" />
     <MESSAGE value="modif mdp crypte" />
     <MESSAGE value="modif probleme connexion" />
     <MESSAGE value="modif cryptage" />
@@ -497,7 +497,8 @@
     <MESSAGE value="modif profil" />
     <MESSAGE value="modif bouton" />
     <MESSAGE value="modif liens" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif liens" />
+    <MESSAGE value="modif index + critere" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif index + critere" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

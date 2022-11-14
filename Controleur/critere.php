@@ -14,7 +14,7 @@
                     </div>
                     <div class="middle">
                         <nav class="navbar">
-                            <a  href="../index.php">MAIAT</a>
+                            <a href="../index.php">MAIAT</a>
                             <a class="active" href="critere.php">Les critères de risques sociaux</a>
                             <a href="guide.php">Le guide de MAIAT</a>
                             <a href="projet.php">Equipes et partenaires</a>
