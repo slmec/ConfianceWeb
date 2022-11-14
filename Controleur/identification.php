@@ -13,10 +13,11 @@
     <div class="container">
         <header>
             <nav class="navbar">
-                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
-                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
-                <a class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
-                <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                <a href="../index.php" target="_blank" > MAIAT </a>
+                <a href="inscription.php">Inscription</a>
+                <a class="active" href="identification.php">Connexion</a>
+                <a href="testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                <a href="diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
             </nav>
         </header>
     </div>

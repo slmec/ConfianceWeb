@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="photo guide">
-      <change afterPath="$PROJECT_DIR$/Medias/espaceconnexion.png" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif profil">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,9 +118,93 @@
       <workItem from="1666680072857" duration="595000" />
       <workItem from="1666681145174" duration="4965000" />
       <workItem from="1666769643458" duration="3541000" />
-      <workItem from="1666853209256" duration="10686000" />
-      <workItem from="1667374522255" duration="6379000" />
-      <workItem from="1667826286017" duration="12267000" />
+      <workItem from="1666853209256" duration="12821000" />
+      <workItem from="1667481293842" duration="5188000" />
+      <workItem from="1668413719201" duration="4086000" />
+    </task>
+    <task id="LOCAL-00054" summary="modif modif diagnostic">
+      <created>1665759581604</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1665759581604</updated>
+    </task>
+    <task id="LOCAL-00055" summary="modif modif diagnostic">
+      <created>1665760054925</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1665760054925</updated>
+    </task>
+    <task id="LOCAL-00056" summary="modif affichage diagnostic">
+      <created>1665999136700</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1665999136701</updated>
+    </task>
+    <task id="LOCAL-00057" summary="modif affichage diagnostics">
+      <created>1666007867943</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1666007867943</updated>
+    </task>
+    <task id="LOCAL-00058" summary="modif affichage diagnostics">
+      <created>1666008733198</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008733198</updated>
+    </task>
+    <task id="LOCAL-00059" summary="modif sans identification">
+      <created>1666009836633</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1666009836633</updated>
+    </task>
+    <task id="LOCAL-00060" summary="modif sans identification">
+      <created>1666010794153</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1666010794153</updated>
+    </task>
+    <task id="LOCAL-00061" summary="modif des noms du critere">
+      <created>1666011538512</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1666011538513</updated>
+    </task>
+    <task id="LOCAL-00062" summary="modif identification">
+      <created>1666011603369</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1666011603369</updated>
+    </task>
+    <task id="LOCAL-00063" summary="modif identification">
+      <created>1666012573906</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012573906</updated>
+    </task>
+    <task id="LOCAL-00064" summary="modif organisation">
+      <created>1666016625286</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016625286</updated>
+    </task>
+    <task id="LOCAL-00065" summary="modif organisation">
+      <created>1666016792516</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016792516</updated>
     </task>
     <task id="LOCAL-00066" summary="modif inscription">
       <created>1666016859778</created>
@@ -356,105 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666860874956</updated>
     </task>
-    <task id="LOCAL-00101" summary="css">
-      <created>1666882139609</created>
+    <task id="LOCAL-00101" summary="modif modif blog">
+      <created>1666875334662</created>
       <option name="number" value="00101" />
       <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1666882139609</updated>
+      <updated>1666875334662</updated>
     </task>
-    <task id="LOCAL-00102" summary="css">
-      <created>1666884395075</created>
+    <task id="LOCAL-00102" summary="modif profil">
+      <created>1666960346107</created>
       <option name="number" value="00102" />
       <option name="presentableId" value="LOCAL-00102" />
       <option name="project" value="LOCAL" />
-      <updated>1666884395075</updated>
+      <updated>1666960346107</updated>
     </task>
-    <task id="LOCAL-00103" summary="impression">
-      <created>1666958872500</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1666958872500</updated>
-    </task>
-    <task id="LOCAL-00104" summary="css">
-      <created>1666960321252</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1666960321252</updated>
-    </task>
-    <task id="LOCAL-00105" summary=" css et bas de page">
-      <created>1666969055166</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1666969055166</updated>
-    </task>
-    <task id="LOCAL-00106" summary="bas de page">
-      <created>1667379095248</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1667379095248</updated>
-    </task>
-    <task id="LOCAL-00107" summary="text gras">
-      <created>1667383529384</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1667383529384</updated>
-    </task>
-    <task id="LOCAL-00108" summary="supr Accueil">
-      <created>1667383755211</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1667383755211</updated>
-    </task>
-    <task id="LOCAL-00109" summary="photo prix">
-      <created>1667826578265</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1667826578266</updated>
-    </task>
-    <task id="LOCAL-00110" summary="photo prix">
-      <created>1667826786203</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1667826786203</updated>
-    </task>
-    <task id="LOCAL-00111" summary="photo prix et guide">
-      <created>1667838912609</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1667838912609</updated>
-    </task>
-    <task id="LOCAL-00112" summary="photo guide">
-      <created>1667839226204</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1667839226204</updated>
-    </task>
-    <task id="LOCAL-00113" summary="photo guide">
-      <created>1667840043670</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1667840043670</updated>
-    </task>
-    <task id="LOCAL-00114" summary="photo guide">
-      <created>1668094561907</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1668094561908</updated>
-    </task>
-    <option name="localTasksCounter" value="115" />
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +484,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="modif resultat diagnostic" />
+    <MESSAGE value="modif erreur diagnostic nom" />
+    <MESSAGE value="modif verification nom diagnostic" />
+    <MESSAGE value="modif mdp crypte" />
+    <MESSAGE value="modif probleme connexion" />
+    <MESSAGE value="modif cryptage" />
+    <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
@@ -489,47 +507,9 @@
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
-    <MESSAGE value="impression" />
-    <MESSAGE value="css" />
-    <MESSAGE value=" css et bas de page" />
-    <MESSAGE value="bas de page" />
-    <MESSAGE value="text gras" />
-    <MESSAGE value="supr Accueil" />
-    <MESSAGE value="photo prix" />
-    <MESSAGE value="photo prix et guide" />
-    <MESSAGE value="photo guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo guide" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>251</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php</url>
-          <line>316</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>1082</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php</url>
-          <line>83</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/diagnostic_suivi.php</url>
-          <line>50</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="modif modif blog" />
+    <MESSAGE value="modif profil" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif profil" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
