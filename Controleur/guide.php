@@ -73,7 +73,7 @@
                     <figure role="figure" aria-label="Affichage des resultats du critere Reconnaissance">
                         <img src="../Medias/implications.png" width=900px height=240px >
                         <figcaption>
-                            Affichage des resultats du critere Reconnaissance
+                            Affichage des résultats du critère Reconnaissance
                         </figcaption>
                     </figure>
                     <br>
