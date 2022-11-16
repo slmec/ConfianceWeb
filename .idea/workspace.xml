@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif test questionnaire sans id">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif indentation modele">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +114,7 @@
       <workItem from="1667481293842" duration="5188000" />
       <workItem from="1668413719201" duration="8451000" />
       <workItem from="1668441218958" duration="50000" />
-      <workItem from="1668500383009" duration="1217000" />
-    </task>
-    <task id="LOCAL-00064" summary="modif organisation">
-      <created>1666016625286</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1666016625286</updated>
+      <workItem from="1668500383009" duration="6730000" />
     </task>
     <task id="LOCAL-00065" summary="modif organisation">
       <created>1666016792516</created>
@@ -458,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668440676056</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="modif indentation modele">
+      <created>1668501710083</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1668501710083</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
@@ -502,7 +502,8 @@
     <MESSAGE value="modif blog" />
     <MESSAGE value="modif connexion + inscription" />
     <MESSAGE value="modif test questionnaire sans id" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif test questionnaire sans id" />
+    <MESSAGE value="modif indentation modele" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif indentation modele" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
