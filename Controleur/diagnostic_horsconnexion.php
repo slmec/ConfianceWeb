@@ -44,16 +44,18 @@
                 <br>
                 <p>Une fois le téléchargement effectué, il faut ouvrir le fichier sous Excel. </p>
                 <p>A l'ouverture, il faudra enlever le mode protégé en activant la modification du fichier.</p>
-                <p>Si le bandeau rouge, sur l'image ci-dessous, est present, je vous invite à suivre les étapes suivantes.   </p>
+                <p>Si un bandeau rouge indicant que les macros du fichier sont bloquées, comme sur l'image ci-dessous, est present, je vous invite à suivre les étapes suivantes.   </p>
                 <br>
                 <figure role="figure" aria-label="Erreur">
                     <img src="../Medias/rouge.png">
-                    <figcaption>
-                        Message d'erreur indicant que les macros du fichiers sont bloquées
-                    </figcaption>
                 </figure>
                 <br>
-                <p> - fermer le fichier Excel</p>
+                <p> Pour débloquer un fichier il faut :</p>
+                <p> 1 - Fermer le fichier Excel</p>
+                <p> 2 - Ouvrez l’Explorateur de fichiers Windows, puis accédez au dossier dans lequel vous avez enregistré le fichier.</p>
+                <p> 3 - Cliquez avec le bouton droit sur le fichier, puis sélectionnez "Propriétés" dans le menu contextuel.</p>
+                <p> 4 - En bas de l’onglet Général, cochez la case Débloquer et sélectionnez OK. </p>
+                <p> 5 - Ouvrer votre fichier</p>
             </form>
 
         </div>
