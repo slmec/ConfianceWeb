@@ -46,10 +46,10 @@
                 <p>A l'ouverture, il faudra enlever le mode protégé en activant la modification du fichier.</p>
                 <p>Si le bandeau rouge, sur l'image ci-dessous, est present, je vous invite à suivre les étapes suivantes.   </p>
                 <br>
-                <figure role="figure" aria-label="Exemple de diagramme radar">
-                    <img src="../Medias/radar.png" width=800px height=502px >
+                <figure role="figure" aria-label="Erreur">
+                    <img src="../Medias/rouge.png">
                     <figcaption>
-                        Exemple de diagramme radar
+                        Message d'erreur indicant que les macros du fichiers sont bloquées
                     </figcaption>
                 </figure>
                 <br>

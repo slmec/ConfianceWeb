@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif indentation modele">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/footer.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
