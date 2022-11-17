@@ -38,4 +38,5 @@ session_start();
         <br>
     </div>
 </section>
+</body>
 </html>

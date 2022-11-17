@@ -25,7 +25,6 @@
             <h1>Diagnostic hors ligne</h1>
             <br>
         </div>
-
         <!--<div class ="block_form">
             <form action="" >
                 <p>Vous avez choisit de ne pas r&eacute;aliser le test via notre outil en ligne.</p>
@@ -66,6 +65,7 @@
             <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
             <br>
         </div>
+    </div>
 </section>
 </body>
 

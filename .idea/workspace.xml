@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/acceuil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,20 +117,6 @@
       <workItem from="1668413719201" duration="8451000" />
       <workItem from="1668441218958" duration="50000" />
       <workItem from="1668500383009" duration="6730000" />
-    </task>
-    <task id="LOCAL-00066" summary="modif inscription">
-      <created>1666016859778</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1666016859778</updated>
-    </task>
-    <task id="LOCAL-00067" summary="modif inscription">
-      <created>1666017153590</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1666017153590</updated>
     </task>
     <task id="LOCAL-00068" summary="modif resultat diagnostic">
       <created>1666017475329</created>
@@ -454,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668694454791</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="macro">
+      <created>1668694999068</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1668694999068</updated>
+    </task>
+    <task id="LOCAL-00116" summary="macro">
+      <created>1668695139027</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1668695139027</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
