@@ -44,18 +44,16 @@
         </div>
     </div>
 </section>
-    <?php 
-          $Id_Utilisateur = $_SESSION['id_Utilisateur'];
-      ?>
 <?php
-$requete = "SELECT Nom, Prenom, Roles, Organisme FROM Utilisateurs WHERE Id_utilisateur =$Id_Utilisateur ";
-$resultat = mysqli_query($db,$requete);
-$row = mysqli_fetch_assoc($resultat) ;
+    $Id_Utilisateur = $_SESSION['id_Utilisateur'];
+    $requete = "SELECT Nom, Prenom, Roles, Organisme FROM Utilisateurs WHERE Id_utilisateur ='$Id_Utilisateur' ";
+    $resultat = mysqli_query($db,$requete);
+    $row = mysqli_fetch_assoc($resultat) ;
 
-$_SESSION['nom']=$row['Nom'];
-$_SESSION['prenom']=$row['Prenom'];
-$_SESSION['role']=$row['Roles'];
-$_SESSION['organisme']=$row['Organisme'];
+    $_SESSION['nom']=$row['Nom'];
+    $_SESSION['prenom']=$row['Prenom'];
+    $_SESSION['role']=$row['Roles'];
+    $_SESSION['organisme']=$row['Organisme'];
 ?>
 <section>
 <div class="block_page">

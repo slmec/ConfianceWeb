@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="guide">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif indentation modele">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,44 +112,9 @@
       <workItem from="1666769643458" duration="3541000" />
       <workItem from="1666853209256" duration="12821000" />
       <workItem from="1667481293842" duration="5188000" />
-      <workItem from="1668413719201" duration="6556000" />
-      <workItem from="1668596995823" duration="1974000" />
-      <workItem from="1668693881104" duration="434000" />
-    </task>
-    <task id="LOCAL-00060" summary="modif sans identification">
-      <created>1666010794153</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1666010794153</updated>
-    </task>
-    <task id="LOCAL-00061" summary="modif des noms du critere">
-      <created>1666011538512</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1666011538513</updated>
-    </task>
-    <task id="LOCAL-00062" summary="modif identification">
-      <created>1666011603369</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1666011603369</updated>
-    </task>
-    <task id="LOCAL-00063" summary="modif identification">
-      <created>1666012573906</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1666012573906</updated>
-    </task>
-    <task id="LOCAL-00064" summary="modif organisation">
-      <created>1666016625286</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1666016625286</updated>
+      <workItem from="1668413719201" duration="8451000" />
+      <workItem from="1668441218958" duration="50000" />
+      <workItem from="1668500383009" duration="6730000" />
     </task>
     <task id="LOCAL-00065" summary="modif organisation">
       <created>1666016792516</created>
@@ -447,14 +417,49 @@
       <option name="project" value="LOCAL" />
       <updated>1668438735596</updated>
     </task>
-    <task id="LOCAL-00108" summary="guide">
-      <created>1668439851874</created>
+    <task id="LOCAL-00108" summary="modif liens">
+      <created>1668438806498</created>
       <option name="number" value="00108" />
       <option name="presentableId" value="LOCAL-00108" />
       <option name="project" value="LOCAL" />
-      <updated>1668439851874</updated>
+      <updated>1668438806499</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="modif index + critere">
+      <created>1668439265879</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1668439265879</updated>
+    </task>
+    <task id="LOCAL-00110" summary="modif blog">
+      <created>1668439674781</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1668439674781</updated>
+    </task>
+    <task id="LOCAL-00111" summary="modif connexion + inscription">
+      <created>1668440121526</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1668440121526</updated>
+    </task>
+    <task id="LOCAL-00112" summary="modif test questionnaire sans id">
+      <created>1668440676056</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1668440676056</updated>
+    </task>
+    <task id="LOCAL-00113" summary="modif indentation modele">
+      <created>1668501710083</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1668501710083</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,9 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif probleme connexion" />
-    <MESSAGE value="modif cryptage" />
-    <MESSAGE value="modif inscription" />
     <MESSAGE value="modif css index" />
     <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
@@ -496,20 +498,12 @@
     <MESSAGE value="modif profil" />
     <MESSAGE value="modif bouton" />
     <MESSAGE value="modif liens" />
-    <MESSAGE value="hors ligne" />
-    <MESSAGE value="guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="guide" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controleur/implications_C2_sansid.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="modif index + critere" />
+    <MESSAGE value="modif blog" />
+    <MESSAGE value="modif connexion + inscription" />
+    <MESSAGE value="modif test questionnaire sans id" />
+    <MESSAGE value="modif indentation modele" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif indentation modele" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
