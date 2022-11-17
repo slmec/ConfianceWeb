@@ -56,6 +56,8 @@
                 <p> 3 - Cliquez avec le bouton droit sur le fichier, puis sélectionnez "Propriétés" dans le menu contextuel.</p>
                 <p> 4 - En bas de l’onglet Général, cochez la case Débloquer et sélectionnez OK. </p>
                 <p> 5 - Ouvrer votre fichier</p>
+                <br>
+                <p> Bonne utilisation de MAIAT ! </p>
             </form>
 
         </div>
