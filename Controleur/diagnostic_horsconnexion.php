@@ -26,13 +26,36 @@
             <br>
         </div>
 
-        <div class ="block_form">
+        <!--<div class ="block_form">
             <form action="" >
                 <p>Vous avez choisit de ne pas r&eacute;aliser le test via notre outil en ligne.</p>
                 <p>Pour ce faire vous devez faire la demande par mail sur le mail suivant : <strong>yann.ferguson@icam.fr</strong></p>
                 <p>Par la suite, vous recevrez dans les meilleurs d&eacute;lais <strong>un fichier excel</strong>.</p>
+                 <a href="../Medias/MAIAT (3).xlsm" download > Telecharger</a>
                 <p>Celle-ci est une version hors-ligne de l&#39;outil de mesure d&#39;acceptabilit&eacute; sociale de l&#39;IA au travail.&nbsp;</p>
             </form>
+        </div>-->
+        <div class="block_form">
+            <form action="" >
+                <p>Vous avez choisit de ne pas réaliser le test via notre outil en ligne.</p>
+                <p>Pour ce faire vous devez télécharger sur votre ordinateur le fichier Excel ci-dessous : </p>
+                <p>Il y a deux versions, une presentation <a href="../Medias/MAIAT_Horizontal.xlsm" download > horizontale</a> et une presentation <a href="../Medias/MAIAT_Vertical.xlsm" download > verticale</a> </p>
+                <p>Vous avez juste à choisir la presentation la plus adaptée à votre utilisation.</p>
+                <br>
+                <p>Une fois le téléchargement effectué, il faut ouvrir le fichier sous Excel. </p>
+                <p>A l'ouverture, il faudra enlever le mode protégé en activant la modification du fichier.</p>
+                <p>Si le bandeau rouge, sur l'image ci-dessous, est present, je vous invite à suivre les étapes suivantes.   </p>
+                <br>
+                <figure role="figure" aria-label="Exemple de diagramme radar">
+                    <img src="../Medias/radar.png" width=800px height=502px >
+                    <figcaption>
+                        Exemple de diagramme radar
+                    </figcaption>
+                </figure>
+                <br>
+                <p> - fermer le fichier Excel</p>
+            </form>
+
         </div>
         <div class="bas">
             <br>
