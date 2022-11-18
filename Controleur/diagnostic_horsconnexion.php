@@ -36,7 +36,7 @@
         </div>-->
         <div class="block_form">
             <form action="" >
-                <p>Vous avez choisit de ne pas réaliser le test via notre outil en ligne.</p>
+                <p>Vous avez choisi de ne pas réaliser le test via notre outil en ligne.</p>
                 <p>Pour ce faire vous devez télécharger sur votre ordinateur le fichier Excel ci-dessous : </p>
                 <p>Il y a deux versions, une presentation <a href="../Medias/MAIAT_Horizontal.xlsm" download > horizontale</a> et une presentation <a href="../Medias/MAIAT_Vertical.xlsm" download > verticale</a> </p>
                 <p>Vous avez juste à choisir la presentation la plus adaptée à votre utilisation.</p>

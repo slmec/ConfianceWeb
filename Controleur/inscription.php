@@ -33,7 +33,7 @@
                         <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
                         <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
                         <p>Mot de passe :&nbsp;</p>
-                        <p> ATTENTION ! Nous sommes en phase de test donc pour une question de sécurité ne choisissez pas de mot de passe confidentiel !<input name="mdp_utilisateur" type="password" /></p>
+                        <p> <input name="mdp_utilisateur" type="password" /></p>
                         <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
                         <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
                         <p>

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="indentations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/acceuil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +111,7 @@
       <workItem from="1668413719201" duration="8451000" />
       <workItem from="1668441218958" duration="50000" />
       <workItem from="1668500383009" duration="6730000" />
-    </task>
-    <task id="LOCAL-00068" summary="modif resultat diagnostic">
-      <created>1666017475329</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1666017475329</updated>
+      <workItem from="1668760119665" duration="145000" />
     </task>
     <task id="LOCAL-00069" summary="modif erreur diagnostic nom">
       <created>1666019300165</created>
@@ -461,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668695139027</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="indentations">
+      <created>1668695499123</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1668695499123</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +475,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css bandeau et boutons" />
     <MESSAGE value="modif lien vers c'est a vous" />
     <MESSAGE value="modif css site" />
     <MESSAGE value="modif css maiat + guide" />
@@ -505,7 +499,8 @@
     <MESSAGE value="modif test questionnaire sans id" />
     <MESSAGE value="modif indentation modele" />
     <MESSAGE value="macro" />
-    <option name="LAST_COMMIT_MESSAGE" value="macro" />
+    <MESSAGE value="indentations" />
+    <option name="LAST_COMMIT_MESSAGE" value="indentations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
