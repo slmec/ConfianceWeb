@@ -39,13 +39,13 @@
     <div class ="block_page">
         <div class="block_form">
                 <form action="../Modele/verification_question_prequestionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
-                    <h4>Pour débuter ce questionnaire, nous avons besoin d'informations préalables afin de comprendre votre système d'IA.</h4>
+                    <h4>Pour débuter ce questionnaire, nous avons besoin d'informations préalables afin de comprendre votre syst&egrave;me &agrave; base d&#39;IA.</h4>
                     <br>
-                    <p>Dans quel contexte est utilis&eacute; le syst&egrave;me d&#39;IA ?&nbsp;<input maxlength="500" name="Contexte_casusage" type="text" /></p>
+                    <p>Dans quel contexte est utilis&eacute; le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Contexte_casusage" type="text" /></p>
                     <p>Quel est l&#39;objectif du syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Objectif_sia" type="text" /></p>
-                    <p>Comment ce syst&egrave;me d&#39;IA fonctionne-t-il ?&nbsp;<input maxlength="500" name="Fonctionnement_sia" type="text" /></p>
+                    <p>Comment ce syst&egrave;me &agrave; base d&#39;IA fonctionne-t-il ?&nbsp;<input maxlength="500" name="Fonctionnement_sia" type="text" /></p>
                     <p>Par qui est-il utilis&eacute; ?&nbsp;<input maxlength="500" name="Utilisation_sia" type="text" /></p>
-                    <p>Quelle est la maturit&eacute; actuelle de votre syst&egrave;me d&#39;IA ? :</p>
+                    <p>Quelle est la maturit&eacute; actuelle de votre syst&egrave;me &agrave; base d&#39;IA ? :</p>
                     <br>
                     <table>
                         <tr>
