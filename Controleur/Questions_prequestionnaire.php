@@ -43,7 +43,7 @@
                     <br>
                     <p>Dans quel contexte est utilis&eacute; le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Contexte_casusage" type="text" /></p>
                     <p>Quel est l&#39;objectif du syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Objectif_sia" type="text" /></p>
-                    <p>Comment ce syst&egrave;me &agrave; base d&#39;IA fonctionne-t-il ?&nbsp;<input maxlength="500" name="Fonctionnement_sia" type="text" /></p>
+                    <p>Quelle est l'interaction entre l’homme et le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Fonctionnement_sia" type="text" /></p>
                     <p>Par qui est-il utilis&eacute; ?&nbsp;<input maxlength="500" name="Utilisation_sia" type="text" /></p>
                     <p>Quelle est la maturit&eacute; actuelle de votre syst&egrave;me &agrave; base d&#39;IA ? :</p>
                     <br>
