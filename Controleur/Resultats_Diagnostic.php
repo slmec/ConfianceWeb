@@ -48,7 +48,24 @@
             </div>
         </div>
     </div>
+
+<div class="block_page">
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <h1 align="center"> Evaluation globale </h1>
+        <br>
+        <hr>
+        <hr>
+        <br>
+    </div>
+</div>
 </section>
+    <p align="center">Evaluation tend vers 0 : risques sociaux réduits </p>
+    <p align="center">Evaluation tend vers 4 : risques sociaux importants </p>
+    <br>
     <?php
         //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
     $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
@@ -133,14 +150,14 @@
     $row = mysqli_fetch_assoc($resultat);
     ?>
 <section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="block_page">
         <form action="../Modele/ajout_analyse.php" method="post" >
             <div class="block_titre">
+                <hr>
+                <hr>
+                <br>
+                <h1 align="center"> Analyse détaillée </h1>
+                <br>
                 <hr>
                 <hr>
                 <h2>La reconnaissance</h2>
@@ -204,32 +221,95 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C1Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C1Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C1Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C1Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row['C1_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C1Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C1Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C1Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C1Q4_interpretation'] ?> </td>
+                        <!--<td> <?php echo $row['C1_suivi'] ?> </td> -->
                     </tr>
                     <tr>
+                        <td></td>
+                        <td> <input name="C1Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C1Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C1Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C1Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C1Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C1Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C1Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C1Q4_plan_action'] ?> </td>
+                        <!--<td> <?php echo $row['C1_suivi'] ?> </td> -->
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C1Q1_plan_action" type="text" /></td>
+                        <td> <input name="C1Q2_plan_action" type="text" /></td>
+                        <td> <input name="C1Q3_plan_action" type="text" /></td>
+                        <td> <input name="C1Q4_plan_action" type="text" /></td>
+                    </tr>
+                    <!--
+                     <tr>
                         <td></td>
                         <td> <input name="C1_interpretation" type="text" /> </td>
                         <td> <input name="C1_plan_action" type="text" /></td>
                         <td> <input name="C1_suivi" type="text" /></td>
                     </tr>
+                    -->
                 </table>
             </div>
 
@@ -299,34 +379,88 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C2Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C2Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C2Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C2Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C2_interpretation'] ?> </td>
-                        <td> <?php echo $row['C2_plan_action'] ?> </td>
-                        <td> <?php echo $row['C2_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C2Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C2Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C2Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C2Q4_interpretation'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C2_interpretation" type="text" /> </td>
-                        <td> <input name="C2_plan_action" type="text" /></td>
-                        <td> <input name="C2_suivi" type="text" /></td>
+                        <td> <input name="C2Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C2Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C2Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C2Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C2Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C2Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C2Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C2Q4_plan_action'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C2Q1_plan_action" type="text" /></td>
+                        <td> <input name="C2Q2_plan_action" type="text" /></td>
+                        <td> <input name="C2Q3_plan_action" type="text" /></td>
+                        <td> <input name="C2Q4_plan_action" type="text" /></td>
                     </tr>
                 </table>
             </div>
+
 
             <div class="block_titre">
                 <br>
@@ -397,31 +531,84 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C3Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C3Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C3Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C3Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C3_interpretation'] ?> </td>
-                        <td> <?php echo $row['C3_plan_action'] ?> </td>
-                        <td> <?php echo $row['C3_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C3Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C3Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C3Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C3Q4_interpretation'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C3_interpretation" type="text" /> </td>
-                        <td> <input name="C3_plan_action" type="text" /></td>
-                        <td> <input name="C3_suivi" type="text" /></td>
+                        <td> <input name="C3Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C3Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C3Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C3Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C3Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C3Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C3Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C3Q4_plan_action'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C3Q1_plan_action" type="text" /></td>
+                        <td> <input name="C3Q2_plan_action" type="text" /></td>
+                        <td> <input name="C3Q3_plan_action" type="text" /></td>
+                        <td> <input name="C3Q4_plan_action" type="text" /></td>
                     </tr>
                 </table>
             </div>
@@ -495,31 +682,84 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C4Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C4Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C4Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C4Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C4_interpretation'] ?> </td>
-                        <td> <?php echo $row['C4_plan_action'] ?> </td>
-                        <td> <?php echo $row['C4_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C4Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C4Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C4Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C4Q4_interpretation'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C4_interpretation" type="text" /> </td>
-                        <td> <input name="C4_plan_action" type="text" /></td>
-                        <td> <input name="C4_suivi" type="text" /></td>
+                        <td> <input name="C4Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C4Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C4Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C4Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C4Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C4Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C4Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C4Q4_plan_action'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C4Q1_plan_action" type="text" /></td>
+                        <td> <input name="C4Q2_plan_action" type="text" /></td>
+                        <td> <input name="C4Q3_plan_action" type="text" /></td>
+                        <td> <input name="C4Q4_plan_action" type="text" /></td>
                     </tr>
                 </table>
             </div>
@@ -593,31 +833,84 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C5Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C5Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C5Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C5Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C5_interpretation'] ?> </td>
-                        <td> <?php echo $row['C5_plan_action'] ?> </td>
-                        <td> <?php echo $row['C5_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C5Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C5Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C5Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C5Q4_interpretation'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C5_interpretation" type="text" /> </td>
-                        <td> <input name="C5_plan_action" type="text" /></td>
-                        <td> <input name="C5_suivi" type="text" /></td>
+                        <td> <input name="C5Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C5Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C5Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C5Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C5Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C5Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C5Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C5Q4_plan_action'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C5Q1_plan_action" type="text" /></td>
+                        <td> <input name="C5Q2_plan_action" type="text" /></td>
+                        <td> <input name="C5Q3_plan_action" type="text" /></td>
+                        <td> <input name="C5Q4_plan_action" type="text" /></td>
                     </tr>
                 </table>
             </div>
@@ -692,31 +985,84 @@
                             ?>
                         </td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td> </td>
+                        <td>
+                            <?php
+                            if ($row['C6Q1'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C6Q2'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C6Q3'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                            if ($row['C6Q4'] == 0) {
+                                echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                            }
+                            else {
+                                echo "<p></p>";
+                            }
+                            ?>
+                        </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td > Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td><hr></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td class="titre">Votre Analyse : </td>
-                        <td> <?php echo $row['C6_interpretation'] ?> </td>
-                        <td> <?php echo $row['C6_plan_action'] ?> </td>
-                        <td> <?php echo $row['C6_suivi'] ?> </td>
+                        <td> Vos interpretations : </td>
+                        <td> <?php echo $row['C6Q1_interpretation'] ?> </td>
+                        <td> <?php echo $row['C6Q2_interpretation'] ?> </td>
+                        <td> <?php echo $row['C6Q3_interpretation'] ?> </td>
+                        <td> <?php echo $row['C6Q4_interpretation'] ?> </td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C6_interpretation" type="text" /> </td>
-                        <td> <input name="C6_plan_action" type="text" /></td>
-                        <td> <input name="C6_suivi" type="text" /></td>
+                        <td> <input name="C6Q1_interpretation" type="text" /> </td>
+                        <td> <input name="C6Q2_interpretation" type="text" /> </td>
+                        <td> <input name="C6Q3_interpretation" type="text" /> </td>
+                        <td> <input name="C6Q4_interpretation" type="text" /> </td>
+                    </tr>
+                    <tr>
+                        <td>Vos plans d'actions : </td>
+                        <td> <?php echo $row['C6Q1_plan_action'] ?> </td>
+                        <td> <?php echo $row['C6Q2_plan_action'] ?> </td>
+                        <td> <?php echo $row['C6Q3_plan_action'] ?> </td>
+                        <td> <?php echo $row['C6Q4_plan_action'] ?> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input name="C6Q1_plan_action" type="text" /></td>
+                        <td> <input name="C6Q2_plan_action" type="text" /></td>
+                        <td> <input name="C6Q3_plan_action" type="text" /></td>
+                        <td> <input name="C6Q4_plan_action" type="text" /></td>
                     </tr>
                 </table>
             </div>
