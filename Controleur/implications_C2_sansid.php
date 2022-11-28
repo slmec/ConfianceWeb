@@ -11,17 +11,38 @@
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link rel="stylesheet" href="../Vue/style_resultats_analyse.css" />
+    <link rel="stylesheet" href="../Vue/style_fond_resultats_diagramme.css" />
     <title>MAIAT</title>
 
 </head>
-<body onload="init();">
+<body>
+<section>
+    <div class="block_entete">
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                    <a  class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
+                </nav>
+            </header>
+            <div class="block_tableau">
+                <br><hr><br>
+                <h1 class="blanc">Les relations humaines</h1>
+                <br><hr><br>
+            </div>
+        </div>
+    </div>
     <?php
         $C2Q1 = $_SESSION['C2Q1'];
         $C2Q2 = $_SESSION['C2Q2'];
         $C2Q3 = $_SESSION['C2Q3'];
         $C2Q4 = $_SESSION['C2Q4'];
     ?>
-    <h1>Les relations humaines </h1>
+    <br>
     <table>
         <tr>
             <td> Questions </td>
@@ -36,13 +57,6 @@
             <td><?php if ($C2Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
             <td><?php if ($C2Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
             <td><?php if ($C2Q4 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
-        </tr>
-        <tr>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
-            <td> fleche </td>
         </tr>
         <tr>
             <td> Implications </td>
@@ -83,6 +97,49 @@
                 }
                 else {
                     echo "<p> L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</p>" ;
+                }
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>
+                <?php
+                if ($C2Q1 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C2Q2 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C2Q3 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C2Q4 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
                 }
                 ?>
             </td>
