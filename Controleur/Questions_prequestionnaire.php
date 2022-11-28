@@ -65,7 +65,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <p><input name="Maturite" type="radio" value="Production" /> Production: nous concevons la version industrielle du SIA pour la d&eacute;ployer</p>
+                                <p><input name="Maturite" type="radio" value="Production" /> Production: la version industrielle du SIA est déployée</p>
                             </td>
                         </tr>
                         <tr>

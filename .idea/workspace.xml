@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif charly">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif Q3 pre-questionnaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
     </list>
@@ -112,14 +112,7 @@
       <workItem from="1668500383009" duration="6730000" />
       <workItem from="1668760119665" duration="2064000" />
       <workItem from="1669131206873" duration="695000" />
-      <workItem from="1669295985086" duration="1047000" />
-    </task>
-    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
-      <created>1666078268145</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1666078268145</updated>
+      <workItem from="1669295985086" duration="1935000" />
     </task>
     <task id="LOCAL-00072" summary="modif mdp crypte">
       <created>1666082795622</created>
@@ -457,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669296305066</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="modif Q3 pre-questionnaire">
+      <created>1669625320747</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1669625320747</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
     <MESSAGE value="modif css projet" />
     <MESSAGE value="modif css projet v2" />
@@ -501,7 +500,8 @@
     <MESSAGE value="indentations" />
     <MESSAGE value="modif" />
     <MESSAGE value="modif charly" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif charly" />
+    <MESSAGE value="modif Q3 pre-questionnaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif Q3 pre-questionnaire" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
