@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="sans id">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="comparaison">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +112,7 @@
       <workItem from="1668500383009" duration="6730000" />
       <workItem from="1668760119665" duration="2064000" />
       <workItem from="1669131206873" duration="695000" />
-      <workItem from="1669295985086" duration="18655000" />
-    </task>
-    <task id="LOCAL-00076" summary="modif inscription">
-      <created>1666099074455</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1666099074455</updated>
+      <workItem from="1669295985086" duration="21581000" />
     </task>
     <task id="LOCAL-00077" summary="modif inscription">
       <created>1666101654400</created>
@@ -458,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669652547261</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="comparaison">
+      <created>1669715058388</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1669715058389</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css equipes et partenaires" />
     <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css critere v2" />
     <MESSAGE value="modif projet" />
@@ -502,7 +500,8 @@
     <MESSAGE value="test fond" />
     <MESSAGE value="retouche resultats" />
     <MESSAGE value="sans id" />
-    <option name="LAST_COMMIT_MESSAGE" value="sans id" />
+    <MESSAGE value="comparaison" />
+    <option name="LAST_COMMIT_MESSAGE" value="comparaison" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
