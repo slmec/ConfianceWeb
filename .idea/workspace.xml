@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif responsive equipes et partenaires V3">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif ajout image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +116,7 @@
       <workItem from="1669621906170" duration="4512000" />
       <workItem from="1669642531116" duration="7533000" />
       <workItem from="1669710973025" duration="9767000" />
-      <workItem from="1669735924228" duration="624000" />
-    </task>
-    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
-      <created>1666078268145</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1666078268145</updated>
+      <workItem from="1669735924228" duration="824000" />
     </task>
     <task id="LOCAL-00072" summary="modif mdp crypte">
       <created>1666082795622</created>
@@ -461,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669736352127</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="modif ajout image">
+      <created>1669736576312</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1669736576312</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
     <MESSAGE value="modif css projet" />
     <MESSAGE value="modif css projet v2" />
@@ -505,7 +504,8 @@
     <MESSAGE value="modif responsive equipes et partenaires" />
     <MESSAGE value="modif responsive equipes et partenaires V2" />
     <MESSAGE value="modif responsive equipes et partenaires V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif responsive equipes et partenaires V3" />
+    <MESSAGE value="modif ajout image" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif ajout image" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
