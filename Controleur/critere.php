@@ -14,11 +14,11 @@
                     </div>
                     <div class="middle">
                         <nav class="navbar">
-                            <a href="../index.php">MAIAT</a>
-                            <a class="active" href="critere.php">Les critères de risques sociaux</a>
-                            <a href="guide.php">Le guide de MAIAT</a>
+                            <a href="../index.php">Accueil</a>
+                            <a class="active" href="critere.php">Base théorique</a>
+                            <a href="guide.php">Fonctionnement</a>
                             <a href="projet.php">Equipes et partenaires</a>
-                            <a href="identification.php" target="_blank">C'est à vous</a>
+                            <a href="identification.php" target="_blank">Accès à l'outil</a>
                         </nav>
                     </div>
                     <div class="right">
@@ -97,7 +97,7 @@
                     </div>
                     <div class="autonomie">
                         <div class="autonomie_left">
-                            <h2>L'autonomie'</h2>
+                            <h2>L'autonomie</h2>
                             <p>L&rsquo;autonomie qualifie la possibilit&eacute; pour le travailleur de devenir sujet, de s&rsquo;&eacute;prouver comme l&rsquo;auteur de
                                 ses &oelig;uvres, d&rsquo;affirmer ses choix, d&rsquo;agir de lui-m&ecirc;me. Le principe d&rsquo;autonomie oppose le travail authentique,
                                 expressif et personnel au travail m&eacute;canique, d&eacute;shumanis&eacute; et &laquo; abstrait &raquo;. L&rsquo;autonomie est devenue un
