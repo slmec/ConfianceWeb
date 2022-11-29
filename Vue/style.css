@@ -15,7 +15,7 @@ section {
 }
 section .container{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 50px;
     height: 100%;
 }
@@ -24,6 +24,7 @@ section .container header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 section .container nav{
     display: flex;
@@ -265,8 +266,8 @@ section .container nav a:hover{
 /* Changement projet.php */
 .projet{
     width: 90%;
-    align-items: center;
     margin: auto;
+    align-items: center;
 }
 .projet .top{
     width: 70%;
@@ -315,6 +316,13 @@ section .container nav a:hover{
     padding: 20px;
     text-align: center;
 }
+
+/* Responsive Accueil */
+@media screen and (max-width: 1400px) {
+    .maiat
+}
+
+/* Responsive Projet */
 @media screen and (max-width: 1400px) {
     .projet{
         width: 90%;
