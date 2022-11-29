@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif responsive equipes et partenaires">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif responsive equipes et partenaires V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
@@ -115,14 +115,7 @@
       <workItem from="1669299654172" duration="701000" />
       <workItem from="1669621906170" duration="4512000" />
       <workItem from="1669642531116" duration="7533000" />
-      <workItem from="1669710973025" duration="7264000" />
-    </task>
-    <task id="LOCAL-00068" summary="modif resultat diagnostic">
-      <created>1666017475329</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1666017475329</updated>
+      <workItem from="1669710973025" duration="9444000" />
     </task>
     <task id="LOCAL-00069" summary="modif erreur diagnostic nom">
       <created>1666019300165</created>
@@ -460,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669718726376</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="modif responsive equipes et partenaires V2">
+      <created>1669730461549</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1669730461549</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif lien vers c'est a vous" />
     <MESSAGE value="modif css site" />
     <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
@@ -504,7 +503,8 @@
     <MESSAGE value="modif hashage mdp" />
     <MESSAGE value="modif modif blog" />
     <MESSAGE value="modif responsive equipes et partenaires" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif responsive equipes et partenaires" />
+    <MESSAGE value="modif responsive equipes et partenaires V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif responsive equipes et partenaires V2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
