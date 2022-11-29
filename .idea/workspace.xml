@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif hashage mdp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/projet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +113,40 @@
       <workItem from="1667481293842" duration="5188000" />
       <workItem from="1668413719201" duration="8451000" />
       <workItem from="1668441218958" duration="50000" />
-      <workItem from="1668500383009" duration="6730000" />
-      <workItem from="1668760119665" duration="2064000" />
-      <workItem from="1669131206873" duration="695000" />
-      <workItem from="1669295985086" duration="267000" />
+      <workItem from="1668500383009" duration="7613000" />
+      <workItem from="1668692178836" duration="671000" />
+      <workItem from="1668760347116" duration="1383000" />
+      <workItem from="1669299654172" duration="701000" />
+      <workItem from="1669621906170" duration="4512000" />
+      <workItem from="1669642531116" duration="7492000" />
+    </task>
+    <task id="LOCAL-00066" summary="modif inscription">
+      <created>1666016859778</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016859778</updated>
+    </task>
+    <task id="LOCAL-00067" summary="modif inscription">
+      <created>1666017153590</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1666017153590</updated>
+    </task>
+    <task id="LOCAL-00068" summary="modif resultat diagnostic">
+      <created>1666017475329</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1666017475329</updated>
+    </task>
+    <task id="LOCAL-00069" summary="modif erreur diagnostic nom">
+      <created>1666019300165</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1666019300165</updated>
     </task>
     <task id="LOCAL-00070" summary="modif erreur diagnostic nom">
       <created>1666020655510</created>
@@ -422,42 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668501710083</updated>
     </task>
-    <task id="LOCAL-00114" summary="macro">
-      <created>1668694454791</created>
+    <task id="LOCAL-00114" summary="modif hashage mdp">
+      <created>1668607857814</created>
       <option name="number" value="00114" />
       <option name="presentableId" value="LOCAL-00114" />
       <option name="project" value="LOCAL" />
-      <updated>1668694454791</updated>
+      <updated>1668607857815</updated>
     </task>
-    <task id="LOCAL-00115" summary="macro">
-      <created>1668694999068</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1668694999068</updated>
-    </task>
-    <task id="LOCAL-00116" summary="macro">
-      <created>1668695139027</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1668695139027</updated>
-    </task>
-    <task id="LOCAL-00117" summary="indentations">
-      <created>1668695499123</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1668695499123</updated>
-    </task>
-    <task id="LOCAL-00118" summary="modif">
-      <created>1668760312404</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1668760312404</updated>
-    </task>
-    <option name="localTasksCounter" value="119" />
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,6 +482,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="modif css bandeau et boutons" />
+    <MESSAGE value="modif lien vers c'est a vous" />
     <MESSAGE value="modif css site" />
     <MESSAGE value="modif css maiat + guide" />
     <MESSAGE value="modif css projet + critere" />
@@ -498,10 +506,8 @@
     <MESSAGE value="modif connexion + inscription" />
     <MESSAGE value="modif test questionnaire sans id" />
     <MESSAGE value="modif indentation modele" />
-    <MESSAGE value="macro" />
-    <MESSAGE value="indentations" />
-    <MESSAGE value="modif" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif" />
+    <MESSAGE value="modif hashage mdp" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif hashage mdp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

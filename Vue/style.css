@@ -315,6 +315,68 @@ section .container nav a:hover{
     padding: 20px;
     text-align: center;
 }
+@media screen and (max-width: 1400px) {
+    .projet{
+        width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+    .projet .top{
+        width: 70%;
+        margin: auto;
+    }
+    .projet .top h1,h3,p{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+    }
+    .projet .top img{
+        display: block;
+        margin:0px auto 0px auto;
+    }
+    .projet .bottom {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+    }
+
+    .projet .bottom .bottom-top {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        padding: 0px;
+    }
+    .projet .bottom .bottom-top a {
+        padding: 0px;
+        margin-top: 15px;
+    }
+    .projet .bottom .bottom-top img {
+        margin: auto 100px;
+    }
+
+    .projet .bottom .bottom-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin :0px;
+        text-align: center;
+        align-items: center;
+        flex-basis: auto;
+    }
+
+    .projet .bottom .bottom-bottom p {
+        width: 100%;
+        margin: 15px auto 0px auto;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
 
 /*
 @media screen and (max-width: 1400px) {

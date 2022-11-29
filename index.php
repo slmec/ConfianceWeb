@@ -14,11 +14,11 @@
                     </div>
                     <div class="middle">
                         <nav class="navbar">
-                            <a class="active" href="index.php">MAIAT</a>
-                            <a href="Controleur/critere.php">Les critères de risques sociaux</a>
-                            <a href="Controleur/guide.php">Le guide de MAIAT</a>
+                            <a class="active" href="index.php">Accueil</a>
+                            <a href="Controleur/critere.php">Base théorique</a>
+                            <a href="Controleur/guide.php">Fonctionnement</a>
                             <a href="Controleur/projet.php">Equipes et partenaires</a>
-                            <a href="Controleur/identification.php" target="_blank">C'est à vous</a>
+                            <a href="Controleur/identification.php" target="_blank">Accès à l'outil</a>
                         </nav>
                     </div>
                     <div class="right">
