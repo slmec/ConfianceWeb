@@ -12,10 +12,35 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <title></title>
+    <link rel="stylesheet" href="../Vue/style_resultats_analyse.css" />
+    <link rel="stylesheet" href="../Vue/style_fond_resultats_diagramme.css" />
+    <title>MAIAT</title>
 
 </head>
-<body onload="init();">
+<body>
+<section>
+    <div class="block_entete">
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/index.php" target="_blank" > MAIAT </a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/inscription.php">Inscription</a>
+                    <a  href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php">Connexion</a>
+                    <a  class="active" href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                    <a href="https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
+                </nav>
+            </header>
+            <div class="block_tableau">
+                <br><hr><br>
+                <h1 class="blanc">Evaluation globale</h1>
+                <br><hr><br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p align="center">Evaluation tend vers 0 : risques sociaux réduits </p>
+    <p align="center">Evaluation tend vers 4 : risques sociaux importants </p>
+    <br>
 <?php
 
 
@@ -50,6 +75,7 @@ $resultat2 = mysqli_query($link,$requete2);*/
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
 <script>
+
     const radarCanvas = document.getElementById("radarCanvas");
 
     const radarChart = new Chart(radarCanvas,{
@@ -103,56 +129,48 @@ $resultat2 = mysqli_query($link,$requete2);*/
         }
     })
 </script>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C1_sansid.php">
-        <button type="submit" value="La reconnaissance" class="button">
-            La reconnaissance
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C2_sansid.php">
-        <button type="submit" value="Les relations humaines" class="button">
-            Les relations humaines
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C3_sansid.php">
-        <button type="submit" value="La surveillance" class="button">
-            La surveillance
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C4_sansid.php">
-        <button type="submit" value="La perte d'autonomie" class="button">
-            La perte d'autonomie
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C5_sansid.php">
-        <button type="submit" value="Le savoir faire " class="button">
-            Le savoir faire
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C6_sansid.php">
-        <button type="submit" value="La responsabilité" class="button">
-            La responsabilité
-        </button>
-    </form>
-</div>
-<div class = "bouton">
-    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/impression_sansid.php">
-        <button type="submit" value="Impression" class="button">
-            Imprimer son diagnostic
-        </button>
-    </form>
-</div>
 
+    <div class="block_entete">
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C1_sansid.php">
+                        <button type="submit" value="La reconnaissance" class="button">La reconnaissance</button>
+                    </form>
+
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C2_sansid.php">
+                        <button type="submit" value="Les relations humaines" class="button">
+                            Les relations humaines
+                        </button>
+                    </form>
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C3_sansid.php">
+                        <button type="submit" value="La surveillance" class="button">
+                            La surveillance
+                        </button>
+                    </form>
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C4_sansid.php">
+                        <button type="submit" value="La perte d'autonomie" class="button">
+                            La perte d'autonomie
+                        </button>
+                    </form>
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C5_sansid.php">
+                        <button type="submit" value="Le savoir faire " class="button">
+                            Le savoir faire
+                        </button>
+                    </form>
+                    <form action = "https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/implications_C6_sansid.php">
+                        <button type="submit" value="La responsabilité" class="button">
+                            La responsabilité
+                        </button>
+                    </form>
+                </nav>
+
+            </header>
+        </div>
+        <br>
+        <br>
+    </div>
+</section>
 <form action="acceuil.php">
     <button type="submit">Retour au tableau de bord </button>
 </form>

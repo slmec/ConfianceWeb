@@ -46,6 +46,19 @@ or die('could not connect to database');
             </div>
         </div>
     </div>
+    <div class="block_page">
+        <div class="block_titre">
+            <br>
+            <hr>
+            <hr>
+            <br>
+            <h1 align="center"> Evaluation globale </h1>
+            <br>
+            <hr>
+            <hr>
+            <br>
+        </div>
+    </div>
 </section>
 <?php
 
@@ -181,34 +194,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C1Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row['C1_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C1Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -235,34 +242,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C2Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C2_interpretation'] ?> </td>
-                        <td> <?php echo $row['C2_plan_action'] ?> </td>
-                        <td> <?php echo $row['C2_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C2Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -289,34 +290,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C3Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C3_interpretation'] ?> </td>
-                        <td> <?php echo $row['C3_plan_action'] ?> </td>
-                        <td> <?php echo $row['C3_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C3Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -343,34 +338,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C4Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C4_interpretation'] ?> </td>
-                        <td> <?php echo $row['C4_plan_action'] ?> </td>
-                        <td> <?php echo $row['C4_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C4Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -397,34 +386,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td> La technologie peut s’emparer des tâches à faible valeur ajoutée, permettant au travailleur de réaliser des tâches complexes dans lesquelles il exprime son savoir-faire ou un nouveau savoir-faire, comme l’utilisation de la technologie.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-                        <td><?php if ($row['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-                    </tr>
-                </table>
-                <table class="analyse">
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><?php if ($row['C5Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C5Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C5_interpretation'] ?> </td>
-                        <td> <?php echo $row['C5_plan_action'] ?> </td>
-                        <td> <?php echo $row['C5_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C5Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -452,34 +435,28 @@ $row = mysqli_fetch_assoc($resultat);
                         <td>La supériorité présupposée de la technologie peut conduire le travailleur à s'effacer devant l' 'autorité machinique' au détriment de sa propre perception des situations. La performance de la technologie a pour corollaire un désengagement humain.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-                        <td><?php if ($row['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-                    </tr>
-                </table>
-                <table class="analyse">
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><?php if ($row['C6Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C6Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C6_interpretation'] ?> </td>
-                        <td> <?php echo $row['C6_plan_action'] ?> </td>
-                        <td> <?php echo $row['C6_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C6Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -499,7 +476,9 @@ $diagnostic2_critere5 = $row[4];
 $diagnostic2_critere6 = $row[5];
 $diagnostic2_nom = $row[6];
 ?>
-
+    <p align="center">Evaluation tend vers 0 : risques sociaux réduits </p>
+    <p align="center">Evaluation tend vers 4 : risques sociaux importants </p>
+    <br>
     <div class="chart-container">
         <canvas id="radarCanvas" aria-label="chart" role="img"></canvas>
     </div>
@@ -681,62 +660,67 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
         </div>
         <div class="block_table">
             <table>
-        <tr>
-            <td class="titre"> Questions </td>
-            <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b></td>
-            <td> <b> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b></td>
-            <td> <b> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </b></td>
-            <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ?</b> </td>
-        </tr>
-        <tr>
-            <td class="titre"> Implications </th>
-            <td>Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</td>
-            <td>Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </td>
-            <td>Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</td>
-            <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
-        </tr>
-        <tr>
-            <td class="titre">Vos réponses </th>
-        </tr>
-        <tr>
-            <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-            <td><?php if ($row['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-        </tr>
-        <tr>
-            <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-            <td><?php if ($row1['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row1['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row1['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-            <td><?php if ($row1['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
-        </tr>
-    </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre"> Questions </td>
+                    <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b></td>
+                    <td> <b> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b></td>
+                    <td> <b> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </b></td>
+                    <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ?</b> </td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
+                    <td class="titre"> Implications </th>
+                    <td>Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</td>
+                    <td>Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </td>
+                    <td>Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</td>
+                    <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C1_interpretation'] ?> </td>
-                    <td> <?php echo $row['C1_plan_action'] ?> </td>
-                    <td> <?php echo $row['C1_suivi'] ?> </td>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C1_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C1_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C1_suivi'] ?> </td>
+                    <td class="titre">Vos réponses </td>
+                    <td><?php if ($row['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C1Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C1Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C1Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C1Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C1Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C1Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C1Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C1Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
+                    <td><?php if ($row1['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row1['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row1['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                    <td><?php if ($row1['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C1Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C1Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C1Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C1Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C1Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C1Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C1Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C1Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -763,47 +747,52 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
                     <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos réponses </th>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C2Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C2Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C2Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C2Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C2Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C2Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C2Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C2Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row1['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
-            </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C2Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C2Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C2Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C2Q4_interpretation'] ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C2_interpretation'] ?> </td>
-                    <td> <?php echo $row['C2_plan_action'] ?> </td>
-                    <td> <?php echo $row['C2_suivi'] ?> </td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C2_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C2_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C2_suivi'] ?> </td>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C2Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C2Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C2Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C2Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -830,47 +819,52 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
                     <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos réponses </th>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C3Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C3Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C3Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C3Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C3Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C3Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C3Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C3Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row1['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                 </tr>
-            </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C3Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C3Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C3Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C3Q4_interpretation'] ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C3_interpretation'] ?> </td>
-                    <td> <?php echo $row['C3_plan_action'] ?> </td>
-                    <td> <?php echo $row['C3_suivi'] ?> </td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C3_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C3_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C3_suivi'] ?> </td>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C3Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C3Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C3Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C3Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -897,47 +891,52 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
                     <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos réponses </th>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C4Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C4Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C4Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C4Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C4Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C4Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C4Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C4Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row1['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                 </tr>
-            </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C4Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C4Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C4Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C4Q4_interpretation'] ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C4_interpretation'] ?> </td>
-                    <td> <?php echo $row['C4_plan_action'] ?> </td>
-                    <td> <?php echo $row['C4_suivi'] ?> </td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C4_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C4_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C4_suivi'] ?> </td>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C4Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C4Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C4Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C4Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -964,47 +963,52 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
                     <td> La technologie peut s’emparer des tâches à faible valeur ajoutée, permettant au travailleur de réaliser des tâches complexes dans lesquelles il exprime son savoir-faire ou un nouveau savoir-faire, comme l’utilisation de la technologie.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos réponses </th>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C5Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C5Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C5Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C5Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C5Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C5Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C5Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C5Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row1['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
-            </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C5Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C5Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C5Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C5Q4_interpretation'] ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C5_interpretation'] ?> </td>
-                    <td> <?php echo $row['C5_plan_action'] ?> </td>
-                    <td> <?php echo $row['C5_suivi'] ?> </td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C5_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C5_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C5_suivi'] ?> </td>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C5Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C5Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C5Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C5Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -1032,47 +1036,52 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
                     <td>La supériorité présupposée de la technologie peut conduire le travailleur à s'effacer devant l' 'autorité machinique' au détriment de sa propre perception des situations. La performance de la technologie a pour corollaire un désengagement humain.</td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos réponses </th>
+                    <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row['C6Q1_interpretation'] ?></td>
+                    <td><?php echo $row['C6Q2_interpretation'] ?></td>
+                    <td><?php echo $row['C6Q3_interpretation'] ?></td>
+                    <td><?php echo $row['C6Q4_interpretation'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row['C6Q1_plan_action'] ?></td>
+                    <td><?php echo $row['C6Q2_plan_action'] ?></td>
+                    <td><?php echo $row['C6Q3_plan_action'] ?></td>
+                    <td><?php echo $row['C6Q4_plan_action'] ?></td>
+                </tr>
+                <tr>
+                    <td class="titre2" colspan="5" ><hr> Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                </tr>
+                <tr>
+                    <td class="titre">Vos réponses </td>
                     <td><?php if ($row1['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     <td><?php if ($row1['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                 </tr>
-            </table>
-            <table class="analyse">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="titre">Vos interprétations </td>
+                    <td><?php echo $row1['C6Q1_interpretation'] ?></td>
+                    <td><?php echo $row1['C6Q2_interpretation'] ?></td>
+                    <td><?php echo $row1['C6Q3_interpretation'] ?></td>
+                    <td><?php echo $row1['C6Q4_interpretation'] ?></td>
                 </tr>
                 <tr>
-                    <td class="titre">Vos analyses</td>
-                    <td> Interpretation personnelle de l'évaluation </td>
-                    <td> Plan d'action </td>
-                    <td> Suivi à N+ ...</td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                    <td> <?php echo $row['C6_interpretation'] ?> </td>
-                    <td> <?php echo $row['C6_plan_action'] ?> </td>
-                    <td> <?php echo $row['C6_suivi'] ?> </td>
-                </tr>
-                <tr>
-                    <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                    <td> <?php echo $row1['C6_interpretation'] ?> </td>
-                    <td> <?php echo $row1['C6_plan_action'] ?> </td>
-                    <td> <?php echo $row1['C6_suivi'] ?> </td>
+                    <td class="titre">Vos plans d'actions </td>
+                    <td><?php echo $row1['C6Q1_plan_action'] ?></td>
+                    <td><?php echo $row1['C6Q2_plan_action'] ?></td>
+                    <td><?php echo $row1['C6Q3_plan_action'] ?></td>
+                    <td><?php echo $row1['C6Q4_plan_action'] ?></td>
                 </tr>
             </table>
         </div>
@@ -1231,67 +1240,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td> <b> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </b> </td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </tD>
                         <td>Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</td>
                         <td>Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </td>
                         <td>Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</td>
                         <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C1Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C1Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C1Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C1Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C1Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C1Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C1Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C1Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C1Q1_plan_action'] ?></td>
+                        <td><?php echo $row1['C1Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C1Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C1Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C1Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C1Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C1Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C1Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row2['C1Q1_interpretation'] ?></td>
+                        <td><?php echo $row2['C1Q2_interpretation'] ?></td>
+                        <td><?php echo $row2['C1Q3_interpretation'] ?></td>
+                        <td><?php echo $row2['C1Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row['C1_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C1_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C1_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C1_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C1_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C1Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C1Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C1Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C1Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -1311,67 +1336,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td> <b> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </b> </td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </tD>
                         <td>La soustraction pure et simple de l’humain dans un système de communication peut avoir des impacts importants, pas seulement socialement mais aussi dans le travail. </td>
                         <td>Le remplacement d’une communication humaine par une interaction humain machine peut entraîner un isolement social et une perte de partage d’informations.</td>
                         <td>Une technologie de communication a des effets de formatage sur l’émission et la réception d’une information. Ces effets doivent faire l’objet d’un suivi qualifiant l’impact sur l’intercompréhension. </td>
                         <td>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C2Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C2Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C2Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C2Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C2Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C2Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C2Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C2Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C2Q1_plan_action'] ?></td>
+                        <td><?php echo $row1['C2Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C2Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C2Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row2['C2Q1_interpretation'] ?></td>
+                        <td><?php echo $row2['C2Q2_interpretation'] ?></td>
+                        <td><?php echo $row2['C2Q3_interpretation'] ?></td>
+                        <td><?php echo $row2['C2Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C2_interpretation'] ?> </td>
-                        <td> <?php echo $row['C2_plan_action'] ?> </td>
-                        <td> <?php echo $row['C2_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C2_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C2_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C2_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C2_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C2_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C2_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C2Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C2Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C2Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C2Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -1391,67 +1432,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td> <b>La finalité de l’utilisation des données est-elle transparente ?</b> </td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </tD>
                         <td>La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas.</td>
                         <td>Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement.</td>
                         <td>La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper.</td>
                         <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C3Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C3Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C3Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C3Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C3Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C3Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C3Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C3Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C3Q1_plan_action'] ?></td>
+                        <td><?php echo $row1['C3Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C3Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C3Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C3Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q4_plan_action'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C3_interpretation'] ?> </td>
-                        <td> <?php echo $row['C3_plan_action'] ?> </td>
-                        <td> <?php echo $row['C3_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C3_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C3_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C3_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C3_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C3_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C3_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C3Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C3Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -1471,67 +1528,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td> <b>Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ?</b></td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </td>
                         <td>La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas.</td>
                         <td>Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement.</td>
                         <td>La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper.</td>
                         <td>L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C4Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C4Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C4Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C4Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C4Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C4Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C4Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C4Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C4Q1'] ?></td>
+                        <td><?php echo $row1['C4Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C4Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C4Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row2['C4Q1_interpretation'] ?></td>
+                        <td><?php echo $row2['C4Q2_interpretation'] ?></td>
+                        <td><?php echo $row2['C4Q3_interpretation'] ?></td>
+                        <td><?php echo $row2['C4Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C4_interpretation'] ?> </td>
-                        <td> <?php echo $row['C4_plan_action'] ?> </td>
-                        <td> <?php echo $row['C4_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C4_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C4_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C4_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C4_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C4_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C4_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C4Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C4Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C4Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C4Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -1551,67 +1624,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td> <b> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </b></td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </tD>
                         <td>Quand l’activité du travailleur n’est plus de produire mais d'agir sur des logiciels et/ou machinnes , alors celui-ci peut ressentir une plus value réduite ou une perte d’intérêt. </td>
                         <td>Il est possible que la technologie réalise les tâches à haute valeur ajoutée, laissant au travailleur des tâches nécessitant moins de savoir-faire.</td>
                         <td> Cette obsolescence impacte l’estime que le travailleur a de lui même mais aussi sa place dans l’organisation.</td>
                         <td> La technologie peut s’emparer des tâches à faible valeur ajoutée, permettant au travailleur de réaliser des tâches complexes dans lesquelles il exprime son savoir-faire ou un nouveau savoir-faire, comme l’utilisation de la technologie.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C5Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C5Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C5Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C5Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C5Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C5Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C5Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C5Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C5Q1_plan_action'] ?></td>
+                        <td><?php echo $row1['C5Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C5Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C5Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C5Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row2['C5Q1_interpretation'] ?></td>
+                        <td><?php echo $row2['C5Q2_interpretation'] ?></td>
+                        <td><?php echo $row2['C5Q3_interpretation'] ?></td>
+                        <td><?php echo $row2['C5Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C5_interpretation'] ?> </td>
-                        <td> <?php echo $row['C5_plan_action'] ?> </td>
-                        <td> <?php echo $row['C5_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C5_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C5_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C5_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C5_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C5_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C5_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C5Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C5Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C5Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C5Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
@@ -1632,67 +1721,83 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                                 Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ?</b> </td>
                     </tr>
                     <tr>
-                        <td class="titre"> Implications </th>
+                        <td class="titre"> Implications </td>
                         <td>L'introduction d'une technologie qui automatise des tâches produit une nouvelle division du travail. Toute division du travail réduit le sentiment de responsabilité de chacun vis-à-vis de l'ensemble.</td>
                         <td>Les algorithmes d'apprentissage sont supposés pouvoir s'adapter à un environnement aléatoire. Cela complexifie l'imputation des responsabilités quand la décision résulte d'un apprentissage et non d'une règle que la technologie se contente d'appliquer.</td>
                         <td>Le sentiment de responsabilité est proportionnel à l'espace de liberté. Lorsqu'une technologie interfère dans le jugement du travailleur, cela peut inhiber son libre-arbitre et réduire son engagement moral vis-à-vis des conséquences de son action.</td>
                         <td>La supériorité présupposée de la technologie peut conduire le travailleur à s'effacer devant l' 'autorité machinique' au détriment de sa propre perception des situations. La performance de la technologie a pour corollaire un désengagement humain.</td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos réponses </th>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row['C6Q1_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q2_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q3_interpretation'] ?></td>
+                        <td><?php echo $row['C6Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row['C6Q1_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q2_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q3_plan_action'] ?></td>
+                        <td><?php echo $row['C6Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic2_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row1['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row1['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row1['C6Q1_interpretation'] ?></td>
+                        <td><?php echo $row1['C6Q2_interpretation'] ?></td>
+                        <td><?php echo $row1['C6Q3_interpretation'] ?></td>
+                        <td><?php echo $row1['C6Q4_interpretation'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row1['C6Q1_plan_action'] ?></td>
+                        <td><?php echo $row1['C6Q2_plan_action'] ?></td>
+                        <td><?php echo $row1['C6Q3_plan_action'] ?></td>
+                        <td><?php echo $row1['C6Q4_plan_action'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic3_nom ?><hr></td>
+                    </tr>
+                    <tr>
+                        <td class="titre">Vos réponses </td>
                         <td><?php if ($row2['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td><?php if ($row2['C6Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
-                </table>
-                <table class="analyse">
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="titre">Vos interprétations </td>
+                        <td><?php echo $row2['C6Q1_interpretation'] ?></td>
+                        <td><?php echo $row2['C6Q2_interpretation'] ?></td>
+                        <td><?php echo $row2['C6Q3_interpretation'] ?></td>
+                        <td><?php echo $row2['C6Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="titre">Vos analyses</td>
-                        <td> Interpretation personnelle de l'évaluation </td>
-                        <td> Plan d'action </td>
-                        <td> Suivi à N+ ...</td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic1_nom ?></th>
-                        <td> <?php echo $row['C6_interpretation'] ?> </td>
-                        <td> <?php echo $row['C6_plan_action'] ?> </td>
-                        <td> <?php echo $row['C6_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic2_nom ?></th>
-                        <td> <?php echo $row1['C6_interpretation'] ?> </td>
-                        <td> <?php echo $row1['C6_plan_action'] ?> </td>
-                        <td> <?php echo $row1['C6_suivi'] ?> </td>
-                    </tr>
-                    <tr>
-                        <td class="titre">Diagnostic <?php echo $diagnostic3_nom ?></th>
-                        <td> <?php echo $row2['C6_interpretation'] ?> </td>
-                        <td> <?php echo $row2['C6_plan_action'] ?> </td>
-                        <td> <?php echo $row2['C6_suivi'] ?> </td>
+                        <td class="titre">Vos plans d'actions </td>
+                        <td><?php echo $row2['C6Q1_plan_action'] ?></td>
+                        <td><?php echo $row2['C6Q2_plan_action'] ?></td>
+                        <td><?php echo $row2['C6Q3_plan_action'] ?></td>
+                        <td><?php echo $row2['C6Q4_plan_action'] ?></td>
                     </tr>
                 </table>
             </div>
