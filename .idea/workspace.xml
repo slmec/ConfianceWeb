@@ -4,9 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif responsive equipes et partenaires">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="sauvegarde macro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medias/MAIAT_Horizontal.xlsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medias/MAIAT_Vertical.xlsm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

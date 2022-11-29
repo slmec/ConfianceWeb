@@ -13,7 +13,7 @@
                         <a href="../index.php" target="_blank" > MAIAT </a>
                         <a href="inscription.php">Inscription</a>
                         <a  href="identification.php">Connexion</a>
-                        <a class="active" href="testquestionnaire_sansid.php">Diagnostic sans connexion</a>
+                        <a class="active" href="testquestionnaire_sansid.php">Diagnostic sans compte</a>
                         <a href="diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
                     </nav>
                 </header>
