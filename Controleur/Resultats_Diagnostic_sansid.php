@@ -7,6 +7,7 @@ $db_name     = 'Confiance';
 $db_host     = 'localhost';
 
 $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
+$Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 
 ?>
 <html>
@@ -32,9 +33,23 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             </header>
             <div class="block_tableau">
                 <br><hr><br>
-                <h1 class="blanc">Evaluation globale</h1>
+                <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
                 <br><hr><br>
             </div>
+        </div>
+    </div>
+
+    <div class="block_page">
+        <div class="block_titre">
+            <br>
+            <hr>
+            <hr>
+            <br>
+            <h1 align="center"> Evaluation globale </h1>
+            <br>
+            <hr>
+            <hr>
+            <br>
         </div>
     </div>
     <br>
@@ -129,8 +144,734 @@ $resultat2 = mysqli_query($link,$requete2);*/
         }
     })
 </script>
+    <div class="block_titre">
+        <hr>
+        <hr>
+        <br>
+        <h1 align="center"> Analyse détaillée </h1>
+        <br>
+        <hr>
+        <hr>
+        <h2>La reconnaissance</h2>
+    </div>
+    <div class="block_table">
+        <table>
+        <?php
+        $C1Q1 = $_SESSION['C1Q1'];
+        $C1Q2 = $_SESSION['C1Q2'];
+        $C1Q3 = $_SESSION['C1Q3'];
+        $C1Q4 = $_SESSION['C1Q4'];
+        ?>
+        <tr>
+            <td> Questions </td>
+            <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
+            <td> Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </td>
+            <td> Le système à base d'IA supprime-t-il des tâches pénibles, répétitives ou dangereuses ? </td>
+            <td> L'introduction de la technologie rend-elle moins visible le résultat de l'activité du travailleur ? </td>
+        </tr>
+        <tr>
+            <td> Vos réponses </td>
+            <td><?php if ($C1Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($C1Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($C1Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            <td><?php if ($C1Q4 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+        </tr>
+        <tr>
+            <td> Implications </td>
+            <td>
+                <?php
+                if ($C1Q1 == 0) {
+                    echo "<p style=color:red>Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</p>" ;
+                }
+                else {
+                    echo "<p> Reconnaissance de l’individu : un expert se distingue par des performances plus élevées. En généralisant l'expertise, la technologie peut réduire cette différence et alimenter le sentiment d'être facilement substituable.</p>" ;
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q2 == 0) {
+                    echo "<p style='color:red'>Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </p>" ;
+                }
+                else {
+                    echo "<p> Reconnaissance de la pratique: Le savoir-faire est à la base de la reconnaissance des travailleurs. En automatisant un savoir-faire ces derniers perdent un élément de distinction. </p>" ;
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q3 == 0) {
+                    echo "<p style='color:red'>Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</p>" ;
+                }
+                else {
+                    echo "<p> Reconnaissance des efforts: Certaines tâches répétitives ne permettent pas aux travailleurs de se distinguer. Attention toutefois, un travailleur peut se distinguer par des performances physiques supérieures.</p>" ;
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q4 == 0) {
+                    echo "<p style='color:red'>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</p>" ;
+                }
+                else {
+                    echo "<p> L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</p>" ;
+                }
+                ?>
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>
+                <?php
+                if ($C1Q1 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q2 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q3 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+            <td>
+                <?php
+                if ($C1Q4 == 0) {
+                    echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                }
+                else {
+                    echo "<p></p>";
+                }
+                ?>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <h2>Les relations humaines</h2>
+    </div>
+    <div class="block_table">
+        <table>
+            <?php
+            $C2Q1 = $_SESSION['C2Q1'];
+            $C2Q2 = $_SESSION['C2Q2'];
+            $C2Q3 = $_SESSION['C2Q3'];
+            $C2Q4 = $_SESSION['C2Q4'];
+            ?>
+            <tr>
+                <td> Questions </td>
+                <td> La technologie introduit-elle une communication entre des machines ? </td>
+                <td> La technologie crée-t-elle une interaction humain-machine au détriment d'une communication entre personnes ? </td>
+                <td> La technologie intervient-elle dans la communication entre plusieurs personnes ? </td>
+                <td> Le système à base d'IA impose-t-il des lexiques et des syntaxes standardisés pour communiquer ? </td>
+            </tr>
+            <tr>
+                <td> Vos réponses </td>
+                <td><?php if ($C2Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C2Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C2Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C2Q4 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            </tr>
+            <tr>
+                <td> Implications </td>
+                <td>
+                    <?php
+                    if ($C2Q1 == 0) {
+                        echo "<p style='color:red'>La soustraction pure et simple de l’humain dans un système de communication peut avoir des impacts importants, pas seulement socialement mais aussi dans le travail. </p>" ;
+                    }
+                    else {
+                        echo "<p> La soustraction pure et simple de l’humain dans un système de communication peut avoir des impacts importants, pas seulement socialement mais aussi dans le travail. </p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q2 == 0) {
+                        echo "<p style='color:red'>Le remplacement d’une communication humaine par une interaction humain machine peut entraîner un isolement social et une perte de partage d’informations. </p>" ;
+                    }
+                    else {
+                        echo "<p> Le remplacement d’une communication humaine par une interaction humain machine peut entraîner un isolement social et une perte de partage d’informations.</p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q3== 0) {
+                        echo "<p style='color:red'>Une technologie de communication a des effets de formatage sur l’émission et la réception d’une information. Ces effets doivent faire l’objet d’un suivi qualifiant l’impact sur l’intercompréhension.</p>" ;
+                    }
+                    else {
+                        echo "<p> Une technologie de communication a des effets de formatage sur l’émission et la réception d’une information. Ces effets doivent faire l’objet d’un suivi qualifiant l’impact sur l’intercompréhension.</p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q4 == 0) {
+                        echo "<p style='color:red'>L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</p>" ;
+                    }
+                    else {
+                        echo "<p> L’automatisation des modalités d’interactions peut induire une limitation du langage préjudiciable aux travailleurs (RPS) et à la précision de la description des situations.</p>" ;
+                    }
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <?php
+                    if ($C2Q1 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q2 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q3 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C2Q4 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-    <div class="block_entete">
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <h2>La surveillance</h2>
+    </div>
+    <div class="block_table">
+        <table>
+            <?php
+            $C3Q1 = $_SESSION['C3Q1'];
+            $C3Q2 = $_SESSION['C3Q2'];
+            $C3Q3 = $_SESSION['C3Q3'];
+            $C3Q4 = $_SESSION['C3Q4'];
+            ?>
+            <tr>
+                <td> Questions </td>
+                <td> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ? </td>
+                <td> La technologie implique-t-elle des identifiants permettant de collecter des données sur son utilisateur ? </td>
+                <td> Les données collectées par le système à base d'IA sont-elles exploitées pour mesurer la productivité de son utilisateur ? </td>
+                <td> La finalité de l’utilisation des données est-elle transparente ? </td>
+            </tr>
+            <tr>
+                <td> Vos réponses </td>
+                <td><?php if ($C3Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C3Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C3Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C3Q4 == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
+            </tr>
+            <tr>
+                <td> Implications </td>
+                <td>
+                    <?php
+                    $texte = "Que ces appareils soient utilisés pour la surveillance ou non, ils portent un imaginaire fortement ancré qui sera plus ou moins activé suivant la technologie." ;
+                    if ($C3Q1 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "La personnification des données recueillies augmente significativement la méfiance." ;
+                    if ($C3Q2 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "La collecte de données d'activité du travailleur peut être exploitée  pour augmenter sa productivité et intensifier le travail." ;
+                    if ($C3Q3 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Les machines et plus spécifiquement celles à base d’IA renvoient à un imaginaire important. L'absence de transparence de la finalité des données augmente la méfiance. " ;
+                    if ($C3Q4 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <?php
+                    if ($C3Q1 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C3Q2 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C3Q3 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C3Q4 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <h2>L'autonomie</h2>
+    </div>
+    <div class="block_table">
+        <table>
+            <?php
+            $C4Q1 = $_SESSION['C4Q1'];
+            $C4Q2 = $_SESSION['C4Q2'];
+            $C4Q3 = $_SESSION['C4Q3'];
+            $C4Q4 = $_SESSION['C4Q4'];
+
+            ?>
+            <br>
+            <tr>
+                <td> Questions </td>
+                <td> Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ? </td>
+                <td> Le système à base d'IA émet-il des notifications à l’adresse du travailleur ? </td>
+                <td> Le système à base d'IA réduit-il ou rend-il plus difficile la prise d’initiative pour le travailleur ? </td>
+                <td> Le travailleur dispose-t-il de marge manœuvre convenue dans l’utilisation ou l’interprétation du système à base d'IA ? </td>
+            </tr>
+            <tr>
+                <td> Vos réponses </td>
+                <td><?php if ($C4Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C4Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C4Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C4Q4 == 0) {echo 'Non';} else {echo 'Oui';} ?></td>
+            </tr>
+            <tr>
+                <td> Implications </td>
+                <td>
+                    <?php
+                    $texte = "La planification et l'organisation font partie intégrante du savoir-faire des travailleurs. Dicter le rythme peut entraîner une souffrance au travail et dégrader la flexibilité cognitive permettant de s’adapter aux aléas." ;
+                    if ($C4Q1 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Les notifications peuvent interrompre les travailleurs dans leur activité. Elles peuvent aussi interférer sur la liberté de jugement." ;
+                    if ($C4Q2 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "La technologie peut faire passer les travailleurs d’une logique pro-active à une logique réactive. Ils peuvent aussi ne plus oser de peur de questionner le processus algorithmique ou de se tromper." ;
+                    if ($C4Q3== 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "L’absence de marge de manoeuvre autorisée par l’organisation vis à vis de la technologie peut réduire sa capacité d’adaptation et l’intérêt qu’il ressentira pour son activité. " ;
+                    if ($C4Q4 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+            <tr>
+                <td> </td>
+                <td>
+                    <?php
+                    if ($C4Q1 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C4Q2 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C4Q3 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C4Q4 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <h2>Le savoir faire</h2>
+    </div>
+    <div class="block_table">
+        <table>
+            <?php
+            $C5Q1 = $_SESSION['C5Q1'];
+            $C5Q2 = $_SESSION['C5Q2'];
+            $C5Q3 = $_SESSION['C5Q3'];
+            $C5Q4 = $_SESSION['C5Q4'];
+
+            ?>
+            <tr>
+                <td> Questions </td>
+                <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>
+                <td> La technologie rend-elle l'activité plus facile à réaliser par tout un chacun ? </td>
+                <td> Le système à base d'IA rend-il des savoir-faire obsolètes ? </td>
+                <td> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur ? </td>
+            </tr>
+            <tr>
+                <td> Vos réponses </td>
+                <td><?php if ($C5Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C5Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C5Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C5Q4 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            </tr>
+
+            <tr>
+                <td> Implications </td>
+                <td>
+                    <?php
+                    $texte = "Quand l’activité du travailleur n’est plus de produire mais d'agir sur des logiciels et/ou machinnes , alors celui-ci peut ressentir une plus value réduite ou une perte d’intérêt. " ;
+                    if ($C5Q1== 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Il est possible que la technologie réalise les tâches à haute valeur ajoutée, laissant au travailleur des tâches nécessitant moins de savoir-faire. " ;
+                    if ($C5Q2 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Cette obsolescence impacte l’estime que le travailleur a de lui même mais aussi sa place dans l’organisation." ;
+                    if ($C5Q3 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "La technologie peut s’emparer des tâches à faible valeur ajoutée, permettant au travailleur de réaliser des tâches complexes dans lesquelles il exprime son savoir-faire ou un nouveau savoir-faire, comme l’utilisation de la technologie." ;
+                    if ($C5Q4 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <?php
+                    if ($C5Q1 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C5Q2 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C5Q3 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C5Q4 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="block_titre">
+        <br>
+        <hr>
+        <hr>
+        <h2>La responsabilité</h2>
+    </div>
+    <div class="block_table">
+        <table>
+            <?php
+            $C6Q1 = $_SESSION['C6Q1'];
+            $C6Q2 = $_SESSION['C6Q2'];
+            $C6Q3 = $_SESSION['C6Q3'];
+            $C6Q4 = $_SESSION['C6Q4'];
+
+            ?>
+            <tr>
+                <td> Questions </td>
+                <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>
+                <td> Le système à base d'IA utilise des algorithmes d’apprentissage lui permettant de s’adapter de façon autonome dans un environnement aléatoire ? </td>
+                <td> Le système à base d'IA réduit-il la liberté de prise d'initiative du travailleur?  </td>
+                <td> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?
+                    Pensez-vous que le système à base d'IA pourrait induire une passivité du travailleur face à des actions/notifications/recommandations de la machine  ? </td>
+            </tr>
+            <tr>
+                <td> Vos réponses </td>
+                <td><?php if ($C6Q1 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C6Q2 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C6Q3 == 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+                <td><?php if ($C6Q4== 0) {echo 'Oui';} else {echo 'Non';} ?></td>
+            </tr>
+            <tr>
+                <td> Implications </td>
+                <td>
+                    <?php
+                    $texte = "L'introduction d'une technologie qui automatise des tâches produit une nouvelle division du travail. Toute division du travail réduit le sentiment de responsabilité de chacun vis-à-vis de l'ensemble." ;
+                    if ($C6Q1 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>" ;
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Les algorithmes d'apprentissage sont supposés pouvoir s'adapter à un environnement aléatoire. Cela complexifie l'imputation des responsabilités quand la décision résulte d'un apprentissage et non d'une règle que la technologie se contente d'appliquer." ;
+                    if ($C6Q2== 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "Le sentiment de responsabilité est proportionnel à l'espace de liberté. Lorsqu'une technologie interfère dans le jugement du travailleur, cela peut inhiber son libre-arbitre et réduire son engagement moral vis-à-vis des conséquences de son action." ;
+                    if ($C6Q3 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    $texte = "La supériorité présupposée de la technologie peut conduire le travailleur à s'effacer devant l' 'autorité machinique' au détriment de sa propre perception des situations. La performance de la technologie a pour corollaire un désengagement humain." ;
+                    if ($C6Q4 == 0) {
+                        echo "<p style='color:red'> $texte </p>" ;
+                    }
+                    else {
+                        echo "<p> $texte </p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <?php
+                    if ($C6Q1 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C6Q2 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C6Q3 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+                <td>
+                    <?php
+                    if ($C6Q4 == 0) {
+                        echo'<img src="../Medias/icone.png" width=50px height=50px >';
+                    }
+                    else {
+                        echo "<p></p>";
+                    }
+                    ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+   <!-- <div class="block_entete">
         <div class="container">
             <header>
                 <nav class="navbar">
@@ -166,11 +907,14 @@ $resultat2 = mysqli_query($link,$requete2);*/
                 </nav>
 
             </header>
-        </div>
+        </div> -->
         <br>
         <br>
     </div>
 </section>
+<div class = "bouton">
+    <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
+</div>
 <form action="acceuil.php">
     <button type="submit">Retour au tableau de bord </button>
 </form>

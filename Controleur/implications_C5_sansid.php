@@ -37,15 +37,16 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             </div>
         </div>
     </div>
-    <?php
-    $C5Q1 = $_SESSION['C5Q1'];
-    $C5Q2 = $_SESSION['C5Q2'];
-    $C5Q3 = $_SESSION['C5Q3'];
-    $C5Q4 = $_SESSION['C5Q4'];
 
-    ?>
     <br>
     <table>
+        <?php
+        $C5Q1 = $_SESSION['C5Q1'];
+        $C5Q2 = $_SESSION['C5Q2'];
+        $C5Q3 = $_SESSION['C5Q3'];
+        $C5Q4 = $_SESSION['C5Q4'];
+
+        ?>
         <tr>
             <td> Questions </td>
             <td> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ? </td>

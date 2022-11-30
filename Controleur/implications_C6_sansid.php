@@ -37,15 +37,16 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             </div>
         </div>
     </div>
-    <?php
-    $C6Q1 = $_SESSION['C6Q1'];
-    $C6Q2 = $_SESSION['C6Q2'];
-    $C6Q3 = $_SESSION['C6Q3'];
-    $C6Q4 = $_SESSION['C6Q4'];
 
-    ?>
     <br>
     <table>
+        <?php
+        $C6Q1 = $_SESSION['C6Q1'];
+        $C6Q2 = $_SESSION['C6Q2'];
+        $C6Q3 = $_SESSION['C6Q3'];
+        $C6Q4 = $_SESSION['C6Q4'];
+
+        ?>
         <tr>
             <td> Questions </td>
             <td> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?  </td>

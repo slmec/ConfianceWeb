@@ -37,14 +37,15 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             </div>
         </div>
     </div>
-    <?php
-    $C4Q1 = $_SESSION['C4Q1'];
-    $C4Q2 = $_SESSION['C4Q2'];
-    $C4Q3 = $_SESSION['C4Q3'];
-    $C4Q4 = $_SESSION['C4Q4'];
 
-    ?>
     <table>
+        <?php
+        $C4Q1 = $_SESSION['C4Q1'];
+        $C4Q2 = $_SESSION['C4Q2'];
+        $C4Q3 = $_SESSION['C4Q3'];
+        $C4Q4 = $_SESSION['C4Q4'];
+
+        ?>
         <br>
         <tr>
             <td> Questions </td>

@@ -36,14 +36,15 @@
             </div>
         </div>
     </div>
-    <?php
+
+    <br>
+    <table>
+        <?php
         $C2Q1 = $_SESSION['C2Q1'];
         $C2Q2 = $_SESSION['C2Q2'];
         $C2Q3 = $_SESSION['C2Q3'];
         $C2Q4 = $_SESSION['C2Q4'];
-    ?>
-    <br>
-    <table>
+        ?>
         <tr>
             <td> Questions </td>
             <td> La technologie introduit-elle une communication entre des machines ? </td>

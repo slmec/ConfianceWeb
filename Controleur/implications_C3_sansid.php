@@ -36,14 +36,14 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             </div>
         </div>
     </div>
-    <?php
-    $C3Q1 = $_SESSION['C3Q1'];
-    $C3Q2 = $_SESSION['C3Q2'];
-    $C3Q3 = $_SESSION['C3Q3'];
-    $C3Q4 = $_SESSION['C3Q4'];
-    ?>
     <br>
     <table>
+        <?php
+        $C3Q1 = $_SESSION['C3Q1'];
+        $C3Q2 = $_SESSION['C3Q2'];
+        $C3Q3 = $_SESSION['C3Q3'];
+        $C3Q4 = $_SESSION['C3Q4'];
+        ?>
         <tr>
             <td> Questions </td>
             <td> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ? </td>
