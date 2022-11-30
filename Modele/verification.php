@@ -18,36 +18,44 @@
         $reponse = mysqli_fetch_array($exec_requete);
         $mdp_hash = $reponse['MotDePasse'];
 
-
-        if($email_Utilisateur !== "" && $mdp_Utilisateur !== ""){
-            $requete = "SELECT count(*) FROM Utilisateurs where Email = '".$email_Utilisateur."'";
-            $exec_requete = mysqli_query($db,$requete);
-            $reponse = mysqli_fetch_array($exec_requete);
-            $count = $reponse['count(*)'];
-
-            if($count!=0){ //utilisateur existe
-                if(password_verify($mdp_Utilisateur,$mdp_hash)){
-                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Roles, Organisme, Données FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
-                    $resultat = mysqli_query($db,$requete);
-                    $row = mysqli_fetch_assoc($resultat) ;
-
-                    $_SESSION['id_Utilisateur']=$row['Id_utilisateur'];
-                    $_SESSION['nom']=$row['Nom'];
-                    $_SESSION['email_Utilisateur'] = $email_Utilisateur;
-                    $_SESSION['mdp_Utilisateur'] = $mdp_Utilisateur;
-                    $_SESSION['prenom']=$row['Prenom'];
-                    $_SESSION['role']=$row['Roles'];
-                    $_SESSION['organisme']=$row['Organisme'];
-                    $_SESSION['donnees']=$row['Données'];
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
-                }
-            }
-            else{
-               header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
-            }
+        if($email_Utilisateur !== "" && $mdp_Utilisateur == "") {
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=3'); // mauvais mot de passe
         }
-        else{
-           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=2'); // utilisateur ou mot de passe vide
+        else {
+            if ($email_Utilisateur !== "" && $mdp_Utilisateur !== "") {
+                $requete = "SELECT count(*) FROM Utilisateurs where Email = '" . $email_Utilisateur . "'";
+                $exec_requete = mysqli_query($db, $requete);
+                $reponse = mysqli_fetch_array($exec_requete);
+                $count = $reponse['count(*)'];
+
+                if ($mdp_Utilisateur== $reponse['MotDePasse'] ){
+
+                    if ($count != 0) { //utilisateur existe
+                        if (password_verify($mdp_Utilisateur, $mdp_hash)) {
+                            $requete = "SELECT Id_utilisateur, Nom, Prenom, Roles, Organisme, Données FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
+                            $resultat = mysqli_query($db, $requete);
+                            $row = mysqli_fetch_assoc($resultat);
+
+                            $_SESSION['id_Utilisateur'] = $row['Id_utilisateur'];
+                            $_SESSION['nom'] = $row['Nom'];
+                            $_SESSION['email_Utilisateur'] = $email_Utilisateur;
+                            $_SESSION['mdp_Utilisateur'] = $mdp_Utilisateur;
+                            $_SESSION['prenom'] = $row['Prenom'];
+                            $_SESSION['role'] = $row['Roles'];
+                            $_SESSION['organisme'] = $row['Organisme'];
+                            $_SESSION['donnees'] = $row['Données'];
+                            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
+                        }
+                    } else {
+                        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
+                    }
+                }
+                else{
+                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=3'); // utilisateur ou mot de passe incorrect
+                }
+            } else {
+                header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=2'); // utilisateur ou mot de passe vide
+            }
         }
     }
     else{

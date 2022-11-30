@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="resultat diag sans compte">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,20 +119,6 @@
       <workItem from="1669710973025" duration="9767000" />
       <workItem from="1669735924228" duration="1659000" />
       <workItem from="1669738995072" duration="57000" />
-    </task>
-    <task id="LOCAL-00074" summary="modif probleme connexion">
-      <created>1666084638024</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1666084638024</updated>
-    </task>
-    <task id="LOCAL-00075" summary="modif cryptage">
-      <created>1666097338665</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1666097338666</updated>
     </task>
     <task id="LOCAL-00076" summary="modif inscription">
       <created>1666099074455</created>
@@ -461,7 +449,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669797748002</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="macro">
+      <created>1669804373043</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1669804373043</updated>
+    </task>
+    <task id="LOCAL-00124" summary="macro">
+      <created>1669804381776</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1669804381776</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +482,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css projet v2" />
     <MESSAGE value="modif css projet v3" />
     <MESSAGE value="modif css equipes et partenaires" />
     <MESSAGE value="modif css critere" />
@@ -505,7 +506,8 @@
     <MESSAGE value="modif ajout image" />
     <MESSAGE value="modif criteres" />
     <MESSAGE value="resultat diag sans compte" />
-    <option name="LAST_COMMIT_MESSAGE" value="resultat diag sans compte" />
+    <MESSAGE value="macro" />
+    <option name="LAST_COMMIT_MESSAGE" value="macro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

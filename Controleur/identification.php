@@ -38,8 +38,12 @@
                     <?php
                         if(isset($_GET['erreur'])){
                             $err = $_GET['erreur'];
-                            if($err==1 || $err==2)
+                            if($err==1)
                                 echo "<p style='color:#ffffff'>Utilisateur ou mot de passe incorrect</p>";
+                            if($err==2)
+                                echo "<p style='color:#ffffff'>Utilisateur ou mot de passe vide</p>";
+                            if($err==3){
+                                echo "<p style='color:#ffffff'>Utilisateur ou mot de passe incorrect</p>";}
                         }
                     ?>
                 </div>
