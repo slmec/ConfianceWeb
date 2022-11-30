@@ -26,7 +26,8 @@
                     </div>
                 </header>
                 <div class="guide">
-                    <h1>MAIAT : Le guide de l&#39;outil</h1>
+                    <img src="maquette_fonctionnement_un.png"
+                    <h1>Présentation de MAIAT</h1>
                     <br>
                     <figure role="figure" aria-label="Resumé guide.">
                     <!-- <video src="../Medias/video_guide.mp4" width=640px height=480px controls poster="vignette_video_guide.png" alt="vidéo guide maiat"></video> -->
