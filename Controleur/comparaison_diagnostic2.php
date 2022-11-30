@@ -35,7 +35,7 @@ or die('could not connect to database');
             </div>
             <nav class="navbar">
                 <a  href="diagnostic_new.php"> Nouveau Diagnostic </a>
-                <a class="active" href="hdiagnostic_suivi.php">Consulter mes diagnostics</a>
+                <a class="active" href="diagnostic_suivi.php">Consulter mes diagnostics</a>
                 <a href="profil.php">Mon profil </a>
                 <a href="../Modele/deconnexion.php">Deconnexion</a>
             </nav>

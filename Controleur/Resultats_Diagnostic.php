@@ -151,7 +151,7 @@
     ?>
 <section>
     <div class="block_page">
-        <form action="../Modele/ajout_analyse.php" method="post" >
+        <form action="https://dev2.icam.fr/toulouse/GEI/Confiance/Modele/ajout_analyse.php" method="post" >
             <div class="block_titre">
                 <hr>
                 <hr>
@@ -278,14 +278,13 @@
                         <td> <?php echo $row['C1Q2_interpretation'] ?> </td>
                         <td> <?php echo $row['C1Q3_interpretation'] ?> </td>
                         <td> <?php echo $row['C1Q4_interpretation'] ?> </td>
-                        <!--<td> <?php echo $row['C1_suivi'] ?> </td> -->
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C1Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C1Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C1Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C1Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C1Q1_interpretation" type="text" size="80px"/></td>
+                        <td> <input name="C1Q2_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C1Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C1Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -293,14 +292,13 @@
                         <td> <?php echo $row['C1Q2_plan_action'] ?> </td>
                         <td> <?php echo $row['C1Q3_plan_action'] ?> </td>
                         <td> <?php echo $row['C1Q4_plan_action'] ?> </td>
-                        <!--<td> <?php echo $row['C1_suivi'] ?> </td> -->
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C1Q1_plan_action" type="text" /></td>
-                        <td> <input name="C1Q2_plan_action" type="text" /></td>
-                        <td> <input name="C1Q3_plan_action" type="text" /></td>
-                        <td> <input name="C1Q4_plan_action" type="text" /></td>
+                        <td> <input name="C1Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C1Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C1Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C1Q4_plan_action" type="text" size="80px"/></td>
                     </tr>
                     <!--
                      <tr>
@@ -439,10 +437,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C2Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C2Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C2Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C2Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C2Q1_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C2Q2_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C2Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C2Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -453,10 +451,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C2Q1_plan_action" type="text" /></td>
-                        <td> <input name="C2Q2_plan_action" type="text" /></td>
-                        <td> <input name="C2Q3_plan_action" type="text" /></td>
-                        <td> <input name="C2Q4_plan_action" type="text" /></td>
+                        <td> <input name="C2Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C2Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C2Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C2Q4_plan_action" type="text"size="80px" /></td>
                     </tr>
                 </table>
             </div>
@@ -591,10 +589,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C3Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C3Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C3Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C3Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C3Q1_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C3Q2_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C3Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C3Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -605,10 +603,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C3Q1_plan_action" type="text" /></td>
-                        <td> <input name="C3Q2_plan_action" type="text" /></td>
-                        <td> <input name="C3Q3_plan_action" type="text" /></td>
-                        <td> <input name="C3Q4_plan_action" type="text" /></td>
+                        <td> <input name="C3Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C3Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C3Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C3Q4_plan_action" type="text" size="80px"/></td>
                     </tr>
                 </table>
             </div>
@@ -742,10 +740,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C4Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C4Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C4Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C4Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C4Q1_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C4Q2_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C4Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C4Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -756,10 +754,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C4Q1_plan_action" type="text" /></td>
-                        <td> <input name="C4Q2_plan_action" type="text" /></td>
-                        <td> <input name="C4Q3_plan_action" type="text" /></td>
-                        <td> <input name="C4Q4_plan_action" type="text" /></td>
+                        <td> <input name="C4Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C4Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C4Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C4Q4_plan_action" type="text" size="80px"/></td>
                     </tr>
                 </table>
             </div>
@@ -893,10 +891,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C5Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C5Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C5Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C5Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C5Q1_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C5Q2_interpretation" type="text"size="80px" /> </td>
+                        <td> <input name="C5Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C5Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -907,10 +905,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C5Q1_plan_action" type="text" /></td>
-                        <td> <input name="C5Q2_plan_action" type="text" /></td>
-                        <td> <input name="C5Q3_plan_action" type="text" /></td>
-                        <td> <input name="C5Q4_plan_action" type="text" /></td>
+                        <td> <input name="C5Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C5Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C5Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C5Q4_plan_action" type="text" size="80px"/></td>
                     </tr>
                 </table>
             </div>
@@ -1045,10 +1043,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C6Q1_interpretation" type="text" /> </td>
-                        <td> <input name="C6Q2_interpretation" type="text" /> </td>
-                        <td> <input name="C6Q3_interpretation" type="text" /> </td>
-                        <td> <input name="C6Q4_interpretation" type="text" /> </td>
+                        <td> <input name="C6Q1_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C6Q2_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C6Q3_interpretation" type="text" size="80px"/> </td>
+                        <td> <input name="C6Q4_interpretation" type="text" size="80px"/> </td>
                     </tr>
                     <tr>
                         <td>Vos plans d'actions : </td>
@@ -1059,10 +1057,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td> <input name="C6Q1_plan_action" type="text" /></td>
-                        <td> <input name="C6Q2_plan_action" type="text" /></td>
-                        <td> <input name="C6Q3_plan_action" type="text" /></td>
-                        <td> <input name="C6Q4_plan_action" type="text" /></td>
+                        <td> <input name="C6Q1_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C6Q2_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C6Q3_plan_action" type="text" size="80px"/></td>
+                        <td> <input name="C6Q4_plan_action" type="text" size="80px"/></td>
                     </tr>
                 </table>
             </div>
@@ -1071,7 +1069,7 @@
             <hr>
             <hr>
             <br>
-            <button name="btn" type="submit" value="6" > Valider l'interpretation <?php $c=0;?></button>
+            <button name="btn" type="submit"> Valider l'interpretation </button>
             <br>
             <br>
         </form>

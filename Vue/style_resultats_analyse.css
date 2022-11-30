@@ -47,10 +47,13 @@ td{
     cursor: pointer;
     width: 100%;
 }
-button[type=submit]:hover {
+ button[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
+}
+input[type=text]{
+    size: 80px;
 }
 
 .bas{
