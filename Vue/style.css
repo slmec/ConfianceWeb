@@ -111,7 +111,6 @@ section .container nav a:hover{
 .critere p{
     font-size: 18px;
     padding: 0px;
-    text-align: justify;
 }
 .critere li{
      text-align: justify;
@@ -130,6 +129,9 @@ section .container nav a:hover{
 .critere .critere_top{
     align-items: center;
     padding-top: 30px;
+}
+.critere .critere_top p{
+    text-align: center;
 }
 .critere .critere_top img{
     margin:10px auto 0px auto;

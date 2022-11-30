@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif bouton et lien">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif criteres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_resultats_analyse.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,35 +114,9 @@
       <workItem from="1669299654172" duration="701000" />
       <workItem from="1669621906170" duration="4512000" />
       <workItem from="1669642531116" duration="7533000" />
-      <workItem from="1669710973025" duration="9444000" />
-    </task>
-    <task id="LOCAL-00069" summary="modif erreur diagnostic nom">
-      <created>1666019300165</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1666019300165</updated>
-    </task>
-    <task id="LOCAL-00070" summary="modif erreur diagnostic nom">
-      <created>1666020655510</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1666020655510</updated>
-    </task>
-    <task id="LOCAL-00071" summary="modif verification nom diagnostic">
-      <created>1666078268145</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1666078268145</updated>
-    </task>
-    <task id="LOCAL-00072" summary="modif mdp crypte">
-      <created>1666082795622</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1666082795622</updated>
+      <workItem from="1669710973025" duration="9767000" />
+      <workItem from="1669735924228" duration="1659000" />
+      <workItem from="1669738995072" duration="57000" />
     </task>
     <task id="LOCAL-00073" summary="modif mdp crypte">
       <created>1666084146389</created>
@@ -464,7 +433,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669730461549</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="modif responsive equipes et partenaires V3">
+      <created>1669734764024</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734764024</updated>
+    </task>
+    <task id="LOCAL-00119" summary="modif responsive equipes et partenaires V3">
+      <created>1669736352127</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1669736352127</updated>
+    </task>
+    <task id="LOCAL-00120" summary="modif ajout image">
+      <created>1669736576312</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1669736576312</updated>
+    </task>
+    <task id="LOCAL-00121" summary="modif criteres">
+      <created>1669736850122</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1669736850122</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,9 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css site" />
-    <MESSAGE value="modif css maiat + guide" />
-    <MESSAGE value="modif css projet + critere" />
     <MESSAGE value="modif css projet" />
     <MESSAGE value="modif css projet v2" />
     <MESSAGE value="modif css projet v3" />
@@ -508,7 +502,10 @@
     <MESSAGE value="modif modif blog" />
     <MESSAGE value="modif responsive equipes et partenaires" />
     <MESSAGE value="modif responsive equipes et partenaires V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif responsive equipes et partenaires V2" />
+    <MESSAGE value="modif responsive equipes et partenaires V3" />
+    <MESSAGE value="modif ajout image" />
+    <MESSAGE value="modif criteres" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif criteres" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
