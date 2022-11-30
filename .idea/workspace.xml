@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif criteres">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="REPARATION SITE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C1_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C2_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C3_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C4_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C5_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/implications_C6_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -39,14 +39,15 @@ session_start();
         </div>
     </div>
 
-    <?php
+
+    <br>
+    <table>
+        <?php
         $C1Q1 = $_SESSION['C1Q1'];
         $C1Q2 = $_SESSION['C1Q2'];
         $C1Q3 = $_SESSION['C1Q3'];
         $C1Q4 = $_SESSION['C1Q4'];
-    ?>
-    <br>
-    <table>
+        ?>
         <tr>
             <td> Questions </td>
             <td> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </td>
