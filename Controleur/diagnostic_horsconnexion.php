@@ -36,20 +36,21 @@
         </div>-->
         <div class="block_form">
             <form action="" >
-                <p>Vous avez choisi de ne pas réaliser le test via notre outil en ligne.</p>
-                <p>Pour ce faire vous devez télécharger sur votre ordinateur le fichier Excel ci-dessous : </p>
-                <p>Il y a deux versions, une presentation <a href="../Medias/MAIAT_Horizontal.xlsm" download > horizontale</a> et une presentation <a href="../Medias/MAIAT_Vertical.xlsm" download > verticale</a> </p>
-                <p>Vous avez juste à choisir la presentation la plus adaptée à votre utilisation.</p>
+                <p>Ce mode vous permet de réaliser un diagnostic sans stockage de données et sans connexion grâce à un fichier Excel.</p>
+                <p>Pour se faire, nous vous invitons à télécharger le format Excel de MAIAT en cliquant sur l’un des boutons suivants : </p>
                 <br>
-                <p>Une fois le téléchargement effectué, il faut ouvrir le fichier sous Excel. </p>
-                <p>A l'ouverture, il faudra enlever le mode protégé en activant la modification du fichier.</p>
-                <p>Si un bandeau rouge indicant que les macros du fichier sont bloquées, comme sur l'image ci-dessous, est present, je vous invite à suivre les étapes suivantes.   </p>
+                <div class="bouton_telechargement">
+                    <a href="../Medias/MAIAT_Horizontal.xlsm" class="tableur" download >Tableur MAIAT horizontal (adapté aux écrans supérieurs 17'')</a>
+                    <a href="../Medias/MAIAT_Vertical.xlsm" class="tableur" download >Tableur MAIAT vertical (adapté aux ordinateurs portables)</a>
+                </div>
+                <br>
+                <p>Attention, le fichier comporte des « macros » permettant de générer des diagnostics. Par conséquent, il risque de présenter ce bandeau : </p>
                 <br>
                 <figure role="figure" aria-label="Erreur">
-                    <img src="../Medias/rouge.png">
+                    <img src="../Medias/rouge.png" width="600" height="24">
                 </figure>
                 <br>
-                <p> Pour débloquer un fichier il faut :</p>
+                <p> Dès lors que vous téléchargerez le fichier depuis notre serveur, nous vous garantissons sa sécurité. Pour déverrouiller les macros, il vous faudra : </p>
                 <p> 1 - Fermer le fichier Excel</p>
                 <p> 2 - Ouvrez l’Explorateur de fichiers Windows, puis accédez au dossier dans lequel vous avez enregistré le fichier.</p>
                 <p> 3 - Cliquez avec le bouton droit sur le fichier, puis sélectionnez "Propriétés" dans le menu contextuel.</p>

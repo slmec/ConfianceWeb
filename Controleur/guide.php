@@ -26,7 +26,6 @@
                     </div>
                 </header>
                 <div class="guide">
-                    <img src="maquette_fonctionnement_un.png"
                     <h1>Présentation de MAIAT</h1>
                     <br>
                     <figure role="figure" aria-label="Resumé guide.">

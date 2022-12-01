@@ -85,11 +85,26 @@ section .container nav a:hover{
 section .block_page{
     align-items: start;
     margin: auto;
-    width:80%;
+    width:70%;
 }
 section .block_titre{
+    width: 70%;
+}
+section .block_titre h1{
+    color: white;
+    text-decoration: underline;
+    margin-top: 25px;
 }
 section .block_form{
+    width: 80%;
+    margin-top: 25px;
+}
+section .block_form figure{
+    text-align: center;
+    margin: auto;
+}
+section .block_form h1{
+    text-decoration: underline;
 }
 section .block_table{
 }
@@ -176,6 +191,7 @@ section .container .block_tableau{
 .blanc {
     color: white;
     text-align: center;
+    border-radius: 10px;
 }
 .erreur {
     width: 80% ;
@@ -183,6 +199,69 @@ section .container .block_tableau{
     border-radius: 60px / 40px;
     background: rgba(238, 77, 96, 0.54);
     text-align: center;
+}
+.bouton_telechargement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.tableur{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+.tableur a{
+    align-items: center;
+    vertical-align: center;
+}
+.tableur:hover{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive diagnostic hors ligne */
+@media screen and (max-width: 1200px) {
+    img{
+        width: 500px;
+        height: 20px;
+    }
+    .tableur{
+        padding: 15px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: 2px solid white;
+        border-radius: 30px;
+        width: 200px;
+        height: 90px;
+        text-align: center;
+    }
+    .tableur:hover{
+        padding: 15px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        border: 2px solid black;
+        border-radius: 30px;
+        width: 200px;
+        height: 90px;
+        text-align: center;
+    }
 }
 
 
