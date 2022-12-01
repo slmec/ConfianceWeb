@@ -16,7 +16,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <title>MAIAT</title>
 
 </head>
-<body>
+<body background="../Medias/background_v2.jpg">
 <section>
     <div class="block_entete">
         <div class="container">

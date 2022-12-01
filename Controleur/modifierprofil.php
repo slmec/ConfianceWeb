@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 
 </head>
-<body>
+<body background="../Medias/background_v2.jpg">
 <section>
     <div class="container">
         <header>

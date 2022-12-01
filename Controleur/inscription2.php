@@ -13,7 +13,7 @@
            if ( ! $db ) die( "Impossible de se connecter à MySQL" );
         ?>
     </head>
-    <body>
+    <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
                 <header>

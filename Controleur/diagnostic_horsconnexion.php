@@ -5,7 +5,7 @@
     <title>MAIAT</title>
     <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 </head>
-<body onload="init();">
+<body background="../Medias/background_v2.jpg">
 <section>
     <div class="block_entete">
         <div class="container">

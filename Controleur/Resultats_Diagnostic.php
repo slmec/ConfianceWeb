@@ -18,7 +18,7 @@
 
 
 </head>
-<body onload="init();">
+<body background="../Medias/background_v2.jpg">
 <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
 <section>
     <div class="block_entete">

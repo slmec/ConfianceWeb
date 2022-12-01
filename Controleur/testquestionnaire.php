@@ -8,7 +8,7 @@ session_start();
     <title>MAIAT</title>
     <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 </head>
-<body>
+<body background="../Medias/background_v2.jpg">
 <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
 <section>
     <div class="container">

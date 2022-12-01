@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
         <title>MAIAT</title>
     </head>
-    <body>
+    <body background="../Medias/background_v2.jpg">
         <?php
             if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3){
                 //echo ("le nombre est ".count($_POST['adv']));
