@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif guide">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="erreur mot de passe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,15 +114,7 @@
       <workItem from="1669642531116" duration="7533000" />
       <workItem from="1669710973025" duration="9767000" />
       <workItem from="1669735924228" duration="1659000" />
-      <workItem from="1669738995072" duration="89000" />
-      <workItem from="1669802220873" duration="8411000" />
-    </task>
-    <task id="LOCAL-00076" summary="modif inscription">
-      <created>1666099074455</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1666099074455</updated>
+      <workItem from="1669738995072" duration="57000" />
     </task>
     <task id="LOCAL-00077" summary="modif inscription">
       <created>1666101654400</created>
@@ -444,28 +431,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669736850122</updated>
     </task>
-    <task id="LOCAL-00122" summary="modif criteres">
-      <created>1669739062927</created>
+    <task id="LOCAL-00122" summary="resultat diag sans compte">
+      <created>1669797748001</created>
       <option name="number" value="00122" />
       <option name="presentableId" value="LOCAL-00122" />
       <option name="project" value="LOCAL" />
-      <updated>1669739062928</updated>
+      <updated>1669797748002</updated>
     </task>
-    <task id="LOCAL-00123" summary="modif guide">
-      <created>1669803277802</created>
+    <task id="LOCAL-00123" summary="macro">
+      <created>1669804373043</created>
       <option name="number" value="00123" />
       <option name="presentableId" value="LOCAL-00123" />
       <option name="project" value="LOCAL" />
-      <updated>1669803277803</updated>
+      <updated>1669804373043</updated>
     </task>
-    <task id="LOCAL-00124" summary="modif guide">
-      <created>1669803295074</created>
+    <task id="LOCAL-00124" summary="macro">
+      <created>1669804381776</created>
       <option name="number" value="00124" />
       <option name="presentableId" value="LOCAL-00124" />
       <option name="project" value="LOCAL" />
-      <updated>1669803295074</updated>
+      <updated>1669804381776</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="erreur mot de passe">
+      <created>1669814931624</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1669814931624</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,8 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css projet v2" />
-    <MESSAGE value="modif css projet v3" />
     <MESSAGE value="modif css equipes et partenaires" />
     <MESSAGE value="modif css critere" />
     <MESSAGE value="modif css critere v2" />
@@ -508,8 +500,10 @@
     <MESSAGE value="modif responsive equipes et partenaires V3" />
     <MESSAGE value="modif ajout image" />
     <MESSAGE value="modif criteres" />
-    <MESSAGE value="modif guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif guide" />
+    <MESSAGE value="resultat diag sans compte" />
+    <MESSAGE value="macro" />
+    <MESSAGE value="erreur mot de passe" />
+    <option name="LAST_COMMIT_MESSAGE" value="erreur mot de passe" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
