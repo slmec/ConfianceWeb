@@ -5,7 +5,7 @@
         <title>MAIAT</title>
         <link rel="stylesheet" href="../Vue/style_guide.css" />
     </head>
-    <body>
+    <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
                 <header>
