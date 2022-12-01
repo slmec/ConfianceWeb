@@ -37,7 +37,7 @@
         <div class="block_form">
             <form action="" >
                 <p>Ce mode vous permet de réaliser un diagnostic sans stockage de données et sans connexion grâce à un fichier Excel.</p>
-                <p>Pour se faire, nous vous invitons à télécharger le format Excel de MAIAT en cliquant sur l’un des boutons suivants : </p>
+                <p>Pour se faire, nous vous invitons à <span class="gras">télécharger le format Excel de MAIAT</span> en cliquant sur l’un des boutons suivants : </p>
                 <br>
                 <div class="bouton_telechargement">
                     <a href="../Medias/MAIAT_Horizontal.xlsm" class="tableur" download >Tableur MAIAT horizontal (adapté aux écrans supérieurs 17'')</a>

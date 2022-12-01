@@ -181,11 +181,15 @@ section .block_page .block_form td{
 section .block_page .block_form .aligne{
     text-align: center;
 }
+section .block_page .block_form .gras{
+    font-weight: bold;
+}
 
 
 /*footer*/
 .bas{
     text-align: center;
+    color: white;
 }
 
 section .container .block_tableau{

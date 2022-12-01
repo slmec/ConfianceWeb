@@ -27,7 +27,7 @@ section .container header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 section .container nav{
     display: flex;
@@ -47,7 +47,6 @@ section .container nav a{
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -56,7 +55,6 @@ section .container nav a.active{
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -64,6 +62,9 @@ section .container nav a:hover{
 }
 section .container .guide{
     color : white;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
 }
 section .container h1{
     text-align: center;
@@ -77,4 +78,21 @@ section .container figure{
 section .bas {
     text-align: center;
     color : white;
+}
+section .container .guide .image_guide{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+section .container .guide .image_guide_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+section .container .guide .image_guide_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
 }

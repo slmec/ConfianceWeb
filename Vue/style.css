@@ -27,7 +27,7 @@ section .container header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     margin: auto;
 }
 section .container nav{
@@ -48,7 +48,6 @@ section .container nav a{
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -57,7 +56,6 @@ section .container nav a.active{
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
