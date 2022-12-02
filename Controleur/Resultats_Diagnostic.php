@@ -164,7 +164,7 @@
             </div>
             <div class="block_table">
                 <table>
-                    <tr>
+                    <tr >
                         <td class="titre">Questions</td>
                         <td> <b> Le système à base d'IA réduit-il la distinction entre les novices et les experts ? </b> </td>
                         <td> <b>  Des tâches requérant auparavant de l'expertise sont-elles désormais partiellement ou totalement automatisées? </b> </td>

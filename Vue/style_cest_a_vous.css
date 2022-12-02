@@ -271,4 +271,11 @@ section .container .block_tableau{
     }
 }
 
+input[type='radio'] {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle; }
+
+
+
 
