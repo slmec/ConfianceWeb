@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="connexion">
-      <change beforePath="$PROJECT_DIR$/Medias/MAIAT_Horizontal.xlsm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medias/MAIAT_Vertical.xlsm" beforeDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,13 +118,6 @@
       <workItem from="1669738995072" duration="89000" />
       <workItem from="1669802220873" duration="12433000" />
       <workItem from="1669891513408" duration="7214000" />
-    </task>
-    <task id="LOCAL-00080" summary="modif css index">
-      <created>1666185341906</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1666185341907</updated>
     </task>
     <task id="LOCAL-00081" summary="modif css index">
       <created>1666185444076</created>
@@ -465,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669972258202</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="macro">
+      <created>1669972907360</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1669972907360</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +481,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif css critere v2" />
     <MESSAGE value="modif projet" />
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
@@ -509,7 +505,8 @@
     <MESSAGE value="changement fond ecran" />
     <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="connexion" />
-    <option name="LAST_COMMIT_MESSAGE" value="connexion" />
+    <MESSAGE value="macro" />
+    <option name="LAST_COMMIT_MESSAGE" value="macro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
