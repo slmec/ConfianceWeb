@@ -18,7 +18,7 @@ $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
     <title>MAIAT</title>
 
 </head>
-<body background="../Medias/background_v2.jpg">
+<body>
 <section>
     <div class="block_entete">
         <div class="container">

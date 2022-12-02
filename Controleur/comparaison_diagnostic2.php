@@ -17,7 +17,7 @@ or die('could not connect to database');
     <title>MAIAT</title>
 
 </head>
-<body background="../Medias/background_v2.jpg">
+<body>
 <section>
     <div class="block_entete">
         <div class="container">
