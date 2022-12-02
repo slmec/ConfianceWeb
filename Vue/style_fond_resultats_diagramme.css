@@ -59,7 +59,7 @@ section .container nav a:hover{
 }
 section .block_entete{
     padding-top: 0;
-    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
+    background: #0e71a8;
 }
 
 section .container .block_tableau{
