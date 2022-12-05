@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="fond">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,14 +121,7 @@
       <workItem from="1669738995072" duration="89000" />
       <workItem from="1669802220873" duration="12433000" />
       <workItem from="1669891513408" duration="7214000" />
-      <workItem from="1669976541362" duration="2480000" />
-    </task>
-    <task id="LOCAL-00082" summary="modif css index">
-      <created>1666189948313</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1666189948313</updated>
+      <workItem from="1669976541362" duration="4625000" />
     </task>
     <task id="LOCAL-00083" summary="modif css index">
       <created>1666189965029</created>
@@ -467,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669973151528</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="fond">
+      <created>1669987623066</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1669987623066</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif projet" />
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
@@ -511,7 +509,8 @@
     <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="connexion" />
     <MESSAGE value="macro" />
-    <option name="LAST_COMMIT_MESSAGE" value="macro" />
+    <MESSAGE value="fond" />
+    <option name="LAST_COMMIT_MESSAGE" value="fond" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
