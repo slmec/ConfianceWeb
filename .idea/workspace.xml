@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="macro">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,8 +117,8 @@
       <workItem from="1669735924228" duration="1659000" />
       <workItem from="1669738995072" duration="89000" />
       <workItem from="1669802220873" duration="12433000" />
-      <workItem from="1669891513408" duration="7214000" />
-      <workItem from="1669976541362" duration="2480000" />
+      <workItem from="1669891513408" duration="7473000" />
+      <workItem from="1669973406744" duration="4126000" />
     </task>
     <task id="LOCAL-00082" summary="modif css index">
       <created>1666189948313</created>
@@ -446,26 +442,26 @@
       <option name="project" value="LOCAL" />
       <updated>1669889845679</updated>
     </task>
-    <task id="LOCAL-00128" summary="connexion">
-      <created>1669972258202</created>
+    <task id="LOCAL-00128" summary="changement fond ecran site">
+      <created>1669911717262</created>
       <option name="number" value="00128" />
       <option name="presentableId" value="LOCAL-00128" />
       <option name="project" value="LOCAL" />
-      <updated>1669972258202</updated>
+      <updated>1669911717262</updated>
     </task>
-    <task id="LOCAL-00129" summary="macro">
-      <created>1669972907360</created>
+    <task id="LOCAL-00129" summary="changement fond ecran partie c'est à vous">
+      <created>1669974577305</created>
       <option name="number" value="00129" />
       <option name="presentableId" value="LOCAL-00129" />
       <option name="project" value="LOCAL" />
-      <updated>1669972907360</updated>
+      <updated>1669974577305</updated>
     </task>
-    <task id="LOCAL-00130" summary="macro">
-      <created>1669973151528</created>
+    <task id="LOCAL-00130" summary="changement">
+      <created>1669987636394</created>
       <option name="number" value="00130" />
       <option name="presentableId" value="LOCAL-00130" />
       <option name="project" value="LOCAL" />
-      <updated>1669973151528</updated>
+      <updated>1669987636394</updated>
     </task>
     <option name="localTasksCounter" value="131" />
     <servers />
@@ -509,9 +505,9 @@
     <MESSAGE value="modif responsive téléchargement" />
     <MESSAGE value="changement fond ecran" />
     <MESSAGE value="changement fond ecran site" />
-    <MESSAGE value="connexion" />
-    <MESSAGE value="macro" />
-    <option name="LAST_COMMIT_MESSAGE" value="macro" />
+    <MESSAGE value="changement fond ecran partie c'est à vous" />
+    <MESSAGE value="changement" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
