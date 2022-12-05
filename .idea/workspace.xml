@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,13 +122,7 @@
       <workItem from="1669802220873" duration="12433000" />
       <workItem from="1669891513408" duration="7473000" />
       <workItem from="1669973406744" duration="4126000" />
-    </task>
-    <task id="LOCAL-00082" summary="modif css index">
-      <created>1666189948313</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1666189948313</updated>
+      <workItem from="1670246122354" duration="807000" />
     </task>
     <task id="LOCAL-00083" summary="modif css index">
       <created>1666189965029</created>
@@ -463,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669987636394</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="changement v2">
+      <created>1670246220790</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246220791</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif projet" />
     <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
@@ -507,7 +510,8 @@
     <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="changement fond ecran partie c'est à vous" />
     <MESSAGE value="changement" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement" />
+    <MESSAGE value="changement v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement v2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
