@@ -96,3 +96,22 @@ section .container .guide .image_guide_right{
     width: 50%;
     align-items: center;
 }
+
+
+@media screen and (max-width: 1300px) {
+    section .container .guide .image_guide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .container .guide .image_guide_right{
+        margin-top: 20px;
+    }
+    section .container .guide .img_questionnaire{
+        width: 600px;
+        height: 278px;
+    }
+    section .container .guide{
+        width: 60%;
+    }
+}

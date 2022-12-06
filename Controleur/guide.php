@@ -30,8 +30,10 @@
                     <br>
                     <h3>Analyse par questionnaire</h3>
                     <br>
-                    <img src="../Medias/img_questionnaire.png" width=800 height=122.5>
-                    <p>L’analyse se veut rapide et accessible à tous, sans prérequis théorique. Vous serez ainsi invités à répondre à un questionnaire de 24 questions.</p>
+                    <div class="block_questionnaire">
+                        <img class="img_questionnaire" src="../Medias/img_questionnaire.png" width=800 height=370>
+                        <p>L’analyse se veut rapide et accessible à tous, sans prérequis théorique. Vous serez ainsi invités à répondre à un questionnaire de 24 questions.</p>
+                    </div>
                     <br>
                     <br>
                     <h3>Diagnostic</h3>
