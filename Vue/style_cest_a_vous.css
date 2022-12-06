@@ -47,7 +47,8 @@ section .container header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
+    margin: 0;
 }
 section .container nav{
     display: flex;
@@ -67,7 +68,6 @@ section .container nav a{
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
@@ -76,13 +76,42 @@ section .container nav a.active{
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    background-color: #9ec6ff;
     padding-top : 18px;
     padding-bottom: 18px;
     padding-right: 28px;
     padding-left: 28px;
 }
 
+section .container .navbar_deux{
+    align-items: center;
+    padding: 10px;
+}
+section .container .navbar_deux a{
+    margin-left:40px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+section .container .navbar_deux a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+section .container .navbar_deux a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
 
 /*aligner text au dessus form */
 section .block_page{
@@ -96,7 +125,7 @@ section .block_titre{
 section .block_titre h1{
     color: white;
     text-decoration: underline;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 section .block_form{
     width: 80%;

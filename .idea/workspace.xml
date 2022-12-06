@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement v2">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement prequestionnaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,14 +129,9 @@
       <workItem from="1669802220873" duration="12433000" />
       <workItem from="1669891513408" duration="7473000" />
       <workItem from="1669973406744" duration="4126000" />
-      <workItem from="1670246122354" duration="807000" />
-    </task>
-    <task id="LOCAL-00083" summary="modif css index">
-      <created>1666189965029</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1666189965029</updated>
+      <workItem from="1670246122354" duration="1453000" />
+      <workItem from="1670312795204" duration="2603000" />
+      <workItem from="1670316174545" duration="878000" />
     </task>
     <task id="LOCAL-00084" summary="modif css critere">
       <created>1666192542588</created>
@@ -467,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670246220791</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="changement prequestionnaire">
+      <created>1670249532854</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1670249532855</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif critere" />
     <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
     <MESSAGE value="modif profil" />
@@ -511,7 +519,8 @@
     <MESSAGE value="changement fond ecran partie c'est à vous" />
     <MESSAGE value="changement" />
     <MESSAGE value="changement v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement v2" />
+    <MESSAGE value="changement prequestionnaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement prequestionnaire" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
