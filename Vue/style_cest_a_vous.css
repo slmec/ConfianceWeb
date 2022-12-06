@@ -6,11 +6,6 @@
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
-/*body{
-    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
-    height: 100vh;
-    background-attachment: fixed;
-}*/
 body{
     background-attachment: fixed;
 }
@@ -157,6 +152,11 @@ section .block_page .block_form form {
     background: #b6d1f8;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     margin : auto ;
+    align-items: center;
+    text-align: center;
+}
+section .block_page .block_form form p{
+    text-align: left;
 }
  section .block_page .block_form #container h3{
     width: 38%;
@@ -279,7 +279,7 @@ section .container .block_tableau{
 
 /* Responsive diagnostic hors ligne */
 @media screen and (max-width: 1200px) {
-    img .logo_icam{
+    .img_securite{
         width: 500px;
         height: 20px;
     }
