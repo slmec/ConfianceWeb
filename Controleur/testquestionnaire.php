@@ -13,23 +13,31 @@ session_start();
 <section>
     <div class="container">
         <header>
-            <nav class="navbar">
-                <a href="../index.php" target="_blank" > MAIAT </a>
-                <a href="inscription.php">Inscription</a>
-                <a class="active" href="identification.php">Connexion</a>
-                <a href="testquestionnaire_sansid.php">Diagnostic sans compte</a>
-                <a href="diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
-            </nav>
+            <div class="left">
+                <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+            </div>
+            <div class="middle">
+                <nav class="navbar">
+                    <a href="../index.php" target="_blank" > MAIAT </a>
+                    <a href="inscription.php">Inscription</a>
+                    <a class="active" href="identification.php">Connexion</a>
+                    <a href="testquestionnaire_sansid.php">Diagnostic sans compte</a>
+                    <a href="diagnostic_horsconnexion.php">Diagnostic hors ligne</a>
+                </nav>
+            </div>
+            <div class="right">
+                <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150" ></a>
+            </div>
         </header>
         <div class="block_tableau">
             <br><hr><br>
         </div>
-        <nav class="navbar">
+        <div class="navbar_deux">
             <a class="active" href="diagnostic_new.php"> Nouveau Diagnostic </a>
             <a href="diagnostic_suivi.php">Consulter mes diagnostics</a>
             <a href="profil.php">Mon profil </a>
             <a href="../Modele/deconnexion.php">Deconnexion</a>
-        </nav>
+        </div>
         <div class="block_tableau">
             <br><hr><br>
             <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>

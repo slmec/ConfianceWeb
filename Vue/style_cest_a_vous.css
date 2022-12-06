@@ -48,7 +48,7 @@ section .container header{
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
-    margin: 0;
+    margin: auto;
 }
 section .container nav{
     display: flex;
@@ -125,6 +125,10 @@ section .block_titre{
 section .block_titre h1{
     color: white;
     text-decoration: underline;
+    margin-top: 10px;
+}
+section .block_titre p{
+    color: white;
     margin-top: 10px;
 }
 section .block_form{

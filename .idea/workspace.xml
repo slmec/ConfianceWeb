@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement prequestionnaire">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="changement barre nav v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_fond_resultats_diagramme.css" afterDir="false" />
     </list>
@@ -131,14 +133,7 @@
       <workItem from="1669973406744" duration="4126000" />
       <workItem from="1670246122354" duration="1453000" />
       <workItem from="1670312795204" duration="2603000" />
-      <workItem from="1670316174545" duration="878000" />
-    </task>
-    <task id="LOCAL-00084" summary="modif css critere">
-      <created>1666192542588</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1666192542588</updated>
+      <workItem from="1670316174545" duration="2313000" />
     </task>
     <task id="LOCAL-00085" summary="modif css bandeau et boutons">
       <created>1666192792924</created>
@@ -476,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670249532855</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="changement barre nav v1">
+      <created>1670317100643</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1670317100644</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif fin blog" />
     <MESSAGE value="modif bandeau blog" />
     <MESSAGE value="modif profil" />
     <MESSAGE value="modif bouton" />
@@ -520,7 +521,8 @@
     <MESSAGE value="changement" />
     <MESSAGE value="changement v2" />
     <MESSAGE value="changement prequestionnaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement prequestionnaire" />
+    <MESSAGE value="changement barre nav v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement barre nav v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

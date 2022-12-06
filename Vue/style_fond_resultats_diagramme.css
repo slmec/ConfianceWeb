@@ -55,6 +55,37 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
+section .container .navbar_deux{
+    align-items: center;
+    padding: 10px;
+}
+section .container .navbar_deux a{
+    margin-left:40px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+section .container .navbar_deux a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+section .container .navbar_deux a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
 section .block_entete{
     padding-top: 0;
     background: #0e71a8;
