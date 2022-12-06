@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="problème affichage image">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification responsive blog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style_guide.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_guide.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,14 +126,7 @@
       <workItem from="1669973406744" duration="4126000" />
       <workItem from="1670246122354" duration="1453000" />
       <workItem from="1670312795204" duration="2603000" />
-      <workItem from="1670316174545" duration="4392000" />
-    </task>
-    <task id="LOCAL-00087" summary="modif css site">
-      <created>1666251244358</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1666251244358</updated>
+      <workItem from="1670316174545" duration="4837000" />
     </task>
     <task id="LOCAL-00088" summary="modif css site">
       <created>1666259222353</created>
@@ -470,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670321533552</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="modification responsive blog">
+      <created>1670322966413</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1670322966413</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif bouton" />
     <MESSAGE value="modif liens" />
     <MESSAGE value="modif index + critere" />
     <MESSAGE value="modif blog" />
@@ -514,7 +514,8 @@
     <MESSAGE value="changement barre nav v1" />
     <MESSAGE value="changement barre nav v2" />
     <MESSAGE value="problème affichage image" />
-    <option name="LAST_COMMIT_MESSAGE" value="problème affichage image" />
+    <MESSAGE value="modification responsive blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification responsive blog" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

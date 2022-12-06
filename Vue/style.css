@@ -469,6 +469,10 @@ section .container nav a:hover{
         align-items: center;
         min-height: 1312px;
     }
+    .img_vignettes{
+        width: 1000px;
+        height: 442px;
+    }
 }
 /*.projet .bottom .bottom-left{
     width: 33%;

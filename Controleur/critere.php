@@ -30,7 +30,7 @@
                         <h1>MAIAT : Les crit&egrave;res</h1>
                         <p>Cet outil se base sur l&#39;existence de 6 crit&egrave;res qui d&eacute;crivent les points d&#39;attention &agrave; prendre en compte lors de
                             l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
-                        <img src="../Medias/schema_risques.PNG" width="1200" height="532">
+                        <img class="img_vignettes" src="../Medias/schema_risques.PNG" width="1200" height="532">
                     </div>
 
                     <div class="reconnaissance">
