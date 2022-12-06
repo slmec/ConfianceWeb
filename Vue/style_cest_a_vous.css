@@ -276,7 +276,7 @@ section .container .block_tableau{
 
 /* Responsive diagnostic hors ligne */
 @media screen and (max-width: 1200px) {
-    img{
+    img .logo_icam{
         width: 500px;
         height: 20px;
     }

@@ -23,7 +23,7 @@
                     </nav>
                 </div>
                 <div class="right">
-                    <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150" ></a>
+                    <a href="https://www.icam.fr/" class="logo_icam" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150" ></a>
                 </div>
             </header>
         </div>
