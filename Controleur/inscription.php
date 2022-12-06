@@ -28,46 +28,46 @@
                         <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150" ></a>
                     </div>
                 </header>
-            </div>
-            <div class="block_page">
-                <div class="block_titre">
-                    <h1>Devenez membre de MAIAT</h1>
+                <div class="block_page">
+                    <div class="block_titre">
+                        <h1>Devenez membre de MAIAT</h1>
+                        <br>
+                    </div>
+                    <div class="block_form">
+                        <form action="inscription2.php" method="post" name="profil" target="_self">
+                            <h3>Formulaire d&#39;inscription :</h3>
+                            <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
+                            <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
+                            <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
+                            <p>Mot de passe :&nbsp;</p>
+                            <p> <input name="mdp_utilisateur" type="password" /></p>
+                            <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
+                            <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
+                            <p>
+                                <input name="s'inscrire" type="submit" value="S'inscrire" />
+                            </p>
+                        </form>
+                    </div>
+                    <br>
+                    <div class="erreur">
+                        <?php
+                            if(isset($_GET['erreur'])){
+                                $err = $_GET['erreur'];
+                                if($err==1 ){
+                                    echo "<p style='color:#ffffff'>Vous n'avez pas rempli tous les champs</p>";
+                                }
+                                elseif($err==2){
+                                    echo "<p style='color:#ffffff'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
+                                }
+                            }
+                        ?>
+                    </div>
+                </div>
+                <div class="bas">
+                    <br>
+                    <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
                     <br>
                 </div>
-                <div class="block_form">
-                    <form action="inscription2.php" method="post" name="profil" target="_self">
-                        <h3>Formulaire d&#39;inscription :</h3>
-                        <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
-                        <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
-                        <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
-                        <p>Mot de passe :&nbsp;</p>
-                        <p> <input name="mdp_utilisateur" type="password" /></p>
-                        <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
-                        <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
-                        <p>
-                            <input name="s'inscrire" type="submit" value="S'inscrire" />
-                        </p>
-                    </form>
-                </div>
-                <br>
-                <div class="erreur">
-                    <?php
-                        if(isset($_GET['erreur'])){
-                            $err = $_GET['erreur'];
-                            if($err==1 ){
-                                echo "<p style='color:#ffffff'>Vous n'avez pas rempli tous les champs</p>";
-                            }
-                            elseif($err==2){
-                                echo "<p style='color:#ffffff'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
-                            }
-                        }
-                    ?>
-                </div>
-            </div>
-            <div class="bas">
-                <br>
-                <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
-                <br>
             </div>
         </section>
     </body>

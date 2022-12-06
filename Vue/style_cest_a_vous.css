@@ -1,5 +1,5 @@
 *{
-    margin:auto;
+    margin:0;
     padding:0;
     text-decoration: none;
     list-style: none;
@@ -38,10 +38,9 @@ section {
 }
 section .container{
     max-width: 1400px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 50px;
     height: 100%;
-    text-align: center;
 }
 section .container header{
     display: flex;
@@ -64,6 +63,7 @@ section .container nav a{
     padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
+    text-align: center;
 }
 section .container nav a.active{
     border: 2px solid white;
@@ -84,6 +84,9 @@ section .container nav a:hover{
 
 section .container .navbar_deux{
     align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 80%;
     padding: 10px;
 }
 section .container .navbar_deux a{
@@ -132,8 +135,8 @@ section .block_titre p{
     margin-top: 10px;
 }
 section .block_form{
-    width: 80%;
-    margin-top: 25px;
+    width: 100%;
+    margin: 25px auto 0 auto;
 }
 section .block_form figure{
     text-align: center;
@@ -244,7 +247,7 @@ section .container .block_tableau{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     vertical-align: middle;
 }
 .tableur{

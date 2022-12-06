@@ -42,7 +42,7 @@
             <div class="block_tableau">
                 <br><hr><br>
             </div>
-        </div>
+
 
         <?php
             $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
@@ -64,6 +64,7 @@
             $row = mysqli_fetch_assoc($resultat) ;
         ?>
             <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
+        </div>
         <!-- <H2>Que souhaitez-vous faire ? </H2>
             <form action = "diagnostic_new.php">
                 <input type="submit" value="Cr&eacute;er un nouveau diagnostic">
