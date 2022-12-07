@@ -14,22 +14,35 @@ section .container{
     max-width: 1400px;
     padding-top: 50px;
     height: 100%;
-    text-align: center;
 }
-section .container header{
+
+/*entete avec les barres de nav */
+section .fond_entete {
+    padding-top: 0;
+    background: #0e71a8;
+}
+section .block_entete{
+    margin: auto;
+    padding-top: 50px;
+    max-width: 1400px;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+section header{
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-section .container nav{
+section nav{
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-section .container nav a{
+section nav a{
     margin-left:40px;
     align-items: center;
     color: white;
@@ -39,7 +52,7 @@ section .container nav a{
     padding-right: 30px;
     padding-left: 30px;
 }
-section .container nav a.active{
+section nav a.active{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -47,7 +60,7 @@ section .container nav a.active{
     padding-right: 28px;
     padding-left: 28px;
 }
-section .container nav a:hover{
+section nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -55,11 +68,11 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
-section .container .navbar_deux{
+section .navbar_deux{
     align-items: center;
     padding: 10px;
 }
-section .container .navbar_deux a{
+section .navbar_deux a{
     margin-left:40px;
     align-items: center;
     color: white;
@@ -69,7 +82,7 @@ section .container .navbar_deux a{
     padding-right: 30px;
     padding-left: 30px;
 }
-section .container .navbar_deux a.active{
+section .navbar_deux a.active{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -77,7 +90,7 @@ section .container .navbar_deux a.active{
     padding-right: 28px;
     padding-left: 28px;
 }
-section .container .navbar_deux a:hover{
+section .navbar_deux a:hover{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -86,19 +99,52 @@ section .container .navbar_deux a:hover{
     padding-left: 28px;
 }
 
-section .block_entete{
-    padding-top: 0;
-    background: #0e71a8;
+/* tittre entre lignes */
+.block_titre{
+    text-align : center ;
 }
-
-section .container .block_tableau{
-    width: 100%;
+/* legende du diagramme*/
+.block_legende{
+    text-align : center ;
 }
-
-.blanc {
-    color: white;
-    text-align: center;
-}
+/* taille du diagramme radar */
 canvas{
+    width: 70%;
+}
+
+/*titre des criteres */
+.block_titre_critere{
+    text-aign : left ;
+}
+
+/*table des criteres */
+.block_table{
+}
+
+table{
+}
+
+.block_table table .col_1{
+    width:10% ;
+    text-align : left ;
+}
+.block_table table .col_2{
+    width: 22,5%;
+    text-align : center;
+}
+
+/* boutons */
+button[type=submit] {
+    background-color: #476ebf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
     width: 100%;
+}
+button[type=submit]:hover {
+    background-color: white;
+    color: #476ebf;
+    border: 1px solid #476ebf;
 }
