@@ -38,6 +38,7 @@ section .container nav{
 section .container nav a{
     margin-left:40px;
     align-items: center;
+    text-align: center;
     color: white;
     font-size: large;
     padding-top : 20px;
@@ -98,7 +99,7 @@ section .container nav a:hover{
     align-items: center;
     margin: auto;
 }
-.critere h1,a{
+.critere h1{
     text-align: center;
     color: white;
     padding-bottom:15px;
@@ -111,14 +112,16 @@ section .container nav a:hover{
     color: white;
 }
 .critere p{
-    font-size: 18px;
+    font-size: 15px;
     padding: 0px;
+    text-align: justify;
 }
 .critere li{
      text-align: justify;
      color: white;
      padding: 0px;
-     font-size: 18px;
+     font-size: 15px;
+     list-style: inside;
  }
 .critere ul{
     margin-top: 10px;
@@ -142,27 +145,7 @@ section .container nav a:hover{
     align-items: center;
     text-align: center;
 }
-.critere .critere_bottom a{
-    padding: 30px;
-    margin: auto;
-}
-.critere .critere_bottom_top{
-    padding: 30px;
-    margin: auto;
-}
-.critere .critere_bottom_top a{
-    align-items: center;
-    color: white;
-}
-.critere .critere_bottom_top a:hover{
-    border: 2px solid white;
-    border-radius: 30px;
-    background-color: #9ec6ff;
-    padding-top : 18px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    padding-left: 28px;
-}
+
 /*critere reconnaissance*/
 .critere .reconnaissance{
     display: flex;
@@ -264,6 +247,26 @@ section .container nav a:hover{
 .critere .deresponsabilisation_left{
     border: solid white 2px;
     padding: 5px;
+}
+
+/*Lien article*/
+.container .lien_article{
+    text-align: center;
+}
+.container .lien_article p{
+    margin: 0;
+    padding-bottom: 20px;
+}
+.container .lien_article a{
+    color: white;
+    text-decoration: underline;
+    padding: 15px;
+    margin-left: 2px;
+}
+.container .lien_article a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 13px;
 }
 
 

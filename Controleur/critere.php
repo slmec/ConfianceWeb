@@ -39,14 +39,15 @@
                         </div>
                         <div class="reconnaissance_right">
                             <h2>La reconnaissance</h2>
-                            <p>L&rsquo;IA au travail peut fragiliser directement ces quatre formes de reconnaissance :&nbsp;</p>
+                            <p>D’après Brun et Dugas (2005), nous pouvons distinguer quatre dimensions de la reconnaissance au travail :</p>
                             <ul>
-                                <li>Reconnaissance existentielle : l&rsquo;IA peut &eacute;lever la substituabilit&eacute; des travailleurs en d&eacute;pla&ccedil;ant
-                                    la valeur vers la machine ;</li>
-                                <li>Reconnaissance de la pratique : l&rsquo;IA ex&eacute;cute les t&acirc;ches ou renforce le caract&egrave;re proc&eacute;durier du travail ;</li>
-                                <li>Reconnaissance des efforts : l&rsquo;IA facilite le travail ;</li>
-                                <li>Reconnaissance des r&eacute;sultats : l&rsquo;IA rend illisible la contribution propre au travailleur.</li>
+                                <li>La reconnaissance existentielle qui porte sur l’individu et non sur le seul salarié ;</li>
+                                <li>La reconnaissance de la pratique qui porte sur la manière d’exécuter le travail ;</li>
+                                <li>La reconnaissance des efforts consentis, qui portent sur l’engagement, l’intensité voire les risques encourus ;</li>
+                                <li>La reconnaissance des résultats effectifs, observables, mesurables et contrôlables.</li>
                             </ul>
+                            <p>Ce critère reproblématise les enjeux de déplacement de la valeur du travail en pointant sur
+                            la nécessité pour les organisations de produire des nouveaux indicateurs qui permettront de définir et de positionner la reconnaissance au travail.</p>
                             <div class="reconnaissance_exemple">
                                 <h4>Exemple :</h4>
                                 <p>Une t&acirc;che de fixation de porte sur un avion repose sur un petit nombre de techniciens capables d&#39;assurer cette pose apr&egrave;s
@@ -59,12 +60,11 @@
                     <div class="desengagement">
                         <div class="desengagement_left">
                             <h2>Relations humaines</h2>
-                            <p>De nombreux SIA automatisent ou interf&egrave;rent dans des t&acirc;ches sociales, c&rsquo;est-&agrave;-dire des t&acirc;ches qui se basent
-                                essentiellement sur une communication humaine. Certains SIA lui substituent des relations machine-machine, humain-humain via des machines,
-                                ou humain-machine. Ces derni&egrave;res peuvent &ecirc;tre source de satisfaction et leur part peut cro&icirc;tre au d&eacute;triment des
-                                relations humaines. Les chatbots, par exemple, ont pour eux leur disponibilit&eacute;, leur imm&eacute;diatet&eacute;,
-                                l&rsquo;homog&eacute;n&eacute;it&eacute; de leur r&eacute;ponse, leur stabilit&eacute; &eacute;motionnelle et n&rsquo;implique pas de
-                                r&eacute;ciprocit&eacute;.</p>
+                            <p>De nombreux systèmes à base d’IA (SIA) automatisent ou interfèrent dans des tâches sociales, c’est-à-dire des tâches qui se
+                            basent essentiellement sur une communication humaine. France Stratégie pointe alors sur un risque de désengagement relationnel, en raison d’une
+                            « déshumanisation des pratiques et un appauvrissement des interactions sociales, lesquels constituent très souvent la raison d’être de certains métiers ».
+                            La communication pourrait en effet être appauvrie par les stratégies de dialogue standardisées des machines qui déterminent les réponses et parfois mêmes
+                            les questions à partir d’architectures de choix.</p>
                             <h4>Exemple :</h4>
                             <p>Le &quot;voice picking&quot; ou &quot;commande vocale&quot; qui guide les pr&eacute;parateurs de commande dans les entrep&ocirc;ts, a
                                 g&eacute;n&eacute;ralement une compr&eacute;hension r&eacute;duite &agrave; une cinquantaine de mots et son usage tend de surcro&icirc;t &agrave;
@@ -81,13 +81,11 @@
                         </div>
                         <div class="controle_right">
                             <h2>La surveillance</h2>
-                            <p>Dans l&rsquo;imaginaire collectif, les machines sont associ&eacute;es &agrave; des syst&egrave;mes de surveillance et de contr&ocirc;le.
-                                C&rsquo;est ce qu&rsquo;on appelle l&rsquo;effet &laquo; Big Brother &raquo;, en r&eacute;f&eacute;rence au roman de George Orwell, 1984.
-                                Le droit pour l&rsquo;employeur de contr&ocirc;ler et de surveiller l&rsquo;activit&eacute; de ses salari&eacute;s est admis dans son principe,
-                                tout en faisant l&rsquo;objet d&rsquo;un encadrement autour de la distinction activit&eacute; professionnelle/vie priv&eacute;e. Dans certaines
-                                situations, non seulement l&rsquo;employeur peut, mais doit surveiller l&rsquo;activit&eacute; du salari&eacute;, lorsque la finalit&eacute;
-                                est de prot&eacute;ger des installations comportant un risque &eacute;lev&eacute; d&rsquo;explosion ou de diffusion de mati&egrave;res
-                                dangereuses ou de d&eacute;tournement de celles-ci par des tiers non autoris&eacute;s, et d&rsquo;assurer la protection de personnes</p>
+                            <p>Dans l’imaginaire collectif, les machines sont associées à des systèmes de surveillance et de contrôle. Dans certaines situations,
+                             non seulement l’employeur peut, mais doit surveiller l’activité du salarié, lorsque la finalité est de protéger des installations
+                             comportant un risque élevé d’explosion ou de diffusion de matières dangereuses ou de détournement de celles-ci par des tiers non autorisés,
+                             et d’assurer la protection de personnes exposées à des risques particuliers en raison de ces activités. En dehors de ces situations spécifiques,
+                             ce droit est soumis à un contrôle de proportionnalité : il doit être justifiable par les intérêts légitimes de l’employeur.</p>
                             <h4>Exemple :</h4>
                             <p>Une entreprise a exp&eacute;riment&eacute; l&#39;usage du robot social Pepper de la soci&eacute;t&eacute; SoftBank Robotics, qui d&eacute;ambulait
                                 notamment dans les salles de pause pour leur proposer de les divertir. Les salari&eacute;s s&#39;en m&eacute;fiaient en raison de la cam&eacute;ra
@@ -99,19 +97,12 @@
                     <div class="autonomie">
                         <div class="autonomie_left">
                             <h2>L'autonomie</h2>
-                            <p>L&rsquo;autonomie qualifie la possibilit&eacute; pour le travailleur de devenir sujet, de s&rsquo;&eacute;prouver comme l&rsquo;auteur de
-                                ses &oelig;uvres, d&rsquo;affirmer ses choix, d&rsquo;agir de lui-m&ecirc;me. Le principe d&rsquo;autonomie oppose le travail authentique,
-                                expressif et personnel au travail m&eacute;canique, d&eacute;shumanis&eacute; et &laquo; abstrait &raquo;. L&rsquo;autonomie est devenue un
-                                principe de justice central au travail : chaque travailleur est conduit &agrave; juger de la justice de son travail en fonction de la
-                                libert&eacute;, de l&rsquo;autonomie et de la r&eacute;alisation de soi qu&rsquo;il lui permet. A l&rsquo;oppos&eacute;, le sentiment
-                                d&rsquo;injustice r&eacute;sulte de la fatigue, de l&rsquo;usure, de l&rsquo;absence d&rsquo;int&eacute;r&ecirc;t pour la t&acirc;che,
-                                du sentiment de m&eacute;pris et d&rsquo;impuissance sur sa propre activit&eacute;. L&rsquo;autonomie consacre la r&eacute;alisation de soi
-                                comme juste et l&rsquo;ali&eacute;nation comme injuste. L&rsquo;autonomie est aujourd&rsquo;hui un principe d&rsquo;organisation et de management.
-                                Tout projet d&rsquo;automatisation d&rsquo;une activit&eacute; porte en germe une r&eacute;duction de l&rsquo;espace d&rsquo;autonomie du
-                                travailleur (mais peut, &agrave; termes, en g&eacute;n&eacute;rer un nouveau). Les SIA modifient de la r&eacute;partition de l&rsquo; &laquo;
-                                intelligence &raquo; du travail. Pour un salari&eacute;, l&#39;importance de l&#39;activit&eacute; de r&eacute;flexion dans sa t&acirc;che
-                                d&eacute;limite son autonomie dans l&#39;organisation du travail, c&rsquo;est-&agrave;-dire son pouvoir, sa valeur marchande,
-                                l&#39;int&eacute;r&ecirc;t du travail, la ma&icirc;trise de son itin&eacute;raire professionnel et, partant, de son avenir personnel.&nbsp;</p>
+                            <p>L’autonomie qualifie la possibilité pour le travailleur de devenir sujet, de s’éprouver comme l’auteur de ses œuvres, d’affirmer ses choix,
+                            d’agir de lui-même. Le principe d’autonomie oppose le travail authentique, expressif et personnel au travail mécanique, déshumanisé et « abstrait ».
+                            L’autonomie est devenue un principe de justice central au travail : chaque travailleur est conduit à juger de la justice de son travail en fonction de
+                            la liberté, de l’autonomie et de la réalisation de soi qu’il lui permet [15]. A l’opposé, le sentiment d’injustice résulte de la fatigue, de l’usure,
+                            de l’absence d’intérêt pour la tâche, du sentiment de mépris et d’impuissance sur sa propre activité. L’autonomie consacre la réalisation de soi comme
+                            juste et l’aliénation comme injuste.</p>
                             <h4>Exemple :</h4>
                             <p>Dans les entrep&ocirc;ts qui recourent au voice picking, les op&eacute;rateurs suivent un itin&eacute;raire fix&eacute; par le SIA. Auparavant,
                                 les op&eacute;rateurs exp&eacute;riment&eacute;s le d&eacute;finissaient de fa&agrave;on autonome pour &eacute;laborer une &quot;belle
@@ -127,23 +118,12 @@
                         </div>
                         <div class="depossession_right">
                             <h2>Le savoir-faire</h2>
-                            <p>L&rsquo;identit&eacute; professionnelle se construit en rapport &agrave; un savoir-faire : une &eacute;cole, un dipl&ocirc;me puis
-                                l&rsquo;exp&eacute;rience contribuent chez l&rsquo;individu &agrave; se construire une identit&eacute; pour soi et pour autrui.
-                                Ce savoir-faire sert de base &agrave; sa l&eacute;gitimit&eacute;, elle-m&ecirc;me constitutive de son statut et de sa position,
-                                parfois durement acquise. L&rsquo;histoire des organisations industrielles est ainsi travers&eacute;e par plusieurs transformations
-                                qui ont fragilis&eacute; cette identit&eacute; en g&eacute;n&eacute;rant un sentiment de d&eacute;possession :</p>
-                            <ul>
-                                <li>L&rsquo;organisation scientifique du travail qui d&eacute;poss&eacute;dait&nbsp;les op&eacute;rateurs de la conception des modes
-                                    op&eacute;ratoires&nbsp;et les sp&eacute;cialisait.</li>
-                                <li>Le toyotisme qui, &agrave; l&rsquo;inverse, d&eacute;poss&eacute;dait les&nbsp;op&eacute;rateurs de leur sp&eacute;cialit&eacute;
-                                    en promouvant la&nbsp;polyvalence.</li>
-                            </ul>
-                            <p>Dans les deux cas, l&rsquo;innovation de processus, en d&eacute;pla&ccedil;ant la valeur du travail, a mis fin &agrave; un monde au sein duquel
-                                les op&eacute;rateurs s&rsquo;&eacute;taient constitu&eacute;s des r&egrave;gles, des routines efficaces, un statut, une identit&eacute;. Cela
-                                renvoie &agrave; ce que l&rsquo;ergonomie appelle l&rsquo;&laquo; acceptabilit&eacute; situ&eacute;e &raquo;. On y regarde, dans le contexte
-                                d&rsquo;usage, ce que la technologie &laquo; permet/autorise de faire &raquo; ou &laquo; oblige &agrave; faire &raquo;, mais aussi ce
-                                qu&rsquo;elle &laquo; emp&ecirc;che de faire &raquo; ou &laquo; plus comme avant &raquo; et ce, sur diff&eacute;rentes dimensions de
-                                l&rsquo;activit&eacute;.</p>
+                            <p>L’identité professionnelle se construit en rapport à un savoir-faire : une école, un diplôme puis l’expérience contribuent chez
+                            l’individu à se construire une identité pour soi et pour autrui. Ce savoir-faire sert de base à sa légitimité, elle-même constitutive de
+                            son statut et de sa position, parfois durement acquise. L’innovation de processus, en déplaçant la valeur du travail, met toujours fin à un
+                            monde au sein duquel les opérateurs s’étaient constitués des pratiques, des règles, des routines efficaces qui ont établi un statut, une identité.
+                            La nouvelle technologie « permet/autorise de faire » ou « oblige à faire », mais aussi « empêche de faire » ou « plus comme avant »
+                            (Bobilier Chaumon, 2016).</p>
                             <h4>Exemple :</h4>
                             <p>Un sous-traitant du constructeur automobile d&eacute;veloppe un SIA d&eacute;di&eacute; &agrave; la g&eacute;n&eacute;ralisation des connaissances
                                 empiriques mobilis&eacute;es en situation de dysfonctionnement du processus. Jusqu&#39;&agrave; pr&eacute;sent, ces interventions extra-ordinaires
@@ -154,31 +134,20 @@
                     <div class="deresponsabilisation">
                         <div class="deresponsabilisation_left">
                             <h2>La responsabilité</h2>
-                            <p>Dans les organisations, chaque changement conduit &agrave; une nouvelle distribution des t&acirc;ches et des r&ocirc;les qui,
-                                cons&eacute;cutivement, modifie les responsabilit&eacute;s individuelles, ainsi que le rapport que chacun entretient avec le r&eacute;sultat
-                                global. Au travail, notamment dans l&rsquo;industrie, l&rsquo;organisation se traduit par la division d&rsquo;une activit&eacute; en plusieurs
-                                t&acirc;ches r&eacute;alis&eacute;es par des travailleurs sp&eacute;cialis&eacute;s. De fa&ccedil;on quasi m&eacute;canique, cette division du
-                                travail a pour cons&eacute;quence la fragmentation des responsabilit&eacute;s. L&rsquo;organisation d&eacute;termine qui est responsable
-                                d&rsquo;une t&acirc;che. L&rsquo;int&eacute;gration de machines intelligentes peut affecter la distribution des responsabilit&eacute;s
-                                suivant six m&eacute;canismes :</p>
+                            <p>La responsabilité exprime le devoir de répondre de ses actes, toutes circonstances et conséquences comprises, c’est-à-dire d'en assumer
+                            l'énonciation, l'effectuation, et par suite la réparation voire la sanction lorsque l'attendu n'est pas obtenu. Plus une organisation est
+                            complexe, plus les responsabilités sont partagées entre un grand nombre d’individus et plus le sentiment de responsabilité à l’égard du tout
+                            se brouille. </p>
+                            <p>L’intégration de machines intelligentes peut affecter la distribution des responsabilités suivant six mécanismes :</p>
                             <ul>
-                                <li>Une fragmentation des responsabilit&eacute;s entre le travailleur et la machine intelligente : la d&eacute;l&eacute;gation de t&acirc;che,
-                                    a fortiori de t&acirc;ches d&eacute;cisionnelles, rend le travailleur moins op&eacute;rationnel.</li>
-                                <li>distribution des responsabilit&eacute;s entre toutes les parties-prenantes (concepteur, ing&eacute;nieur, programmeur,;fabricant, vendeur,
-                                    utilisateur), notamment dans le cas de machines apprenantes dont le comportement d&eacute;pend partiellement d&rsquo;une adaptation &agrave;
-                                    l&rsquo;environnement.</li>
-                                <li>Une emprise des processus qui r&eacute;duit la libert&eacute; : la responsabilit&eacute; d&eacute;coulant fondamentalement d&rsquo;une
-                                    libert&eacute;, l&rsquo;emprise des algorithmes sur la pratique pourrait d&eacute;lier moralement le travailleur de son activit&eacute;.</li>
-                                <li>Un effacement du travailleur devant l&rsquo;autorit&eacute; machinique : l&rsquo;efficacit&eacute; voire la sup&eacute;riorit&eacute;
-                                    pr&eacute;sum&eacute;e du SIA peut g&eacute;n&eacute;rer des conduites de retrait par exc&egrave;s de confiance, de contentement, ou de
-                                    prudence.</li>
-                                <li>L&rsquo;automatisation d&rsquo;une t&acirc;che peut conduire &agrave; son invisibilisation. Progressivement, la t&acirc;che automatis&eacute;e
-                                    &eacute;chappe &agrave; l&rsquo;attention, &agrave; la conscience de la situation du travailleur qui se focalise sur les t&acirc;ches sur
-                                    lesquelles il intervient. En outre, le robot ex&eacute;cute silencieusement. Basculant dans l&rsquo;invisible et l&rsquo;indicible, les
-                                    t&acirc;ches d&eacute;l&eacute;gu&eacute;es pourraient cesser d&rsquo;exister socialement.</li>
-                                <li>Le probl&egrave;me de l&rsquo;explicabilit&eacute; des algorithmes d&rsquo;apprentissage automatique dont l&rsquo;effet de &laquo; bo&icirc;te
-                                    noire &raquo; est consid&eacute;r&eacute; un obstacle majeur &agrave; l&rsquo;acceptabilit&eacute; sociale des SIA dans de nombreuses
-                                    activit&eacute;s soumises &agrave; des enjeux &eacute;lev&eacute;s d&rsquo;imputation de la responsabilit&eacute;.</li>
+                                <li>Fragmentation de la responsabilité entre le travailleur et la machine intelligente.</li>
+                                <li>Difficultés d’attribution croissante de la responsabilité dû à l’augmentation des parties prenantes (concepteur, ingénieur, programmeur, utilisateur etc.).</li>
+                                <li>L’emprise des algorithmes sur la pratique pourrait délier moralement le travailleur de son activité. </li>
+                                <li>L’efficacité voire la supériorité présumée du SIA peut générer des conduites de retrait par excès de confiance, de contentement ou de prudence.</li>
+                                <li>L’automatisation d’une tâche peut conduire à son invisibilisation. Progressivement, la tâche automatisée échappe à l’attention, à la conscience de la situation
+                                du travailleur qui se focalise sur les tâches sur lesquelles il intervient.</li>
+                                <li>Le problème de l’explicabilité des algorithmes d’apprentissage automatique dont l’effet de « boîte noire » est considéré un obstacle majeur
+                                à l’acceptabilité sociale des SIA.</li>
                             </ul>
                             <h4>Exemple :</h4>
                             <p>L&#39;int&eacute;gration d&#39;un cobot dans une activit&eacute; de contr&ocirc;le bact&eacute;riologique du lait est bloqu&eacute;e par l&#39;impossibilit&eacute; d&#39;imputer des
@@ -189,7 +158,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="lien_article">
+                    <p>Pour en savoir plus : <a href="https://hal.archives-ouvertes.fr/hal-03796032" class="lien_article">Accès à l'article en ligne</a></p>
+                </div>
             </div>
+
             <footer>
                 <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
             </footer>

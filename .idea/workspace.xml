@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification responsive blog v2">
-      <change afterPath="$PROJECT_DIR$/Vue/style_resultats.css" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification responsive blog v5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medias/img_questionnaire.png" beforeDir="false" afterPath="$PROJECT_DIR$/Medias/img_questionnaire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +125,7 @@
       <workItem from="1669973406744" duration="4126000" />
       <workItem from="1670246122354" duration="1453000" />
       <workItem from="1670312795204" duration="2603000" />
-      <workItem from="1670316174545" duration="11306000" />
-    </task>
-    <task id="LOCAL-00092" summary="modif css projet v2">
-      <created>1666278087362</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1666278087362</updated>
+      <workItem from="1670316174545" duration="14425000" />
     </task>
     <task id="LOCAL-00093" summary="modif css projet v3">
       <created>1666279945570</created>
@@ -472,11 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670334585122</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="modification responsive blog v5">
+      <created>1670340000021</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1670340000021</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -491,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif connexion + inscription" />
     <MESSAGE value="modif test questionnaire sans id" />
     <MESSAGE value="modif indentation modele" />
     <MESSAGE value="modif hashage mdp" />
@@ -516,7 +516,8 @@
     <MESSAGE value="modification responsive blog v2" />
     <MESSAGE value="modification responsive blog v3" />
     <MESSAGE value="modification responsive blog v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification responsive blog v4" />
+    <MESSAGE value="modification responsive blog v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification responsive blog v5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
