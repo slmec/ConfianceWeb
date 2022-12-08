@@ -34,7 +34,9 @@
             $mdp_utilisateur = password_hash($mdp_utilisateur_nonhash,PASSWORD_DEFAULT);
             $role_utilisateur = $_POST['role_utilisateur'];
             $organisme_utilisateur = $_POST['organisme_utilisateur'];
+            $donnees_utilisateur = $_POST['Données'];
 
+            if ($donnees_utilisateur == 1) {
             if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_utilisateur !== "" && $mdp_utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== ""){
                 $result = mysqli_query($db,"SELECT Email FROM Utilisateurs WHERE Email = '".$email_utilisateur."'");
                 $respond = mysqli_fetch_assoc($result);
@@ -52,11 +54,16 @@
                         $result3 = mysqli_query($db, $requete2) or die (mysqli_error($db));
                     }
                 }
-        ?>
+                ?>
                 <?php
             }
             else{
                 header('Location: inscription.php?erreur=1'); // utilisateur ou mot de passe vide
+            }
+
+        }
+            else{
+                header('Location: inscription.php?erreur=3'); // utilisateur ou mot de passe vide
             }
         ?>
         <section>
