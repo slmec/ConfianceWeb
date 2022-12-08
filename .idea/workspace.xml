@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="Base théorique v1">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="coquile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medias/img_comparaison_diagnostics.png" beforeDir="false" afterPath="$PROJECT_DIR$/Medias/img_comparaison_diagnostics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medias/img_compterendu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Medias/img_compterendu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_guide.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_guide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +125,7 @@
       <workItem from="1669973406744" duration="4126000" />
       <workItem from="1670246122354" duration="1453000" />
       <workItem from="1670312795204" duration="2603000" />
-      <workItem from="1670316174545" duration="14462000" />
-      <workItem from="1670489945145" duration="4051000" />
+      <workItem from="1670316174545" duration="14425000" />
     </task>
     <task id="LOCAL-00094" summary="modif css equipes et partenaires">
       <created>1666338186049</created>
@@ -466,12 +463,12 @@
       <option name="project" value="LOCAL" />
       <updated>1670340000021</updated>
     </task>
-    <task id="LOCAL-00142" summary="Base théorique v1">
-      <created>1670343212819</created>
+    <task id="LOCAL-00142" summary="coquile">
+      <created>1670496226687</created>
       <option name="number" value="00142" />
       <option name="presentableId" value="LOCAL-00142" />
       <option name="project" value="LOCAL" />
-      <updated>1670343212819</updated>
+      <updated>1670496226687</updated>
     </task>
     <option name="localTasksCounter" value="143" />
     <servers />
@@ -519,8 +516,19 @@
     <MESSAGE value="modification responsive blog v3" />
     <MESSAGE value="modification responsive blog v4" />
     <MESSAGE value="modification responsive blog v5" />
-    <MESSAGE value="Base théorique v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base théorique v1" />
+    <MESSAGE value="coquile" />
+    <option name="LAST_COMMIT_MESSAGE" value="coquile" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php</url>
+          <line>628</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

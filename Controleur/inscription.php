@@ -43,9 +43,8 @@
                             <p> <input name="mdp_utilisateur" type="password" /></p>
                             <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
                             <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
-                            <p>
-                                <input name="s'inscrire" type="submit" value="S'inscrire" />
-                            </p>
+                            <p> <input type="radio" name="Données" value="1" > J'accepte que mes données soient stockées </p>
+                            <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
                         </form>
                     </div>
                     <br>
@@ -58,6 +57,9 @@
                                 }
                                 elseif($err==2){
                                     echo "<p style='color:#ffffff'>Email déjà utilisée, veuillez en choisir un nouveau</p>";
+                                }
+                                elseif($err==3){
+                                    echo "<p style='color:#ffffff'>Si vous n'acceptez pas le stockage de vos données, il est impossible de se créer un compte</p>";
                                 }
                             }
                         ?>
