@@ -148,3 +148,61 @@ button[type=submit]:hover {
     color: #476ebf;
     border: 1px solid #476ebf;
 }
+
+/* form*/
+.block_form form {
+
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #b6d1f8;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin : auto ;
+    align-items: center;
+    text-align: center;
+}
+.block_form form p{
+    text-align: left;
+}
+.block_form #container h3{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.block_form  input[type=text], input[type=password], input[type=checkbox] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.block_form input[type=submit]{
+    background-color: #476ebf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.block_form input[type=submit]:hover {
+    background-color: white;
+    color: #476ebf;
+    border: 1px solid #476ebf;
+}
+.block_form button[type=submit] {
+    background-color: #476ebf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.block_form button[type=submit]:hover {
+    background-color: white;
+    color: #476ebf;
+    border: 1px solid #476ebf;
+}

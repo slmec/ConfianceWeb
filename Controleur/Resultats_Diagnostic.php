@@ -1049,10 +1049,10 @@
         <div class = "bouton">
             <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
         </div>
-        <form action="connexion.php">
+        <!-- <form action="connexion.php">
             <button type="submit">Retour au tableau de bord </button>
 
-        </form>
+        </form> -->
     </div>
 </section>
 

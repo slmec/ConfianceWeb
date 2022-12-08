@@ -296,7 +296,7 @@
                 $result3 = mysqli_query($db, $requete3);
             }
 
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Traitement.php');
         ?>
     </body>
 </html>
