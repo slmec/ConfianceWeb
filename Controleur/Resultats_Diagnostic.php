@@ -768,7 +768,7 @@
                         <td class="col_1"> Implications </td>
                         <td class="col_2">
                             <?php
-                            $texte = "Quand l’activité du travailleur n’est plus de produire mais d'agir sur des logiciels et/ou machinnes , alors celui-ci peut ressentir une plus value réduite ou une perte d’intérêt. " ;
+                            $texte = "Quand l’activité du travailleur n’est plus de produire mais d'agir sur des logiciels et/ou machines , alors celui-ci peut ressentir une plus value réduite ou une perte d’intérêt. " ;
                             if ($row['C5Q1'] == 0) {
                                 echo "<p style='color:red'> $texte </p>" ;
                             }
