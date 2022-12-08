@@ -90,12 +90,22 @@ section .container .guide .image_guide_left{
     flex-direction: column;
     width: 50%;
     align-items: center;
+    padding-right: 5px;
 }
 section .container .guide .image_guide_right{
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
+    padding-left: 5px;
+}
+section .container .guide .img_radar2{
+    width: 900px;
+    aspect-ratio: 467/361;
+}
+section .container .guide .img_questionnaire{
+    width: 800px;
+    aspect-ratio: 327/151;
 }
 
 
@@ -110,7 +120,15 @@ section .container .guide .image_guide_right{
     }
     section .container .guide .img_questionnaire{
         width: 600px;
-        height: 278px;
+        aspect-ratio: 327/151;
+    }
+    section .container .guide .img_comparaison_diagnostics{
+        width: 600px;
+        aspect-ratio: 697/364;
+    }
+    section .container .guide .img_radar2{
+        width: 700px;
+        aspect-ratio: 467/361;
     }
     section .container .guide{
         width: 60%;
