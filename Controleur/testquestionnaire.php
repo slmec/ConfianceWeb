@@ -137,7 +137,7 @@ session_start();
                         <table>
                             <tr>
                                 <td class="col_image"><img src="../Medias/logo_autonomie.png" width="60px" height="60px"/></td>
-                                <td class="col_titre"><h1>L'autonomie' : </h1></td>
+                                <td class="col_titre"><h1>L'autonomie : </h1></td>
                             </tr>
                         </table>
                         <table>
