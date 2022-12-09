@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="bouton de merde et taille radar">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="compa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_resultats.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_resultats.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +125,6 @@
       <workItem from="1670246122354" duration="1453000" />
       <workItem from="1670312795204" duration="2603000" />
       <workItem from="1670316174545" duration="14425000" />
-    </task>
-    <task id="LOCAL-00098" summary="modif critere">
-      <created>1666707614359</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1666707614359</updated>
     </task>
     <task id="LOCAL-00099" summary="modif fin blog">
       <created>1666797474132</created>
@@ -471,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670574682759</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="compa">
+      <created>1670583995632</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1670583995632</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif responsive equipes et partenaires" />
     <MESSAGE value="modif responsive equipes et partenaires V2" />
     <MESSAGE value="modif responsive equipes et partenaires V3" />
     <MESSAGE value="modif ajout image" />
@@ -518,7 +515,8 @@
     <MESSAGE value="données inscription" />
     <MESSAGE value="bouton de merde" />
     <MESSAGE value="bouton de merde et taille radar" />
-    <option name="LAST_COMMIT_MESSAGE" value="bouton de merde et taille radar" />
+    <MESSAGE value="compa" />
+    <option name="LAST_COMMIT_MESSAGE" value="compa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
