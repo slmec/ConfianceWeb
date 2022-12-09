@@ -53,6 +53,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
             <form action="..\Modele\ajout_traitement.php" method="post" name="profil" target="_self">
                 <p> </p>
                 <p> <input type="radio" name="Données_diag" value="1" > J'accepte que mes données soient utilisées de façon anonyme par l'Icam</p>
+                <p> <input type="radio" name="Données_diag" value="0" > Je n'accepte pas que mes données soient utilisées de façon anonyme par l'Icam</p>
                 <p><input name="s'inscrire" type="submit" value="Valider et Retourner au tableau de bord" /></p>
             </form>
         </div>

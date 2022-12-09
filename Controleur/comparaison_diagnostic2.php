@@ -12,8 +12,7 @@ or die('could not connect to database');
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link rel="stylesheet" href="../Vue/style_resultats_analyse.css" />
-    <link rel="stylesheet" href="../Vue/style_fond_resultats_diagramme.css" />
+    <link rel="stylesheet" href="../Vue/style_resultats.css" />
     <title>MAIAT</title>
 
 </head>

@@ -20,6 +20,7 @@ if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
 $Id_Critere = $_SESSION['id_Critere'];
 $données_diagnostic =$_POST['Données_diag'] ;
+
         $requete = "UPDATE Diagnostics SET Données_traitement ='$données_diagnostic' WHERE Id_critere_bis = '$Id_Critere' ";
         $result = mysqli_query($db, $requete);
 header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
