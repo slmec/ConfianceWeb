@@ -206,3 +206,9 @@ button[type=submit]:hover {
     color: #476ebf;
     border: 1px solid #476ebf;
 }
+
+/*taille bouton radio */
+input[type='radio'] {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle; }
