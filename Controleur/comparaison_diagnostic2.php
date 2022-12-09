@@ -1483,7 +1483,7 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
                         <td class="col_2"><?php if ($row2['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Plans d'actions </td>
+                        <td class="col_1">Interprétations </td>
                         <td class="col_2"><?php echo $row2['C3Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row2['C3Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row2['C3Q3_plan_action'] ?></td>
