@@ -312,6 +312,15 @@ input[type='radio'] {
     width: 25px;
     vertical-align: middle; }
 
+/*table pour titre et logo */
+.col_image{
+    width:10% ;
+    text-align : center ;
+}
+.col_titre{
+    text-align : left ;
+}
+
 
 
 
