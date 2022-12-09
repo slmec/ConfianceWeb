@@ -249,21 +249,21 @@ $row = mysqli_fetch_assoc($resultat);
                         <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos réponses </td>
+                        <td class="col_1">Réponses </td>
                         <td class="col_2"><?php if ($row['C2Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C2Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C2Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C2Q4'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos interprétations </td>
-                        <td class="col_2"><?php echo $row['C2Q1_interpretation'] ?></td>
-                        <td class="col_2"><?php echo $row['C2Q2_interpretation'] ?></td>
-                        <td class="col_2"><?php echo $row['C2Q3_interpretation'] ?></td>
-                        <td class="col_2"><?php echo $row['C2Q4_interpretation'] ?></td>
+                        <td class="col_1">Interprétations </td>
+                        <td class="col_2"><p><?php echo $row['C2Q1_interpretation'] ?></p></td>
+                        <td class="col_2"><p><?php echo $row['C2Q2_interpretation'] ?></p></td>
+                        <td class="col_2"><p><?php echo $row['C2Q3_interpretation'] ?></p></td>
+                        <td class="col_2"><p><?php echo $row['C2Q4_interpretation'] ?></p></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos plans d'actions </td>
+                        <td class="col_1">Plans d'actions </td>
                         <td class="col_2"><?php echo $row['C2Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C2Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C2Q3_plan_action'] ?></td>
@@ -297,21 +297,21 @@ $row = mysqli_fetch_assoc($resultat);
                         <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos réponses </td>
+                        <td class="col_1">Réponses </td>
                         <td class="col_2"><?php if ($row['C3Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C3Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C3Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C3Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos interprétations </td>
+                        <td class="col_1">Interprétations </td>
                         <td class="col_2"><?php echo $row['C3Q1_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C3Q2_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C3Q3_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C3Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos plans d'actions </td>
+                        <td class="col_1">Plans d'actions </td>
                         <td class="col_2"><?php echo $row['C3Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C3Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C3Q3_plan_action'] ?></td>
@@ -345,21 +345,21 @@ $row = mysqli_fetch_assoc($resultat);
                         <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos réponses </td>
+                        <td class="col_1">Réponses </td>
                         <td class="col_2"><?php if ($row['C4Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C4Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C4Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C4Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos interprétations </td>
+                        <td class="col_1">Interprétations </td>
                         <td class="col_2"><?php echo $row['C4Q1_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C4Q2_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C4Q3_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C4Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos plans d'actions </td>
+                        <td class="col_1">Plans d'actions </td>
                         <td class="col_2"><?php echo $row['C4Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C4Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C4Q3_plan_action'] ?></td>
@@ -393,21 +393,21 @@ $row = mysqli_fetch_assoc($resultat);
                         <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos réponses </td>
+                        <td class="col_1">Réponses </td>
                         <td class="col_2"><?php if ($row['C5Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C5Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C5Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C5Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos interprétations </td>
+                        <td class="col_1">Interprétations </td>
                         <td class="col_2"><?php echo $row['C5Q1_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C5Q2_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C5Q3_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C5Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos plans d'actions </td>
+                        <td class="col_1">Plans d'actions </td>
                         <td class="col_2"><?php echo $row['C5Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C5Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C5Q3_plan_action'] ?></td>
@@ -442,21 +442,21 @@ $row = mysqli_fetch_assoc($resultat);
                         <td class="titre2" colspan="5" ><hr>Diagnostic <?php echo $diagnostic1_nom ?><hr></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos réponses </td>
+                        <td class="col_1">Réponses </td>
                         <td class="col_2"><?php if ($row['C6Q1'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C6Q2'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C6Q3'] == 0) {echo "<p style=color:red> Oui </p>";} else {echo 'Non';} ?></td>
                         <td class="col_2"><?php if ($row['C6Q4'] == 0) {echo "<p style=color:red> Non </p>";} else {echo 'Oui';} ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos interprétations </td>
+                        <td class="col_1">Interprétations </td>
                         <td class="col_2"><?php echo $row['C6Q1_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C6Q2_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C6Q3_interpretation'] ?></td>
                         <td class="col_2"><?php echo $row['C6Q4_interpretation'] ?></td>
                     </tr>
                     <tr>
-                        <td class="col_1">Vos plans d'actions </td>
+                        <td class="col_1">Plans d'actions </td>
                         <td class="col_2"><?php echo $row['C6Q1_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C6Q2_plan_action'] ?></td>
                         <td class="col_2"><?php echo $row['C6Q3_plan_action'] ?></td>
