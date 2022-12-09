@@ -109,7 +109,7 @@ section .navbar_deux a:hover{
 }
 /* taille du diagramme radar */
 canvas{
-    width: 70%;
+    width: 90%;
 }
 
 /*titre des criteres */

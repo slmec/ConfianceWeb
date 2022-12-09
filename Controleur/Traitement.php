@@ -51,9 +51,12 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
     <div class="container">
         <div class="block_form">
             <form action="..\Modele\ajout_traitement.php" method="post" name="profil" target="_self">
-                <p> </p>
+                <p> A des fins de recherche et d'amélioration de MAIAT, je consens à ce que les données anonymisées de ce diagnostic soient partagées à l'Icam Toulouse. </p>
+                <p>Ce retour d'expérience est strictement confidentiel et ne sert qu'à identifier les points d'amélioration de MAIAT.</p>
+                <br>
                 <p> <input type="radio" name="Données_diag" value="1" > J'accepte que mes données soient utilisées de façon anonyme par l'Icam</p>
                 <p> <input type="radio" name="Données_diag" value="0" > Je n'accepte pas que mes données soient utilisées de façon anonyme par l'Icam</p>
+                <br>
                 <p><input name="s'inscrire" type="submit" value="Valider et Retourner au tableau de bord" /></p>
             </form>
         </div>
