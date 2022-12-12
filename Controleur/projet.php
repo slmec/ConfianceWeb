@@ -8,9 +8,11 @@
     <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
+
+                <!-- Barre de navigation !-->
                 <header>
                     <div class="left">
-                        <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                        <a href="https://www.confiance.ai/" target="_blank"><img class="logo_confiance" src="../Medias/logoconfiance.jpg"></a>
                     </div>
                     <div class="middle">
                         <nav class="navbar">
@@ -22,23 +24,25 @@
                         </nav>
                     </div>
                     <div class="right">
-                        <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150"></a>
+                        <a href="https://www.icam.fr/" target="_blank"><img class="logo_icam" src="../Medias/logo_icam_blanc.png"></a>
                     </div>
                 </header>
+
+                <!-- Corps de la page -->
                 <div class="projet">
                     <div class="top">
                         <h1>MAIAT : L&#39;&eacute;quipe</h1>
                         <h3>C&#39;est dans le cadre du programme &quot;Confiance.ai&quot; que l&#39;outil MAIAT a &eacute;t&eacute; cr&eacute;&eacute;.</h3>
-                        <a href="https://www.confiance.ai/" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                        <a href="https://www.confiance.ai/" target="_blank"><img src="../Medias/logoconfiance.jpg" class="logo_confiance"></a>
                         <p>Pilier technologique du Grand D&eacute;fi &laquo; S&eacute;curiser, certifier et fiabiliser les syst&egrave;mes fond&eacute;s sur l&rsquo;intelligence artificielle &raquo; lanc&eacute; par l&rsquo;Etat,
                             Confiance.ai est le plus gros programme de recherche technologique du plan #AIforHumanity qui doit faire de la France un des pays leader de
                             l&rsquo;intelligence artificielle (IA).</p>
                     </div>
                     <div class="bottom">
                         <div class="bottom-top">
-                            <a href="https://www.icam.fr/" class="bottom-top-center" target="_blank"><img src="../Medias/logo_icam.png" width="150" height="80" ></a>
-                            <a href="https://www.spix-industry.com/" class="bottom-top-left" target="_blank"><img src="../Medias/logospix.png"  width="150" height="64"></a>
-                            <a href="https://www.renault.fr/" class="bottom-top-right" target="_blank"><img src="../Medias/logo_renault.png" width="150" height="84"></a>
+                            <a href="https://www.icam.fr/" class="bottom-top-center" target="_blank"><img src="../Medias/logo_icam.png" class="logo_icam" ></a>
+                            <a href="https://www.spix-industry.com/" class="bottom-top-left" target="_blank"><img src="../Medias/logospix.png" class="logo_spix"></a>
+                            <a href="https://www.renault.fr/" class="bottom-top-right" target="_blank"><img src="../Medias/logo_renault.png" class="logo_renault"></a>
                         </div>
                         <div class="bottom-bottom">
                             <p class="bottom-bottom-center">L'Icam est une école d'ingénieur généraliste. L'équipe dirigée par Yann Ferguson, chercheur leader en Intelligence Artificielle et expert au GPAI,
@@ -53,11 +57,9 @@
                                 vocal dans l'industrie. La conception de MAIAT répond aussi à une volonté d'intégration des opérateurs dans l'évolution des ateliers de production.</p>
                         </div>
                     </div>
+                    <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
                 </div>
             </div>
-            <footer>
-                <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
-            </footer>
         </section>
     </body>
 </html>

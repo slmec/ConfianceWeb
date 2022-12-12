@@ -3,14 +3,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>MAIAT</title>
-        <link rel="stylesheet" href="../Vue/style_guide.css" />
+        <link rel="stylesheet" href="../Vue/style.css" />
     </head>
     <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
+
+                <!-- Barre de navigation !-->
                 <header>
                     <div class="left">
-                        <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
+                        <a href="https://www.confiance.ai/" target="_blank"><img class="logo_confiance" src="../Medias/logoconfiance.jpg"></a>
                     </div>
                     <div class="middle">
                         <nav class="navbar">
@@ -22,9 +24,11 @@
                         </nav>
                     </div>
                     <div class="right">
-                        <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150"></a>
+                        <a href="https://www.icam.fr/" target="_blank"><img class="logo_icam" src="../Medias/logo_icam_blanc.png"></a>
                     </div>
                 </header>
+
+                <!-- Corps de la page !-->
                 <div class="guide">
                     <h1>Présentation de MAIAT</h1>
                     <br>
@@ -35,9 +39,7 @@
                         <p>L’analyse se veut rapide et accessible à tous, sans prérequis théorique. Vous serez ainsi invités à répondre à un questionnaire de 24 questions.</p>
                     </div>
                     <br>
-                    <br>
                     <h3>Diagnostic</h3>
-                    <br>
                     <p>Le diagnostic se décompose en deux parties : </p>
                     <br>
                     <div class="image_guide">
@@ -63,8 +65,7 @@
                     <p>Le site MAIAT est sécurisé afin de répondre aux besoins et exigences des partenaires industriels. Nous avons cependant conçu trois
                     expériences afin de permettre à tout à chacun d’accéder à MAIAT, quelle que soit la politique de gestion des données de l’entreprise.
                     A minima, l’option hors ligne vous permettra de télécharger un fichier Excel afin d’éviter de faire transiter des informations sur le site.</p>
-                <br>
-                <div class="bas">
+                    <br>
                     <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
                 </div>
             </div>

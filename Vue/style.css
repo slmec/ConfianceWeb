@@ -1,3 +1,6 @@
+/* Définition des
+   règles du corps
+   de la page */
 *{
     margin:0;
     padding:0;
@@ -6,23 +9,20 @@
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
-/*
-body{
-    background: linear-gradient(145deg, #476ebf 10%, #5b9bf8 90%);
-    height: 100vh;
-    background-attachment: fixed;
-}*/
 body{
     background-attachment: fixed;
-}
-section {
 }
 section .container{
     max-width: 1400px;
     margin: auto;
     padding-top: 50px;
     height: 100%;
+    text-align: center;
 }
+
+/* Définition des
+   règles pour la
+   barre de navigation */
 section .container header{
     display: flex;
     flex-direction: row;
@@ -46,6 +46,7 @@ section .container nav a{
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Bouton actif */
 section .container nav a.active{
     border: 2px solid white;
     border-radius: 30px;
@@ -54,6 +55,7 @@ section .container nav a.active{
     padding-right: 28px;
     padding-left: 28px;
 }
+/* Bouton survolé */
 section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
@@ -62,12 +64,24 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
+/* Logos Confiance et Icam */
+section .container header .left .logo_confiance{
+    width: 150px;
+    aspect-ratio: 366/257;
+}
+section .container header .right .logo_icam{
+    width: 200px;
+    aspect-ratio: 537/331;
+}
 
-/* Changement index.php */
+
+/* Changement
+    index.php */
 .maiat{
     width: 90%;
     align-items: center;
     margin: auto;
+    text-align: center;
 }
 .maiat h1{
     text-align: center;
@@ -78,22 +92,32 @@ section .container nav a:hover{
 .maiat video{
     display: block;
     margin:0px auto 40px auto;
+    width: 640px;
+    aspect-ratio: 640/480;
 }
-.maiat img{
+.maiat .img_prix{
     display: block;
     margin:0px auto 40px auto;
+    width: 800px;
+    aspect-ratio: 877/620;
 }
 .maiat p{
     text-align: center;
     color: white;
     font-size: large;
 }
-.maiat i{
-    text-align: center;
-    color: white;
+
+/* Responsive accueil MAIAT */
+@media screen and (max-width: 1300px) {
+    .maiat .img_prix{
+        width: 600px;
+        aspect-ratio: 877/620;
+    }
 }
 
-/* Changement critere.php */
+
+/* Changement
+    critere.php */
 .critere{
     width: 100%;
     align-items: center;
@@ -260,7 +284,74 @@ section .container nav a:hover{
     aspect-ratio: 4226/2889;
 }
 
-/*Lien article*/
+/* Responsive critere.php */
+@media screen and (max-width: 1400px) {
+    section .container {
+        text-align: center;
+    }
+    .critere .reconnaissance{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 25px auto 0px auto;
+    }
+    .critere .desengagement{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .critere .controle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .critere .autonomie{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .critere .depossession{
+        flex-direction: column;
+        align-items: center;
+    }
+    .critere .deresponsabilisation{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .img_vignettes{
+        width: 1000px;
+        aspect-ratio: 379/168;
+    }
+}
+
+/* Réduction taille image explication critères */
+@media screen and (max-width: 1300px) {
+    .img_vignettes{
+        width: 800px;
+        aspect-ratio: 379/168;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .img_vignettes{
+        width: 650px;
+        aspect-ratio: 379/168;
+    }
+}
+
+/*Réduction de la taille des images*/
+@media screen and (max-width: 1230px) {
+    .img_basetheorique{
+        width: 500px;
+        aspect-ratio: 4226/2889;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .img_basetheorique{
+        width: 400px;
+        aspect-ratio: 4226/2889;
+    }
+}
+
+
+/* Lien article MAIAT*/
 .container .lien_article{
     text-align: center;
     margin-top: 15px;
@@ -287,12 +378,97 @@ section .container nav a:hover{
 }
 
 
-/* Changement projet.php */
+
+/* Changement
+    guide.php */
+section .container .guide{
+    color : white;
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+section .container .guide h1{
+    text-align: center;
+    padding: 0px;
+}
+section .container .guide h3{
+    text-align: center;
+    padding: 0px;
+    text-decoration: underline;
+}
+section .container .guide p{
+    padding: 10px;
+}
+section .container .guide figure{
+    text-align: center;
+}
+section .container .guide .image_guide{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+section .container .guide .image_guide_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-right: 5px;
+}
+section .container .guide .image_guide_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-left: 5px;
+}
+section .container .guide .img_radar2{
+    width: 900px;
+    aspect-ratio: 467/361;
+}
+section .container .guide .img_questionnaire{
+    width: 800px;
+    aspect-ratio: 327/151;
+}
+
+/* Responsive guide.php */
+@media screen and (max-width: 1300px) {
+    section .container .guide .image_guide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .container .guide .image_guide_right{
+        margin-top: 20px;
+    }
+    section .container .guide .img_questionnaire{
+        width: 600px;
+        aspect-ratio: 327/151;
+    }
+    section .container .guide .img_comparaison_diagnostics{
+        width: 600px;
+        aspect-ratio: 697/364;
+    }
+    section .container .guide .img_radar2{
+        width: 700px;
+        aspect-ratio: 467/361;
+    }
+    section .container .guide{
+        width: 60%;
+    }
+}
+
+
+
+/* Changement
+    projet
+    .php */
+
 .projet{
     width: 90%;
     margin: auto;
     align-items: center;
 }
+/* Modification au dessus des logos des partenaires */
 .projet .top{
     width: 70%;
     margin: auto;
@@ -307,6 +483,11 @@ section .container nav a:hover{
     display: block;
     margin:0px auto 0px auto;
 }
+.projet .top .logo_confiance{
+    width: 150px;
+    aspect-ratio: 366/257;
+}
+/* Modification à partir des logos des partenaires */
 .projet .bottom{
     width: 100%;
     display: flex;
@@ -318,6 +499,11 @@ section .container nav a:hover{
     width: 100%;
     align-items: end;
 }
+.projet .bottom .bottom-top img {
+    text-align: center;
+    align-items: center;
+    margin: auto 130px auto 130px;
+}
 .projet .bottom .bottom-bottom{
     display: flex;
     flex-direction: row;
@@ -327,23 +513,23 @@ section .container nav a:hover{
     align-items: start;
     margin: auto;
 }
-.projet .bottom .bottom-top img {
-    text-align: center;
-    align-items: center;
-    margin: auto 130px auto 130px;
-}
-
-
 .projet .bottom .bottom-bottom p{
     width: 33%;
     margin: 0px auto 0px auto;
     padding: 20px;
     text-align: center;
 }
-
-/* Responsive Accueil */
-@media screen and (max-width: 1400px) {
-    .maiat
+.projet .bottom .logo_icam{
+    width: 150px;
+    aspect-ratio: 400/213;
+}
+.projet .bottom .logo_spix{
+    width: 150px;
+    aspect-ratio: 40/17;
+}
+.projet .bottom .logo_renault{
+    width: 150px;
+    aspect-ratio: 16/9;
 }
 
 /* Responsive Projet */
@@ -436,64 +622,5 @@ section .container nav a:hover{
     }
     .projet .bottom .bottom-top .bottom-top-right{
         margin-top: 120px;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    section .container {
-        text-align: center;
-    }
-
-    .critere .reconnaissance{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin: 25px auto 0px auto;
-    }
-    .critere .desengagement{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .critere .controle{
-        flex-direction: column;
-        align-items: center;
-    }
-    .critere .autonomie{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .critere .depossession{
-        flex-direction: column;
-        align-items: center;
-    }
-    .critere .deresponsabilisation{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .img_vignettes{
-        width: 1000px;
-        aspect-ratio: 379/168;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .img_vignettes{
-        width: 800px;
-        aspect-ratio: 379/168;
-    }
-}
-
-/*Réduction de la taille des images*/
-@media screen and (max-width: 1230px) {
-    .img_basetheorique{
-        width: 500px;
-        aspect-ratio: 4226/2889;
-    }
-}
-@media screen and (max-width: 1030px) {
-    .img_basetheorique{
-        width: 400px;
-        aspect-ratio: 4226/2889;
     }
 }

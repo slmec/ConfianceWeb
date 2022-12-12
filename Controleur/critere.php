@@ -8,9 +8,11 @@
     <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
+
+                <!-- Barre de navigation !-->
                 <header>
                     <div class="left">
-                        <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106" ></a>
+                        <a href="https://www.confiance.ai/" target="_blank"><img class="logo_confiance" src="../Medias/logoconfiance.jpg"></a>
                     </div>
                     <div class="middle">
                         <nav class="navbar">
@@ -22,9 +24,11 @@
                         </nav>
                     </div>
                     <div class="right">
-                        <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150"></a>
+                        <a href="https://www.icam.fr/" target="_blank"><img class="logo_icam" src="../Medias/logo_icam_blanc.png"></a>
                     </div>
                 </header>
+
+                <!-- Corps de la page !-->
                 <div class="critere">
                     <div class="critere_top">
                         <h1>MAIAT : Les crit&egrave;res</h1>
@@ -32,7 +36,6 @@
                             l&#39;intallation d&#39;un Syst&egrave;me &agrave; base d&#39;Intelligence Artificielle (SIA) dans un milieu professionnel.</p>
                         <img class="img_vignettes" src="../Medias/schema_risques.PNG">
                     </div>
-
                     <div class="reconnaissance">
                         <div class="reconnaissance_left">
                             <img class="img_basetheorique" src="../Medias/reconnaissance.jpg">
@@ -161,11 +164,8 @@
                 <div class="lien_article">
                     <p>Pour en savoir plus : <a href="https://hal.archives-ouvertes.fr/hal-03796032" class="lien_article">Accès à l'article en ligne</a></p>
                 </div>
-            </div>
-
-            <footer>
                 <p>Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
-            </footer>
+            </div>
         </section>
     </body>
 </html>
