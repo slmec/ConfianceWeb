@@ -242,6 +242,8 @@ section .container .block_tableau{
     border-radius: 60px / 40px;
     background: rgba(238, 77, 96, 0.54);
     text-align: center;
+    margin: auto;
+
 }
 .bouton_telechargement{
     display: flex;
@@ -307,6 +309,7 @@ section .container .block_tableau{
     }
 }
 
+/*taille boutons */
 input[type='radio'] {
     height: 25px;
     width: 25px;
