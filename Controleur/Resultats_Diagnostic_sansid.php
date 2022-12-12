@@ -904,7 +904,7 @@ $resultat2 = mysqli_query($link,$requete2);*/
     <div class = "bouton">
         <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
     </div>
-    <form action="acceuil.php">
+    <form action="identification.php">
         <button type="submit">Retour au tableau de bord </button>
     </form>
     </div>
