@@ -31,7 +31,7 @@
                     <h3>Analyse par questionnaire</h3>
                     <br>
                     <div class="block_questionnaire">
-                        <img class="img_questionnaire" src="../Medias/img_questionnaire.png" width=800 height=370>
+                        <img class="img_questionnaire" src="../Medias/img_questionnaire.png">
                         <p>L’analyse se veut rapide et accessible à tous, sans prérequis théorique. Vous serez ainsi invités à répondre à un questionnaire de 24 questions.</p>
                     </div>
                     <br>
@@ -43,25 +43,25 @@
                     <div class="image_guide">
                         <div class="image_guide_left">
                             <img src="../Medias/img_radar.png" width=400 height=301.6>
-                            <p>Le radar vous permet d'avoir une vision globale et d'identifier les axes qui semblent les plus à risques</p>
+                            <p>Le radar vous permet d’avoir une vision globale de votre diagnostic. Les axes dont le score tend vers 0 sont considérés comme potentiellement les plus à risque. </p>
                         </div>
                         <div class="image_guide_right">
-                            <img src="../Medias/img_compterendu.png" width=400 height=134>
-                            <p>Suite à cela, une analyse détaillée par critère vous permet de donner du sens aux différents risques, de les qualifier afin</p>
+                            <img src="../Medias/img_compterendu.png" width=400 height=353>
+                            <p>Suite à cela, une analyse détaillée par critère vous permet de donner du sens aux différents risques. Les points critiques sont signalés par la police rouge et le panneaux « Warning ». Les champs « Interprétations » et « Plans d’actions » permettent de vous approprier le diagnostic.</p>
                         </div>
                     </div>
                     <br>
                     <br>
                     <h3>Comparaison des diagnostics</h3>
                     <br>
-                    <img src="../Medias/img_radar2.png" width=500 height=388>
+                    <img class="img_radar2" src="../Medias/img_radar2.png">
                     <p>Votre compte MAIAT vous permettra de comparer vos différents diagnostics afin de vous aider à prendre du recul et vous construire des repères sur ce qui peut impacter les différents critères de risques.</p>
                     <br>
                     <h3>Différentes options de connexion</h3>
                     <br>
-                    <img src="../Medias/img_comparaison_diagnostics.png">
+                    <img class="img_comparaison_diagnostics" src="../Medias/img_comparaison_diagnostics.png">
                     <p>Le site MAIAT est sécurisé afin de répondre aux besoins et exigences des partenaires industriels. Nous avons cependant conçu trois
-                    expériences afin de permettre à tout à chacun d’accéder à MAIAT, quel que soit la politique de gestion des données de l’entreprise.
+                    expériences afin de permettre à tout à chacun d’accéder à MAIAT, quelle que soit la politique de gestion des données de l’entreprise.
                     A minima, l’option hors ligne vous permettra de télécharger un fichier Excel afin d’éviter de faire transiter des informations sur le site.</p>
                 <br>
                 <div class="bas">

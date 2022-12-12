@@ -98,6 +98,8 @@ section .container nav a:hover{
     width: 100%;
     align-items: center;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .critere h1{
     text-align: center;
@@ -141,6 +143,10 @@ section .container nav a:hover{
 .critere .critere_top img{
     margin:10px auto 0px auto;
 }
+.img_vignettes{
+    width: 1200px;
+    aspect-ratio: 379/168;
+}
 .critere .critere_bottom{
     align-items: center;
     text-align: center;
@@ -151,7 +157,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 476px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -168,7 +174,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 476px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -185,7 +191,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 476px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -202,7 +208,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 530px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -220,7 +226,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 594px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -237,7 +243,7 @@ section .container nav a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 814px;
+
     align-items: start;
     margin-top: 25px;
 }
@@ -248,10 +254,16 @@ section .container nav a:hover{
     border: solid white 2px;
     padding: 5px;
 }
+/*Images de la base théorique*/
+.img_basetheorique{
+    width: 600px;
+    aspect-ratio: 4226/2889;
+}
 
 /*Lien article*/
 .container .lien_article{
     text-align: center;
+    margin-top: 15px;
 }
 .container .lien_article p{
     margin: 0;
@@ -260,13 +272,18 @@ section .container nav a:hover{
 .container .lien_article a{
     color: white;
     text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
     padding: 15px;
     margin-left: 2px;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 .container .lien_article a:hover{
     border: 2px solid white;
     border-radius: 30px;
-    padding: 13px;
+    padding: 15px;
+    text-decoration: none;
 }
 
 
@@ -431,173 +448,52 @@ section .container nav a:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 784px;
         width: 100%;
         margin: 25px auto 0px auto;
-        justify-content: space-between;
-    }
-    .critere .reconnaissance .reconnaissance_left{
-        text-align: center;
-        margin: 0px auto;
-        align-items: center;
-
-    }
-    .critere .reconnaissance .reconnaissance_right{
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
     }
     .critere .desengagement{
         flex-direction: column-reverse;
         align-items: center;
-        min-height: 852px;
     }
     .critere .controle{
         flex-direction: column;
         align-items: center;
-        min-height: 918px;
     }
     .critere .autonomie{
         flex-direction: column-reverse;
         align-items: center;
-        min-height: 1006px;
     }
     .critere .depossession{
         flex-direction: column;
         align-items: center;
-        min-height: 1070px;
     }
     .critere .deresponsabilisation{
         flex-direction: column-reverse;
         align-items: center;
-        min-height: 1312px;
     }
     .img_vignettes{
         width: 1000px;
-        height: 442px;
+        aspect-ratio: 379/168;
     }
 }
-/*.projet .bottom .bottom-left{
-    width: 33%;
-}
-.projet .bottom .bottom-left img{
-    display: block;
-    margin:0px auto 0px auto;
-}
-.projet .bottom .bottom-left p{
-    margin:0px 0px 0px 0px;
-}
-.projet .bottom .bottom-center{
-    width: 33%;
-}
-.projet .bottom .bottom-center img{
-    display: block;
-    margin:0px auto 0px auto;
-}
-.projet .bottom .bottom-center p{
-    margin:0px 0px 0px 0px;
-}
-.projet .bottom .bottom-right{
-    width: 33%;
-}
-.projet .bottom .bottom-right img{
-    display: block;
-    margin:0px auto 0px auto;
-}
-.projet .bottom .bottom-right p{
-    margin:0px 0px 0px 0px;
-}
-*/
 
-/*
-header {
-    height:15vh;
-    width: 100%;
-    background-color:#8E94E7;
-    background-size: cover;
-}
-.navbar {
-    position:absolute;
-    padding-top :40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-    align-items: center;
-}
-.navbar.logo{
-    width: 50px;
-    height: 50px;
-}
-.navbar .nav-links ul {
-    display: flex;
-}
-.navbar .nav-links ul li {
-    margin: 0 25px;
-    padding: 20px;
-    background-color: #8E94E7;
-    border: solid white;
-    border-width: thin;
-}
-.navbar .nav-links ul li.active{
-    margin: 0 25px;
-    padding: 20px;
-    background-color: #eeeeee;
-    border: solid white;
-    border-width: thin;
-}
-.navbar .nav-links ul li.active a{
-    color:#3333ff;
-    font-weight: bold;
-}
-.navbar .nav-links ul li a{
-    color: #ffffff;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 20px;
-    margin: -20px;
-    font-size: 20px;
-}
-.navbar .nav-links ul li a:hover{
-    color: #ffffff;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 20px;
-    margin: -20px;
-    background-color: #eeeeee;
-}
-.nav {
-    background-color: yellow;
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width:all;
+@media screen and (max-width: 1300px) {
+    .img_vignettes{
+        width: 800px;
+        aspect-ratio: 379/168;
+    }
 }
 
-form {
-    display: inline-block;
+/*Réduction de la taille des images*/
+@media screen and (max-width: 1230px) {
+    .img_basetheorique{
+        width: 500px;
+        aspect-ratio: 4226/2889;
+    }
 }
-
-.button {
-    font-size: 2em;
-    padding: 20px;
-    background-color: #8E94E7;
-    color: white;
+@media screen and (max-width: 1030px) {
+    .img_basetheorique{
+        width: 400px;
+        aspect-ratio: 4226/2889;
+    }
 }
-
-.button:hover {
-    font-size: 2em;
-    padding: 20px;
-    background-color: #757DEA;
-    color: white;
-}
-
-body {
-    background-color: #8E94E7;
-}
-*/
