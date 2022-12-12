@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <?php
-    session_start();
+include("../Modele/connexion_bdd.php");
     $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
-   
     mysqli_select_db($link, "Confiance" );
 ?>
 <html>

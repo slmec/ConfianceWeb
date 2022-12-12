@@ -1,12 +1,7 @@
 <?php
     session_start();
     // connexion à la base de données
-    $db_username = 'eleve.tou';
-    $db_password = 'et*301';
-    $db_name     = 'Confiance';
-    $db_host     = 'localhost';
-
-    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name) or die('could not connect to database');
+    include("../Modele/connexion_bdd.php");
 
     // diagnostic_new.php
         if(isset($_POST['Nom_Diagnostic'])){

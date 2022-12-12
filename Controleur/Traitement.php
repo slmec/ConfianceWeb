@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<?php
-session_start();
-$db_username = 'eleve.tou';
-$db_password = 'et*301';
-$db_name     = 'Confiance';
-$db_host     = 'localhost';
-
-$db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
-
-?>
+<?php include("../Modele/connexion_bdd.php"); ?>
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>MAIAT</title>
     <link rel="stylesheet" href="../Vue/style_resultats.css" />
+    <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 
 </head>
 <body background="../Medias/background_v2.jpg">
@@ -60,5 +52,18 @@ $db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
                 <p><input name="s'inscrire" type="submit" value="Valider et Retourner au tableau de bord" /></p>
             </form>
         </div>
+        <br>
+        <div class="erreur">
+
+            <?php
+            if(isset($_GET['erreur'])){
+                $err = $_GET['erreur'];
+                if($err==1)
+                    echo "<p style='color:#ffffff'>Aucune selection pour le traitement des données</p>";
+            }
+            ?>
+        </div>
 
     </div>
+</section>
+</body>

@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <?php
-session_start();
-$db_username = 'eleve.tou';
-$db_password = 'et*301';
-$db_name     = 'Confiance';
-$db_host     = 'localhost';
-
-$db = mysqli_connect($db_host, $db_username, $db_password,$db_name);
+include("../Modele/connexion_bdd.php");
 $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
-
 ?>
 <html>
 <head>
@@ -904,7 +897,7 @@ $resultat2 = mysqli_query($link,$requete2);*/
     <div class = "bouton">
         <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
     </div>
-    <form action="acceuil.php">
+    <form action="identification.php">
         <button type="submit">Retour au tableau de bord </button>
     </form>
     </div>
