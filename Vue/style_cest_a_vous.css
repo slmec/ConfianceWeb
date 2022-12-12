@@ -312,6 +312,13 @@ input[type='radio'] {
     width: 25px;
     vertical-align: middle; }
 
+input[type='checkbox'] {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    margin: auto;
+    display: block;}
+
 /*table pour titre et logo */
 .col_image{
     width:10% ;
