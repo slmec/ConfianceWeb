@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="responsive final guide fonctionnement">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="responsive base théorique final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/critere.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/critere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,14 +128,7 @@
       <workItem from="1670316174545" duration="14462000" />
       <workItem from="1670489945145" duration="5559000" />
       <workItem from="1670598437668" duration="236000" />
-      <workItem from="1670831586818" duration="4119000" />
-    </task>
-    <task id="LOCAL-00095" summary="modif css critere">
-      <created>1666355441816</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1666355441816</updated>
+      <workItem from="1670831586818" duration="5722000" />
     </task>
     <task id="LOCAL-00096" summary="modif css critere v2">
       <created>1666357045835</created>
@@ -473,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670513824310</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="responsive base théorique final">
+      <created>1670838927334</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1670838927334</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif hashage mdp" />
     <MESSAGE value="modif modif blog" />
     <MESSAGE value="modif responsive equipes et partenaires" />
     <MESSAGE value="modif responsive equipes et partenaires V2" />
@@ -520,7 +519,8 @@
     <MESSAGE value="modification responsive blog v5" />
     <MESSAGE value="Base théorique v1" />
     <MESSAGE value="responsive final guide fonctionnement" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive final guide fonctionnement" />
+    <MESSAGE value="responsive base théorique final" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive base théorique final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -62,25 +62,25 @@ or die('could not connect to database');
         </div>
     </div>
 </section>
+
 <?php
+    if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3){
+        //echo ("le nombre est ".count($_POST['adv']));
 
-if (isset($_POST['ok']) && count($_POST['adv']) >= 1 && count($_POST['adv'])<=3){
-    //echo ("le nombre est ".count($_POST['adv']));
-
-    if(isset($_POST['adv'])){
-       //echo '<p>Votre choix : </p>';
-        // $choix est l'id du diagnostique
-        foreach ($_POST['adv'] as $choix){
-            // echo $choix.'<br/>';
+        if(isset($_POST['adv'])){
+           //echo '<p>Votre choix : </p>';
+            // $choix est l'id du diagnostique
+            foreach ($_POST['adv'] as $choix){
+                // echo $choix.'<br/>';
+            }
         }
     }
-}
-if (isset($_POST['ok']) && count($_POST['adv'] ) >3 ) {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
-}
-if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
-    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
-}
+    if (isset($_POST['ok']) && count($_POST['adv'] ) >3 ) {
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+    }
+    if (isset($_POST['ok']) && count($_POST['adv'] ) ==0 ) {
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
+    }
 ?>
 <?php
 

@@ -16,7 +16,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>MAIAT</title>
     <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
-    <link rel="stylesheet" href="../Vue/style_fond_resultats_diagramme.css" />
 
 </head>
 <body background="../Medias/background_v2.jpg">
