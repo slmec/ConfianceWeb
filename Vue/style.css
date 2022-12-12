@@ -456,7 +456,20 @@ section .container .guide .img_questionnaire{
         width: 60%;
     }
 }
-
+@media screen and (max-width: 1200px) {
+    section .container .guide .img_radar2 {
+        width: 500px;
+        aspect-ratio: 467/361;
+    }
+    section .container .guide .img_questionnaire{
+        width: 500px;
+        aspect-ratio: 327/151;
+    }
+    section .container .guide .img_comparaison_diagnostics{
+        width: 500px;
+        aspect-ratio: 697/364;
+    }
+}
 
 
 /* Changement

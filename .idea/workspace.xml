@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="Simplification code partie blog">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="Simplification code partie blog V3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/hautdepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/impression.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/nav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_guide.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,28 +131,7 @@
       <workItem from="1670316174545" duration="14462000" />
       <workItem from="1670489945145" duration="5559000" />
       <workItem from="1670598437668" duration="236000" />
-      <workItem from="1670831586818" duration="13416000" />
-    </task>
-    <task id="LOCAL-00098" summary="modif critere">
-      <created>1666707614359</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1666707614359</updated>
-    </task>
-    <task id="LOCAL-00099" summary="modif fin blog">
-      <created>1666797474132</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1666797474134</updated>
-    </task>
-    <task id="LOCAL-00100" summary="modif bandeau blog">
-      <created>1666860874955</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1666860874956</updated>
+      <workItem from="1670831586818" duration="14429000" />
     </task>
     <task id="LOCAL-00101" summary="modif modif blog">
       <created>1666875334662</created>
@@ -487,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670858125662</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Simplification code partie blog">
+      <created>1670858304933</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1670858304933</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Simplification code partie blog V2">
+      <created>1670858404405</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1670858404405</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Simplification code partie blog V3">
+      <created>1670858608371</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1670858608371</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,8 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif responsive equipes et partenaires V2" />
-    <MESSAGE value="modif responsive equipes et partenaires V3" />
     <MESSAGE value="modif ajout image" />
     <MESSAGE value="modif criteres" />
     <MESSAGE value="modif guide" />
@@ -534,7 +521,9 @@
     <MESSAGE value="responsive base théorique final" />
     <MESSAGE value="modif" />
     <MESSAGE value="Simplification code partie blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplification code partie blog" />
+    <MESSAGE value="Simplification code partie blog V2" />
+    <MESSAGE value="Simplification code partie blog V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplification code partie blog V3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
