@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include("connexion.php"); ?>
+<?php include("../Modele/connexion_bdd.php"); ?>
 <html>
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
