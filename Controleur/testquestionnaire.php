@@ -46,8 +46,12 @@ session_start();
             <div class ="block_page">
                 <div class="block_form">
                     <form action="../Modele/verification_questionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
-
-                        <h1>La reconnaissance : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_reconnaissance.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>La reconnaissance : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
 
@@ -72,7 +76,12 @@ session_start();
                             </tr>
                         </table>
                         <br>
-                        <h1>Les relations humaines : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_relations_humaines.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>Les relations humaines : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
                                 <td class="question">La technologie introduit-elle une communication entre des machines ?</td>
@@ -96,7 +105,12 @@ session_start();
                             </tr>
                         </table>
                         <br>
-                        <h1>La surveillance : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_surveillance.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>La surveillance : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
                                 <td class="question"> Le système à base d'IA intègre-t-il une caméra/micro susceptible de filmer/écouter le travailleur ou d’être perçu comme tel ?</td>
@@ -120,7 +134,12 @@ session_start();
                             </tr>
                         </table>
                         <br>
-                        <h1>L'autonomie : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_autonomie.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>L'autonomie : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
                                 <td class="question"> Le système à base d'IA détermine-t-il un déroulement de l’action du travailleur ?</td>
@@ -144,7 +163,12 @@ session_start();
                             </tr>
                         </table>
                         <br>
-                        <h1>Le savoir-faire : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_savoir_faire.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>Le savoir faire : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
                                 <td class="question"> Le système à base d'IA modifie t-il l'équilibre entre intervention directe sur le produit et supervision de la machine ?</td>
@@ -168,7 +192,12 @@ session_start();
                             </tr>
                         </table>
                         <br>
-                        <h1>La responsabilité : </h1>
+                        <table>
+                            <tr>
+                                <td class="col_image"><img src="../Medias/logo_responsabilité.png" width="60px" height="60px"/></td>
+                                <td class="col_titre"><h1>La responsabilité : </h1></td>
+                            </tr>
+                        </table>
                         <table>
                             <tr>
                                 <td class="question"> L’imputation de responsabilités en cas de problème est-elle un enjeu majeur de l’activité et de l’organisation ?</td>

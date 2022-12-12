@@ -269,7 +269,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C1Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C1Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C1Q3_interpretation'] ?> </td>
@@ -415,7 +415,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C2Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C2Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C2Q3_interpretation'] ?> </td>
@@ -565,7 +565,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C3Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C3Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C3Q3_interpretation'] ?> </td>
@@ -714,7 +714,7 @@
                         <td class="col_2"></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C4Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C4Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C4Q3_interpretation'] ?> </td>
@@ -863,7 +863,7 @@
                         <td class="col_2"></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C5Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C5Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C5Q3_interpretation'] ?> </td>
@@ -1012,7 +1012,7 @@
                         <td class="col_2"></td>
                     </tr>
                     <tr>
-                        <td class="col_1"> Interpretations : </td>
+                        <td class="col_1"> Interprétations : </td>
                         <td class="col_2"> <?php echo $row['C6Q1_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C6Q2_interpretation'] ?> </td>
                         <td class="col_2"> <?php echo $row['C6Q3_interpretation'] ?> </td>
@@ -1043,16 +1043,16 @@
             </div>
 
             <br><hr><hr><br>
-            <button name="btn" type="submit"> Valider l'interpretation </button>
+            <button name="btn" type="submit"> Valider l'interprétation </button>
             <br><br>
         </form>
         <div class = "bouton">
             <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
         </div>
-        <form action="connexion.php">
+        <!-- <form action="connexion.php">
             <button type="submit">Retour au tableau de bord </button>
 
-        </form>
+        </form> -->
     </div>
 </section>
 
