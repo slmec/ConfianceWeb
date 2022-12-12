@@ -44,6 +44,15 @@ session_start();
                 <br><hr><br>
             </div>
             <div class ="block_page">
+                <div class="erreur">
+                    <?php
+                    if(isset($_GET['erreur'])){
+                        $err = $_GET['erreur'];
+                        if($err==1 )
+                            echo "<p style='color:#ffffff'>Veuillez completer tous les champs </p>";
+                    }
+                    ?>
+                </div>
                 <div class="block_form">
                     <form action="../Modele/verification_questionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
                         <table>
@@ -225,15 +234,7 @@ session_start();
                     </form>
                 </div>
                 <br>
-                <div class="erreur">
-                   <?php
-                    if(isset($_GET['erreur'])){
-                        $err = $_GET['erreur'];
-                        if($err==1 )
-                            echo "<p style='color:#ffffff'>Veuillez completer tous les champs </p>";
-                    }
-                    ?>
-                </div>
+
             </div>
         </div>
         <div class="bas">

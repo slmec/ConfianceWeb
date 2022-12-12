@@ -30,6 +30,15 @@
                         <h1>Diagnostic sans connexion</h1>
                         <br>
                     </div>
+                    <div class="erreur">
+                        <?php
+                        if(isset($_GET['erreur'])){
+                            $err = $_GET['erreur'];
+                            if($err==1 )
+                                echo "<p style='color:#ffffff'>Veuillez completer tous les champs </p>";
+                        }
+                        ?>
+                    </div>
                     <div class ="block_form">
                         <form action="../Modele/verification_questionnaire_sansid.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
                             <p>Entrez le nom de votre diagnostic :&nbsp;<input maxlength="250" name="Nom_Diagnostic" type="text" /></p>
@@ -211,15 +220,7 @@
                         </form>
                     </div>
                     <br>
-                    <div class="erreur">
-                        <?php
-                            if(isset($_GET['erreur'])){
-                                $err = $_GET['erreur'];
-                                if($err==1 )
-                                    echo "<p style='color:#ffffff'>Veuillez completer tous les champs </p>";
-                            }
-                        ?>
-                    </div>
+
                     <div class="bas">
                         <br>
                         <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

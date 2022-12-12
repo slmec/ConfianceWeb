@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="erreur">
-      <change afterPath="$PROJECT_DIR$/Modele/connexion_bdd.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="connexion bdd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,13 +130,6 @@
       <workItem from="1670489945145" duration="5559000" />
       <workItem from="1670598437668" duration="236000" />
       <workItem from="1670831586818" duration="5722000" />
-    </task>
-    <task id="LOCAL-00096" summary="modif css critere v2">
-      <created>1666357045835</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1666357045835</updated>
     </task>
     <task id="LOCAL-00097" summary="modif projet">
       <created>1666682068570</created>
@@ -473,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670838927334</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="connexion bdd">
+      <created>1670856572724</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1670856572724</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif modif blog" />
     <MESSAGE value="modif responsive equipes et partenaires" />
     <MESSAGE value="modif responsive equipes et partenaires V2" />
     <MESSAGE value="modif responsive equipes et partenaires V3" />
@@ -520,7 +520,8 @@
     <MESSAGE value="Base théorique v1" />
     <MESSAGE value="responsive final guide fonctionnement" />
     <MESSAGE value="responsive base théorique final" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive base théorique final" />
+    <MESSAGE value="connexion bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="connexion bdd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
