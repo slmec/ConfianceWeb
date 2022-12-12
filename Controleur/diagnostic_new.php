@@ -9,6 +9,7 @@
 <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -28,8 +29,6 @@
             </header>
             <div class="block_tableau">
                 <br><hr><br>
-                <h1 class="blanc">Nouveau Diagnostic</h1>
-                <br><hr><br>
             </div>
             <div class="navbar_deux">
                 <a class="active" href="diagnostic_new.php"> Nouveau Diagnostic </a>
@@ -39,11 +38,15 @@
             </div>
             <div class="block_tableau">
                 <br><hr><br>
+                <h1 class="blanc">Nouveau Diagnostic</h1>
+                <br><hr><br>
             </div>
+            <!-- Corps de page !-->
             <div class ="block_page">
                 <div class ="block_titre">
                     <p>Vous allez devoir r&eacute;pondre &agrave; 24 questions. Ces questions sont r&eacute;parties en 6 crit&egrave;res diff&eacute;rents.</p>
                 </div>
+                <!-- Formulaire nom du diagnostic !-->
                 <div class ="block_form">
                 <form action="../Modele/verification_nom_diagnostique.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
 
@@ -56,6 +59,7 @@
                 </form>
             </div>
             <br>
+                <!-- Gestion des erreurs !-->
             <div class="erreur">
                 <?php
                 if(isset($_GET['erreur'])){
@@ -70,6 +74,7 @@
                 ?>
             </div>
         </div>
+            <!-- Bas de page !-->
         <div class="bas">
             <br>
             <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

@@ -12,6 +12,7 @@
 <section>
     <div class="fond_entete">
         <div class="block_entete">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -43,6 +44,7 @@
     </div>
 
 <div class="container">
+    <!-- Corps de page !-->
     <div class="block_titre">
         <hr><hr><br>
         <h1> Evaluation globale </h1>
@@ -1040,13 +1042,7 @@
         <div class = "bouton">
             <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
         </div>
-        <!-- <form action="connexion.php">
-            <button type="submit">Retour au tableau de bord </button>
-
-        </form> -->
     </div>
 </section>
-
-
 </body>
 </html>

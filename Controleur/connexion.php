@@ -9,6 +9,7 @@
     <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -41,44 +42,27 @@
                 <br><hr><br>
             </div>
 
+            <!-- Corps de texte !-->
+            <div class="block_page">
+            <?php
+                $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
+                mysqli_select_db($link, "Confiance" );
+                     if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
-        <?php
-            $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
-            mysqli_select_db($link, "Confiance" );
-                 if ( ! $link ) die( "Impossible de se connecter à MySQL" );
+                //Intégration d'une autre variable en vue de la requete
+                $email_Utilisateur = $_SESSION['email_Utilisateur'];
+                $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
 
-            //Données récupérées du formulaire
-            //$post_string_email = (string) $_GET['email_Utilisateur'];
-            //$_SESSION['email_Utilisateur'] = $_POST['email_Utilisateur'];
-            //$_SESSION['mdp_Utilisateur'] = $_POST['mdp_Utilisateur'];
+                //Affichage des informations importantes de l'utilisateur
+                $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
+                $resultat = mysqli_query($link,$requete);
+                $row = mysqli_fetch_assoc($resultat) ;
+            ?>
+                <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
 
-            //Intégration d'une autre variable en vue de la requete
-            $email_Utilisateur = $_SESSION['email_Utilisateur'];
-            $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
-
-            //Affichage des informations importantes de l'utilisateur
-            $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
-            $resultat = mysqli_query($link,$requete);
-            $row = mysqli_fetch_assoc($resultat) ;
-        ?>
-            <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
-        </div>
-        <!-- <H2>Que souhaitez-vous faire ? </H2>
-            <form action = "diagnostic_new.php">
-                <input type="submit" value="Cr&eacute;er un nouveau diagnostic">
-            </form>
-            <form action = "diagnostic_suivi.php">
-                <input type="submit" value="Consulter mes diagnostics">
-            </form>
-            <form action = "profil.php">
-                <input type="submit" value="Mon profil">
-            </form>
-        <form action = "../Modele/deconnexion.php">
-            <input type="submit" value="Se deconnecter">
-        </form> -->
-
-        <?php
-            mysqli_close( $link );
-        ?>
+            <?php
+                mysqli_close( $link );
+            ?>
+            </div>
     </body>
 </html>

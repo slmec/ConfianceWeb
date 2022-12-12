@@ -10,6 +10,7 @@
 <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -41,8 +42,10 @@
                 <h1 class="blanc">Vos diagnostics </h1>
                 <br><hr><br>
             </div>
+            <!-- Corps de page !-->
             <div class="block_page">
                 <div class="block_form">
+                    <!-- Formulaire choix des diagnostics !-->
                     <form action="comparaison_diagnostic2.php" method="post" target="_self">
                         <?php
                             $id_utilisateur = $_SESSION['id_Utilisateur'];
@@ -70,6 +73,7 @@
                     </form>
                 </div>
                 <br>
+                <!-- Gestion des erreurs !-->
                 <div class="erreur">
                     <?php
                     if(isset($_GET['erreur'])){
@@ -79,17 +83,7 @@
                     }
                     ?>
                 </div>
-            <!--$rq = "INSERT INTO `Repondre` VALUES ('$Id_Utilisateur', '$Id_Critere')" ;
-            //$result =mysqli_query( $db, $rq )or die (mysqli_error($link));
-
-
-            //$requete = "SELECT Id_critere FROM Repondre WHERE Id_utilisateur =$Id_Utilisateur ";
-            //$resultat = mysqli_query($db,$requete);
-            //$row = mysqli_fetch_assoc($resultat) ;
-
-            //$_SESSION['id_Critere']=$row['Id_critere'];
-            //echo $_SESSION['id_Critere'];
-            //echo $_SESSION['id_Utilisateur']; -->
+                <!-- Bas de page !-->
                 <div class="bas">
                     <br>
                     <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

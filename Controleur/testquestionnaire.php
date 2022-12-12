@@ -10,6 +10,7 @@
 <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -42,6 +43,8 @@
                 <br><hr><br>
             </div>
             <div class ="block_page">
+                <!-- Corps de page !-->
+                <!-- Gestion des erreurs !-->
                 <div class="erreur">
                     <?php
                     if(isset($_GET['erreur'])){
@@ -51,6 +54,7 @@
                     }
                     ?>
                 </div>
+                <!-- Formulaire questionnaire !-->
                 <div class="block_form">
                     <form action="../Modele/verification_questionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
                         <table>
@@ -235,6 +239,7 @@
 
             </div>
         </div>
+        <!-- Bas de page !-->
         <div class="bas">
             <br>
             <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

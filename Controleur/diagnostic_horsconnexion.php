@@ -9,6 +9,7 @@
 <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -27,19 +28,11 @@
                 </div>
             </header>
             <div class ="block_page">
+                <!-- Coprs de page !-->
                 <div class ="block_titre">
                     <h1>Diagnostic hors ligne</h1>
                     <br>
                 </div>
-                <!--<div class ="block_form">
-                    <form action="" >
-                        <p>Vous avez choisit de ne pas r&eacute;aliser le test via notre outil en ligne.</p>
-                        <p>Pour ce faire vous devez faire la demande par mail sur le mail suivant : <strong>yann.ferguson@icam.fr</strong></p>
-                        <p>Par la suite, vous recevrez dans les meilleurs d&eacute;lais <strong>un fichier excel</strong>.</p>
-                         <a href="../Medias/MAIAT (3).xlsm" download > Telecharger</a>
-                        <p>Celle-ci est une version hors-ligne de l&#39;outil de mesure d&#39;acceptabilit&eacute; sociale de l&#39;IA au travail.&nbsp;</p>
-                    </form>
-                </div>-->
                 <div class="block_form">
                     <form action="" >
                         <p>Ce mode vous permet de réaliser un diagnostic sans stockage de données et sans connexion grâce à un fichier Excel.</p>
@@ -63,8 +56,8 @@
                         <br>
                         <p> Bonne utilisation de MAIAT ! </p>
                     </form>
-
                 </div>
+                <!-- Bas de page !-->
                 <div class="bas">
                     <br>
                     <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

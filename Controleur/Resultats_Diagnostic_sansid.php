@@ -14,6 +14,7 @@ $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
 <section>
     <div class="fond_entete">
         <div class="block_entete">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -38,6 +39,7 @@ $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
     </div>
 
     <div class="container">
+        <!-- Corps de page !-->
         <div class="block_titre">
             <hr><hr><br>
             <h1> Evaluation globale </h1>

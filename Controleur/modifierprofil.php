@@ -13,6 +13,7 @@
 <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -44,11 +45,10 @@
                 <h1 class="blanc">Modifier le profil </h1>
                 <br><hr><br>
             </div>
+            <!-- Corps de page !-->
             <div class="block_page">
                 <div class="block_form">
-
-
-
+                    <!-- Formulaire de modification profil !-->
                     <form action = "../Modele/modification.php" method="post">
                         <h4> Vos information personnelles : </h4>
                         <p> Nom : <?php echo $_SESSION['nom'] ?>
@@ -72,6 +72,7 @@
                     </form>
                 </div>
                 <br>
+                <!-- Gestion des erreurs !-->
                 <div class="erreur">
                     <?php
                           if(isset($_GET['erreur'])){
@@ -82,6 +83,7 @@
                           ?>
                 </div>
             </div>
+            <!-- Bas de page !-->
             <div class="bas">
                     <br>
                     <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

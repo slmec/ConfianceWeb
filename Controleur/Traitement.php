@@ -12,6 +12,7 @@
 <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
 <section>
     <div class="block_entete">
+        <!-- Barre de navigation !-->
         <header>
             <div class="left">
                 <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -41,6 +42,8 @@
         <br><hr><br>
     </div>
     <div class="container">
+        <!-- Corps de page!-->
+        <!-- Formulaire traitement données !-->
         <div class="block_form">
             <form action="..\Modele\ajout_traitement.php" method="post" name="profil" target="_self">
                 <p> A des fins de recherche et d'amélioration de MAIAT, je consens à ce que les données anonymisées de ce diagnostic soient partagées à l'Icam Toulouse. </p>
@@ -53,8 +56,8 @@
             </form>
         </div>
         <br>
+        <!-- Gestion des erreurs !-->
         <div class="erreur">
-
             <?php
             if(isset($_GET['erreur'])){
                 $err = $_GET['erreur'];
@@ -63,7 +66,6 @@
             }
             ?>
         </div>
-
     </div>
 </section>
 </body>

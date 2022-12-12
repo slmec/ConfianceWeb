@@ -5,15 +5,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>MAIAT</title>
         <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
-        <?php
-           $db =  mysqli_connect("localhost", "eleve.tou", "et*301");
-           mysqli_select_db($db, "Confiance" );
-           if ( ! $db ) die( "Impossible de se connecter à MySQL" );
-        ?>
     </head>
     <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
+                <!-- Barre de navigation !-->
                 <header>
                     <nav class="navbar">
                         <a href="../index.php" target="_blank" > MAIAT </a>
@@ -25,6 +21,7 @@
                 </header>
         </section>
         <?php
+        /* Récupération des variables */
             $nom_utilisateur = $_POST['nom_utilisateur'];
             $prenom_utilisateur = $_POST['prenom_utilisateur'];
             $email_utilisateur = $_POST['email_utilisateur'];
@@ -34,6 +31,7 @@
             $organisme_utilisateur = $_POST['organisme_utilisateur'];
             $donnees_utilisateur = $_POST['Données'];
 
+        /* Ajout dans BDD si accepte le traitement des données */
             if ($donnees_utilisateur == 1) {
             if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_utilisateur !== "" && $mdp_utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== ""){
                 $result = mysqli_query($db,"SELECT Email FROM Utilisateurs WHERE Email = '".$email_utilisateur."'");

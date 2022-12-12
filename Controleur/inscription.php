@@ -9,6 +9,7 @@
     <body background="../Medias/background_v2.jpg">
         <section>
             <div class="container">
+                <!-- Barre de navigation !-->
                 <header>
                     <div class="left">
                         <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -26,11 +27,13 @@
                         <a href="https://www.icam.fr/" class="logo" target="_blank"><img src="../Medias/logo_icam_blanc.png" width="243" height="150" ></a>
                     </div>
                 </header>
+                <!-- Corps de la page !-->
                 <div class="block_page">
                     <div class="block_titre">
                         <h1>Devenez membre de MAIAT</h1>
                         <br>
                     </div>
+                    <!-- Formulaire d'inscription !-->
                     <div class="block_form">
                         <form action="inscription2.php" method="post" name="profil" target="_self">
                             <h3>Formulaire d&#39;inscription :</h3>
@@ -46,6 +49,7 @@
                         </form>
                     </div>
                     <br>
+                    <!-- Contrôle des erreurs !-->
                     <div class="erreur">
                         <?php
                             if(isset($_GET['erreur'])){
@@ -63,6 +67,7 @@
                         ?>
                     </div>
                 </div>
+                <!-- Bas de page !-->
                 <div class="bas">
                     <br>
                     <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>

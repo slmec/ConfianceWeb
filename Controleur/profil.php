@@ -9,6 +9,7 @@
 <body background="../Medias/background_v2.jpg">
     <section>
         <div class="container">
+            <!-- Barre de navigation !-->
             <header>
                 <div class="left">
                     <a href="https://www.confiance.ai/" class="logo" target="_blank"><img src="../Medias/logoconfiance.jpg" width="150" height="106"></a>
@@ -51,9 +52,10 @@
                 $_SESSION['role']=$row['Roles'];
                 $_SESSION['organisme']=$row['Organisme'];
             ?>
+            <!-- Corps de page !-->
             <div class="block_page">
-
                 <div class="block_form">
+                    <!-- Formulaire profil !-->
                     <form action = "modifierprofil.php">
                         <h4> Vos information personnelles : </h4>
                         <p> Nom : <?php echo $_SESSION['nom'] ?>    </p>
@@ -65,9 +67,7 @@
                     </form>
                 </div>
             </div>
-        <!-- <form action = "connexion.php">
-                    <input type="submit" value="Retour au tableau de bord" >
-                </form> -->
+            <!-- Bas de page !-->
             <div class="bas">
                 <br>
                 <p class="bas">Si vous souhaitez contacter notre &eacute;quipe, vous pouvez nous &eacute;crire &agrave; l&#39;adresse mail suivante : yann.ferguson@icam.fr</p>
