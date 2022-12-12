@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php
-    session_start();
-?>
+<?php include("../Modele/connexion_bdd.php"); ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
