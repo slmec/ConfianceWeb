@@ -43,19 +43,19 @@
         </div>
     </div>
 
-<div class="container">
-    <!-- Corps de page !-->
-    <div class="block_titre">
-        <hr><hr><br>
-        <h1> Evaluation globale </h1>
-        <br><hr><hr><br>
+    <div class="container">
+        <!-- Corps de page !-->
+        <div class="block_titre">
+            <hr><hr><br>
+            <h1> Evaluation globale </h1>
+            <br><hr><hr><br>
+        </div>
+        <div class="block_legende">
+            <p>Evaluation tend vers 0 : risques sociaux importants </p>
+            <p>Evaluation tend vers 4 : risques sociaux réduits </p>
+            <br>
+        </div>
     </div>
-    <div class="block_legende">
-        <p>Evaluation tend vers 0 : risques sociaux importants </p>
-        <p>Evaluation tend vers 4 : risques sociaux réduits </p>
-        <br>
-    </div>
-</div>
 </section>
     <?php
         //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER

@@ -1,3 +1,6 @@
+/* Définition des
+   règles du corps
+   de la page */
 *{
     margin : auto;
     text-decoration: none;
@@ -7,8 +10,6 @@
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
-section {
-}
 section .container{
     margin: auto;
     max-width: 1400px;
@@ -16,7 +17,12 @@ section .container{
     height: 100%;
 }
 
-/*entete avec les barres de nav */
+
+/* Définition des
+   règles pour la
+   barre de navigation */
+
+/* Fond de couleur de la barre de navigation */
 section .fond_entete {
     padding-top: 0;
     background: #0e71a8;
@@ -29,6 +35,7 @@ section .block_entete{
     text-align: center;
     color: white;
 }
+/* Barre de navigation */
 section header{
     margin: auto;
     display: flex;
@@ -42,6 +49,7 @@ section nav{
     flex-direction: row;
     align-items: center;
 }
+/* Liens */
 section nav a{
     margin-left:40px;
     align-items: center;
@@ -52,6 +60,7 @@ section nav a{
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Bouton actif */
 section nav a.active{
     border: 2px solid white;
     border-radius: 30px;
@@ -60,6 +69,7 @@ section nav a.active{
     padding-right: 28px;
     padding-left: 28px;
 }
+/* Bouton survolé */
 section nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
@@ -68,10 +78,14 @@ section nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
+
+/* Deuxième barre
+de navigation */
 section .navbar_deux{
     align-items: center;
     padding: 10px;
 }
+/* Liens */
 section .navbar_deux a{
     margin-left:40px;
     align-items: center;
@@ -82,6 +96,7 @@ section .navbar_deux a{
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Bouton actif */
 section .navbar_deux a.active{
     border: 2px solid white;
     border-radius: 30px;
@@ -90,6 +105,7 @@ section .navbar_deux a.active{
     padding-right: 28px;
     padding-left: 28px;
 }
+/* Bouton survolé */
 section .navbar_deux a:hover{
     border: 2px solid white;
     border-radius: 30px;
@@ -99,25 +115,25 @@ section .navbar_deux a:hover{
     padding-left: 28px;
 }
 
-/* tittre entre lignes */
+
+
+/* Titres Principaux entre lignes horizontales */
 .block_titre{
     text-align : center ;
 }
-/* legende du diagramme*/
+/* Légende du diagramme radar */
 .block_legende{
     text-align : center ;
 }
-/* taille du diagramme radar */
+/* Ajustement de la taille du diagramme radar */
 canvas{
     width: 90%;
 }
-
-/*titre des criteres */
+/* Titres des critères */
 .block_titre_critere{
     text-aign : left ;
 }
-
-/*table des criteres */
+/* Tableau des critères */
 .block_table{
 }
 
@@ -128,7 +144,7 @@ table{}
     text-align : left ;
 }
 .block_table table .col_2{
-    width: 22,5%;
+    width: 22.5%;
     text-align : center;
 }
 
