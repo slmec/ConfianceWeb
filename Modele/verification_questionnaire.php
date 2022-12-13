@@ -26,22 +26,6 @@
         $C1Q3 = $_POST['C1Q3'];
         $C1Q4 = $_POST['C1Q4'];
 
-
-         /* $o = 1;
-        $b = 0;
-        while ($o <= 4) {
-            if (isset($_POST['Non_C1Q' . $o])) {
-                $Non[$o] = intval($_POST['Non_C1Q' . $o]);
-                $b = $b + $Non[$o];
-                $o++;
-            } else {
-                unset($_POST['Non_C1Q' . $o]);
-                $o++;
-            }
-
-            $_SESSION['critere_fragilisation_reconnaissance'] = $a + $b;
-
-        } */
     // note C2
             $i = 1;
             $a = 0;

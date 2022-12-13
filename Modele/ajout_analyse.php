@@ -10,6 +10,7 @@
         mysqli_select_db($db, "Confiance" );
         if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
+        /* Recuperation des variables */
         $Id_Critere = $_SESSION['id_Critere'];
 
         $C1Q1_interpretation = $_POST['C1Q1_interpretation'];
@@ -58,6 +59,7 @@
                 $result3 = mysqli_query($db, $requete3);
             }
 
+        /* Recuperation des variables */
         $C2Q1_interpretation = $_POST['C2Q1_interpretation'];
         $C2Q1_plan_action = $_POST['C2Q1_plan_action'];
         $C2Q2_interpretation = $_POST['C2Q2_interpretation'];
@@ -67,7 +69,7 @@
         $C2Q4_interpretation = $_POST['C2Q4_interpretation'];
         $C2Q4_plan_action = $_POST['C2Q4_plan_action'];
 
-        //C1
+        //C2
         if ($C2Q1_plan_action != ""){
             $requete2 = "UPDATE Diagnostics SET C2Q1_plan_action ='$C2Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
             $result2 = mysqli_query($db, $requete2);
@@ -104,6 +106,7 @@
             $result3 = mysqli_query($db, $requete3);
         }
 
+        /* Recuperation des variables */
         $C3Q1_interpretation = $_POST['C3Q1_interpretation'];
         $C3Q1_plan_action = $_POST['C3Q1_plan_action'];
         $C3Q2_interpretation = $_POST['C3Q2_interpretation'];
@@ -113,7 +116,7 @@
         $C3Q4_interpretation = $_POST['C3Q4_interpretation'];
         $C3Q4_plan_action = $_POST['C3Q4_plan_action'];
 
-        //C1
+        //C3
             if ($C3Q1_plan_action != ""){
                 $requete2 = "UPDATE Diagnostics SET C3Q1_plan_action ='$C3Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
                 $result2 = mysqli_query($db, $requete2);
@@ -150,7 +153,8 @@
                 $result3 = mysqli_query($db, $requete3);
             }
 
-            $C4Q1_interpretation = $_POST['C4Q1_interpretation'];
+        /* Recuperation des variables */
+        $C4Q1_interpretation = $_POST['C4Q1_interpretation'];
         $C4Q1_plan_action = $_POST['C4Q1_plan_action'];
         $C4Q2_interpretation = $_POST['C4Q2_interpretation'];
         $C4Q2_plan_action = $_POST['C4Q2_plan_action'];
@@ -159,7 +163,7 @@
         $C4Q4_interpretation = $_POST['C4Q4_interpretation'];
         $C4Q4_plan_action = $_POST['C4Q4_plan_action'];
 
-        //C1
+        //C4
             if ($C4Q1_plan_action !=""){
                 $requete2 = "UPDATE Diagnostics SET C4Q1_plan_action ='$C4Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
                 $result2 = mysqli_query($db, $requete2);
@@ -196,7 +200,8 @@
                 $result3 = mysqli_query($db, $requete3);
             }
 
-            $C5Q1_interpretation = $_POST['C5Q1_interpretation'];
+        /* Recuperation des variables */
+        $C5Q1_interpretation = $_POST['C5Q1_interpretation'];
         $C5Q1_plan_action = $_POST['C5Q1_plan_action'];
         $C5Q2_interpretation = $_POST['C5Q2_interpretation'];
         $C5Q2_plan_action = $_POST['C5Q2_plan_action'];
@@ -205,7 +210,7 @@
         $C5Q4_interpretation = $_POST['C5Q4_interpretation'];
         $C5Q4_plan_action = $_POST['C5Q4_plan_action'];
 
-        //C1
+        //C5
             if ($C5Q1_plan_action != ""){
                 $requete2 = "UPDATE Diagnostics SET C5Q1_plan_action ='$C5Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
                 $result2 = mysqli_query($db, $requete2);
@@ -242,7 +247,8 @@
                 $result3 = mysqli_query($db, $requete3);
             }
 
-            $C6Q1_interpretation = $_POST['C6Q1_interpretation'];
+        /* Recuperation des variables */
+        $C6Q1_interpretation = $_POST['C6Q1_interpretation'];
         $C6Q1_plan_action = $_POST['C6Q1_plan_action'];
         $C6Q2_interpretation = $_POST['C6Q2_interpretation'];
         $C6Q2_plan_action = $_POST['C6Q2_plan_action'];
@@ -251,7 +257,7 @@
         $C6Q4_interpretation = $_POST['C6Q4_interpretation'];
         $C6Q4_plan_action = $_POST['C6Q4_plan_action'];
 
-        //C1
+        //C6
             if ($C6Q1_plan_action != ""){
                 $requete2 = "UPDATE Diagnostics SET C6Q1_plan_action ='$C6Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
                 $result2 = mysqli_query($db, $requete2);

@@ -10,6 +10,7 @@
 mysqli_select_db($db, "Confiance" );
 if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
+/* L'icam peut t-il utiliser les données de ce diagnostic ? */
 if($_POST['Données_diag']='') {
     $Id_Critere = $_SESSION['id_Critere'];
     $données_diagnostic = $_POST['Données_diag'];
@@ -18,6 +19,7 @@ if($_POST['Données_diag']='') {
     $result = mysqli_query($db, $requete);
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
 }
+/* Si on ne choisi aucune case alors erreur */
 else{
     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Traitement.php?erreur=1');
 }
