@@ -1,3 +1,4 @@
+/* Définition des règles du corps de la page */
 *{
     margin : auto;
     text-decoration: none;
@@ -9,6 +10,7 @@
 }
 section {
 }
+/* Definition des regles du corps de page */
 section .container{
     margin: auto;
     max-width: 1400px;
@@ -16,11 +18,12 @@ section .container{
     height: 100%;
 }
 
-/*entete avec les barres de nav */
+/* Fond de la barre de navigation */
 section .fond_entete {
     padding-top: 0;
     background: #0e71a8;
 }
+/* Definition des regles de la barre de navigation */
 section .block_entete{
     margin: auto;
     padding-top: 50px;
@@ -52,22 +55,6 @@ section nav a{
     padding-right: 30px;
     padding-left: 30px;
 }
-section nav a.active{
-    border: 2px solid white;
-    border-radius: 30px;
-    padding-top : 18px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    padding-left: 28px;
-}
-section nav a:hover{
-    border: 2px solid white;
-    border-radius: 30px;
-    padding-top : 18px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    padding-left: 28px;
-}
 section .navbar_deux{
     align-items: center;
     padding: 10px;
@@ -82,7 +69,25 @@ section .navbar_deux a{
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Bouton actif */
+section nav a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
 section .navbar_deux a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+/* Bouton survolé */
+section nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -99,40 +104,42 @@ section .navbar_deux a:hover{
     padding-left: 28px;
 }
 
-/* tittre entre lignes */
+
+/* Definition des regles des titres */
 .block_titre{
     text-align : center ;
 }
-/* legende du diagramme*/
+/* Definition des regles des légendes */
 .block_legende{
     text-align : center ;
 }
-/* taille du diagramme radar */
+/* Definition des regles de la taille du diagramme radar */
 canvas{
     width: 90%;
 }
 
-/*titre des criteres */
+/* Definition des regles des titres des critères */
 .block_titre_critere{
     text-aign : left ;
 }
 
-/*table des criteres */
+/* Definition des regles de la table des critères */
 .block_table{
 }
-
 table{}
-
+/* Definition des regles des tableaux affichage*/
+/* Colonne 1 */
 .block_table table .col_1{
     width:10% ;
     text-align : left ;
 }
+/* Les autres colonnes */
 .block_table table .col_2{
     width: 22,5%;
     text-align : center;
 }
 
-/* boutons */
+/* Definition des regles du bouton de validation */
 button[type=submit] {
     background-color: #476ebf;
     color: white;
@@ -142,15 +149,15 @@ button[type=submit] {
     cursor: pointer;
     width: 100%;
 }
+/* Bouton survolé */
 button[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
 
-/* form*/
+/* Definition des regles pour les formulaires */
 .block_form form {
-
     padding: 30px;
     border: 1px solid #f1f1f1;
     background: #b6d1f8;
@@ -159,15 +166,17 @@ button[type=submit]:hover {
     align-items: center;
     text-align: center;
 }
+/* Definition des regles du textes p */
 .block_form form p{
     text-align: left;
 }
+/* Definition des regles du textes h3 */
 .block_form #container h3{
     width: 38%;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-
+/* Definition des regles des input text, mot de pass et checkbox */
 .block_form  input[type=text], input[type=password], input[type=checkbox] {
     width: 100%;
     padding: 12px 20px;
@@ -176,7 +185,7 @@ button[type=submit]:hover {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
+/* Definition des regles des input de validation */
 .block_form input[type=submit]{
     background-color: #476ebf;
     color: white;
@@ -186,11 +195,13 @@ button[type=submit]:hover {
     cursor: pointer;
     width: 100%;
 }
+/* Input survolé */
 .block_form input[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
+/* Definition des regles des boutons de validation */
 .block_form button[type=submit] {
     background-color: #476ebf;
     color: white;
@@ -200,13 +211,14 @@ button[type=submit]:hover {
     cursor: pointer;
     width: 100%;
 }
+/* Bouton survolé */
 .block_form button[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
 
-/*taille bouton radio */
+/* Definition des regles des boutons radio */
 input[type='radio'] {
     height: 25px;
     width: 25px;

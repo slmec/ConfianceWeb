@@ -1,3 +1,4 @@
+/* Définition des règles du corps de la page */
 *{
     margin:0;
     padding:0;
@@ -6,11 +7,12 @@
     box-sizing: border-box;
     font-family: "Calibri", sans-serif ;
 }
+/* Fond de la page */
 body{
     background-attachment: fixed;
 }
 
-/* Tableau */
+/* Definition des règles des tables lors des résultats et comparaisons */
 table{
     width: 100%;
     margin: auto;
@@ -19,24 +21,27 @@ td{
     text-align: left;
     padding-bottom: 1%;
 }
+/* Style des colonnes  */
 .question{
      width:80% ;
  }
-
+/* Style de la premiere colonne des titres  */
 .titre{
     text-align: left;
     width:10% ;
 }
 
-/* bouton haut de page */
 section {
 }
+
 section .container{
     max-width: 1400px;
     margin: auto;
     padding-top: 50px;
     height: 100%;
 }
+
+/* Définition des règles pour les barres de navigation */
 section .container header{
     display: flex;
     flex-direction: row;
@@ -60,23 +65,6 @@ section .container nav a{
     padding-left: 30px;
     text-align: center;
 }
-section .container nav a.active{
-    border: 2px solid white;
-    border-radius: 30px;
-    padding-top : 18px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    padding-left: 28px;
-}
-section .container nav a:hover{
-    border: 2px solid white;
-    border-radius: 30px;
-    padding-top : 18px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    padding-left: 28px;
-}
-
 section .container .navbar_deux{
     align-items: center;
     text-align: center;
@@ -94,7 +82,25 @@ section .container .navbar_deux a{
     padding-right: 30px;
     padding-left: 30px;
 }
+/* Bouton actif */
+section .container nav a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
 section .container .navbar_deux a.active{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top : 18px;
+    padding-bottom: 18px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+/* Bouton survolé */
+section .container nav a:hover{
     border: 2px solid white;
     border-radius: 30px;
     padding-top : 18px;
@@ -111,42 +117,49 @@ section .container .navbar_deux a:hover{
     padding-left: 28px;
 }
 
-/*aligner text au dessus form */
+/* Definition des regles du corps de page */
 section .block_page{
     align-items: start;
     margin: auto;
     width:70%;
 }
+/* Definition des regles des titres */
 section .block_titre{
     width: 70%;
 }
+/* Definition des regles des titres h1 */
 section .block_titre h1{
     color: white;
     text-decoration: underline;
     margin-top: 10px;
 }
+/* Definition des regles des titres p */
 section .block_titre p{
     color: white;
     margin-top: 10px;
 }
-section .block_form{
-    width: 100%;
-    margin: 25px auto 0 auto;
-}
+
+/* Definition des regles des images */
 section .block_form figure{
     text-align: center;
     margin: auto;
 }
+
+/* Definition des regles des form */
+section .block_form{
+    width: 100%;
+    margin: 25px auto 0 auto;
+}
+/* Definition des regles des form h1 */
 section .block_form h1{
     text-decoration: underline;
 }
+
 section .block_table{
 }
 
-
-/* form*/
+/* Definition des règles pour les formulaires*/
 section .block_page .block_form form {
-
     padding: 30px;
     border: 1px solid #f1f1f1;
     background: #b6d1f8;
@@ -155,15 +168,17 @@ section .block_page .block_form form {
     align-items: center;
     text-align: center;
 }
+/* Style du texte p */
 section .block_page .block_form form p{
     text-align: left;
 }
+/* Style du texte h3 */
  section .block_page .block_form #container h3{
     width: 38%;
     margin: 0 auto;
     padding-bottom: 20px;
 }
-
+/* Style des input text, mot de passe et checkbox */
 section .block_page .block_form  input[type=text], input[type=password], input[type=checkbox] {
     width: 100%;
     padding: 12px 20px;
@@ -172,7 +187,7 @@ section .block_page .block_form  input[type=text], input[type=password], input[t
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
+/* Style de l'input de validation */
 section .block_page .block_form input[type=submit]{
     background-color: #476ebf;
     color: white;
@@ -182,11 +197,13 @@ section .block_page .block_form input[type=submit]{
     cursor: pointer;
     width: 100%;
 }
+/* input survolé */
 section .block_page .block_form input[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
+/* Style du bouton de validation */
 section .block_page .block_form button[type=submit] {
     background-color: #476ebf;
     color: white;
@@ -196,20 +213,24 @@ section .block_page .block_form button[type=submit] {
     cursor: pointer;
     width: 100%;
 }
+/* bouton survolé */
 section .block_page .block_form button[type=submit]:hover {
     background-color: white;
     color: #476ebf;
     border: 1px solid #476ebf;
 }
 
+/* */
 .ndiag{
     text-align: center;
 }
 
+/* Definition des règles pour la table dans un form*/
 section .block_page .block_form table {
     width: 100%;
     margin: auto;
 }
+/* Style du texte d'une table dans un form*/
 section .block_page .block_form td{
     text-align: left;
     padding-bottom: 1%;
@@ -221,8 +242,7 @@ section .block_page .block_form .gras{
     font-weight: bold;
 }
 
-
-/*footer*/
+/*Definition des règles pour le pied de page*/
 .bas{
     text-align: center;
     color: white;
@@ -236,6 +256,8 @@ section .container .block_tableau{
     text-align: center;
     border-radius: 10px;
 }
+
+/* Définition des règles pour l'affichage des erreurs */
 .erreur {
     width: 80% ;
     height: 30%;
@@ -243,8 +265,9 @@ section .container .block_tableau{
     background: rgba(238, 77, 96, 0.54);
     text-align: center;
     margin: auto;
-
 }
+
+/*  */
 .bouton_telechargement{
     display: flex;
     flex-direction: row;
@@ -309,12 +332,13 @@ section .container .block_tableau{
     }
 }
 
-/*taille boutons */
+/* Définition des règles de style d'un bouton radio */
 input[type='radio'] {
     height: 25px;
     width: 25px;
     vertical-align: middle; }
 
+/* Définition des règles de style d'une case a cocher */
 input[type='checkbox'] {
     height: 20px;
     width: 20px;
@@ -322,11 +346,13 @@ input[type='checkbox'] {
     margin: auto;
     display: block;}
 
-/*table pour titre et logo */
+/* Définition des règles pour les images et les titre sur la page d'un questionnaire */
+/* Colonne image */
 .col_image{
     width:10% ;
     text-align : center ;
 }
+/* Colonne titre */
 .col_titre{
     text-align : left ;
 }
