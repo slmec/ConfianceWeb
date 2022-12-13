@@ -35,6 +35,7 @@ section .container nav{
     flex-direction: row;
     align-items: center;
 }
+/* Liens */
 section .container nav a{
     margin-left:40px;
     align-items: center;
