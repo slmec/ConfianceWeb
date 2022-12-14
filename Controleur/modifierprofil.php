@@ -56,16 +56,16 @@
                     <!-- Formulaire de modification profil !-->
                     <form action = "../Modele/modification.php" method="post">
                         <h4> Vos information personnelles : </h4>
-                        <p> Nom : <?php echo $_SESSION['nom'] ?>
+                        <p> Nom : <?php echo $_SESSION['Nom'] ?>
                             <input type="text" placeholder="Modifier mon nom" name="new_nom">
                         </p>
-                        <p> Prénom : <?php echo $_SESSION['prenom'] ?>
+                        <p> Prénom : <?php echo $_SESSION['Prenom'] ?>
                             <input type="text" placeholder="Modifier mon prenom" name="new_prenom">
                         </p>
-                        <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['role'] ?>
+                        <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['Role'] ?>
                             <input type="text" placeholder="Modifier mon rôle" name="new_role">
                         </p>
-                        <p> Organisme : <?php echo $_SESSION['organisme'] ?>
+                        <p> Organisme : <?php echo $_SESSION['Organisme'] ?>
                             <input type="text" placeholder="Modifier mon organisation" name="new_organisme">
                         </p>
                         <input class="learn-more-btn" type="submit" id='submit' value='Valider la modification' >
