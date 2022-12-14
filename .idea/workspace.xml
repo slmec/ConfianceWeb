@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="affichage profil">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif profil">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +137,7 @@
       <workItem from="1670598437668" duration="236000" />
       <workItem from="1670831586818" duration="16751000" />
       <workItem from="1670920203959" duration="5772000" />
-      <workItem from="1671008174719" duration="6669000" />
-    </task>
-    <task id="LOCAL-00109" summary="modif index + critere">
-      <created>1668439265879</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1668439265879</updated>
+      <workItem from="1671008174719" duration="9934000" />
     </task>
     <task id="LOCAL-00110" summary="modif blog">
       <created>1668439674781</created>
@@ -475,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671024164617</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="modif profil">
+      <created>1671024377923</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1671024377923</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement" />
     <MESSAGE value="changement v2" />
     <MESSAGE value="changement prequestionnaire" />
     <MESSAGE value="changement barre nav v1" />
@@ -522,7 +528,8 @@
     <MESSAGE value="inscription" />
     <MESSAGE value="connexion" />
     <MESSAGE value="affichage profil" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage profil" />
+    <MESSAGE value="modif profil" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif profil" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

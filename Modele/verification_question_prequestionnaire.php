@@ -9,14 +9,14 @@
     or die('could not connect to database');
 
     //Questions_prequestionnaire.php
-    if ($_POST['Contexte_casusage'] !== "" && $_POST['Objectif_sia'] !== "" && $_POST['Fonctionnement_sia'] !== "" && $_POST['Utilisation_sia'] !== "" && $_POST['Maturite'] !== "") {
+    if ($_POST['SIA_contexte'] !== "" && $_POST['SIA_objectif'] !== "" && $_POST['SIA_fonctionnement'] !== "" && $_POST['SIA_utilisation'] !== "" && $_POST['SIA_maturite'] !== "") {
 
 
-        $_SESSION['Contexte_casusage'] = $_POST['Contexte_casusage'];
-        $_SESSION['Objectif_sia'] = $_POST['Objectif_sia'];
-        $_SESSION['Fonctionnement_sia'] = $_POST['Fonctionnement_sia'];
-        $_SESSION['Utilisation_sia'] = $_POST['Utilisation_sia'];
-        $_SESSION['Maturite'] = $_POST['Maturite'];
+        $_SESSION['SIA_contexte'] = $_POST['SIA_contexte'];
+        $_SESSION['SIA_objectif'] = $_POST['SIA_objectif'];
+        $_SESSION['SIA_fonctionnement'] = $_POST['SIA_fonctionnement'];
+        $_SESSION['SIA_utilisation'] = $_POST['SIA_utilisation'];
+        $_SESSION['SIA_maturite'] = $_POST['SIA_maturite'];
 
 
                 header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire.php');

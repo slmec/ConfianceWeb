@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
     </head>
     <body background="../Medias/background_v2.jpg">
-    <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
+    <?php $Nom_diagnostic = $_SESSION['Nom_diagnostic']; ?>
         <section>
             <div class="container">
                 <!-- Barre de navigation !-->
@@ -39,7 +39,7 @@
                 </div>
                 <div class="block_tableau">
                     <br><hr><br>
-                    <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
+                    <h1 class="blanc">Diagnostic <?php echo $Nom_diagnostic ?></h1>
                     <br><hr><br>
                 </div>
                 <div class ="block_page">

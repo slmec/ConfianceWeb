@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <?php
-// connexion à la base de données
-include("../Modele/connexion_bdd.php");
-session_start();
-$db_username = $_SESSION['db_username'];
-$db_password = $_SESSION['db_password'];
-$db_name = $_SESSION['db_name'];
-$db_host = $_SESSION['db_host'];
-$db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
-or die('could not connect to database');
+    // connexion à la base de données
+    include("../Modele/connexion_bdd.php");
+    $db_username = $_SESSION['db_username'];
+    $db_password = $_SESSION['db_password'];
+    $db_name = $_SESSION['db_name'];
+    $db_host = $_SESSION['db_host'];
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+    or die('could not connect to database');
 ?>
 <html>
 <head>
@@ -18,7 +17,7 @@ or die('could not connect to database');
 
 </head>
     <body>
-    <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
+    <?php $Nom_diagnostic = $_SESSION['Nom_diagnostic']; ?>
         <section>
             <div class="fond_entete">
                 <div class="block_entete">
@@ -48,7 +47,7 @@ or die('could not connect to database');
                         <a href="../Modele/deconnexion.php">Deconnexion</a>
                     </div>
                     <br><hr><br>
-                    <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
+                    <h1 class="blanc">Diagnostic <?php echo $Nom_diagnostic ?></h1>
                     <br><hr><br>
                 </div>
             </div>
@@ -69,13 +68,13 @@ or die('could not connect to database');
         </section>
         <?php
             //Intégration de la note du critère dans la BDD - UNE SEULE FOIS EN DERNIER FICHIER
-        $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
-        $critere2 = $_SESSION['critere_Desengagement_Relationnel'];
-        $critere3 = $_SESSION['critere_Surveillance'];
-        $critere4 = $_SESSION['critere_Perte_Autonomie'];
-        $critere5 = $_SESSION['critere_Sentiment_Depossession'];
-        $critere6 = $_SESSION['critere_Deresponsabilite'];
-        $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']
+        $critere1 = $_SESSION['C1'];
+        $critere2 = $_SESSION['C2'];
+        $critere3 = $_SESSION['C3'];
+        $critere4 = $_SESSION['C4'];
+        $critere5 = $_SESSION['C5'];
+        $critere6 = $_SESSION['C6'];
+        $Nom_diagnostic = $_SESSION['Nom_diagnostic']
         ?>
         <div class="chart-container">
             <canvas id="radarCanvas" aria-label="chart" role="img" ></canvas>
@@ -104,7 +103,7 @@ or die('could not connect to database');
                         "La responsabilité"
                     ],
                     datasets: [{
-                        label: '<?=$Nom_Diagnostic?>',
+                        label: '<?=$Nom_diagnostic?>',
                         data: [
                             <?= $critere1?>,
                             <?= $critere2?>,
@@ -144,8 +143,8 @@ or die('could not connect to database');
             })
         </script>
         <?php
-        $Id_Critere = $_SESSION['id_Critere'];
-        $requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$Id_Critere'";
+        $Id_diagnostic = $_SESSION['Id_diagnostic'];
+        $requete = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$Id_diagnostic'";
         $resultat = mysqli_query($db, $requete);
         $row = mysqli_fetch_assoc($resultat);
         ?>

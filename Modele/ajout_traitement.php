@@ -16,21 +16,19 @@
     </head>
     <body onload="init();">
         <?php
-        mysqli_select_db($db, "Confiance" );
-        if ( ! $db ) die( "Impossible de se connecter à MySQL" );
 
         /* L'icam peut t-il utiliser les données de ce diagnostic ? */
-        if($_POST['Données_diag']='') {
-            $Id_Critere = $_SESSION['id_Critere'];
-            $données_diagnostic = $_POST['Données_diag'];
+        if($_POST['TraitementDonnees'] !="") {
+            $Id_diagnostic = $_SESSION['Id_diagnostic'];
+            $TraitementDonnees = $_POST['TraitementDonnees'];
 
-            $requete = "UPDATE Diagnostics SET Données_traitement ='$données_diagnostic' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete = "UPDATE Diagnostics SET TraitementDonnees ='$TraitementDonnees' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result = mysqli_query($db, $requete);
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
+            header('Location: ../Controleur/connexion.php');
         }
         /* Si on ne choisi aucune case alors erreur */
         else{
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Traitement.php?erreur=1');
+            header('Location: ../Controleur/Traitement.php?erreur=1');
         }
             ?>
     </body>

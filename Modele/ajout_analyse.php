@@ -2,7 +2,6 @@
 <?php
 // connexion à la base de données
 include("../Modele/connexion_bdd.php");
-session_start();
 $db_username = $_SESSION['db_username'];
 $db_password = $_SESSION['db_password'];
 $db_name = $_SESSION['db_name'];
@@ -17,11 +16,8 @@ or die('could not connect to database');
     </head>
     <body onload="init();">
         <?php
-        mysqli_select_db($db, "Confiance" );
-        if ( ! $db ) die( "Impossible de se connecter à MySQL" );
-
         /* Recuperation des variables */
-        $Id_Critere = $_SESSION['id_Critere'];
+        $Id_diagnostic = $_SESSION['Id_diagnostic'];
 
         $C1Q1_interpretation = $_POST['C1Q1_interpretation'];
         $C1Q1_plan_action = $_POST['C1Q1_plan_action'];
@@ -34,38 +30,38 @@ or die('could not connect to database');
 
         //C1
         if ($C1Q1_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C1Q1_plan_action ='$C1Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C1Q1_plan_action ='$C1Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C1Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C1Q1_interpretation ='$C1Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C1Q1_interpretation ='$C1Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C1Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C1Q2_plan_action ='$C1Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C1Q2_plan_action ='$C1Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C1Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C1Q2_interpretation ='$C1Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C1Q2_interpretation ='$C1Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C1Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C1Q3_plan_action ='$C1Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C1Q3_plan_action ='$C1Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C1Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C1Q3_interpretation ='$C1Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C1Q3_interpretation ='$C1Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C1Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C1Q4_plan_action ='$C1Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C1Q4_plan_action ='$C1Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C1Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C1Q4_interpretation ='$C1Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C1Q4_interpretation ='$C1Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
@@ -81,38 +77,38 @@ or die('could not connect to database');
 
         //C2
         if ($C2Q1_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C2Q1_plan_action ='$C2Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C2Q1_plan_action ='$C2Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C2Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C2Q1_interpretation ='$C2Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C2Q1_interpretation ='$C2Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C2Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C2Q2_plan_action ='$C2Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C2Q2_plan_action ='$C2Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C2Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C2Q2_interpretation ='$C2Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C2Q2_interpretation ='$C2Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C2Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C2Q3_plan_action ='$C2Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C2Q3_plan_action ='$C2Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C2Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C2Q3_interpretation ='$C2Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C2Q3_interpretation ='$C2Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C2Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C2Q4_plan_action ='$C2Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C2Q4_plan_action ='$C2Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C2Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C2Q4_interpretation ='$C2Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C2Q4_interpretation ='$C2Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
@@ -128,38 +124,38 @@ or die('could not connect to database');
 
         //C3
         if ($C3Q1_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C3Q1_plan_action ='$C3Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C3Q1_plan_action ='$C3Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C3Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C3Q1_interpretation ='$C3Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C3Q1_interpretation ='$C3Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C3Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C3Q2_plan_action ='$C3Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C3Q2_plan_action ='$C3Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C3Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C3Q2_interpretation ='$C3Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C3Q2_interpretation ='$C3Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C3Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C3Q3_plan_action ='$C3Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C3Q3_plan_action ='$C3Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C3Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C3Q3_interpretation ='$C3Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C3Q3_interpretation ='$C3Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C3Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C3Q4_plan_action ='$C3Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C3Q4_plan_action ='$C3Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C3Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C3Q4_interpretation ='$C3Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C3Q4_interpretation ='$C3Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
@@ -175,38 +171,38 @@ or die('could not connect to database');
 
         //C4
         if ($C4Q1_plan_action !=""){
-            $requete2 = "UPDATE Diagnostics SET C4Q1_plan_action ='$C4Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C4Q1_plan_action ='$C4Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C4Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C4Q1_interpretation ='$C4Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C4Q1_interpretation ='$C4Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C4Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C4Q2_plan_action ='$C4Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C4Q2_plan_action ='$C4Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C4Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C4Q2_interpretation ='$C4Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C4Q2_interpretation ='$C4Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C4Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C4Q3_plan_action ='$C4Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C4Q3_plan_action ='$C4Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C4Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C4Q3_interpretation ='$C4Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C4Q3_interpretation ='$C4Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C4Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C4Q4_plan_action ='$C4Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C4Q4_plan_action ='$C4Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C4Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C4Q4_interpretation ='$C4Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C4Q4_interpretation ='$C4Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
@@ -222,38 +218,38 @@ or die('could not connect to database');
 
         //C5
         if ($C5Q1_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C5Q1_plan_action ='$C5Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C5Q1_plan_action ='$C5Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C5Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C5Q1_interpretation ='$C5Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C5Q1_interpretation ='$C5Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C5Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C5Q2_plan_action ='$C5Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C5Q2_plan_action ='$C5Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C5Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C5Q2_interpretation ='$C5Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C5Q2_interpretation ='$C5Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C5Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C5Q3_plan_action ='$C5Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C5Q3_plan_action ='$C5Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C5Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C5Q3_interpretation ='$C5Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C5Q3_interpretation ='$C5Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C5Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C5Q4_plan_action ='$C5Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C5Q4_plan_action ='$C5Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C5Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C5Q4_interpretation ='$C5Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C5Q4_interpretation ='$C5Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
@@ -269,38 +265,38 @@ or die('could not connect to database');
 
         //C6
         if ($C6Q1_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C6Q1_plan_action ='$C6Q1_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C6Q1_plan_action ='$C6Q1_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C6Q1_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C6Q1_interpretation ='$C6Q1_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C6Q1_interpretation ='$C6Q1_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C6Q2_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C6Q2_plan_action ='$C6Q2_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C6Q2_plan_action ='$C6Q2_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C6Q2_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C6Q2_interpretation ='$C6Q2_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C6Q2_interpretation ='$C6Q2_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C6Q3_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C6Q3_plan_action ='$C6Q3_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C6Q3_plan_action ='$C6Q3_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C6Q3_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C6Q3_interpretation ='$C6Q3_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C6Q3_interpretation ='$C6Q3_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 
         if ($C6Q4_plan_action != ""){
-            $requete2 = "UPDATE Diagnostics SET C6Q4_plan_action ='$C6Q4_plan_action' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete2 = "UPDATE Diagnostics SET C6Q4_plan_action ='$C6Q4_plan_action' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result2 = mysqli_query($db, $requete2);
         }
         if ($C6Q4_interpretation != ""){
-            $requete3 = "UPDATE Diagnostics SET C6Q4_interpretation ='$C6Q4_interpretation' WHERE Id_critere_bis = '$Id_Critere' ";
+            $requete3 = "UPDATE Diagnostics SET C6Q4_interpretation ='$C6Q4_interpretation' WHERE Id_diagnostic = '$Id_diagnostic' ";
             $result3 = mysqli_query($db, $requete3);
         }
 

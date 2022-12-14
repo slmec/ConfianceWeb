@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
 </head>
 <body background="../Medias/background_v2.jpg">
-    <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
+    <?php $Nom_diagnostic = $_SESSION['Nom_diagnostic']; ?>
     <section>
         <div class="container">
             <!-- Barre de navigation !-->
@@ -48,7 +48,7 @@
             </div>
             <div class="block_tableau">
                 <br><hr><br>
-                <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
+                <h1 class="blanc">Diagnostic <?php echo $Nom_diagnostic ?></h1>
                 <br><hr><br>
             </div>
             <!-- Corps de Page!-->
@@ -58,36 +58,36 @@
                         <form action="../Modele/verification_question_prequestionnaire.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
                             <h4>Pour débuter ce questionnaire, nous avons besoin d'informations préalables afin de comprendre votre syst&egrave;me &agrave; base d&#39;IA.</h4>
                             <br>
-                            <p>Dans quel contexte est utilis&eacute; le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Contexte_casusage" type="text" /></p>
-                            <p>Quel est l&#39;objectif du syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Objectif_sia" type="text" /></p>
-                            <p>Quelle est l'interaction entre l’homme et le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="Fonctionnement_sia" type="text" /></p>
-                            <p>Par qui est-il utilis&eacute; ?&nbsp;<input maxlength="500" name="Utilisation_sia" type="text" /></p>
+                            <p>Dans quel contexte est utilis&eacute; le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="SIA_contexte" type="text" /></p>
+                            <p>Quel est l&#39;objectif du syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="SIA_objectif" type="text" /></p>
+                            <p>Quelle est l'interaction entre l’homme et le syst&egrave;me &agrave; base d&#39;IA ?&nbsp;<input maxlength="500" name="SIA_fonctionnement" type="text" /></p>
+                            <p>Par qui est-il utilis&eacute; ?&nbsp;<input maxlength="500" name="SIA_utilisation" type="text" /></p>
                             <p>Quelle est la maturit&eacute; actuelle de votre syst&egrave;me &agrave; base d&#39;IA ? :</p>
                             <br>
                             <table>
                                 <tr>
                                     <td>
-                                        <p><input name="Maturite" type="radio" value="Ideation" /> Id&eacute;ation: nous sommes en train de l&#39;imaginer</p>
+                                        <p><input name="SIA_maturite" type="radio" value="Ideation" /> Id&eacute;ation: nous sommes en train de l&#39;imaginer</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p><input name="Maturite" type="radio" value="Conception" /> Conception: nous sommes en train de le concevoir</p>
+                                        <p><input name="SIA_maturite" type="radio" value="Conception" /> Conception: nous sommes en train de le concevoir</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p><input name="Maturite" type="radio" value="Experimentation" /> Experimentation: nous sommes en phase de tests aupr&egrave;s des utilisateurs finaux</p>
+                                        <p><input name="SIA_maturite" type="radio" value="Experimentation" /> Experimentation: nous sommes en phase de tests aupr&egrave;s des utilisateurs finaux</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p><input name="Maturite" type="radio" value="Production" /> Production: la version industrielle du SIA est déployée</p>
+                                        <p><input name="SIA_maturite" type="radio" value="Production" /> Production: la version industrielle du SIA est déployée</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <p><input name="Maturite" type="radio" value="Autre" /> Autre</p>
+                                        <p><input name="SIA_maturite" type="radio" value="Autre" /> Autre</p>
                                     </td>
                                 </tr>
                             </table>

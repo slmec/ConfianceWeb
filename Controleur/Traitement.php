@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="../Vue/style_cest_a_vous.css" />
     </head>
     <body background="../Medias/background_v2.jpg">
-        <?php $Nom_Diagnostic = $_SESSION['Nom_Diagnostic']; ?>
+        <?php $Nom_diagnostic = $_SESSION['Nom_diagnostic']; ?>
         <section>
             <div class="block_entete">
                 <!-- Barre de navigation !-->
@@ -46,7 +46,7 @@
                     <a href="../Modele/deconnexion.php">Deconnexion</a>
                 </div>
                 <br><hr><br>
-                <h1 class="blanc">Diagnostic <?php echo $Nom_Diagnostic ?></h1>
+                <h1 class="blanc">Diagnostic <?php echo $Nom_diagnostic ?></h1>
                 <br><hr><br>
             </div>
             <div class="container">
@@ -57,8 +57,8 @@
                         <p> A des fins de recherche et d'amélioration de MAIAT, je consens à ce que les données anonymisées de ce diagnostic soient partagées à l'Icam Toulouse. </p>
                         <p>Ce retour d'expérience est strictement confidentiel et ne sert qu'à identifier les points d'amélioration de MAIAT.</p>
                         <br>
-                        <p> <input type="radio" name="Données_diag" value="1" > J'accepte que mes données soient utilisées de façon anonyme par l'Icam</p>
-                        <p> <input type="radio" name="Données_diag" value="0" > Je n'accepte pas que mes données soient utilisées de façon anonyme par l'Icam</p>
+                        <p> <input type="radio" name="TraitementDonnees" value="1" > J'accepte que mes données soient utilisées de façon anonyme par l'Icam</p>
+                        <p> <input type="radio" name="TraitementDonnees" value="0" > Je n'accepte pas que mes données soient utilisées de façon anonyme par l'Icam</p>
                         <br>
                         <p><input name="s'inscrire" type="submit" value="Valider et Retourner au tableau de bord" /></p>
                     </form>

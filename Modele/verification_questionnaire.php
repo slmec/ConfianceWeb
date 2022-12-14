@@ -23,7 +23,7 @@
                 $i++;
             }
         }
-        $_SESSION['critere_fragilisation_reconnaissance'] = $a;
+        $_SESSION['C1'] = $a;
 
         //pour afficher les implications
         $C1Q1 = $_POST['C1Q1'];
@@ -55,7 +55,7 @@
                 }
             } */
 
-            $_SESSION['critere_Desengagement_Relationnel'] = $a;
+            $_SESSION['C2'] = $a;
 
         $C2Q1 = $_POST['C2Q1'];
         $C2Q2 = $_POST['C2Q2'];
@@ -76,7 +76,7 @@
         }
     }
 
-            $_SESSION['critere_Surveillance'] = $a;
+            $_SESSION['C3'] = $a;
 
         $C3Q1 = $_POST['C3Q1'];
         $C3Q2 = $_POST['C3Q2'];
@@ -97,7 +97,7 @@
         }
     }
 
-            $_SESSION['critere_Perte_Autonomie'] = $a;
+            $_SESSION['C4'] = $a;
 
     $C4Q1 = $_POST['C4Q1'];
     $C4Q2 = $_POST['C4Q2'];
@@ -116,7 +116,7 @@
             $i++;
         }
     }
-            $_SESSION['critere_Sentiment_Depossession'] = $a;
+            $_SESSION['C5'] = $a;
 
     $C5Q1 = $_POST['C5Q1'];
     $C5Q2 = $_POST['C5Q2'];
@@ -137,43 +137,41 @@
         }
     }
 
-            $_SESSION['critere_Deresponsabilite'] = $a;
+            $_SESSION['C6'] = $a;
     $C6Q1 = $_POST['C6Q1'];
     $C6Q2 = $_POST['C6Q2'];
     $C6Q3 = $_POST['C6Q3'];
     $C6Q4 = $_POST['C6Q4'];
 
-            $critere1 = $_SESSION['critere_fragilisation_reconnaissance'];
-            $critere2 = $_SESSION['critere_Desengagement_Relationnel'];
-            $critere3 = $_SESSION['critere_Surveillance'];
-            $critere4 = $_SESSION['critere_Perte_Autonomie'];
-            $critere5 = $_SESSION['critere_Sentiment_Depossession'];
-            $critere6 = $_SESSION['critere_Deresponsabilite'];
+            $C1 = $_SESSION['C1'];
+            $C2= $_SESSION['C2'];
+            $C3 = $_SESSION['C3'];
+            $C4 = $_SESSION['C4'];
+            $C5 = $_SESSION['C5'];
+            $C6 = $_SESSION['C6'];
 
-            $Contexte_casusage = $_SESSION['Contexte_casusage'];
-            $Objectif_sia = $_SESSION['Objectif_sia'];
-            $Fonctionnement_sia = $_SESSION['Fonctionnement_sia'];
-            $Utilisation_sia = $_SESSION['Utilisation_sia'];
-            $Maturite = $_SESSION['Maturite'];
+            $SIA_contexte = $_SESSION['SIA_contexte'];
+            $SIA_objectif = $_SESSION['SIA_objectif'];
+            $SIA_fonctionnement = $_SESSION['SIA_fonctionnement'];
+            $SIA_utilisation = $_SESSION['SIA_utilisation'];
+            $SIA_maturite = $_SESSION['SIA_maturite'];
 
-            $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
+            $Nom_diagnostic = $_SESSION['Nom_diagnostic'];
 
-            $requete = "INSERT INTO Criteres VALUES ('','" . $critere1 . "','" . $critere2 . "','" . $critere3 . "','" . $critere4 . "','" . $critere5 . "','" . $critere6 . "','" . $Contexte_casusage . "','" . $Objectif_sia . "','" . $Fonctionnement_sia . "','" . $Utilisation_sia . "','" . $Maturite . "','" . $Nom_Diagnostic . "')";
+            $requete = "INSERT INTO Diagnostics VALUES ('','".$Nom_diagnostic."','" . $SIA_contexte . "','" . $SIA_objectif . "','" . $SIA_fonctionnement . "','" . $SIA_utilisation . "','" . $SIA_maturite . "','".$C1Q1."','".$C1Q2."','".$C1Q3."','".$C1Q4."','".$C1."','','','','','','','','','".$C2Q1."','".$C2Q2."','".$C2Q3."','".$C2Q4."','".$C2."','','','','','','','','','".$C3Q1."','".$C3Q2."','".$C3Q3."','".$C3Q4."','".$C3."','','','','','','','','','".$C4Q1."','".$C4Q2."','".$C4Q3."','".$C4Q4."','".$C4."','','','','','','','','','".$C5Q1."','".$C5Q2."','".$C5Q3."','".$C5Q4."','".C5."','','','','','','','','','".$C6Q1."','".$C6Q2."','".$C6Q3."','".$C6Q4."','".$C6."','','','','','','','','','')";
             $resultat = mysqli_query($db, $requete);
 
-            $requete2 = "SELECT Id_critere FROM Criteres WHERE Nom = '$Nom_Diagnostic'";
-            $resultat2 = mysqli_query($db, $requete2);
-            $row = mysqli_fetch_assoc($resultat2);
-            $_SESSION['id_Critere'] = $row['Id_critere'];
+            $requete = "SELECT * FROM Diagnostics WHERE Nom_diagnostic = '$Nom_diagnostic'";
+            $resultat = mysqli_query($db, $requete);
+            $row = mysqli_fetch_assoc($resultat);
 
-            $Id_Critere = $_SESSION['id_Critere'];
+            $Id_diagnostic = $row['Id_diagnostic'];
+            echo $row['Id_diagnostic'];
+            $_SESSION['Id_diagnostic'] = $Id_diagnostic;
 
-            $requete3 = "INSERT INTO Diagnostics VALUES ('','".$Id_Critere."','".$Nom_Diagnostic."','".$C1Q1."','".$C1Q2."','".$C1Q3."','".$C1Q4."','','','','','','','','','".$C2Q1."','".$C2Q2."','".$C2Q3."','".$C2Q4."','','','','','','','','','".$C3Q1."','".$C3Q2."','".$C3Q3."','".$C3Q4."','','','','','','','','','".$C4Q1."','".$C4Q2."','".$C4Q3."','".$C4Q4."','','','','','','','','','".$C5Q1."','".$C5Q2."','".$C5Q3."','".$C5Q4."','','','','','','','','','".$C6Q1."','".$C6Q2."','".$C6Q3."','".$C6Q4."','','','','','','','','','')";
-            $resultat3 = mysqli_query($db, $requete3);
+            $Id_utilisateur = $_SESSION['Id_utilisateur'];
 
-            $Id_Utilisateur = $_SESSION['id_Utilisateur'];
-
-            $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_Utilisateur . "','" . $Id_Critere . "')";
+            $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_utilisateur . "','" . $Id_diagnostic . "')";
             $resultat4 = mysqli_query($db, $requete4);
 
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Resultats_Diagnostic.php');

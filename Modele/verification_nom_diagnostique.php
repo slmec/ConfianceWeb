@@ -12,19 +12,19 @@
 
     // diagnostic_new.php
         if(isset($_POST['Nom_diagnostic'])){
-            $_SESSION['Nom_Diagnostic'] = $_POST['Nom_diagnostic'];
-            $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
-            $email_Utilisateur = $_SESSION['email_Utilisateur'];
-            $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
+            $_SESSION['Nom_diagnostic'] = $_POST['Nom_diagnostic'];
+            $Nom_diagnostic = $_SESSION['Nom_diagnostic'];
+            $Email = $_SESSION['Email'];
+            $MotDePasse = $_SESSION['MotDePasse'];
 
-            $resultat = mysqli_query($db, "SELECT Id_utilisateur FROM Utilisateurs WHERE Email = '".$email_Utilisateur."' AND MotDePasse = '".$mdp_Utilisateur."'");
+            $resultat = mysqli_query($db, "SELECT Id_utilisateur FROM Utilisateurs WHERE Email = '".$Email."' AND MotDePasse = '".$MotDePasse."'");
             $row = (mysqli_fetch_assoc($resultat));
             $Id_Utilisateur = $row['Id_utilisateur'];
-            $resultat2 = mysqli_query($db, "SELECT a.Nom FROM Criteres a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '".$Id_Utilisateur."' AND b.Id_critere = a.Id_critere AND a.Nom = '".$Nom_Diagnostic."'");
+            $resultat2 = mysqli_query($db, "SELECT a.Nom_diagnostic FROM Diagnostics a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '".$Id_Utilisateur."' AND b.Id_diagnostic = a.Id_diagnostic AND a.Nom_diagnostic = '".$Nom_diagnostic."'");
 
-            if ($Nom_Diagnostic !== ""){
+            if ($Nom_diagnostic !== ""){
                 $test = mysqli_fetch_assoc($resultat2);
-                if ($test['Nom'] == $Nom_Diagnostic){
+                if ($test['Nom'] == $Nom_diagnostic){
                     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=2');
                 }
                 else{
