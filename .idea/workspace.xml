@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="include">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="inscription">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/connexion_bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connexion_bdd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,14 +130,7 @@
       <workItem from="1670598437668" duration="236000" />
       <workItem from="1670831586818" duration="16751000" />
       <workItem from="1670920203959" duration="5772000" />
-      <workItem from="1671008174719" duration="4155000" />
-    </task>
-    <task id="LOCAL-00106" summary="modif liens">
-      <created>1668436134710</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1668436134710</updated>
+      <workItem from="1671008174719" duration="4553000" />
     </task>
     <task id="LOCAL-00107" summary="modif liens">
       <created>1668438735596</created>
@@ -478,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671012826776</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="inscription">
+      <created>1671013811820</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1671013811820</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement fond ecran" />
     <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="changement fond ecran partie c'est à vous" />
     <MESSAGE value="changement" />
@@ -525,7 +521,8 @@
     <MESSAGE value="Explication css résultat diagnostic" />
     <MESSAGE value="commit" />
     <MESSAGE value="include" />
-    <option name="LAST_COMMIT_MESSAGE" value="include" />
+    <MESSAGE value="inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="inscription" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

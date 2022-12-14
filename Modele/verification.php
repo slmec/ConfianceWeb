@@ -31,7 +31,7 @@
 
             if($count!=0){ //utilisateur existe
                 if(password_verify($MotDePasse,$mdp_hash)){
-                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Roles, Organisme, Données FROM Utilisateurs WHERE Email = '$Email'";
+                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Role, Organisme, Données FROM Utilisateurs WHERE Email = '$Email'";
                     $resultat = mysqli_query($db,$requete);
                     $row = mysqli_fetch_assoc($resultat) ;
 
@@ -43,22 +43,22 @@
                     $_SESSION['Role']=$row['Role'];
                     $_SESSION['Organisme']=$row['Organisme'];
                     $_SESSION['StockageDonnees']=$row['StockageDonnees'];
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
+                    header('Location: ../Controleur/connexion.php');
                 }
                 else {
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=3');
+                    header('Location: ../Controleur/identification.php?erreur=3');
                 }
             }
             else{
-               header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
+               header('Location: ../Controleur/identification.php?erreur=1'); // utilisateur ou mot de passe incorrect
             }
         }
         else{
-           header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/identification.php?erreur=2'); // utilisateur ou mot de passe vide
+           header('Location: ../Controleur/identification.php?erreur=2'); // utilisateur ou mot de passe vide
         }
     }
     else{
-       header('Location: identification.php');
+       header('Location: ../Controleur/identification.php');
     }
     mysqli_close($db); // fermer la connexion
 ?>

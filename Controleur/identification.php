@@ -47,8 +47,8 @@
                     <!-- Formulaire de connexion !-->
                     <div class ="block_form">
                     <form action="../Modele/verification.php" method="POST">
-                          <p>Email :&nbsp; <input type="text" placeholder="Entrer le mail de connexion" name="email_Utilisateur" required> </p>
-                          <p>Mot de passe :&nbsp;<input type="password" placeholder="Entrer le mot de passe" name="mdp_Utilisateur" required> </p>
+                          <p>Email :&nbsp; <input type="text" placeholder="Entrer le mail de connexion" name="Email" required> </p>
+                          <p>Mot de passe :&nbsp;<input type="password" placeholder="Entrer le mot de passe" name="MotDePasse" required> </p>
                           <input class="learn-more-btn" type="submit" id='submit' value='Connexion' >
                     </form>
                     </div>
