@@ -50,11 +50,11 @@
                      if ( ! $link ) die( "Impossible de se connecter à MySQL" );
 
                 //Intégration d'une autre variable en vue de la requete
-                $email_Utilisateur = $_SESSION['email_Utilisateur'];
-                $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
+                $Email = $_SESSION['Email'];
+                $MotDePasse = $_SESSION['MotDePasse'];
 
                 //Affichage des informations importantes de l'utilisateur
-                $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
+                $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$Email'";
                 $resultat = mysqli_query($link,$requete);
                 $row = mysqli_fetch_assoc($resultat) ;
             ?>

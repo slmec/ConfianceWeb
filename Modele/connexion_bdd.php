@@ -2,7 +2,7 @@
 session_start();
 $db_username = 'eleve.tou';
 $db_password = 'et*301';
-$db_name     = 'Confiance';
+$db_name     = 'MAIAT';
 $db_host     = 'localhost';
 
 $_SESSION['db_username'] = $db_username;

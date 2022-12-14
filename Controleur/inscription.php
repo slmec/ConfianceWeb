@@ -46,14 +46,14 @@
                     <div class="block_form">
                         <form action="inscription2.php" method="post" name="profil" target="_self">
                             <h3>Formulaire d&#39;inscription :</h3>
-                            <p>Nom :&nbsp;<input maxlength="250" name="nom_utilisateur" type="text" /></p>
-                            <p>Prenom :&nbsp;<input maxlength="250" name="prenom_utilisateur" type="text" /></p>
-                            <p>Email :&nbsp;<input name="email_utilisateur" type="text" /></p>
+                            <p>Nom :&nbsp;<input maxlength="250" name="Nom" type="text" /></p>
+                            <p>Prenom :&nbsp;<input maxlength="250" name="Prenom" type="text" /></p>
+                            <p>Email :&nbsp;<input name="Email" type="text" /></p>
                             <p>Mot de passe :&nbsp;</p>
-                            <p> <input name="mdp_utilisateur" type="password" /></p>
-                            <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="role_utilisateur" type="text" /></p>
-                            <p>Mon organisation :&nbsp;<input name="organisme_utilisateur" type="text" /></p>
-                            <p> <input type="radio" name="Données" value="1" > J'accepte que mes données soient stockées </p>
+                            <p> <input name="MotDePasse" type="password" /></p>
+                            <p>Mon rôle dans l'intégration du système à base d'IA :&nbsp;<input name="Role" type="text" /></p>
+                            <p>Mon organisation :&nbsp;<input name="Organisme" type="text" /></p>
+                            <p> <input type="radio" name="StockageDonnees" value="1" > J'accepte que mes données soient stockées </p>
                             <p><input name="s'inscrire" type="submit" value="S'inscrire" /></p>
                         </form>
                     </div>

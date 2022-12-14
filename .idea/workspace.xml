@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="commit">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="include">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/modifierprofil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/modifierprofil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_traitement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modele/connexion_bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/connexion_bdd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +133,7 @@
       <workItem from="1670598437668" duration="236000" />
       <workItem from="1670831586818" duration="16751000" />
       <workItem from="1670920203959" duration="5772000" />
-      <workItem from="1671008174719" duration="3187000" />
-    </task>
-    <task id="LOCAL-00105" summary="modif liens">
-      <created>1668435455354</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1668435455354</updated>
+      <workItem from="1671008174719" duration="4155000" />
     </task>
     <task id="LOCAL-00106" summary="modif liens">
       <created>1668436134710</created>
@@ -497,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671006472022</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="include">
+      <created>1671012826775</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1671012826776</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif responsive téléchargement" />
     <MESSAGE value="changement fond ecran" />
     <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="changement fond ecran partie c'est à vous" />
@@ -544,7 +524,8 @@
     <MESSAGE value="Tri fichiers" />
     <MESSAGE value="Explication css résultat diagnostic" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="include" />
+    <option name="LAST_COMMIT_MESSAGE" value="include" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -9,40 +9,40 @@
     $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
     or die('could not connect to database');
 
-    if(isset($_POST['email_Utilisateur']) && isset($_POST['mdp_Utilisateur'])){
+    if(isset($_POST['Email']) && isset($_POST['MotDePasse'])){
         // connexion à la base de données
         include("../Modele/connexion_bdd.php");
 
         // on applique les deux fonctions mysqli_real_escape_string et htmlspecialchars
         // pour éliminer toute attaque de type injection SQL et XSS
-        $email_Utilisateur = mysqli_real_escape_string($db,htmlspecialchars($_POST['email_Utilisateur']));
-        $mdp_Utilisateur = mysqli_real_escape_string($db,htmlspecialchars($_POST['mdp_Utilisateur']));
-        $requete = "SELECT MotDePasse FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
+        $Email = mysqli_real_escape_string($db,htmlspecialchars($_POST['Email']));
+        $MotDePasse = mysqli_real_escape_string($db,htmlspecialchars($_POST['MotDePasse']));
+        $requete = "SELECT MotDePasse FROM Utilisateurs WHERE Email = '$Email'";
         $exec_requete = mysqli_query($db,$requete);
         $reponse = mysqli_fetch_array($exec_requete);
         $mdp_hash = $reponse['MotDePasse'];
 
 
-        if($email_Utilisateur !== "" && $mdp_Utilisateur !== ""){
-            $requete = "SELECT count(*) FROM Utilisateurs where Email = '".$email_Utilisateur."'";
+        if($Email !== "" && $MotDePasse !== ""){
+            $requete = "SELECT count(*) FROM Utilisateurs where Email = '".$Email."'";
             $exec_requete = mysqli_query($db,$requete);
             $reponse = mysqli_fetch_array($exec_requete);
             $count = $reponse['count(*)'];
 
             if($count!=0){ //utilisateur existe
-                if(password_verify($mdp_Utilisateur,$mdp_hash)){
-                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Roles, Organisme, Données FROM Utilisateurs WHERE Email = '$email_Utilisateur'";
+                if(password_verify($MotDePasse,$mdp_hash)){
+                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Roles, Organisme, Données FROM Utilisateurs WHERE Email = '$Email'";
                     $resultat = mysqli_query($db,$requete);
                     $row = mysqli_fetch_assoc($resultat) ;
 
                     $_SESSION['Id_utilisateur']=$row['Id_utilisateur'];
-                    $_SESSION['nom']=$row['Nom'];
-                    $_SESSION['email_Utilisateur'] = $email_Utilisateur;
-                    $_SESSION['mdp_Utilisateur'] = $mdp_Utilisateur;
-                    $_SESSION['prenom']=$row['Prenom'];
-                    $_SESSION['role']=$row['Roles'];
-                    $_SESSION['organisme']=$row['Organisme'];
-                    $_SESSION['donnees']=$row['Données'];
+                    $_SESSION['Nom']=$row['Nom'];
+                    $_SESSION['Email'] = $Email;
+                    $_SESSION['MotDePasse'] = $MotDePasse;
+                    $_SESSION['Prenom']=$row['Prenom'];
+                    $_SESSION['Role']=$row['Role'];
+                    $_SESSION['Organisme']=$row['Organisme'];
+                    $_SESSION['StockageDonnees']=$row['StockageDonnees'];
                     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/connexion.php');
                 }
                 else {

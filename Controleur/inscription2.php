@@ -31,31 +31,31 @@
         </section>
         <?php
         /* Récupération des variables */
-            $nom_utilisateur = $_POST['nom_utilisateur'];
-            $prenom_utilisateur = $_POST['prenom_utilisateur'];
-            $email_utilisateur = $_POST['email_utilisateur'];
-            $mdp_utilisateur_nonhash = $_POST['mdp_utilisateur'];
-            $mdp_utilisateur = password_hash($mdp_utilisateur_nonhash,PASSWORD_DEFAULT);
-            $role_utilisateur = $_POST['role_utilisateur'];
-            $organisme_utilisateur = $_POST['organisme_utilisateur'];
-            $donnees_utilisateur = $_POST['Données'];
+            $Nom = $_POST['Nom'];
+            $Prenom = $_POST['Prenom'];
+            $Email = $_POST['Email'];
+            $mdp_utilisateur_nonhash = $_POST['MotDePasse'];
+            $MotDePasse = password_hash($mdp_utilisateur_nonhash,PASSWORD_DEFAULT);
+            $Role = $_POST['Role'];
+            $Organisme = $_POST['Organisme'];
+            $StockageDonnees = $_POST['StockageDonnees'];
 
         /* Ajout dans BDD si accepte le traitement des données */
-            if ($donnees_utilisateur == 1) {
-            if($nom_utilisateur !== "" && $prenom_utilisateur !== "" && $email_utilisateur !== "" && $mdp_utilisateur !== "" && $role_utilisateur !== "" && $organisme_utilisateur !== ""){
-                $result = mysqli_query($db,"SELECT Email FROM Utilisateurs WHERE Email = '".$email_utilisateur."'");
+            if ($StockageDonnees == 1) {
+            if($Nom !== "" && $Prenom !== "" && $Email !== "" && $MotDePasse !== "" && $Role !== "" && $Organisme !== ""){
+                $result = mysqli_query($db,"SELECT Email FROM Utilisateurs WHERE Email = '".$Email."'");
                 $respond = mysqli_fetch_assoc($result);
-                if ($respond['Email'] == $email_utilisateur){
+                if ($respond['Email'] == $Email){
                     header('Location: inscription.php?erreur=2');
                 }
                 else{
-                    if (isset($_POST['donnees_utilisateur'])){
-                        $donnees_utilisateur = $_POST['donnees_utilisateur'];
-                        $requete = "INSERT INTO Utilisateurs VALUES ('','$nom_utilisateur','$prenom_utilisateur','$email_utilisateur','$mdp_utilisateur','$role_utilisateur','$organisme_utilisateur','$donnees_utilisateur')";
+                    if (isset($_POST['StockageDonnees'])){
+                        $StockageDonnees = $_POST['StockageDonnees'];
+                        $requete = "INSERT INTO Utilisateurs VALUES ('','$Nom','$Prenom','$Email','$MotDePasse','$Role','$Organisme','$StockageDonnees')";
                         $result2 = mysqli_query($db, $requete) or die (mysqli_error($db)); //exécution de la requête
                     }
                     else{
-                        $requete2 = "INSERT INTO Utilisateurs VALUES ('','$nom_utilisateur','$prenom_utilisateur','$email_utilisateur','$mdp_utilisateur','$role_utilisateur','$organisme_utilisateur','')";
+                        $requete2 = "INSERT INTO Utilisateurs VALUES ('','$Nom','$Prenom','$Email','$MotDePasse','$Role','$Organisme','')";
                         $result3 = mysqli_query($db, $requete2) or die (mysqli_error($db));
                     }
                 }
@@ -68,7 +68,7 @@
 
         }
             else{
-                header('Location: inscription.php?erreur=3'); // utilisateur ou mot de passe vide
+                header('Location: inscription.php?erreur=3'); // stockage donnees
             }
         ?>
         <section>
