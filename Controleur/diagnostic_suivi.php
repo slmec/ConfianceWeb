@@ -1,5 +1,14 @@
 <!DOCTYPE html>
-<?php include("../Modele/connexion_bdd.php"); ?>
+<?php
+// connexion à la base de données
+include("../Modele/connexion_bdd.php");
+$db_username = $_SESSION['db_username'];
+$db_password = $_SESSION['db_password'];
+$db_name = $_SESSION['db_name'];
+$db_host = $_SESSION['db_host'];
+$db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+or die('could not connect to database');
+?>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -48,7 +57,7 @@
                     <!-- Formulaire choix des diagnostics !-->
                     <form action="comparaison_diagnostic2.php" method="post" target="_self">
                         <?php
-                            $id_utilisateur = $_SESSION['id_Utilisateur'];
+                            $id_utilisateur = $_SESSION['Id_utilisateur'];
                             $resultat = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
                             $resultat2 = mysqli_query($db, "SELECT a.Prenom FROM Utilisateurs a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
                             $row = mysqli_fetch_assoc($resultat2);

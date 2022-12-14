@@ -48,10 +48,10 @@
                 </div>
                 <!-- Formulaire nom du diagnostic !-->
                 <div class ="block_form">
-                <form action="../Modele/verification_nom_diagnostique.php" method="post" name="Fragilisation_Reconnaissance" target="_self">
+                <form action="../Modele/verification_nom_diagnostique.php" method="post" target="_self">
 
                     <p>Entrez le nom de votre diagnostic :&nbsp;
-                        <input maxlength="250" name="Nom_Diagnostic" type="text" />
+                        <input maxlength="250" name="Nom_diagnostic" type="text" />
                     </p>
                     <p>
                         <input name="Creation_Diagnostic" type="submit" value="Débuter le diagnostic" />

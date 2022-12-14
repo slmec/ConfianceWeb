@@ -2,10 +2,17 @@
     session_start();
     // connexion à la base de données
     include("../Modele/connexion_bdd.php");
+    session_start();
+    $db_username = $_SESSION['db_username'];
+    $db_password = $_SESSION['db_password'];
+    $db_name = $_SESSION['db_name'];
+    $db_host = $_SESSION['db_host'];
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+    or die('could not connect to database');
 
     // diagnostic_new.php
-        if(isset($_POST['Nom_Diagnostic'])){
-            $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
+        if(isset($_POST['Nom_diagnostic'])){
+            $_SESSION['Nom_Diagnostic'] = $_POST['Nom_diagnostic'];
             $Nom_Diagnostic = $_SESSION['Nom_Diagnostic'];
             $email_Utilisateur = $_SESSION['email_Utilisateur'];
             $mdp_Utilisateur = $_SESSION['mdp_Utilisateur'];
@@ -29,7 +36,7 @@
             }
         }
         else{
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?');
+            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php');
         }
     mysqli_close($db); // fermer la connexion
 ?>

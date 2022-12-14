@@ -198,8 +198,8 @@
                                 </tr>
                                 <tr>
                                     <td class="question"> Le système à base d'IA génère t-il de nouvelles tâches pour le travailleur?</td>
-                                    <td>Oui <input type="radio" name="C5Q4" value="1" ></td>
-                                    <td>Non <input type="radio" name="C5Q4" value="0"></td>
+                                    <td>Oui <input type="radio" name="C5Q4" value="0" ></td>
+                                    <td>Non <input type="radio" name="C5Q4" value="1"></td>
                                 </tr>
                             </table>
                             <br>
@@ -227,8 +227,8 @@
                                 </tr>
                                 <tr>
                                     <td class="question"> Pensez-vous que le système à base d'IA pourrait pousser le travailleur à moins s'investir dans ses tâches et/ou de ses responsabilités ?</td>
-                                    <td>Oui <input type="radio" name="C6Q4" value="1" ></td>
-                                    <td>Non <input type="radio" name="C6Q4" value="0"></td>
+                                    <td>Oui <input type="radio" name="C6Q4" value="0" ></td>
+                                    <td>Non <input type="radio" name="C6Q4" value="1"></td>
                                 </tr>
                             </table>
                             <br>

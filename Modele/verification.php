@@ -1,5 +1,14 @@
 <?php
+    // connexion à la base de données
+    include("../Modele/connexion_bdd.php");
     session_start();
+    $db_username = $_SESSION['db_username'];
+    $db_password = $_SESSION['db_password'];
+    $db_name = $_SESSION['db_name'];
+    $db_host = $_SESSION['db_host'];
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+    or die('could not connect to database');
+
     if(isset($_POST['email_Utilisateur']) && isset($_POST['mdp_Utilisateur'])){
         // connexion à la base de données
         include("../Modele/connexion_bdd.php");
@@ -26,7 +35,7 @@
                     $resultat = mysqli_query($db,$requete);
                     $row = mysqli_fetch_assoc($resultat) ;
 
-                    $_SESSION['id_Utilisateur']=$row['Id_utilisateur'];
+                    $_SESSION['Id_utilisateur']=$row['Id_utilisateur'];
                     $_SESSION['nom']=$row['Nom'];
                     $_SESSION['email_Utilisateur'] = $email_Utilisateur;
                     $_SESSION['mdp_Utilisateur'] = $mdp_Utilisateur;
