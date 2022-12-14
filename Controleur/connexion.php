@@ -1,5 +1,14 @@
 <!doctype html>
-<?php include("../Modele/connexion_bdd.php"); ?>
+<?php
+    // connexion à la base de données
+    include("../Modele/connexion_bdd.php");
+    $db_username = $_SESSION['db_username'];
+    $db_password = $_SESSION['db_password'];
+    $db_name = $_SESSION['db_name'];
+    $db_host = $_SESSION['db_host'];
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+    or die('could not connect to database');
+?>
 <html>
     <head>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -45,24 +54,17 @@
             <!-- Corps de texte !-->
             <div class="block_page">
             <?php
-                $link =  mysqli_connect("localhost", "eleve.tou", "et*301");
-                mysqli_select_db($link, "Confiance" );
-                     if ( ! $link ) die( "Impossible de se connecter à MySQL" );
-
                 //Intégration d'une autre variable en vue de la requete
                 $Email = $_SESSION['Email'];
                 $MotDePasse = $_SESSION['MotDePasse'];
 
                 //Affichage des informations importantes de l'utilisateur
-                $requete = "SELECT Nom, Prenom FROM Utilisateurs WHERE Email = '$Email'";
-                $resultat = mysqli_query($link,$requete);
+                $requete = "SELECT Nom, Prenom,Id_utilisateur FROM Utilisateurs WHERE Email = '$Email'";
+                $resultat = mysqli_query($db,$requete);
                 $row = mysqli_fetch_assoc($resultat) ;
+
             ?>
                 <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
-
-            <?php
-                mysqli_close( $link );
-            ?>
             </div>
     </body>
 </html>

@@ -51,15 +51,15 @@
                 <br><hr><br>
             </div>
             <?php
-                $Id_Utilisateur = $_SESSION['Id_utilisateur'];
-                $requete = "SELECT Nom, Prenom, Roles, Organisme FROM Utilisateurs WHERE Id_utilisateur ='$Id_Utilisateur' ";
+                $Id_utilisateur = $_SESSION['Id_utilisateur'];
+                $requete = "SELECT Nom, Prenom, Role, Organisme FROM Utilisateurs WHERE Id_utilisateur ='$Id_utilisateur' ";
                 $resultat = mysqli_query($db,$requete);
                 $row = mysqli_fetch_assoc($resultat) ;
 
-                $_SESSION['nom']=$row['Nom'];
-                $_SESSION['prenom']=$row['Prenom'];
-                $_SESSION['role']=$row['Roles'];
-                $_SESSION['organisme']=$row['Organisme'];
+                $_SESSION['Nom']=$row['Nom'];
+                $_SESSION['Prenom']=$row['Prenom'];
+                $_SESSION['Role']=$row['Role'];
+                $_SESSION['Organisme']=$row['Organisme'];
             ?>
             <!-- Corps de page !-->
             <div class="block_page">
@@ -67,10 +67,10 @@
                     <!-- Formulaire profil !-->
                     <form action = "modifierprofil.php">
                         <h4> Vos information personnelles : </h4>
-                        <p> Nom : <?php echo $_SESSION['nom'] ?>    </p>
-                        <p> Prénom : <?php echo $_SESSION['prenom'] ?>  </p>
-                        <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['role'] ?>  </p>
-                        <p> Organisation : <?php echo $_SESSION['organisme'] ?>  </p>
+                        <p> Nom : <?php echo $_SESSION['Nom'] ?>    </p>
+                        <p> Prénom : <?php echo $_SESSION['Prenom'] ?>  </p>
+                        <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['Role'] ?>  </p>
+                        <p> Organisation : <?php echo $_SESSION['Organisme'] ?>  </p>
                         <input type="submit" value="Modifier mes informations">
 
                     </form>

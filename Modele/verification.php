@@ -1,7 +1,6 @@
 <?php
     // connexion à la base de données
     include("../Modele/connexion_bdd.php");
-    session_start();
     $db_username = $_SESSION['db_username'];
     $db_password = $_SESSION['db_password'];
     $db_name = $_SESSION['db_name'];
@@ -31,7 +30,7 @@
 
             if($count!=0){ //utilisateur existe
                 if(password_verify($MotDePasse,$mdp_hash)){
-                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Role, Organisme, Données FROM Utilisateurs WHERE Email = '$Email'";
+                    $requete = "SELECT Id_utilisateur, Nom, Prenom, Role, Organisme, StockageDonnees FROM Utilisateurs WHERE Email = '$Email'";
                     $resultat = mysqli_query($db,$requete);
                     $row = mysqli_fetch_assoc($resultat) ;
 
@@ -60,5 +59,4 @@
     else{
        header('Location: ../Controleur/identification.php');
     }
-    mysqli_close($db); // fermer la connexion
 ?>
