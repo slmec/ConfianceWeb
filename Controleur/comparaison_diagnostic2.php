@@ -86,7 +86,7 @@
 
 $diagnostics = $_POST['adv'];
 $critere1 = $diagnostics[0];
-$resultat1 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
+$resultat1 = mysqli_query($db,"SELECT C1, C2, C3, C4, C5, C6, Nom_diagnostic FROM Diagnostics WHERE Id_diagnostic = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
 $row = mysqli_fetch_array($resultat1);
 $diagnostic1_critere1 = $row[0];
 $diagnostic1_critere2 = $row[1];
@@ -167,7 +167,7 @@ if (isset($diagnostics[0]) && empty($diagnostics[1]) && empty($diagnostics[2])){
 
     <
 <?php
-$requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[0]'";
+$requete = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[0]'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
 ?>
@@ -470,7 +470,7 @@ $row = mysqli_fetch_assoc($resultat);
 }
 elseif (isset($diagnostics[0],$diagnostics[1]) && empty($diagnostics[2])) {
 $critere2 = $diagnostics[1];
-$resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
+$resultat2 = mysqli_query($db,"SELECT C1, C2, C3, C4, C5, C6, Nom_diagnostic FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
 $row = mysqli_fetch_array($resultat2);
 $diagnostic2_critere1 = $row[0];
 $diagnostic2_critere2 = $row[1];
@@ -642,11 +642,11 @@ $diagnostic2_nom = $row[6];
     </script>
 
 <?php
-$requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[0]'";
+$requete = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[0]'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
 
-$requete1 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[1]'";
+$requete1 = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[1]'";
 $resultat1 = mysqli_query($db, $requete1);
 $row1 = mysqli_fetch_assoc($resultat1); ?>
 <section>
@@ -1083,7 +1083,7 @@ $row1 = mysqli_fetch_assoc($resultat1); ?>
 <?php
 }
 elseif (isset($diagnostics[0],$diagnostics[1],$diagnostics[2])){
-$resultat2 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
+$resultat2 = mysqli_query($db,"SELECT C1, C2, C3, C4, C5, C6, Nom_diagnostic FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[1]'") or die ( "<br>BUG".mysqli_error($db));
 $row = mysqli_fetch_array($resultat2);
 $diagnostic2_critere1 = $row[0];
 $diagnostic2_critere2 = $row[1];
@@ -1093,7 +1093,7 @@ $diagnostic2_critere5 = $row[4];
 $diagnostic2_critere6 = $row[5];
 $diagnostic2_nom = $row[6];
 
-$resultat3 = mysqli_query($db,"SELECT Fragilisation_Reconnaissance, Desengagement_Relationnel, Surveillance, Perte_Autonomie, Sentiment_Depossession, Deresponsabilisation, Nom FROM Criteres WHERE Id_critere = '$diagnostics[2]'") or die ( "<br>BUG".mysqli_error($db));
+$resultat3 = mysqli_query($db,"SELECT C1, C2, C3, C4, C5, C6, Nom_diagnostic FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[2]'") or die ( "<br>BUG".mysqli_error($db));
 $row = mysqli_fetch_array($resultat3);
 $diagnostic3_critere1 = $row[0];
 $diagnostic3_critere2 = $row[1];
@@ -1203,15 +1203,15 @@ $diagnostic3_nom = $row[6];
     </script>
 <?php
 
-$requete = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[0]'";
+$requete = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[0]'";
 $resultat = mysqli_query($db, $requete);
 $row = mysqli_fetch_assoc($resultat);
 
-$requete1 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[1]'";
+$requete1 = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[1]'";
 $resultat1 = mysqli_query($db, $requete1);
 $row1 = mysqli_fetch_assoc($resultat1);
 
-$requete2 = "SELECT * FROM Diagnostics WHERE Id_critere_bis = '$diagnostics[2]'";
+$requete2 = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[2]'";
 $resultat2 = mysqli_query($db, $requete2);
 $row2 = mysqli_fetch_assoc($resultat2);?>
     <section>

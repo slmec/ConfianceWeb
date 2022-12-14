@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif profil">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="realisation diagnostic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +132,7 @@
       <workItem from="1670598437668" duration="236000" />
       <workItem from="1670831586818" duration="16751000" />
       <workItem from="1670920203959" duration="5772000" />
-      <workItem from="1671008174719" duration="9934000" />
-    </task>
-    <task id="LOCAL-00110" summary="modif blog">
-      <created>1668439674781</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1668439674781</updated>
+      <workItem from="1671008174719" duration="11720000" />
     </task>
     <task id="LOCAL-00111" summary="modif connexion + inscription">
       <created>1668440121526</created>
@@ -482,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671024377923</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="realisation diagnostic">
+      <created>1671027693217</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1671027693217</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement v2" />
     <MESSAGE value="changement prequestionnaire" />
     <MESSAGE value="changement barre nav v1" />
     <MESSAGE value="changement barre nav v2" />
@@ -529,7 +523,8 @@
     <MESSAGE value="connexion" />
     <MESSAGE value="affichage profil" />
     <MESSAGE value="modif profil" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif profil" />
+    <MESSAGE value="realisation diagnostic" />
+    <option name="LAST_COMMIT_MESSAGE" value="realisation diagnostic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

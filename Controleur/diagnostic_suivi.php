@@ -57,9 +57,9 @@ or die('could not connect to database');
                     <!-- Formulaire choix des diagnostics !-->
                     <form action="comparaison_diagnostic2.php" method="post" target="_self">
                         <?php
-                            $id_utilisateur = $_SESSION['Id_utilisateur'];
-                            $resultat = mysqli_query($db, "SELECT  a.Nom, b.Prenom,a.Id_critere FROM Criteres a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_critere = a.Id_critere AND c.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
-                            $resultat2 = mysqli_query($db, "SELECT a.Prenom FROM Utilisateurs a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '$id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
+                            $Id_utilisateur = $_SESSION['Id_utilisateur'];
+                            $resultat = mysqli_query($db, "SELECT  a.Nom_diagnostic, b.Prenom,a.Id_diagnostic FROM Diagnostics a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_diagnostic = a.Id_diagnostic AND c.Id_utilisateur = '$Id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
+                            $resultat2 = mysqli_query($db, "SELECT a.Prenom FROM Utilisateurs a NATURAL JOIN Repondre b WHERE b.Id_utilisateur = '$Id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));
                             $row = mysqli_fetch_assoc($resultat2);
                         ?>
                             <h4> Sélectionnez le ou les diagnostics que vous souhaitez comparer : </h4>
@@ -70,9 +70,9 @@ or die('could not connect to database');
                                    <br>
                                 <div class="ndiag">
                                     Diagnostic
-                                    <?=$uneLigne['Nom'];?>
+                                    <?=$uneLigne['Nom_diagnostic'];?>
 
-                                <input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_critere'];?>" />
+                                <input type="checkbox" name="adv[]" value="<?=$uneLigne['Id_diagnostic'];?>" />
                                 </div>
                                 <?php
                                 }
