@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="commentaires css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/testquestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/testquestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_traitement.php" afterDir="false" />
-    </list>
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,21 +124,8 @@
       <workItem from="1670316174545" duration="14462000" />
       <workItem from="1670489945145" duration="5559000" />
       <workItem from="1670598437668" duration="236000" />
-      <workItem from="1670831586818" duration="14429000" />
-    </task>
-    <task id="LOCAL-00103" summary="modif bouton">
-      <created>1668434903575</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1668434903575</updated>
-    </task>
-    <task id="LOCAL-00104" summary="modif liens">
-      <created>1668435278710</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1668435278710</updated>
+      <workItem from="1670831586818" duration="16751000" />
+      <workItem from="1670920203959" duration="5772000" />
     </task>
     <task id="LOCAL-00105" summary="modif liens">
       <created>1668435455354</created>
@@ -463,21 +442,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670858608371</updated>
     </task>
-    <task id="LOCAL-00150" summary="commentaires">
-      <created>1670920618985</created>
+    <task id="LOCAL-00150" summary="Tri fichiers">
+      <created>1670859367004</created>
       <option name="number" value="00150" />
       <option name="presentableId" value="LOCAL-00150" />
       <option name="project" value="LOCAL" />
-      <updated>1670920618985</updated>
+      <updated>1670859367004</updated>
     </task>
-    <task id="LOCAL-00151" summary="commentaires css">
-      <created>1670923664769</created>
+    <task id="LOCAL-00151" summary="Explication css résultat diagnostic">
+      <created>1670921198511</created>
       <option name="number" value="00151" />
       <option name="presentableId" value="LOCAL-00151" />
       <option name="project" value="LOCAL" />
-      <updated>1670923664769</updated>
+      <updated>1670921198512</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Explication css résultat diagnostic">
+      <created>1670946772787</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1670946772787</updated>
+    </task>
+    <task id="LOCAL-00153" summary="commit">
+      <created>1671006472022</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006472022</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif guide" />
     <MESSAGE value="modif responsive téléchargement" />
     <MESSAGE value="changement fond ecran" />
     <MESSAGE value="changement fond ecran site" />
@@ -522,9 +514,10 @@
     <MESSAGE value="Simplification code partie blog" />
     <MESSAGE value="Simplification code partie blog V2" />
     <MESSAGE value="Simplification code partie blog V3" />
-    <MESSAGE value="commentaires" />
-    <MESSAGE value="commentaires css" />
-    <option name="LAST_COMMIT_MESSAGE" value="commentaires css" />
+    <MESSAGE value="Tri fichiers" />
+    <MESSAGE value="Explication css résultat diagnostic" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
