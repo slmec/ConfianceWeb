@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification classes criteres">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification images guide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +133,7 @@
       <workItem from="1671023762125" duration="633000" />
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
-      <workItem from="1671438190202" duration="4748000" />
-    </task>
-    <task id="LOCAL-00108" summary="modif liens">
-      <created>1668438806498</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1668438806499</updated>
+      <workItem from="1671438190202" duration="6897000" />
     </task>
     <task id="LOCAL-00109" summary="modif index + critere">
       <created>1668439265879</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671440093988</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="modification images guide">
+      <created>1671445732567</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1671445732567</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement fond ecran site" />
     <MESSAGE value="changement fond ecran partie c'est à vous" />
     <MESSAGE value="changement" />
     <MESSAGE value="changement v2" />
@@ -525,7 +524,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="barre de nav incription2" />
     <MESSAGE value="modification classes criteres" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification classes criteres" />
+    <MESSAGE value="modification images guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification images guide" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

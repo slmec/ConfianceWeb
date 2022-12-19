@@ -54,7 +54,7 @@
                         <br>
                         <p>Attention, le fichier comporte des « macros » permettant de générer des diagnostics. Par conséquent, il risque de présenter ce bandeau : </p>
                         <br>
-                        <img class="img_securite" src="../Medias/rouge.png" width="600" height="24">
+                        <img class="img_securite" src="../Medias/rouge.png">
                         <br>
                         <p> Dès lors que vous téléchargerez le fichier depuis notre serveur, nous vous garantissons sa sécurité. Pour déverrouiller les macros, il vous faudra : </p>
                         <p> 1 - Fermer le fichier Excel</p>

@@ -275,6 +275,10 @@ section .container .block_tableau{
     justify-content: space-evenly;
     vertical-align: middle;
 }
+.img_securite{
+    width: 600px;
+    aspect-ratio: 793/32;
+}
 .tableur{
     padding: 15px;
     background-color: white;
@@ -306,7 +310,7 @@ section .container .block_tableau{
 @media screen and (max-width: 1200px) {
     .img_securite{
         width: 500px;
-        height: 20px;
+        aspect-ratio: 793/32;
     }
     .tableur{
         padding: 15px;
