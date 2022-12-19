@@ -195,7 +195,7 @@ section .container header .right .logo_icam{
 }
 
 /*critere desengagement*/
-.critere .desengagement{
+.critere .relations_humaines{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -203,16 +203,16 @@ section .container header .right .logo_icam{
     align-items: start;
     margin-top: 25px;
 }
-.critere .desengagement_left, .desengagement_right{
+.critere .relations_humaines_left, .relations_humaines_right{
     width: 50%;
 }
-.critere .desengagement_left{
+.critere .relations_humaines_left{
     border: solid white 2px;
     padding: 5px;
 }
 
 /*critere controle*/
-.critere .controle{
+.critere .surveillance{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -220,10 +220,10 @@ section .container header .right .logo_icam{
     align-items: start;
     margin-top: 25px;
 }
-.critere .controle_left, .controle_right{
+.critere .surveillance_left, .surveillance_right{
     width: 50%;
 }
-.critere .controle_right{
+.critere .surveillance_right{
     border: solid white 2px;
     padding: 5px;
 }
@@ -247,7 +247,7 @@ section .container header .right .logo_icam{
 
 
 /*critere savoir-faire*/
-.critere .depossession{
+.critere .savoir_faire{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -255,16 +255,16 @@ section .container header .right .logo_icam{
     align-items: start;
     margin-top: 25px;
 }
-.critere .depossession_left, .depossession_right{
+.critere .savoir_faire_left, .savoir_faire_right{
     width: 50%;
 }
-.critere .depossession_right{
+.critere .savoir_faire_right{
     border: solid white 2px;
     padding: 5px;
 }
 
 /*critere deresponsabilisation*/
-.critere .deresponsabilisation{
+.critere .responsabilite{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -272,10 +272,10 @@ section .container header .right .logo_icam{
     align-items: start;
     margin-top: 25px;
 }
-.critere .deresponsabilisation_left, .deresponsabilisation_right{
+.critere .responsabilite_left, .responsabilite_right{
     width: 50%;
 }
-.critere .deresponsabilisation_left{
+.critere .responsabilite_left{
     border: solid white 2px;
     padding: 5px;
 }
@@ -297,11 +297,11 @@ section .container header .right .logo_icam{
         width: 100%;
         margin: 25px auto 0px auto;
     }
-    .critere .desengagement{
+    .critere .relations_humaines{
         flex-direction: column-reverse;
         align-items: center;
     }
-    .critere .controle{
+    .critere .surveillance{
         flex-direction: column;
         align-items: center;
     }
@@ -309,11 +309,11 @@ section .container header .right .logo_icam{
         flex-direction: column-reverse;
         align-items: center;
     }
-    .critere .depossession{
+    .critere .savoir_faire{
         flex-direction: column;
         align-items: center;
     }
-    .critere .deresponsabilisation{
+    .critere .responsabilite{
         flex-direction: column-reverse;
         align-items: center;
     }

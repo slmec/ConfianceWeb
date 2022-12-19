@@ -60,8 +60,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="desengagement">
-                        <div class="desengagement_left">
+                    <div class="relations_humaines">
+                        <div class="relations_humaines_left">
                             <h2>Relations humaines</h2>
                             <p>De nombreux systèmes à base d’IA (SIA) automatisent ou interfèrent dans des tâches sociales, c’est-à-dire des tâches qui se
                             basent essentiellement sur une communication humaine. France Stratégie pointe alors sur un risque de désengagement relationnel, en raison d’une
@@ -74,15 +74,15 @@
                                 limiter la r&eacute;ponse humaine &agrave; deux : &quot;r&eacute;p&eacute;tez&quot; et &quot;OK&quot;. En outre, sortir de ce lexique
                                 configur&eacute;, pour saluer un coll&egrave;gue par exemple, provoque un message d&#39;erreur de type &quot;chiffre contr&ocirc;le faux&quot;</p>
                         </div>
-                        <div class="desengagement_right">
-                            <img class="img_basetheorique" src="../Medias/desengagement.png">
+                        <div class="relations_humaines_right">
+                            <img class="img_basetheorique" src="../Medias/relations_humaines.png">
                         </div>
                     </div>
-                    <div class="controle">
-                        <div class="controle_left">
-                            <img class="img_basetheorique" src="../Medias/controle.jpg">
+                    <div class="surveillance">
+                        <div class="surveillance_left">
+                            <img class="img_basetheorique" src="../Medias/surveillance.jpg">
                         </div>
-                        <div class="controle_right">
+                        <div class="surveillance_right">
                             <h2>La surveillance</h2>
                             <p>Dans l’imaginaire collectif, les machines sont associées à des systèmes de surveillance et de contrôle. Dans certaines situations,
                              non seulement l’employeur peut, mais doit surveiller l’activité du salarié, lorsque la finalité est de protéger des installations
@@ -115,11 +115,11 @@
                             <img class="img_basetheorique" src="../Medias/autonomie.png">
                         </div>
                     </div>
-                    <div class="depossession">
-                        <div class="depossession_left">
-                            <img class="img_basetheorique" src="../Medias/depossession.png">
+                    <div class="savoir_faire">
+                        <div class="savoir_faire_left">
+                            <img class="img_basetheorique" src="../Medias/savoir_faire.png">
                         </div>
-                        <div class="depossession_right">
+                        <div class="savoir_faire_right">
                             <h2>Le savoir-faire</h2>
                             <p>L’identité professionnelle se construit en rapport à un savoir-faire : une école, un diplôme puis l’expérience contribuent chez
                             l’individu à se construire une identité pour soi et pour autrui. Ce savoir-faire sert de base à sa légitimité, elle-même constitutive de
@@ -134,8 +134,8 @@
                                 capteurs, alerte&nbsp;les travailleurs et guide&nbsp;la rem&eacute;diation via des montres connect&eacute;es et des &eacute;crans.</p>
                         </div>
                     </div>
-                    <div class="deresponsabilisation">
-                        <div class="deresponsabilisation_left">
+                    <div class="responsabilite">
+                        <div class="responsabilite_left">
                             <h2>La responsabilité</h2>
                             <p>La responsabilité exprime le devoir de répondre de ses actes, toutes circonstances et conséquences comprises, c’est-à-dire d'en assumer
                             l'énonciation, l'effectuation, et par suite la réparation voire la sanction lorsque l'attendu n'est pas obtenu. Plus une organisation est
@@ -156,8 +156,8 @@
                             <p>L&#39;int&eacute;gration d&#39;un cobot dans une activit&eacute; de contr&ocirc;le bact&eacute;riologique du lait est bloqu&eacute;e par l&#39;impossibilit&eacute; d&#39;imputer des
                                 responsabilit&eacute;s en cas de crise sanitaire. Aucun service n&#39;est pr&ecirc;t &agrave; endosser la responsabilit&eacute; d&#39;une erreur du cobot.</p>
                         </div>
-                        <div class="deresponsabilisation_right">
-                            <img class="img_basetheorique" src="../Medias/deresponsabilisation.png">
+                        <div class="responsabilite_right">
+                            <img class="img_basetheorique" src="../Medias/responsabilite.png">
                         </div>
                     </div>
                 </div>
