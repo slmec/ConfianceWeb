@@ -145,7 +145,7 @@
     $critere6 = $_SESSION['critere_Deresponsabilite'];
     $_SESSION['Nom_Diagnostic'] = $_POST['Nom_Diagnostic'];
 
-        header('Location: ../Controleur/Resultats_Diagnostic_sansid.php');
+        header('Location: ../Controleur/resultats_diagnostic_sansid.php');
     }
     else{
         header('Location: ../Controleur/testquestionnaire_sansid.php?erreur=1');

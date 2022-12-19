@@ -28,7 +28,7 @@
                     header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=2');
                 }
                 else{
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php');
+                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/questions_prequestionnaire.php');
                 }
             }
             else {

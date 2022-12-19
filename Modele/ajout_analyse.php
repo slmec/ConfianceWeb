@@ -300,7 +300,7 @@ or die('could not connect to database');
             $result3 = mysqli_query($db, $requete3);
         }
 
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Traitement.php');
+        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/traitement.php');
         ?>
     </body>
 </html>

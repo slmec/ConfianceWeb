@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification images guide">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modification images erreur c'est a vous">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_horsconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Resultats_Diagnostic_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/resultats_diagnostic_sansid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/Traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire_sansid.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +139,7 @@
       <workItem from="1671023762125" duration="633000" />
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
-      <workItem from="1671438190202" duration="6897000" />
-    </task>
-    <task id="LOCAL-00109" summary="modif index + critere">
-      <created>1668439265879</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1668439265879</updated>
+      <workItem from="1671438190202" duration="8236000" />
     </task>
     <task id="LOCAL-00110" summary="modif blog">
       <created>1668439674781</created>
@@ -478,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671445732567</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="modification images erreur c'est a vous">
+      <created>1671454074032</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1671454074032</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement fond ecran partie c'est à vous" />
     <MESSAGE value="changement" />
     <MESSAGE value="changement v2" />
     <MESSAGE value="changement prequestionnaire" />
@@ -525,7 +530,8 @@
     <MESSAGE value="barre de nav incription2" />
     <MESSAGE value="modification classes criteres" />
     <MESSAGE value="modification images guide" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification images guide" />
+    <MESSAGE value="modification images erreur c'est a vous" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification images erreur c'est a vous" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
