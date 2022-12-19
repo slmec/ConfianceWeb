@@ -25,18 +25,18 @@
             if ($Nom_diagnostic !== ""){
                 $test = mysqli_fetch_assoc($resultat2);
                 if ($test['Nom'] == $Nom_diagnostic){
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=2');
+                    header('Location: ../Controleur/diagnostic_new.php?erreur=2');
                 }
                 else{
-                    header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/questions_prequestionnaire.php');
+                    header('Location: ../Controleur/questions_prequestionnaire.php');
                 }
             }
             else {
-                header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php?erreur=1'); // nom du diagnostic vide
+                header('Location: ../Controleur/diagnostic_new.php?erreur=1'); // nom du diagnostic vide
             }
         }
         else{
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_new.php');
+            header('Location: ../Controleur/diagnostic_new.php');
         }
     mysqli_close($db); // fermer la connexion
 ?>

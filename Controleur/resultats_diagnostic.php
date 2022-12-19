@@ -150,7 +150,7 @@
         ?>
         <section>
             <div class="container">
-                <form action="https://dev2.icam.fr/toulouse/GEI/Confiance/Modele/ajout_analyse.php" method="post" >
+                <form action="../Modele/ajout_analyse.php" method="post" >
                     <div class="block_titre">
                         <hr><hr><br>
                         <h1> Analyse détaillée </h1>

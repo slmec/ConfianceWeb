@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif noms minuscules">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="comparaison et hors ligne">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostique.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/deconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/deconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

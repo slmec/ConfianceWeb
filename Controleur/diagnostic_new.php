@@ -57,7 +57,7 @@
                         <input name="Creation_Diagnostic" type="submit" value="Débuter le diagnostic" />
                     </p>
                 </form>
-            </div>
+                </div>
             <br>
                 <!-- Gestion des erreurs !-->
             <div class="erreur">

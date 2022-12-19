@@ -53,7 +53,7 @@
                 <!-- Corps de page!-->
                 <!-- Formulaire traitement données !-->
                 <div class="block_form">
-                    <form action="..\Modele\ajout_traitement.php" method="post" name="profil" target="_self">
+                    <form action="..\Modele\ajout_traitement.php" method="post" >
                         <p> A des fins de recherche et d'amélioration de MAIAT, je consens à ce que les données anonymisées de ce diagnostic soient partagées à l'Icam Toulouse. </p>
                         <p>Ce retour d'expérience est strictement confidentiel et ne sert qu'à identifier les points d'amélioration de MAIAT.</p>
                         <br>

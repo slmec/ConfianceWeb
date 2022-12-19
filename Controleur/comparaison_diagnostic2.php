@@ -1793,6 +1793,7 @@ $row2 = mysqli_fetch_assoc($resultat2);?>
         <hr>
         <br>
         <br>
+
         <div class = "bouton">
             <button type="submit" value="Imprimer la page" onclick="window.print();" />Imprimer la page</button>
        </div>

@@ -55,7 +55,7 @@ or die('could not connect to database');
             <div class="block_page">
                 <div class="block_form">
                     <!-- Formulaire choix des diagnostics !-->
-                    <form action="comparaison_diagnostic2.php" method="post" target="_self">
+                    <form action="comparaison_diagnostic2.php" method="post" >
                         <?php
                             $Id_utilisateur = $_SESSION['Id_utilisateur'];
                             $resultat = mysqli_query($db, "SELECT  a.Nom_diagnostic, b.Prenom,a.Id_diagnostic FROM Diagnostics a, Utilisateurs b NATURAL JOIN Repondre c WHERE c.Id_diagnostic = a.Id_diagnostic AND c.Id_utilisateur = '$Id_utilisateur'") or die ( "<br>BUG".mysqli_error($db));

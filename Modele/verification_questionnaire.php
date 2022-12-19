@@ -174,9 +174,9 @@
             $requete4 = "INSERT INTO Repondre VALUES ('" . $Id_utilisateur . "','" . $Id_diagnostic . "')";
             $resultat4 = mysqli_query($db, $requete4);
 
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/resultats_diagnostic.php');
+        header('Location: ../Controleur/resultats_diagnostic.php');
     }
     else{
-        header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire.php?erreur=1');
+        header('Location: ../Controleur/testquestionnaire.php?erreur=1');
     }
 ?>
