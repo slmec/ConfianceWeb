@@ -422,6 +422,14 @@ section .container .guide .image_guide_right{
     align-items: center;
     padding-left: 5px;
 }
+section .container .guide .img_radar{
+    width: 400px;
+    aspect-ratio: 1053/794;
+}
+section .container .guide .img_compterendu{
+    width: 400px;
+    aspect-ratio: 629/560;
+}
 section .container .guide .img_radar2{
     width: 900px;
     aspect-ratio: 467/361;

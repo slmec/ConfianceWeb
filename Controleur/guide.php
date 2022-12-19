@@ -10,6 +10,7 @@
             <div class="container">
 
                 <!-- Barre de navigation !-->
+
                 <header>
                     <div class="left">
                         <a href="https://www.confiance.ai/" target="_blank"><img class="logo_confiance" src="../Medias/logoconfiance.jpg"></a>
@@ -44,11 +45,11 @@
                     <br>
                     <div class="image_guide">
                         <div class="image_guide_left">
-                            <img src="../Medias/img_radar.png" width=400 height=301.6>
+                            <img class="img_radar" src="../Medias/img_radar.png">
                             <p>Le radar vous permet d’avoir une vision globale de votre diagnostic. Les axes dont le score tend vers 0 sont considérés comme potentiellement les plus à risque. </p>
                         </div>
                         <div class="image_guide_right">
-                            <img src="../Medias/img_compterendu.png" width=400 height=353>
+                            <img class="img_compterendu" src="../Medias/img_compterendu.png">
                             <p>Suite à cela, une analyse détaillée par critère vous permet de donner du sens aux différents risques. Les points critiques sont signalés par la police rouge et le panneaux « Warning ». Les champs « Interprétations » et « Plans d’actions » permettent de vous approprier le diagnostic.</p>
                         </div>
                     </div>
