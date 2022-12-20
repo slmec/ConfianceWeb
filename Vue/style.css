@@ -401,7 +401,7 @@ section .container .guide p{
 section .container .guide .image_guide{
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: baseline;
 }
 section .container .guide .image_guide_left{
     display: flex;

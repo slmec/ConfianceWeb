@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif barre nav">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="dernieres modifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/acceuil.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,14 +133,7 @@
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
       <workItem from="1671438190202" duration="14266000" />
-      <workItem from="1671522204892" duration="11767000" />
-    </task>
-    <task id="LOCAL-00114" summary="modif hashage mdp">
-      <created>1668607857814</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1668607857815</updated>
+      <workItem from="1671522204892" duration="13689000" />
     </task>
     <task id="LOCAL-00115" summary="modif modif blog">
       <created>1669708081387</created>
@@ -479,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671524690546</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="dernieres modifications">
+      <created>1671545838903</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1671545838903</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement barre nav v2" />
     <MESSAGE value="problème affichage image" />
     <MESSAGE value="modification responsive blog" />
     <MESSAGE value="modification responsive blog v2" />
@@ -526,7 +524,8 @@
     <MESSAGE value="modif noms minuscules v2" />
     <MESSAGE value="modif manque erreur modification profil" />
     <MESSAGE value="modif barre nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif barre nav" />
+    <MESSAGE value="dernieres modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="dernieres modifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
