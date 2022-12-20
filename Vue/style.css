@@ -30,6 +30,16 @@ section .container header{
     align-items: end;
     margin: auto;
 }
+
+/* Logos Confiance et Icam */
+section .container header .left .logo_confiance{
+    width: 150px;
+    aspect-ratio: 366/257;
+}
+section .container header .right .logo_icam{
+    width: 200px;
+    aspect-ratio: 537/331;
+}
 section .container nav{
     display: flex;
     flex-direction: row;
@@ -65,15 +75,7 @@ section .container nav a:hover{
     padding-right: 28px;
     padding-left: 28px;
 }
-/* Logos Confiance et Icam */
-section .container header .left .logo_confiance{
-    width: 150px;
-    aspect-ratio: 366/257;
-}
-section .container header .right .logo_icam{
-    width: 200px;
-    aspect-ratio: 537/331;
-}
+
 
 
 /* Changement
@@ -168,7 +170,7 @@ section .container header .right .logo_icam{
 .critere .critere_top img{
     margin:10px auto 0px auto;
 }
-.img_vignettes{
+.critere .img_vignettes{
     width: 1200px;
     aspect-ratio: 379/168;
 }
@@ -182,7 +184,6 @@ section .container header .right .logo_icam{
     display: flex;
     flex-direction: row;
     width: 100%;
-
     align-items: start;
     margin-top: 25px;
 }
@@ -194,12 +195,11 @@ section .container header .right .logo_icam{
     padding: 5px;
 }
 
-/*critere desengagement*/
+/*critere relations_humaines*/
 .critere .relations_humaines{
     display: flex;
     flex-direction: row;
     width: 100%;
-
     align-items: start;
     margin-top: 25px;
 }
@@ -211,12 +211,11 @@ section .container header .right .logo_icam{
     padding: 5px;
 }
 
-/*critere controle*/
+/*critere surveillance*/
 .critere .surveillance{
     display: flex;
     flex-direction: row;
     width: 100%;
-
     align-items: start;
     margin-top: 25px;
 }
@@ -263,7 +262,7 @@ section .container header .right .logo_icam{
     padding: 5px;
 }
 
-/*critere deresponsabilisation*/
+/*critere responsabilite*/
 .critere .responsabilite{
     display: flex;
     flex-direction: row;
@@ -317,7 +316,7 @@ section .container header .right .logo_icam{
         flex-direction: column-reverse;
         align-items: center;
     }
-    .img_vignettes{
+    .critere .img_vignettes{
         width: 1000px;
         aspect-ratio: 379/168;
     }
@@ -325,13 +324,13 @@ section .container header .right .logo_icam{
 
 /* Réduction taille image explication critères */
 @media screen and (max-width: 1300px) {
-    .img_vignettes{
+    .critere .img_vignettes{
         width: 800px;
         aspect-ratio: 379/168;
     }
 }
 @media screen and (max-width: 1100px) {
-    .img_vignettes{
+    .critere .img_vignettes{
         width: 650px;
         aspect-ratio: 379/168;
     }
@@ -379,7 +378,6 @@ section .container header .right .logo_icam{
 }
 
 
-
 /* Changement
     guide.php */
 section .container .guide{
@@ -400,9 +398,6 @@ section .container .guide h3{
 section .container .guide p{
     padding: 10px;
 }
-section .container .guide figure{
-    text-align: center;
-}
 section .container .guide .image_guide{
     display: flex;
     flex-direction: row;
@@ -415,16 +410,16 @@ section .container .guide .image_guide_left{
     align-items: center;
     padding-right: 5px;
 }
+section .container .guide .img_radar{
+    width: 400px;
+    aspect-ratio: 1053/794;
+}
 section .container .guide .image_guide_right{
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
     padding-left: 5px;
-}
-section .container .guide .img_radar{
-    width: 400px;
-    aspect-ratio: 1053/794;
 }
 section .container .guide .img_compterendu{
     width: 400px;
@@ -500,10 +495,6 @@ section .container .guide .img_questionnaire{
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
-}
-.projet .top img{
-    display: block;
-    margin:0px auto 0px auto;
 }
 .projet .top .logo_confiance{
     width: 150px;
