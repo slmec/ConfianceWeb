@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="comparaison et hors ligne">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif lien">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/traitement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/ajout_analyse.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_analyse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/deconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/deconnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_nom_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_nom_diagnostic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele/verification_questionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_questionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,13 +133,6 @@
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
       <workItem from="1671438190202" duration="8508000" />
-    </task>
-    <task id="LOCAL-00111" summary="modif connexion + inscription">
-      <created>1668440121526</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1668440121526</updated>
     </task>
     <task id="LOCAL-00112" summary="modif test questionnaire sans id">
       <created>1668440676056</created>
@@ -487,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671455401204</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="modif lien">
+      <created>1671461793754</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1671461793754</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement v2" />
     <MESSAGE value="changement prequestionnaire" />
     <MESSAGE value="changement barre nav v1" />
     <MESSAGE value="changement barre nav v2" />
@@ -534,7 +523,8 @@
     <MESSAGE value="modification images guide" />
     <MESSAGE value="modification images erreur c'est a vous" />
     <MESSAGE value="modif noms minuscules" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif noms minuscules" />
+    <MESSAGE value="modif lien" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif lien" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

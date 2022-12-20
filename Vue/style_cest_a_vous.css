@@ -12,27 +12,6 @@ body{
     background-attachment: fixed;
 }
 
-/* Definition des règles des tables lors des résultats et comparaisons */
-table{
-    width: 100%;
-    margin: auto;
-}
-td{
-    text-align: left;
-    padding-bottom: 1%;
-}
-/* Style des colonnes  */
-.question{
-     width:80% ;
- }
-/* Style de la premiere colonne des titres  */
-.titre{
-    text-align: left;
-    width:10% ;
-}
-
-section {
-}
 
 section .container{
     max-width: 1400px;
@@ -117,12 +96,10 @@ section .container .navbar_deux a:hover{
     padding-left: 28px;
 }
 
-/* Definition des regles du corps de page */
-section .block_page{
-    align-items: start;
-    margin: auto;
-    width:70%;
+section .container .block_tableau{
+    width: 100%;
 }
+
 /* Definition des regles des titres */
 section .block_titre{
     width: 70%;
@@ -138,21 +115,11 @@ section .block_titre p{
     color: white;
     margin-top: 10px;
 }
-
-/* Definition des regles des images */
-section .block_form figure{
-    text-align: center;
+/* Definition des regles du corps de page */
+section .block_page{
+    align-items: start;
     margin: auto;
-}
-
-/* Definition des regles des form */
-section .block_form{
-    width: 100%;
-    margin: 25px auto 0 auto;
-}
-/* Definition des regles des form h1 */
-section .block_form h1{
-    text-decoration: underline;
+    width:70%;
 }
 
 section .block_table{
@@ -220,11 +187,6 @@ section .block_page .block_form button[type=submit]:hover {
     border: 1px solid #476ebf;
 }
 
-/* */
-.ndiag{
-    text-align: center;
-}
-
 /* Definition des règles pour la table dans un form*/
 section .block_page .block_form table {
     width: 100%;
@@ -242,15 +204,28 @@ section .block_page .block_form .gras{
     font-weight: bold;
 }
 
+/* Definition des regles des form */
+section .block_form{
+    width: 100%;
+    margin: 25px auto 0 auto;
+}
+/* Definition des regles des form h1 */
+section .block_form h1{
+    text-decoration: underline;
+}
+/* Definition des regles des images */
+section .block_form figure{
+    text-align: center;
+    margin: auto;
+}
+
 /*Definition des règles pour le pied de page*/
 .bas{
     text-align: center;
     color: white;
 }
 
-section .container .block_tableau{
-    width: 100%;
-}
+
 .blanc {
     color: white;
     text-align: center;
@@ -265,6 +240,50 @@ section .container .block_tableau{
     background: rgba(238, 77, 96, 0.54);
     text-align: center;
     margin: auto;
+}
+
+/* Définition des règles de style d'un bouton radio */
+input[type='radio'] {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle; }
+
+/* Définition des règles de style d'une case a cocher */
+input[type='checkbox'] {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    margin: auto;
+    display: block;}
+
+/* Définition des règles pour les images et les titre sur la page d'un questionnaire */
+/* Colonne image */
+.col_image{
+    width:10% ;
+    text-align : center ;
+}
+/* Colonne titre */
+.col_titre{
+    text-align : left ;
+}
+
+/* Definition des règles des tables lors des résultats et comparaisons */
+table{
+    width: 100%;
+    margin: auto;
+}
+td{
+    text-align: left;
+    padding-bottom: 1%;
+}
+/* Style des colonnes  */
+.question{
+    width:80% ;
+}
+/* Style de la premiere colonne des titres  */
+.titre{
+    text-align: left;
+    width:10% ;
 }
 
 /*  */
@@ -305,6 +324,9 @@ section .container .block_tableau{
     text-align: center;
     font-weight: bold;
 }
+.ndiag{
+    text-align: center;
+}
 
 /* Responsive diagnostic hors ligne */
 @media screen and (max-width: 1200px) {
@@ -336,30 +358,7 @@ section .container .block_tableau{
     }
 }
 
-/* Définition des règles de style d'un bouton radio */
-input[type='radio'] {
-    height: 25px;
-    width: 25px;
-    vertical-align: middle; }
 
-/* Définition des règles de style d'une case a cocher */
-input[type='checkbox'] {
-    height: 20px;
-    width: 20px;
-    align-items: center;
-    margin: auto;
-    display: block;}
-
-/* Définition des règles pour les images et les titre sur la page d'un questionnaire */
-/* Colonne image */
-.col_image{
-    width:10% ;
-    text-align : center ;
-}
-/* Colonne titre */
-.col_titre{
-    text-align : left ;
-}
 
 
 
