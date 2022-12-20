@@ -48,7 +48,7 @@
                 header('Location: ../Controleur/profil.php');
             }
             if($_POST['new_organisme'] == "" && $_POST['new_nom'] == "" && $_POST['new_prenom'] == "" &&$_POST['new_role'] == "") {
-                header('Location: ../modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
+                header('Location: ../Controleur/modifierprofil.php?erreur=1'); // utilisateur ou mot de passe vide
             }
             mysqli_close( $db );
         ?>

@@ -34,8 +34,7 @@ section .container nav{
     align-items: center;
 }
 section .container nav a{
-    margin-left:40px;
-    align-items: center;
+    margin: auto;
     color: white;
     font-size: large;
     padding-top : 20px;
@@ -50,10 +49,12 @@ section .container .navbar_deux{
     margin: auto;
     width: 80%;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
 section .container .navbar_deux a{
-    margin-left:40px;
-    align-items: center;
+    margin:auto;
     color: white;
     font-size: large;
     padding-top : 20px;
