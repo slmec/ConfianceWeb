@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif noms minuscules v2">
-      <change beforePath="$PROJECT_DIR$/Modele/modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/modification.php" afterDir="false" />
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif manque erreur modification profil">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +133,8 @@
       <workItem from="1671023762125" duration="633000" />
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
-      <workItem from="1671438190202" duration="13182000" />
-    </task>
-    <task id="LOCAL-00112" summary="modif test questionnaire sans id">
-      <created>1668440676056</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1668440676056</updated>
+      <workItem from="1671438190202" duration="14266000" />
+      <workItem from="1671522204892" duration="2238000" />
     </task>
     <task id="LOCAL-00113" summary="modif indentation modele">
       <created>1668501710083</created>
@@ -476,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671455678790</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="modif manque erreur modification profil">
+      <created>1671462738433</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1671462738433</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changement prequestionnaire" />
     <MESSAGE value="changement barre nav v1" />
     <MESSAGE value="changement barre nav v2" />
     <MESSAGE value="problème affichage image" />
@@ -523,7 +525,8 @@
     <MESSAGE value="modification images erreur c'est a vous" />
     <MESSAGE value="modif noms minuscules" />
     <MESSAGE value="modif noms minuscules v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif noms minuscules v2" />
+    <MESSAGE value="modif manque erreur modification profil" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif manque erreur modification profil" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
