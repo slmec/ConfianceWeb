@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="dernieres modifications">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif align items baseline">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backgroundsiteconfiance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphique.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +137,7 @@
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
       <workItem from="1671438190202" duration="14266000" />
-      <workItem from="1671522204892" duration="13689000" />
-    </task>
-    <task id="LOCAL-00115" summary="modif modif blog">
-      <created>1669708081387</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1669708081387</updated>
+      <workItem from="1671522204892" duration="15124000" />
     </task>
     <task id="LOCAL-00116" summary="modif responsive equipes et partenaires">
       <created>1669718726375</created>
@@ -478,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671545838903</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="modif align items baseline">
+      <created>1671550597682</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1671550597682</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="problème affichage image" />
     <MESSAGE value="modification responsive blog" />
     <MESSAGE value="modification responsive blog v2" />
     <MESSAGE value="modification responsive blog v3" />
@@ -525,7 +528,8 @@
     <MESSAGE value="modif manque erreur modification profil" />
     <MESSAGE value="modif barre nav" />
     <MESSAGE value="dernieres modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="dernieres modifications" />
+    <MESSAGE value="modif align items baseline" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif align items baseline" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
