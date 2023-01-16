@@ -120,7 +120,7 @@ canvas{
 
 /* Definition des regles des titres des critères */
 .block_titre_critere{
-    text-aign : left ;
+    text-align : left ;
 }
 
 /* Definition des regles de la table des critères */
@@ -135,7 +135,7 @@ table{}
 }
 /* Les autres colonnes */
 .block_table table .col_2{
-    width: 22,5%;
+    width: 22.5%;
     text-align : center;
 }
 

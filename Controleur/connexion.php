@@ -62,7 +62,6 @@
                 $requete = "SELECT Nom, Prenom,Id_utilisateur FROM Utilisateurs WHERE Email = '$Email'";
                 $resultat = mysqli_query($db,$requete);
                 $row = mysqli_fetch_assoc($resultat) ;
-
             ?>
                 <h2 class ="blanc "><?php echo "Bienvenue "." ".$row['Prenom']." ".$row['Nom']; ?></h2>
             </div>

@@ -19,9 +19,9 @@
         $_SESSION['SIA_maturite'] = $_POST['SIA_maturite'];
 
 
-                header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/testquestionnaire.php');
+                header('Location:../Controleur/testquestionnaire.php');
         } else {
-            header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/Questions_prequestionnaire.php?erreur=1'); // reponses vides
+            header('Location: ../Controleur/Questions_prequestionnaire.php?erreur=1'); // reponses vides
         }
     mysqli_close($db); // fermer la connexion
 ?>

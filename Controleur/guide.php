@@ -10,7 +10,6 @@
             <div class="container">
 
                 <!-- Barre de navigation !-->
-
                 <header>
                     <div class="left">
                         <a href="https://www.confiance.ai/" target="_blank"><img class="logo_confiance" src="../Medias/logoconfiance.jpg"></a>

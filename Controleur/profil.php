@@ -72,7 +72,6 @@
                         <p> Rôle dans l'intégration du système à base d'IA  : <?php echo $_SESSION['Role'] ?>  </p>
                         <p> Organisation : <?php echo $_SESSION['Organisme'] ?>  </p>
                         <input type="submit" value="Modifier mes informations">
-
                     </form>
                 </div>
             </div>

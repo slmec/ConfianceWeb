@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="modif align items baseline">
+    <list default="true" id="2027dec6-0929-43b7-9f7e-481c1674a5df" name="Changes" comment="efface les fichiers">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backgroundsiteconfiance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphique.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/comparaison_diagnostic2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/diagnostic_suivi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/guide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/guide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/questions_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/questions_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/resultats_diagnostic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/ajout_traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/ajout_traitement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modele/verification_question_prequestionnaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_cest_a_vous.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/style_resultats.css" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/style_resultats.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +146,8 @@
       <workItem from="1671024830717" duration="5548000" />
       <workItem from="1671184060665" duration="4746000" />
       <workItem from="1671438190202" duration="14266000" />
-      <workItem from="1671522204892" duration="15124000" />
-    </task>
-    <task id="LOCAL-00116" summary="modif responsive equipes et partenaires">
-      <created>1669718726375</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1669718726376</updated>
+      <workItem from="1671522204892" duration="15750000" />
+      <workItem from="1673865637706" duration="3080000" />
     </task>
     <task id="LOCAL-00117" summary="modif responsive equipes et partenaires V2">
       <created>1669730461549</created>
@@ -482,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671550597682</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="efface les fichiers">
+      <created>1671631093308</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1671631093308</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modification responsive blog" />
     <MESSAGE value="modification responsive blog v2" />
     <MESSAGE value="modification responsive blog v3" />
     <MESSAGE value="modification responsive blog v4" />
@@ -529,7 +538,8 @@
     <MESSAGE value="modif barre nav" />
     <MESSAGE value="dernieres modifications" />
     <MESSAGE value="modif align items baseline" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif align items baseline" />
+    <MESSAGE value="efface les fichiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="efface les fichiers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

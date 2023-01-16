@@ -14,7 +14,6 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>MAIAT</title>
     <link rel="stylesheet" href="../Vue/style_resultats.css" />
-
 </head>
     <body>
     <?php $Nom_diagnostic = $_SESSION['Nom_diagnostic']; ?>
@@ -47,11 +46,10 @@
                         <a href="../Modele/deconnexion.php">Deconnexion</a>
                     </div>
                     <br><hr><br>
-                    <h1 class="blanc">Diagnostic <?php echo $Nom_diagnostic ?></h1>
+                    <h1 class="blanc">Diagnostic <?= $Nom_diagnostic ?></h1>
                     <br><hr><br>
                 </div>
             </div>
-
             <div class="container">
                 <!-- Corps de page !-->
                 <div class="block_titre">

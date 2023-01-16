@@ -82,8 +82,8 @@
         header('Location: https://dev2.icam.fr/toulouse/GEI/Confiance/Controleur/diagnostic_suivi.php?erreur=1');
     }
 ?>
-<?php
 
+<?php
 $diagnostics = $_POST['adv'];
 $critere1 = $diagnostics[0];
 $resultat1 = mysqli_query($db,"SELECT C1, C2, C3, C4, C5, C6, Nom_diagnostic FROM Diagnostics WHERE Id_diagnostic = '$critere1'") or die ( "<br>BUG".mysqli_error($db));
@@ -95,7 +95,6 @@ $diagnostic1_critere4 = $row[3];
 $diagnostic1_critere5 = $row[4];
 $diagnostic1_critere6 = $row[5];
 $diagnostic1_nom = $row[6];
-
 
 if (isset($diagnostics[0]) && empty($diagnostics[1]) && empty($diagnostics[2])){
     ?>
@@ -165,7 +164,6 @@ if (isset($diagnostics[0]) && empty($diagnostics[1]) && empty($diagnostics[2])){
         })
     </script>
 
-    <
 <?php
 $requete = "SELECT * FROM Diagnostics WHERE Id_diagnostic = '$diagnostics[0]'";
 $resultat = mysqli_query($db, $requete);

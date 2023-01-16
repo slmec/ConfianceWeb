@@ -21,7 +21,6 @@
         $reponse = mysqli_fetch_array($exec_requete);
         $mdp_hash = $reponse['MotDePasse'];
 
-
         if($Email !== "" && $MotDePasse !== ""){
             $requete = "SELECT count(*) FROM Utilisateurs where Email = '".$Email."'";
             $exec_requete = mysqli_query($db,$requete);

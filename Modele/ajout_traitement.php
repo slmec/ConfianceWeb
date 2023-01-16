@@ -16,7 +16,6 @@
     </head>
     <body onload="init();">
         <?php
-
         /* L'icam peut t-il utiliser les données de ce diagnostic ? */
         if($_POST['TraitementDonnees'] !="") {
             $Id_diagnostic = $_SESSION['Id_diagnostic'];
